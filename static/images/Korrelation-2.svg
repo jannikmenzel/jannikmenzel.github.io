@@ -1,0 +1,156 @@
+<svg height="350" width="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 310">
+    <rect fill="#0000" x="0" y="-40" height="120%" width="100%"/>
+    <path d="m70 256h460" stroke="#9f9f9f"/>
+    <path d="m70 87h460v169h-460z" fill="#0000"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle"
+          x="300" y="20">Master's degrees awarded in Education
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle" x="300" y="42">
+        correlates with
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="bold"
+          text-anchor="middle" x="300" y="68">US bank failures
+    </text>
+    <path d="m71 94.75h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="99.416667">
+        179.0K
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="99.416667">51
+    </text>
+    <path d="m71 133.125h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="137.791667">
+        170.7K
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="137.791667">38
+    </text>
+    <path d="m71 171.5h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="176.166667">
+        162.3K
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="176.166667">26
+    </text>
+    <path d="m71 209.875h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="214.541667">
+        154.0K
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="214.541667">13
+    </text>
+    <path d="m71 248.25h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="252.916667">
+        145.6K
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="252.916667">0
+    </text>
+    <path d="m77.75 256v6" fill="none" stroke="#000"/>
+    <path d="m127.13888889 256v6" fill="none" stroke="#000"/>
+    <path d="m176.52777778 256v6" fill="none" stroke="#000"/>
+    <path d="m225.91666667 256v6" fill="none" stroke="#000"/>
+    <path d="m275.30555556 256v6" fill="none" stroke="#000"/>
+    <path d="m324.69444444 256v6" fill="none" stroke="#000"/>
+    <path d="m374.08333333 256v6" fill="none" stroke="#000"/>
+    <path d="m423.47222222 256v6" fill="none" stroke="#000"/>
+    <path d="m472.86111111 256v6" fill="none" stroke="#000"/>
+    <path d="m522.25 256v6" fill="none" stroke="#000"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="77.75" y="277">2012
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="127.138889" y="277">2013
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="176.527778" y="277">2014
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="225.916667" y="277">2015
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="275.305556" y="277">2016
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="324.694444" y="277">2017
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="374.083333" y="277">2018
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="423.472222" y="277">2019
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="472.861111" y="277">2020
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="522.25" y="277">2021
+    </text>
+    <path d="m77.75 94.75 49.38888889 81.26470588" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m127.13888889 176.01470588 49.38888889 18.05882353" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m176.52777778 194.07352941 49.38888889 30.09803922" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m225.91666667 224.17156863 49.38888889 9.02941176" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m275.30555556 233.20098039 49.38888888-9.02941176" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m324.69444444 224.17156863 49.38888889 24.07843137" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m374.08333333 248.25 49.38888889-12.03921569" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m423.47222222 236.21078431h49.38888889" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m472.86111111 236.21078431 49.38888889 12.03921569" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <g stroke-width="2.75">
+        <circle cx="77.75" cy="94.75" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="77.75" cy="94.75" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="127.138889" cy="176.014706" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="127.138889" cy="176.014706" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="176.527778" cy="194.073529" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="176.527778" cy="194.073529" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="225.916667" cy="224.171569" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="225.916667" cy="224.171569" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="275.305556" cy="233.20098" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="275.305556" cy="233.20098" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="324.694444" cy="224.171569" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="324.694444" cy="224.171569" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="374.083333" cy="248.25" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="374.083333" cy="248.25" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="423.472222" cy="236.210784" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="423.472222" cy="236.210784" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="472.861111" cy="236.210784" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="472.861111" cy="236.210784" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="522.25" cy="248.25" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="522.25" cy="248.25" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+    </g>
+    <path d="m77.75 94.75 49.38888889 66.11113604" fill="none" stroke="#000" stroke-dasharray="3 1" stroke-width="2.8"/>
+    <path d="m127.13888889 160.86113604 49.38888889 45.9126799" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m176.52777778 206.77381594 49.38888889 37.08102205" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m225.91666667 243.85483799 49.38888889 3.62359752" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m275.30555556 247.47843551 49.38888888.77156449" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m324.69444444 248.25 49.38888889-3.41692846" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m374.08333333 244.83307154 49.38888889-.2801514" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m423.47222222 244.55292014 49.38888889-2.57188163" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m472.86111111 241.98103851 49.38888889-31.07843402" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m74.45 94.75 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m74.45 94.75 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m123.83888889 160.86113604 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m123.83888889 160.86113604 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m173.22777778 206.77381594 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m173.22777778 206.77381594 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m222.61666667 243.85483799 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m222.61666667 243.85483799 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m272.00555556 247.47843551 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m272.00555556 247.47843551 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m321.39444444 248.25 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m321.39444444 248.25 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m370.78333333 244.83307154 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m370.78333333 244.83307154 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m420.17222222 244.55292014 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m420.17222222 244.55292014 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m469.56111111 241.98103851 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m469.56111111 241.98103851 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m518.95 210.90260449 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m518.95 210.90260449 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+
+    <text x="5" y="305" font-family="Arial" font-size="8" fill="black">
+        © Tyler Vigen, Spurious Correlations, https://tylervigen.com/ | abgerufen am 07. März 2025
+    </text>
+</svg>
