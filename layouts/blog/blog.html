@@ -1,7 +1,7 @@
 {{ define "main" }}
   <!-- Header -->
-  <header class="hero-section text-center text-light mb-5">
-    <div class="container mb-5">
+  <header class="hero-section text-center text-light">
+    <div class="container blog-section">
       <h1>
                 <span class="typewrite" data-period="2000"
                       data-type='[ "Hello, World!",  "Willkommen auf meinem Blog!", "Viel Spaß beim Lesen!" ]'>
@@ -35,9 +35,15 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
           <a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">
             <div class="card shadow-sm">
-              <img src="{{ .Params.image | relURL }}" alt="Vorschaubild" class="card-img-top">
+              <img
+                      src="{{ .Params.image | relURL }}"
+                      srcset="{{ .Params.image | relURL }} 1050w, {{ replace .Params.image ".jpg" "-medium.jpg" | relURL }} 600w, {{ replace .Params.image ".jpg" "-small.jpg" | relURL }} 382w"
+                      sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+                      alt="Vorschaubild"
+                      class="card-img-top"
+                      fetchpriority="high">
               <div class="card-body">
-                <h5 class="card-title">{{ .Title }}</h5>
+                <h2 class="card-title">{{ .Title }}</h2>
                 <p class="card-text">{{ .Params.teaser }}</p>
                 <span class="reading-time"><strong>Lesezeit:</strong> {{ .Params.readingtime }}</span>
               </div>

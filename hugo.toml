@@ -1,7 +1,12 @@
 baseURL = "https://jannikmenzel.me/"
 canonifyURLs = true
-languageCode = 'de'
-title = 'Jannik Menzel'
+title = "Jannik Menzel"
+languageCode = "de"
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+
+pagination.pagerSize = 10
+summaryLength = 70
 disableKinds = ["taxonomy", "RSS"]
 [minify]
 
@@ -12,5 +17,3 @@ target = 'static'
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
-
-disableXML = true
