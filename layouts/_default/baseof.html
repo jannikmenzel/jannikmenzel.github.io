@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="auto">
 <head>
-  {{ partial "head.html" . }}
+  {{ if or (eq .RelPermalink "/") (eq .RelPermalink "/blog/") }}
+    {{ partial "head.html" . }}
+  {{ else }}
+    {{ partial "blog-head.html" . }}
+  {{ end }}
   <title></title>
 </head>
 <body>

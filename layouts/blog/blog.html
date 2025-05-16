@@ -35,13 +35,7 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
           <a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">
             <div class="card shadow-sm">
-              <img
-                      src="{{ .Params.image | relURL }}"
-                      srcset="{{ .Params.image | relURL }} 1050w, {{ replace .Params.image ".jpg" "-medium.jpg" | relURL }} 600w, {{ replace .Params.image ".jpg" "-small.jpg" | relURL }} 382w"
-                      sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
-                      alt="Vorschaubild"
-                      class="card-img-top"
-                      fetchpriority="high">
+              <img src="{{ .Params.image | relURL }}" alt="Vorschaubild" class="card-img-top">
               <div class="card-body">
                 <h2 class="card-title">{{ .Title }}</h2>
                 <p class="card-text">{{ .Params.teaser }}</p>

@@ -19,5 +19,11 @@
 {{ partialCached "head/js.html" . }}
 
 <!-- SEO -->
-<meta name="description" content="Offizielles Portfolio von Jannik Menzel – Informatikstudent an der TU Dresden. Entdecke Projekte, Blogbeiträge und Tools rund um Webentwicklung, Programmierung und Tech.">
-<meta name="keywords" content="Jannik Menzel, Informatik, TU Dresden, Portfolio, Webentwicklung, Programmieren, Softwareentwicklung, Blog, GitHub, DEV, Instagram, Projekte">
+<meta name="description" content="{{ with .Params.teaser }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Params.teaser }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+<meta property="og:image" content="{{ .Params.image | absURL }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ .Permalink }}">
