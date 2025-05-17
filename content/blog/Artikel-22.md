@@ -8,7 +8,6 @@ readingtime: "8 min"
 type: "default"
 ---
 
-
 ![Blogbild](/cover-images/Artikel-22.jpg)
 
 # Generalist vs Spezialist – Wissen im Wandel
