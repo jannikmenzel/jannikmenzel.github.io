@@ -1,309 +1,340 @@
 {{ define "main" }}
-  <!-- Hero Section -->
-  <section id="hero" class="hero-section text-center text-white">
-    <div>
-      <h1>Hi, mein Name ist Jannik!</h1>
-      <p>Ich bin leidenschaftlicher
-        <span class="typewrite" data-period="2000"
-              data-type='[ "Informatik Student.", "Hobby Entwickler.", "Web Designer.", "Tech-Enthusiast." ]'>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section text-center text-white">
+        <div>
+            <h1>Hi, mein Name ist Jannik!</h1>
+            <p>Ich bin leidenschaftlicher
+                <span class="typewrite" data-period="2000"
+                      data-type='[ "Informatik Student.", "Hobby Entwickler.", "Web Designer.", "Tech-Enthusiast." ]'>
         <span class="wrap"></span>
       </span>
-      </p>
+            </p>
 
-      <!-- Social Media Links -->
-      <div class="social-links-container mt-4">
-        <a href="https://www.instagram.com/jnk.mnz/" class="text-decoration-none text-light me-3" target="_blank"
-           rel="noopener noreferrer">
-          <img src="{{ "/icons/instagram.svg" | relURL }}" alt="Instagram Profil von Jannik Menzel" width="50">
-        </a>
-        <a href="https://dev.to/jnk_mnz" class="text-decoration-none text-light me-3" target="_blank"
-           rel="noopener noreferrer">
-          <img src="{{ "/icons/dev.svg" | relURL }}" alt="DEV Profil von Jannik Menzel" width="50">
-        </a>
-        <a href="https://github.com/jannikmenzel" class="text-decoration-none text-light" target="_blank"
-           rel="noopener noreferrer">
-          <img src="{{ "/icons/github.svg" | relURL }}" alt="GitHub Profil von Jannik Menzel" width="50">
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Me -->
-  <section id="about" class="about-section">
-    <div class="about-container">
-      <img src="{{ "/images/code.png"  | relURL }}" alt="About Me" class="about-img">
-    </div>
-  </section>
-
-  <section class="logo-carousel">
-    <div class="carousel-track">
-      <div class="carousel-card">
-        <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/c.svg"  | relURL }}" alt="C Logo" class="carousel-logo">
-          <div class="carousel-text">C</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/javascript.svg"  | relURL }}" alt="JavaScript Logo" class="carousel-logo">
-          <div class="carousel-text">JavaScript</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://dart.dev/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/dart.svg"  | relURL }}" alt="Dart Logo" class="carousel-logo">
-          <div class="carousel-text">Dart</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.python.org/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/python.svg"  | relURL }}" alt="Python Logo" class="carousel-logo">
-          <div class="carousel-text">Python</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.latex-project.org/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/latex.svg"  | relURL }}" alt="LaTeX Logo" class="carousel-logo">
-          <div class="carousel-text">LaTeX</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/html.svg"  | relURL }}" alt="HTML Logo" class="carousel-logo">
-          <div class="carousel-text">HTML</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/css.svg"  | relURL }}" alt="CSS Logo" class="carousel-logo">
-          <div class="carousel-text">CSS</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://getbootstrap.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/bootstrap.svg"  | relURL }}" alt="Bootstrap Logo" class="carousel-logo">
-          <div class="carousel-text">Bootstrap</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.sql.org/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/sql.svg"  | relURL }}" alt="SQL Logo" class="carousel-logo">
-          <div class="carousel-text">SQL</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.mysql.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/mysql.svg"  | relURL }}" alt="MySQL Logo" class="carousel-logo">
-          <div class="carousel-text">MySQL</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://wordpress.org/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/wordpress.svg"  | relURL }}" alt="WordPress Logo" class="carousel-logo">
-          <div class="carousel-text">WordPress</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.framer.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/framer.svg"  | relURL }}" alt="Framer Logo" class="carousel-logo">
-          <div class="carousel-text">Framer</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://flutter.dev/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/flutter.svg"  | relURL }}" alt="Flutter Logo" class="carousel-logo">
-          <div class="carousel-text">Flutter</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://commonmark.org/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/markdown.svg"  | relURL }}" alt="Markdown Logo" class="carousel-logo">
-          <div class="carousel-text">Markdown</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.canva.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/canva.svg"  | relURL }}" alt="Canva Logo" class="carousel-logo">
-          <div class="carousel-text">Canva</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.figma.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/figma.svg"  | relURL }}" alt="Figma Logo" class="carousel-logo">
-          <div class="carousel-text">Figma</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/photoshop.svg"  | relURL }}" alt="Photoshop Logo" class="carousel-logo">
-          <div class="carousel-text">Photoshop</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/lightroom.svg"  | relURL }}" alt="Lightroom Logo" class="carousel-logo">
-          <div class="carousel-text">Lightroom</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.adobe.com/products/illustrator.html" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/illustrator.svg"  | relURL }}" alt="Illustrator Logo" class="carousel-logo">
-          <div class="carousel-text">Illustrator</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.adobe.com/products/premiere.html" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/premiere.svg"  | relURL }}" alt="Premiere Logo" class="carousel-logo">
-          <div class="carousel-text">Premiere</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.jetbrains.com/idea/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/intellij.svg"  | relURL }}" alt="IntelliJ Logo" class="carousel-logo">
-          <div class="carousel-text">IntelliJ</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.jetbrains.com/pycharm/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/pycharm.svg"  | relURL }}" alt="PyCharm Logo" class="carousel-logo">
-          <div class="carousel-text">PyCharm</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.jetbrains.com/clion/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/clion.svg"  | relURL }}" alt="CLion Logo" class="carousel-logo">
-          <div class="carousel-text">CLion</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://code.visualstudio.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/vscode.svg"  | relURL }}" alt="VS Code Logo" class="carousel-logo">
-          <div class="carousel-text">VS Code</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://developer.android.com/studio?hl=de" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/android_studio.svg"  | relURL }}" alt="Android Studio Logo" class="carousel-logo">
-          <div class="carousel-text">Android Studio</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.reaper.fm/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/reaper.svg"  | relURL }}" alt="Reaper Logo" class="carousel-logo">
-          <div class="carousel-text">Reaper</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://git-scm.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/git.svg"  | relURL }}" alt="Git Logo" class="carousel-logo">
-          <div class="carousel-text">Git</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.android.com/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/android.svg"  | relURL }}" alt="Android Logo" class="carousel-logo">
-          <div class="carousel-text">Android</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.microsoft.com/en-us/microsoft-365/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/office.svg"  | relURL }}" alt="Office Logo" class="carousel-logo">
-          <div class="carousel-text">Office</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://obsidian.md/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/obsidian.svg"  | relURL }}" alt="Obsidian Logo" class="carousel-logo">
-          <div class="carousel-text">Obsidian</div>
-        </a>
-      </div>
-      <div class="carousel-card">
-        <a href="https://www.notion.so/" target="_blank" class="carousel-link">
-          <img src="{{ "/skills/notion.svg"  | relURL }}" alt="Notion Logo" class="carousel-logo">
-          <div class="carousel-text">Notion</div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="projects-section">
-    <div class="container">
-      <h2 class="text-center mb-5">Meine Projekte</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Terminal Tactics Battleship</h5>
-              <p class="card-text">Terminal Tactics Battleship ist eine Command-Line basierte Implementierung des klassischen Spiels Schiffe versenken.</p>
-              <a href="https://github.com/jannikmenzel/Terminal_Tactics" class="btn btn-primary">Mehr erfahren</a>
+            <!-- Social Media Links -->
+            <div class="social-links-container mt-4">
+                <a href="https://www.instagram.com/jnk.mnz/" class="text-decoration-none me-3" target="_blank"
+                   rel="noopener noreferrer">
+                    <img src="{{ "/icons/instagram.svg" | relURL }}" alt="Instagram Profil von Jannik Menzel"
+                         width="50">
+                </a>
+                <a href="https://dev.to/jnk_mnz" class="text-decoration-none me-3" target="_blank"
+                   rel="noopener noreferrer">
+                    <img
+                            src="{{ "/icons/dev-light.svg" | relURL }}"
+                            data-light-src="{{ "/icons/dev-light.svg" | relURL }}"
+                            data-dark-src="{{ "/icons/dev-dark.svg" | relURL }}"
+                            alt="DEV Profil von Jannik Menzel"
+                            width="50"
+                            class="theme-sensitive-icon"
+                    />
+                </a>
+                <a href="https://github.com/jannikmenzel" class="text-decoration-none" target="_blank"
+                   rel="noopener noreferrer">
+                    <img src="{{ "/icons/github.svg" | relURL }}" alt="GitHub Profil von Jannik Menzel" width="50">
+                </a>
             </div>
-          </div>
         </div>
+    </section>
 
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Widgify</h5>
-              <p class="card-text">Widgify ist eine mobile App für Android, die speziell für Studierende
-                entwickelt wurde und bei der Studienorganisation hilft</p>
-              <a href="https://github.com/jannikmenzel/widgify" class="btn btn-primary">Mehr erfahren</a>
+    <!-- About Me -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <img src="{{ "/images/code-light.png" | relURL }}" data-dark-src="{{ "/images/code-dark.png" | relURL }}"
+                 data-light-src="{{ "/images/code-light.png" | relURL }}" alt="About Me" class="about-img">
+        </div>
+    </section>
+
+    <section class="logo-carousel">
+        <div class="carousel-track">
+            <div class="carousel-card">
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/c.svg" | relURL }}" alt="C Logo" class="carousel-logo">
+                    <div class="carousel-text">C</div>
+                </a>
             </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">iFSR-Sharepicgenerator</h5>
-              <p class="card-text">Der iFSR Sharepicgenerator ermöglicht es den Mitgliedern des
-                Fachschaftsrats Informatik, schnell und unkompliziert Sharepics für Social Media zu
-                erstellen.</p>
-              <a href="https://github.com/jannikmenzel/iFSR-Sharepicgenerator" class="btn btn-primary">Mehr erfahren</a>
+            <div class="carousel-card">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/javascript.svg" | relURL }}" alt="JavaScript Logo" class="carousel-logo">
+                    <div class="carousel-text">JavaScript</div>
+                </a>
             </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">iFSR-Persönlichkeitstest</h5>
-              <p class="card-text">Der iFSR Persönlichkeitstest hilft Studierenden, mehr über ihre Interessen im Zusammenhang mit Studiengängen der Fakultät Informatik zu erfahren.</p>
-              <a href="https://github.com/jannikmenzel/iFSR-Personality-Test" class="btn btn-primary">Mehr erfahren</a>
+            <div class="carousel-card">
+                <a href="https://dart.dev/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/dart.svg" | relURL }}" alt="Dart Logo" class="carousel-logo">
+                    <div class="carousel-text">Dart</div>
+                </a>
             </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Studienblog</h5>
-              <p class="card-text">Hier teile ich interessante Artikel zu Themen aus der Informatik, Mathematik und Selbstentwicklung.</p>
-              <a href="https://github.com/jannikmenzel/jannikmenzel.github.io/" class="btn btn-primary">Mehr erfahren</a>
+            <div class="carousel-card">
+                <a href="https://www.python.org/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/python.svg" | relURL }}" alt="Python Logo" class="carousel-logo">
+                    <div class="carousel-text">Python</div>
+                </a>
             </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Soft Skills Self-Test</h5>
-              <p class="card-text">Der Soft Skills Self-Test ist eine Flask Web-Applikation, die es Nutzern
-                ermöglicht, ihre Soft Skills zu bewerten und gezielt weiterzuentwickeln.</p>
-              <a href="https://github.com/jannikmenzel/Soft_Skills_Self-Test" class="btn btn-primary">Mehr erfahren</a>
+            <div class="carousel-card">
+                <a href="https://www.latex-project.org/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/latex.svg" | relURL }}" alt="LaTeX Logo" class="carousel-logo">
+                    <div class="carousel-text">LaTeX</div>
+                </a>
             </div>
-          </div>
+            <div class="carousel-card">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/html.svg" | relURL }}" alt="HTML Logo" class="carousel-logo">
+                    <div class="carousel-text">HTML</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/css.svg" | relURL }}" alt="CSS Logo" class="carousel-logo">
+                    <div class="carousel-text">CSS</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://getbootstrap.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/bootstrap.svg" | relURL }}" alt="Bootstrap Logo" class="carousel-logo">
+                    <div class="carousel-text">Bootstrap</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.sql.org/" target="_blank" class="carousel-link">
+                    <img
+                            src="{{ "/skills/sql-light.svg" | relURL }}"
+                            data-light-src="{{ "/skills/sql-light.svg" | relURL }}"
+                            data-dark-src="{{ "/skills/sql-dark.svg" | relURL }}"
+                            alt="SQL Logo"
+                            class="carousel-logo theme-sensitive-icon"
+                    />
+                    <div class="carousel-text">SQL</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.mysql.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/mysql.svg" | relURL }}" alt="MySQL Logo" class="carousel-logo">
+                    <div class="carousel-text">MySQL</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://wordpress.org/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/wordpress.svg" | relURL }}" alt="WordPress Logo" class="carousel-logo">
+                    <div class="carousel-text">WordPress</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.framer.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/framer.svg" | relURL }}" alt="Framer Logo" class="carousel-logo">
+                    <div class="carousel-text">Framer</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://flutter.dev/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/flutter.svg" | relURL }}" alt="Flutter Logo" class="carousel-logo">
+                    <div class="carousel-text">Flutter</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://commonmark.org/" target="_blank" class="carousel-link">
+                    <img
+                            src="{{ "/skills/markdown-light.svg" | relURL }}"
+                            data-light-src="{{ "/skills/markdown-light.svg" | relURL }}"
+                            data-dark-src="{{ "/skills/markdown-dark.svg" | relURL }}"
+                            alt="Markdown Logo"
+                            class="carousel-logo theme-sensitive-icon"
+                    />
+                    <div class="carousel-text">Markdown</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.canva.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/canva.svg" | relURL }}" alt="Canva Logo" class="carousel-logo">
+                    <div class="carousel-text">Canva</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.figma.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/figma.svg" | relURL }}" alt="Figma Logo" class="carousel-logo">
+                    <div class="carousel-text">Figma</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/photoshop.svg" | relURL }}" alt="Photoshop Logo" class="carousel-logo">
+                    <div class="carousel-text">Photoshop</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/lightroom.svg" | relURL }}" alt="Lightroom Logo" class="carousel-logo">
+                    <div class="carousel-text">Lightroom</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.adobe.com/products/illustrator.html" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/illustrator.svg" | relURL }}" alt="Illustrator Logo" class="carousel-logo">
+                    <div class="carousel-text">Illustrator</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.adobe.com/products/premiere.html" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/premiere.svg" | relURL }}" alt="Premiere Logo" class="carousel-logo">
+                    <div class="carousel-text">Premiere</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.jetbrains.com/idea/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/intellij.svg" | relURL }}" alt="IntelliJ Logo" class="carousel-logo">
+                    <div class="carousel-text">IntelliJ</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.jetbrains.com/pycharm/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/pycharm.svg" | relURL }}" alt="PyCharm Logo" class="carousel-logo">
+                    <div class="carousel-text">PyCharm</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.jetbrains.com/clion/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/clion.svg" | relURL }}" alt="CLion Logo" class="carousel-logo">
+                    <div class="carousel-text">CLion</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://code.visualstudio.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/vscode.svg" | relURL }}" alt="VS Code Logo" class="carousel-logo">
+                    <div class="carousel-text">VS Code</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://developer.android.com/studio?hl=de" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/android_studio.svg" | relURL }}" alt="Android Studio Logo"
+                         class="carousel-logo">
+                    <div class="carousel-text">Android Studio</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.reaper.fm/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/reaper.svg" | relURL }}" alt="Reaper Logo" class="carousel-logo">
+                    <div class="carousel-text">Reaper</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://git-scm.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/git.svg" | relURL }}" alt="Git Logo" class="carousel-logo">
+                    <div class="carousel-text">Git</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.android.com/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/android.svg" | relURL }}" alt="Android Logo" class="carousel-logo">
+                    <div class="carousel-text">Android</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.microsoft.com/en-us/microsoft-365/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/office.svg" | relURL }}" alt="Office Logo" class="carousel-logo">
+                    <div class="carousel-text">Office</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://obsidian.md/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/obsidian.svg" | relURL }}" alt="Obsidian Logo" class="carousel-logo">
+                    <div class="carousel-text">Obsidian</div>
+                </a>
+            </div>
+            <div class="carousel-card">
+                <a href="https://www.notion.so/" target="_blank" class="carousel-link">
+                    <img src="{{ "/skills/notion.svg" | relURL }}" alt="Notion Logo" class="carousel-logo">
+                    <div class="carousel-text">Notion</div>
+                </a>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Kontakt Section -->
-  <section id="contact" class="contact-section">
-    <div class="container text-center">
-      <h2 class="section-title">Kontakt</h2>
-      <p class="contact-text">Bei Fragen oder Anregungen zur Zusammenarbeit bin ich per E-Mail erreichbar</p>
-      <a href="mailto:jannik.menzel@ifsr.de" class="btn contact-btn">E-Mail schreiben</a>
-    </div>
-  </section>
+    <!-- Projects -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Meine Projekte</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Terminal Tactics Battleship</h5>
+                            <p class="card-text">Terminal Tactics Battleship ist eine Command-Line basierte
+                                Implementierung des klassischen Spiels Schiffe versenken.</p>
+                            <a href="https://github.com/jannikmenzel/Terminal_Tactics" class="btn btn-primary">Mehr
+                                erfahren</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Widgify</h5>
+                            <p class="card-text">Widgify ist eine mobile App für Android, die speziell für Studierende
+                                entwickelt wurde und bei der Studienorganisation hilft</p>
+                            <a href="https://github.com/jannikmenzel/widgify" class="btn btn-primary">Mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">iFSR-Sharepicgenerator</h5>
+                            <p class="card-text">Der iFSR Sharepicgenerator ermöglicht es den Mitgliedern des
+                                Fachschaftsrats Informatik, schnell und unkompliziert Sharepics für Social Media zu
+                                erstellen.</p>
+                            <a href="https://github.com/jannikmenzel/iFSR-Sharepicgenerator" class="btn btn-primary">Mehr
+                                erfahren</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">iFSR-Persönlichkeitstest</h5>
+                            <p class="card-text">Der iFSR Persönlichkeitstest hilft Studierenden, mehr über ihre
+                                Interessen im Zusammenhang mit Studiengängen der Fakultät Informatik zu erfahren.</p>
+                            <a href="https://github.com/jannikmenzel/iFSR-Personality-Test" class="btn btn-primary">Mehr
+                                erfahren</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Studienblog</h5>
+                            <p class="card-text">Hier teile ich interessante Artikel zu Themen aus der Informatik,
+                                Mathematik und Selbstentwicklung.</p>
+                            <a href="https://github.com/jannikmenzel/jannikmenzel.github.io/" class="btn btn-primary">Mehr
+                                erfahren</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Soft Skills Self-Test</h5>
+                            <p class="card-text">Der Soft Skills Self-Test ist eine Flask Web-Applikation, die es
+                                Nutzern
+                                ermöglicht, ihre Soft Skills zu bewerten und gezielt weiterzuentwickeln.</p>
+                            <a href="https://github.com/jannikmenzel/Soft_Skills_Self-Test" class="btn btn-primary">Mehr
+                                erfahren</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt Section -->
+    <section id="contact" class="contact-section">
+        <div class="container text-center">
+            <h2 class="section-title">Kontakt</h2>
+            <p class="contact-text">Bei Fragen oder Anregungen zur Zusammenarbeit bin ich per E-Mail erreichbar</p>
+            <a href="mailto:jannik.menzel@ifsr.de" class="btn contact-btn">E-Mail schreiben</a>
+        </div>
+    </section>
 {{ end }}

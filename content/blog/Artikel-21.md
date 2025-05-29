@@ -3,7 +3,7 @@ title: "Perfektionismus – ein Manifest"
 slug: "perfektionismus"
 date: 2025-05-04
 image: "/cover-images/Artikel-21.jpg"
-teaser: "Perfektionismus bremst uns oft mehr, als er uns voranbringt. In diesemArtikel geht es um den inneren Kampf mit dem Drang nach Vollkommenheit und die befreiende Erkenntnis, dass Unvollkommenheit okay ist."
+teaser: "Perfektionismus bremst uns oft mehr, als er uns voranbringt. In diesem Artikel geht es um den inneren Kampf mit dem Drang nach Vollkommenheit und die befreiende Erkenntnis, dass Unvollkommenheit okay ist."
 readingtime: "4 min"
 type: "default"
 ---

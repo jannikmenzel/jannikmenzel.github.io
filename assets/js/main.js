@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("mousemove", (e) => {
         const { clientX: x, clientY: y } = e;
-        spotlight.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 180, 255, 0.08) 0%, rgba(0, 0, 0, 0) 50%)`;
+        const isDark = document.documentElement.classList.contains("dark");
+        const color = isDark ? "rgba(255, 180, 255, 0.08)" : "rgba(180, 150, 255, 0.15)";
+        spotlight.style.background = `radial-gradient(circle at ${x}px ${y}px, ${color} 0%, rgba(255, 255, 255, 0) 50%)`;
     });
 
     /* ========================
@@ -102,4 +104,62 @@ document.addEventListener("DOMContentLoaded", () => {
             track.appendChild(clone);
         });
     }
+
+    /* ========================
+       Darkmode
+       ======================== */
+    const themeSwitch = document.getElementById("theme-switch");
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+    const applyTheme = (theme) => {
+        document.documentElement.classList.toggle("dark", theme === "dark");
+    };
+
+    const setStoredTheme = (theme) => localStorage.setItem("theme", theme);
+
+    // system changes
+    prefersDarkScheme.addEventListener("change", (e) => {
+        const saved = localStorage.getItem("theme");
+        if (!saved) {
+            applyTheme(e.matches ? "dark" : "light");
+        }
+    });
+
+    // toggle handler
+    themeSwitch.addEventListener("click", () => {
+        const currentTheme = document.documentElement.classList.contains("dark") ? "dark" : "light";
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        applyTheme(newTheme);
+        setStoredTheme(newTheme);
+    });
+
+    const updateThemeImages = () => {
+        const isDark = document.documentElement.classList.contains("dark");
+        const images = document.querySelectorAll("img[data-dark-src]");
+        images.forEach(img => {
+            if (isDark) {
+                img.src = img.getAttribute("data-dark-src");
+            } else {
+                img.src = img.getAttribute("data-light-src") || img.getAttribute("data-src") || img.src;
+            }
+        });
+    };
+
+    const updateBodyThemeAttr = () => {
+        const current = document.documentElement.classList.contains("dark") ? "dark" : "light";
+        document.body.setAttribute("data-theme", current);
+    };
+    updateBodyThemeAttr();
+    updateThemeImages();
+
+    // update on change
+    const observer = new MutationObserver(() => {
+        updateBodyThemeAttr();
+        updateThemeImages();
+    });
+    observer.observe(document.documentElement, {attributes: true, attributeFilter: ["class"]});
+
+    prefersDarkScheme.addEventListener("change", () => {
+        updateBodyThemeAttr();
+    });
 });
