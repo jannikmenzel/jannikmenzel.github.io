@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="auto">
 <head>
-  {{ if or (eq .RelPermalink "/") (eq .RelPermalink "/blog/") }}
-    {{ partial "head.html" . }}
-  {{ else }}
-    {{ partial "blog-head.html" . }}
-  {{ end }}
-  <title></title>
+    {{ if or (eq .RelPermalink "/") (eq .RelPermalink "/blog/") }}
+        {{ partial "head.html" . }}
+    {{ else }}
+        {{ partial "blog-head.html" . }}
+    {{ end }}
+    <title></title>
 </head>
 <body>
-  {{ partial "nav.html" . }}
-  {{ block "main" . }}{{ end }}
-  <hr class="footer-divider">
-  {{ partial "footer.html" . }}
-  <div class="grid-background"></div>
+{{ partial "nav.html" . }}
+{{ block "main" . }}{{ end }}
+<hr class="footer-divider">
+{{ partial "footer.html" . }}
+<div class="grid-background"></div>
 </body>
 </html>
