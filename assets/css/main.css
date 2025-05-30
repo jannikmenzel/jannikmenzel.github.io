@@ -555,6 +555,7 @@ body {
     margin-top: 0;
     text-align: left;
     color: var(--color-blog-heading);
+    hyphens: none !important;
 }
 
 #blog-content h2 {
