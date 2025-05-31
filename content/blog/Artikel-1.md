@@ -38,6 +38,6 @@ In einer Welt, in der Software zunehmend im Mittelpunkt der globalen Wirtschaft 
 
 ---
 
-### Referenzen
+### Referenzen {#Referenzen}
 
 1. [Marc Andreessen. (2011) "Why Software Is Eating the World"](https://a16z.com/why-software-is-eating-the-world/)

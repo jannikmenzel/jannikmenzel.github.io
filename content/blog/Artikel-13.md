@@ -53,7 +53,7 @@ Die Enthüllung stürzte die Mathematik-Community in ein Wechselbad der Gefühle
 
 ---
 
-### Referenzen
+### Referenzen {#Referenzen}
 
 1. **Cleo, the Mysterious Math Menace** von Allison Parshall, Tulika Bose und Carin Leong
 2. [Was Cleo from MathStackExchange a Fraud?](https://www.youtube.com/watch?v=dAoDz_YiDeM) von Joe McCann

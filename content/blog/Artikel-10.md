@@ -46,7 +46,7 @@ Viele große Mathematiker haben sich an Collatz versucht – und sind daran gesc
 
 ---
 
-### Referenzen
+### Referenzen {#Referenzen}
 
 1. [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg&t=318s&pp=ygUEM3grMQ%3D%3D) von Veritasium
 2. **The 3x+1 Problem: An Overview** von Jeffrey C. Lagarias

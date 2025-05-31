@@ -60,7 +60,7 @@ Aus den Ergebnissen von Axelrods Experiment lassen sich verschiedene Schlüsse z
 
 ---
 
-### Referenzen
+### Referenzen {#Referenzen}
 
 1. **Die Evolution der Kooperation** von Robert Axelrod
 2. **Algorithms to Live By** von Brian Christian & Tom Griffiths

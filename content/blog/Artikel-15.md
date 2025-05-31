@@ -74,7 +74,7 @@ Die Entwicklung von Large Language Models zeigt, wie weit die KI-Technologie ber
 
 ---
 
-### Referenzen
+### Referenzen {#Referenzen}
 
 1. [Transformers (how LLMs work) explained visually | DL5](https://www.youtube.com/watch?v=wjZofJX0v4M) von 3Blue1Brown
 2. [ScadsAI](https://scads.ai/)
