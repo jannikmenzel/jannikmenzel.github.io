@@ -1,0 +1,227 @@
+/* ========================
+   Hero Section
+   ======================== */
+.blog-section {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    padding-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+.hero-section h1 {
+    color: var(--color-text);
+}
+
+.hero-section p {
+    font-weight: 200;
+    font-size: 1.7rem;
+    color: var(--color-primary-dark);
+}
+
+/* ========================
+   Social Media Links
+   ======================== */
+.social-links-container {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.social-links-container img {
+    width: 50px;
+    transition: transform 0.2s;
+}
+
+.social-links-container img:hover {
+    transform: scale(1.1);
+}
+
+/* ========================
+   Blog Cards
+   ======================== */
+.card {
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: color-mix(in srgb, var(--color-primary-dark) 2%, transparent);
+    z-index: 2;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, .15)
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--color-text);
+    text-align: left;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin-bottom: 15px;
+}
+
+.reading-time {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    margin-top: auto;
+}
+
+/* ========================
+   Artikel-Inhalt
+   ======================== */
+#blog-content {
+    max-width: 1100px;
+    padding: 40px;
+    background-color: var(--color-background);
+    border-radius: var(--radius);
+    hyphens: auto;
+    text-align: justify;
+    line-height: 1.8;
+    color: var(--color-text);
+    z-index: 2;
+}
+
+#blog-content h1 {
+    font-size: 2.3rem;
+    margin-top: 0;
+    text-align: left;
+    color: var(--color-text);
+    hyphens: none !important;
+}
+
+#blog-content h2 {
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+#blog-content h3 {
+    font-size: 1.5rem;
+    color: var(--color-text);
+}
+
+#blog-content h4 {
+    font-size: 1.25rem;
+    color: var(--color-text);
+}
+
+#blog-content h5 {
+    font-size: 1.1rem;
+    color: var(--color-text);
+}
+
+#blog-content h6 {
+    font-size: 1rem;
+    color: var(--color-text);
+}
+
+#blog-content p,
+#blog-content li {
+    font-size: 1.1rem;
+    color: var(--color-text);
+}
+
+#blog-content ul, #blog-content ol {
+    padding-left: 20px;
+}
+
+#blog-content blockquote {
+    background-color: var(--color-background-alt);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: var(--radius);
+    color: var(--color-text);
+    border-left: 5px solid var(--color-primary-dark);
+}
+
+#blog-content a {
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#blog-content a:hover {
+    color: var(--color-link);
+    text-decoration: underline;
+}
+
+#blog-content code {
+    background-color: var(--color-background-alt);
+    border-radius: var(--radius);
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--color-text);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#blog-content img {
+    width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#blog-content img[src$="#inverted"] {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto;
+    max-height: none !important;
+}
+
+.dark #blog-content img[src$="#inverted"] {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* ========================
+   Responsives Design
+   ======================== */
+@media (max-width: 700px) {
+    #blog-content {
+        padding: 20px 10px;
+    }
+
+    #blog-content h1 {
+        font-size: 1.8rem;
+    }
+
+    #blog-content h2 {
+        font-size: 1.6rem;
+    }
+
+    #blog-content h3 {
+        font-size: 1.4rem;
+    }
+
+    #blog-content p, #blog-content li {
+        font-size: 1rem;
+    }
+
+    #blog-content img {
+        max-height: 50vh;
+    }
+}

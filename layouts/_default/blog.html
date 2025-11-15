@@ -1,50 +1,34 @@
 {{ define "main" }}
     <!-- Header -->
-    <header class="hero-section text-center text-light">
-        <div class="container blog-section">
-            <h1>
-                <span class="typewrite" data-period="2000"
-                      data-type='[ "Hello, World!",  "Willkommen auf meinem Blog!", "Viel Spaß beim Lesen!" ]'>
-                    <span class="wrap"></span>
-                </span>
-            </h1>
-            <p class="lead">Der Studienblog von <span class="highlight-name">@Jannik Menzel</span>.</p>
+    <header class="hero fade-in">
+        <div class="floating-shape float-a "></div>
+        <div class="floating-shape float-b"></div>
+        <div class="floating-shape float-c"></div>
 
-            <!-- Social Media Links -->
-            <div class="social-links-container mt-4">
-                <a href="https://www.instagram.com/jnk.mnz/" class="text-decoration-none text-light me-3"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <img src="{{ "/icons/instagram.svg" | relURL }}" alt="Instagram Profil von Jannik Menzel"
-                         width="50">
-                </a>
-                <a href="https://dev.to/jnk_mnz" class="text-decoration-none text-light me-3" target="_blank"
-                   rel="noopener noreferrer">
-                    <img
-                            src="{{ "/icons/dev-light.svg" | relURL }}"
-                            data-light-src="{{ "/icons/dev-light.svg" | relURL }}"
-                            data-dark-src="{{ "/icons/dev-dark.svg" | relURL }}"
-                            alt="DEV Profil von Jannik Menzel"
-                            width="50"
-                            class="theme-sensitive-icon"
-                    />
-                </a>
-                <a href="https://github.com/jannikmenzel" class="text-decoration-none text-light" target="_blank"
-                   rel="noopener noreferrer">
-                    <img src="{{ "/icons/github.svg" | relURL }}" alt="GitHub Profil von Jannik Menzel" width="50">
-                </a>
+        <div class="container">
+            <div class="avatar-wrap">
+                <img src="{{ "images/avatar.jpg" | relURL }}" alt="Avatar" class="avatar">
+                <div class="avatar-ring"></div>
+                <div class="geom-square"></div>
+                <div class="geom-dot"></div>
+            </div>
+
+            <div class="mb-3">
+                <h1 class="hero-title">Jannik Menzel</h1>
+                <div class="hero-divider"></div>
+                <p class="hero-tag">Studienblog</p>
             </div>
         </div>
     </header>
 
     <!-- Blog-Beiträge -->
-    <section class="container">
+    <section class="container fade-in mt-5">
         <div class="row">
             {{ range where .Site.RegularPages "Section" "blog" }}
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">
-                        <div class="card shadow-sm">
-                            <img src="{{ .Params.image | relURL }}" alt="Vorschaubild" class="card-img-top">
+                    <a href="{{ .RelPermalink }}" class="text-decoration-none">
+                        <div class="card">
+                            <img src="{{ .Params.image | relURL }}" alt="Vorschaubild">
                             <div class="card-body">
                                 <h2 class="card-title">{{ .Title }}</h2>
                                 <p class="card-text">{{ .Params.teaser }}</p>
