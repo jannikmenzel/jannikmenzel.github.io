@@ -331,7 +331,7 @@
     <!-- Services Section -->
     <section id="services" class="fade-in">
         <div class="container">
-            <h2 class="section-title text-center">Meine Leistungen</h2>
+            <h2 class="section-title text-center">Meine Leistungen<span class="underline center"></span></h2>
 
             <div class="services-grid">
                 <!-- 1 -->
@@ -398,6 +398,62 @@
                     </div>
                     <h3 class="mb-3">Performance Optimierung</h3>
                     <p>Geschwindigkeitsoptimierung und SEO für bestehende Websites</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <h2 class="section-title text-center">Kontakt<span class="underline center"></span></h2>
+
+            <div class="row justify-content-center g-4 align-items-start">
+                <!-- Form -->
+                <div class="col-12 col-lg-7">
+                    <form id="contact-form" class="contact-form" action="https://submit-form.com/d3tC67hAe"
+                          method="POST" target="hidden_iframe" onsubmit="showSuccess();">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="contact-name" class="visually-hidden">Name</label>
+                                <input id="contact-name" class="form-control" type="text" name="name" placeholder="Name"
+                                       required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="contact-email" class="visually-hidden">E-Mail</label>
+                                <input id="contact-email" class="form-control" type="email" name="email"
+                                       placeholder="E-Mail" required>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="contact-message" class="visually-hidden">Nachricht</label>
+                                <textarea id="contact-message" class="form-control" name="message"
+                                          placeholder="Nachricht" required rows="5"
+                                          style="resize: none; overflow:hidden;"
+                                          oninput="this.style.height='auto'; this.style.height=this.scrollHeight+'px'"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100">Senden</button>
+                            </div>
+                        </div>
+
+                        <div id="form-success" class="mt-3 form-success-message d-none">
+                            Vielen Dank! Deine Nachricht wurde gesendet.
+                        </div>
+                    </form>
+
+                    <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+                    <script>
+                        function showSuccess() {
+                            const successMsg = document.getElementById('form-success');
+                            if (successMsg) {
+                                successMsg.classList.remove('d-none');
+                            }
+                        }
+                    </script>
                 </div>
             </div>
         </div>

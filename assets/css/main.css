@@ -76,6 +76,38 @@ a {
 }
 
 /* ========================
+   Buttons
+   ======================== */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 18px;
+    height: 48px;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--color-white);
+    background: linear-gradient(90deg, var(--color-primary), var(--color-primary-dark));
+    box-shadow: 0 6px 18px color-mix(in srgb, var(--color-primary) 18%, transparent),
+    0 2px 6px rgba(0, 0, 0, 0.06);
+    transition: transform .14s ease, box-shadow .14s ease, opacity .12s ease;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 10px 28px color-mix(in srgb, var(--color-primary) 22%, transparent),
+    0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary:active {
+    transform: translateY(-1px) scale(.995);
+    box-shadow: 0 6px 14px color-mix(in srgb, var(--color-primary) 16%, transparent),
+    0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* ========================
    Animation
    ======================== */
 .fade-in {
@@ -170,19 +202,17 @@ nav {
    Footer
    ======================== */
 .footer {
-    background-color: transparent;
+    background-color: var(--color-background);
     color: var(--color-text);
     padding: 4rem 0;
     width: 100%;
     position: relative;
     bottom: 0;
-    z-index: 1;
 }
 
 .footer p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-size: 1.2rem;
+    font-size: calc(var(--base-size) * 1.2);
+    font-weight: 300;
     margin-bottom: 1rem;
 }
 
@@ -388,6 +418,17 @@ section {
     border-radius: var(--radius);
 }
 
+.section-title .underline.center {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-primary-dark));
+    border-radius: var(--radius);
+}
+
 /* ========================
    About
    ======================== */
@@ -417,7 +458,7 @@ section {
 .stat .val {
     font-size: calc(var(--base-size) * 1.5);
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
     margin-bottom: 6px
 }
 
@@ -602,12 +643,15 @@ body.dark .skill-track {
         transform: translateX(-50%);
     }
 }
-
 /* ========================
    Services
    ======================== */
 #services {
     background: var(--color-background-alt)
+}
+
+#services .section-title {
+    margin-bottom: 3rem;
 }
 
 .services-grid {
@@ -645,6 +689,73 @@ body.dark .skill-track {
     justify-content: center;
     margin-bottom: 20px;
     fill: currentColor;
+}
+
+/* ========================
+   Contact Section
+   ======================== */
+#contact .section-title {
+    margin-bottom: 3rem;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    pointer-events: auto;
+}
+
+.contact-form .form-group {
+    width: 100%;
+}
+
+.form-success-message {
+    color: var(--color-text);
+    background-color: color-mix(in srgb, var(--color-primary) 15%, transparent);
+    opacity: 0.95;
+    padding: 12px 18px;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: calc(var(--radius) / 2);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background: var(--color-background-alt);
+    color: var(--color-text);
+    font-size: 0.95rem;
+    outline: none;
+    transition: box-shadow .18s ease, border-color .18s ease, transform .08s ease;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+    resize: vertical;
+}
+
+.contact-form input.form-control:focus,
+.contact-form textarea.form-control:focus {
+    background: var(--color-background-alt);
+    box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--color-primary) 20%, transparent);
+    color: var(--color-text);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: var(--color-muted);
+    font-weight: 400;
+    opacity: .9;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: color-mix(in srgb, var(--color-primary) 60%, transparent);
+    box-shadow: 0 8px 24px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 /* ========================
