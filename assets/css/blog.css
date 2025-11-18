@@ -1,14 +1,6 @@
 /* ========================
    Hero Section
    ======================== */
-.blog-section {
-    position: relative;
-    text-align: center;
-    z-index: 1;
-    padding-top: 10rem;
-    margin-bottom: 8rem;
-}
-
 .hero-section h1 {
     color: var(--color-text);
 }

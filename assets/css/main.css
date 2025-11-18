@@ -162,6 +162,10 @@ nav {
     transition: color .3s ease
 }
 
+.nav-links a:hover {
+    color: var(--color-primary-dark);
+}
+
 /* ========================
    Footer
    ======================== */

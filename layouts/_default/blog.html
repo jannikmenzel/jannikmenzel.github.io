@@ -1,7 +1,7 @@
 {{ define "main" }}
     <!-- Header -->
     <header class="hero fade-in">
-        <div class="floating-shape float-a "></div>
+        <div class="floating-shape float-a"></div>
         <div class="floating-shape float-b"></div>
         <div class="floating-shape float-c"></div>
 
@@ -26,7 +26,7 @@
         <div class="row">
             {{ range where .Site.RegularPages "Section" "blog" }}
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
-                    <a href="{{ .RelPermalink }}" class="text-decoration-none">
+                    <a href="{{ .RelPermalink }}" class="no-style">
                         <div class="card">
                             <img src="{{ .Params.image | relURL }}" alt="Vorschaubild">
                             <div class="card-body">
