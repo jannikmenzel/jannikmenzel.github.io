@@ -448,7 +448,13 @@
 
                     <script>
                         function showSuccess() {
+                            const form = document.getElementById('contact-form');
                             const successMsg = document.getElementById('form-success');
+
+                            if (form) {
+                                form.reset();
+                            }
+
                             if (successMsg) {
                                 successMsg.classList.remove('d-none');
                             }
