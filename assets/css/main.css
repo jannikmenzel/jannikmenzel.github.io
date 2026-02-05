@@ -973,10 +973,3 @@ body.dark .skill-track {
         justify-items: center;
     }
 }
-
-@media (min-width: 992px) {
-    .portfolio-grid {
-        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-        justify-items: center;
-    }
-}
