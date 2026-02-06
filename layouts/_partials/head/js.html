@@ -17,8 +17,8 @@
 {{- end }}
 
 <script>
-    window.MathJax = {
-        tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]},
+    globalThis.MathJax = {
+        tex: {inlineMath: [['$', '$'], [String.raw`\(`, String.raw`\)`]]},
         svg: {fontCache: 'global'}
     };
 </script>

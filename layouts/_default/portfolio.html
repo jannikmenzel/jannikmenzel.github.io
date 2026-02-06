@@ -7,7 +7,7 @@
 
         <div class="container">
             <div class="avatar-wrap">
-                <img src="{{ "images/avatar.jpg" | relURL }}" alt="Avatar" class="avatar">
+                {{ partial "image.html" (dict "src" "images/avatar.jpg" "alt" "Avatar" "class" "avatar") }}
                 <div class="avatar-ring"></div>
                 <div class="geom-square"></div>
                 <div class="geom-dot"></div>
@@ -31,8 +31,7 @@
                 <!-- Projekt 1 -->
                 <div class="portfolio-card">
                     <div class="portfolio-image-wrapper">
-                        <img src="{{ "images/mockup-1.png" | relURL }}" alt="Projekt 1 Screenshot"
-                             class="portfolio-image">
+                        {{ partial "image.html" (dict "src" "images//mockup-1.png" "alt" "Projekt 1 Screenshot" "class" "portfolio-image") }}
                         <div class="portfolio-overlay">
                             <a href="https://ifsr.jannikmenzel.me" target="_blank" class="portfolio-link btn-primary">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"
@@ -68,8 +67,7 @@
                 <!-- Projekt 2 -->
                 <div class="portfolio-card">
                     <div class="portfolio-image-wrapper">
-                        <img src="{{ "images/mockup-2.png" | relURL }}" alt="Projekt 2 Screenshot"
-                             class="portfolio-image">
+                        {{ partial "image.html" (dict "src" "images//mockup-2.png" "alt" "Projekt 2 Screenshot" "class" "portfolio-image") }}
                         <div class="portfolio-overlay">
                             <a href="https://ploucquet.eu" target="_blank" class="portfolio-link btn-primary">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"
@@ -104,8 +102,7 @@
                 <!-- Projekt 3 -->
                 <div class="portfolio-card">
                     <div class="portfolio-image-wrapper">
-                        <img src="{{ "images/mockup-3.png" | relURL }}" alt="Projekt 2 Screenshot"
-                             class="portfolio-image">
+                        {{ partial "image.html" (dict "src" "images//mockup-3.png" "alt" "Projekt 3 Screenshot" "class" "portfolio-image") }}
                         <div class="portfolio-overlay">
                             <a href="https://ascii.jannikmenzel.me" target="_blank" class="portfolio-link btn-primary">
                                 <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"

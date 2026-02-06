@@ -1,0 +1,18 @@
+{{ $src := .src }}
+{{ $alt := .alt | default "" }}
+{{ $class := .class | default "" }}
+{{ $light := .light | default $src }}
+{{ $dark := .dark | default $src }}
+{{ $img := resources.Get $src }}
+
+{{ if not $img }}
+    {{ errorf "Bild '%s' nicht gefunden. Achte darauf, dass es in /assets/ liegt." $src }}
+{{ end }}
+
+<img
+        src="{{ $img.RelPermalink }}"
+        alt="{{ $alt }}"
+        class="{{ $class }}"
+        data-light-src="{{ (resources.Get $light).RelPermalink }}"
+        data-dark-src="{{ (resources.Get $dark).RelPermalink }}"
+        loading="lazy">

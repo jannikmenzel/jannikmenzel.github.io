@@ -1,0 +1,19 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+
+{{ $parts := split $src "#" }}
+{{ $path := index $parts 0 }}
+{{ $anchor := cond (gt (len $parts) 1) (print "#" (index $parts 1)) "" }}
+
+{{ $img := resources.Get $path }}
+
+{{ if not $img }}
+    {{ errorf "Bild '%s' nicht gefunden. Achte darauf, dass es in /assets/ liegt." $path }}
+{{ end }}
+
+{{ if eq $img.MediaType.SubType "svg" }}
+    <img src="{{ $img.RelPermalink }}{{ $anchor }}" alt="{{ $alt }}" loading="lazy">
+{{ else }}
+    {{ $resized := $img.Resize "1000x" }}
+    <img src="{{ $resized.RelPermalink }}{{ $anchor }}" alt="{{ $alt }}" loading="lazy">
+{{ end }}

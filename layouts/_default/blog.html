@@ -7,7 +7,7 @@
 
         <div class="container">
             <div class="avatar-wrap">
-                <img src="{{ "images/avatar.jpg" | relURL }}" alt="Avatar" class="avatar">
+                {{ partial "image.html" (dict "src" "images/avatar.jpg" "alt" "Avatar" "class" "avatar") }}
                 <div class="avatar-ring"></div>
                 <div class="geom-square"></div>
                 <div class="geom-dot"></div>

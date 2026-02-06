@@ -24,7 +24,7 @@ Dennoch gelang es Wissenschaftlern im Jahr 2019 erstmals ein Bild eines Schwarze
 
 Ganz einfach: Man fotografiert nicht das Schwarze Loch selbst, sondern den Schatten, den es im hellen, heißen Gas um sich herum, der sogenannten Akkretionsscheibe, wirft. Dieses Gas strahlt Radiowellen aus, die mit einem weltweiten Netzwerk von Radioteleskopen – dem Event Horizon Telescope – eingefangen werden konnten. Durch die nachträgliche Rekonstruktion der Daten entsteht so ein Bild, das die Silhouette des Schwarzen Lochs sichtbar macht.
 
-![Schwarzes-Loch.jpg](/images/Schwarzes-Loch.jpg)
+{{< image src="/images/Schwarzes-Loch.jpg" alt="Schwarzes Loch Foto" >}}
 *Quelle: Event Horizon Telescope Collaboration, 2019*
 
 

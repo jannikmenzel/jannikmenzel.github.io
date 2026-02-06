@@ -7,7 +7,7 @@
 
         <div class="container">
             <div class="avatar-wrap">
-                <img src="{{ "images/avatar.jpg" | relURL }}" alt="Avatar" class="avatar">
+                {{ partial "image.html" (dict "src" "images/avatar.jpg" "alt" "Avatar" "class" "avatar") }}
                 <div class="avatar-ring"></div>
                 <div class="geom-square"></div>
                 <div class="geom-dot"></div>
@@ -110,216 +110,206 @@
                     <div class="carousel-card">
                         <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"
                            class="carousel-link">
-                            <img src="{{ "/skills/c.svg" | relURL }}" alt="C Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/c.svg" "alt" "C Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">C</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
                            class="carousel-link">
-                            <img src="{{ "/skills/javascript.svg" | relURL }}" alt="JavaScript Logo"
-                                 class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/javascript.svg" "alt" "JavaScript Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">JavaScript</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://dart.dev/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/dart.svg" | relURL }}" alt="Dart Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/dart.svg" "alt" "Dart Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Dart</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.python.org/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/python.svg" | relURL }}" alt="Python Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/python.svg" "alt" "Python Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Python</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.latex-project.org/" target="_blank" class="carousel-link">
-                            <img
-                                    src="{{ "/skills/latex-light.svg" | relURL }}"
-                                    data-light-src="{{ "/skills/latex-light.svg" | relURL }}"
-                                    data-dark-src="{{ "/skills/latex-dark.svg" | relURL }}"
-                                    alt="LaTeX Logo"
-                                    class="carousel-logo theme-sensitive-icon"
-                            />
+                            {{ partial "image.html" (dict
+                                "src" "images/skills/latex-light.svg"
+                                "light" "images/skills/latex-light.svg"
+                                "dark" "images/skills/latex-dark.svg"
+                                "alt" "LaTeX Logo"
+                                "class" "carousel-logo") }}
                             <div class="carousel-text">LaTeX</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
                            class="carousel-link">
-                            <img src="{{ "/skills/html.svg" | relURL }}" alt="HTML Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/html.svg" "alt" "HTML Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">HTML</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
                            class="carousel-link">
-                            <img src="{{ "/skills/css.svg" | relURL }}" alt="CSS Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/css.svg" "alt" "CSS Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">CSS</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://getbootstrap.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/bootstrap.svg" | relURL }}" alt="Bootstrap Logo"
-                                 class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/bootstrap.svg" "alt" "Bootstrap Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Bootstrap</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.sql.org/" target="_blank" class="carousel-link">
-                            <img
-                                    src="{{ "/skills/sql-light.svg" | relURL }}"
-                                    data-light-src="{{ "/skills/sql-light.svg" | relURL }}"
-                                    data-dark-src="{{ "/skills/sql-dark.svg" | relURL }}"
-                                    alt="SQL Logo"
-                                    class="carousel-logo theme-sensitive-icon"
-                            />
+                            {{ partial "image.html" (dict
+                                "src" "images/skills/sql-light.svg"
+                                "light" "images/skills/sql-light.svg"
+                                "dark" "images/skills/sql-dark.svg"
+                                "alt" "SQL Logo"
+                                "class" "carousel-logo") }}
                             <div class="carousel-text">SQL</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.mysql.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/mysql.svg" | relURL }}" alt="MySQL Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/mysql.svg" "alt" "MySQL Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">MySQL</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://wordpress.org/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/wordpress.svg" | relURL }}" alt="WordPress Logo"
-                                 class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/wordpress.svg" "alt" "WordPress Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">WordPress</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.framer.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/framer.svg" | relURL }}" alt="Framer Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/framer.svg" "alt" "Framer Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Framer</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://flutter.dev/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/flutter.svg" | relURL }}" alt="Flutter Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/flutter.svg" "alt" "Flutter Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Flutter</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://commonmark.org/" target="_blank" class="carousel-link">
-                            <img
-                                    src="{{ "/skills/markdown-light.svg" | relURL }}"
-                                    data-light-src="{{ "/skills/markdown-light.svg" | relURL }}"
-                                    data-dark-src="{{ "/skills/markdown-dark.svg" | relURL }}"
-                                    alt="Markdown Logo"
-                                    class="carousel-logo theme-sensitive-icon"
-                            />
+                            {{ partial "image.html" (dict
+                                "src" "images/skills/markdown-light.svg"
+                                "light" "images/skills/markdown-light.svg"
+                                "dark" "images/skills/markdown-dark.svg"
+                                "alt" "Markdown Logo"
+                                "class" "carousel-logo") }}
                             <div class="carousel-text">Markdown</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.canva.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/canva.svg" | relURL }}" alt="Canva Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/canva.svg" "alt" "Canva Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Canva</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.figma.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/figma.svg" | relURL }}" alt="Figma Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/figma.svg" "alt" "Figma Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Figma</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.adobe.com/products/photoshop.html" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/photoshop.svg" | relURL }}" alt="Photoshop Logo"
-                                 class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/photoshop.svg" "alt" "Photoshop Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Photoshop</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.adobe.com/products/photoshop-lightroom.html" target="_blank"
                            class="carousel-link">
-                            <img src="{{ "/skills/lightroom.svg" | relURL }}" alt="Lightroom Logo"
-                                 class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/lightroom.svg" "alt" "Lightroom Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Lightroom</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.adobe.com/products/illustrator.html" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/illustrator.svg" | relURL }}" alt="Illustrator Logo"
-                                 class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/illustrator.svg" "alt" "Illustrator Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Illustrator</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.adobe.com/products/premiere.html" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/premiere.svg" | relURL }}" alt="Premiere Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/premiere.svg" "alt" "Premiere Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Premiere</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.jetbrains.com/idea/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/intellij.svg" | relURL }}" alt="IntelliJ Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/intellij.svg" "alt" "IntelliJ Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">IntelliJ</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.jetbrains.com/pycharm/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/pycharm.svg" | relURL }}" alt="PyCharm Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/pycharm.svg" "alt" "PyCharm Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">PyCharm</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.jetbrains.com/clion/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/clion.svg" | relURL }}" alt="CLion Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/clion.svg" "alt" "CLion Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">CLion</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://code.visualstudio.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/vscode.svg" | relURL }}" alt="VS Code Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/vscode.svg" "alt" "VS Code Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">VS Code</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://developer.android.com/studio?hl=de" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/android_studio.svg" | relURL }}" alt="Android Studio Logo"
-                                 class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/android_studio.svg" "alt" "Android Studio Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Android Studio</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.reaper.fm/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/reaper.svg" | relURL }}" alt="Reaper Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/reaper.svg" "alt" "Reaper Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Reaper</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://git-scm.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/git.svg" | relURL }}" alt="Git Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/git.svg" "alt" "Git Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Git</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.android.com/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/android.svg" | relURL }}" alt="Android Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/android.svg" "alt" "Android Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Android</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.microsoft.com/en-us/microsoft-365/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/office.svg" | relURL }}" alt="Office Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/office.svg" "alt" "Office Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Office</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://obsidian.md/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/obsidian.svg" | relURL }}" alt="Obsidian Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/obsidian.svg" "alt" "Obsidian Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Obsidian</div>
                         </a>
                     </div>
                     <div class="carousel-card">
                         <a href="https://www.notion.so/" target="_blank" class="carousel-link">
-                            <img src="{{ "/skills/notion.svg" | relURL }}" alt="Notion Logo" class="carousel-logo">
+                            {{ partial "image.html" (dict "src" "images/skills/notion.svg" "alt" "Notion Logo" "class" "carousel-logo") }}
                             <div class="carousel-text">Notion</div>
                         </a>
                     </div>
@@ -444,7 +434,7 @@
                         </div>
                     </form>
 
-                    <iframe name="hidden_iframe" style="display:none;"></iframe>
+                    <iframe name="hidden_iframe" style="display:none;" title="Hidden Form Submission"></iframe>
 
                     <script>
                         function showSuccess() {

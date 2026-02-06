@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--suppress HtmlRequiredTitleElement -->
 <html lang="{{ site.Language.LanguageCode }}" dir="auto">
 <head>
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
     {{ if or (eq .RelPermalink "/") (eq .RelPermalink "/blog/") }}
         {{ partial "head.html" . }}
     {{ else }}
