@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const percentageEl = skill.querySelector(".skill-percentage");
         const barEl = skill.querySelector(".skill-bar");
 
-        const target = parseInt(percentageEl.dataset.target);
-        const width = parseInt(barEl.dataset.width);
+        const target = Number.parseInt(percentageEl.dataset.target);
+        const width = Number.parseInt(barEl.dataset.width);
 
         let count = 0;
 
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
        Darkmode
        ======================== */
     const themeSwitch = document.getElementById("theme-switch");
-    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+    const prefersDarkScheme = globalThis.matchMedia("(prefers-color-scheme: dark)");
 
     const applyTheme = (theme) => {
         document.documentElement.classList.toggle("dark", theme === "dark");
@@ -70,16 +70,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const images = document.querySelectorAll("img[data-dark-src]");
         images.forEach(img => {
             if (isDark) {
-                img.src = img.getAttribute("data-dark-src");
+                img.src = img.dataset.darkSrc;
             } else {
-                img.src = img.getAttribute("data-light-src") || img.getAttribute("data-src") || img.src;
+                img.src = img.dataset.lightSrc || img.dataset.src || img.src;
             }
         });
     };
 
     const updateBodyThemeAttr = () => {
-        const current = document.documentElement.classList.contains("dark") ? "dark" : "light";
-        document.body.setAttribute("data-theme", current);
+        document.body.dataset.theme = document.documentElement.classList.contains("dark") ? "dark" : "light";
     };
     updateBodyThemeAttr();
     updateThemeImages();
