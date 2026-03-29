@@ -1,52 +1,52 @@
 {
-    "name": "website",
-    "type": "module",
-    "version": "0.0.1",
-    "engines": {
-        "node": ">=22.12.0"
-    },
-    "scripts": {
-        "dev": "astro dev",
-        "build": "astro build",
-        "preview": "astro preview",
-        "astro": "astro",
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "format": "prettier --write .",
-        "prepare": "husky"
-    },
-    "dependencies": {
-        "@fontsource/epilogue": "^5.2.8",
-        "@fontsource/poppins": "^5.2.7",
-        "@iconify-json/lucide": "^1.2.98",
-        "@lucide/astro": "^1.7.0",
-        "@tailwindcss/vite": "^4.2.2",
-        "astro": "^6.0.7",
-        "astro-icon": "^1.1.5",
-        "eslint-plugin-prettier": "^5.5.5",
-        "rehype-autolink-headings": "^7.1.0",
-        "rehype-mathjax": "^7.1.0",
-        "rehype-slug": "^6.0.0",
-        "remark-math": "^6.0.0",
-        "tailwindcss": "^4.2.2"
-    },
-    "devDependencies": {
-        "@eslint/js": "^10.0.1",
-        "@types/base-64": "^1.0.2",
-        "eslint": "^10.0.3",
-        "eslint-plugin-astro": "^1.6.0",
-        "globals": "^17.4.0",
-        "husky": "^9.1.7",
-        "lint-staged": "^16.4.0",
-        "prettier": "3.8.1",
-        "prettier-plugin-astro": "0.14.1",
-        "vite": "^7.3.1"
-    },
-    "lint-staged": {
-        "**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx,astro}": [
-            "eslint --fix",
-            "prettier --write"
-        ],
-        "**/*.{css,scss,md,mdx,json,yml,yaml}": "prettier --write"
-    }
+  "name": "website",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@fontsource/epilogue": "^5.2.8",
+    "@fontsource/poppins": "^5.2.7",
+    "@iconify-json/lucide": "^1.2.98",
+    "@lucide/astro": "^1.7.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "astro": "^6.0.7",
+    "astro-icon": "^1.1.5",
+    "eslint-plugin-prettier": "^5.5.5",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-mathjax": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "remark-math": "^6.0.0",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/base-64": "^1.0.2",
+    "eslint": "^10.0.3",
+    "eslint-plugin-astro": "^1.6.0",
+    "globals": "^17.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "3.8.1",
+    "prettier-plugin-astro": "0.14.1",
+    "vite": "^7.3.1"
+  },
+  "lint-staged": {
+    "**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx,astro}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "**/*.{css,scss,md,mdx,json,yml,yaml}": "prettier --write"
+  }
 }
