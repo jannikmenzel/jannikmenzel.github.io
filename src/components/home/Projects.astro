@@ -1,0 +1,121 @@
+---
+import { ArrowUpRight } from "@lucide/astro";
+import { Image } from "astro:assets";
+import mockup1light from "../../images/mockups/mockup-1-light.png";
+import mockup1dark from "../../images/mockups/mockup-1-dark.png";
+import mockup2 from "../../images/mockups/mockup-2.png";
+import mockup3 from "../../images/mockups/mockup-3.png";
+import mockup4 from "../../images/mockups/mockup-4.png";
+---
+
+<section class="py-32 px-6 bg-backgroundAlt">
+    <div class="container">
+        <div class="max-w-7xl mx-auto mb-24">
+            <h2
+                class="text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
+            >
+                Meine Projekte
+            </h2>
+            <div class="h-1 w-24 bg-primary"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+            <!-- Project 01 -->
+            <div class="col-span-12 md:col-span-8">
+                <div class="aspect-[16/9] overflow-hidden relative group">
+                    <a href="https://ifsr.jannikmenzel.me">
+                        <Image
+                            src={mockup1light}
+                            alt="Mockup 1"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 dark:hidden"
+                        />
+                        <Image
+                            src={mockup1dark}
+                            alt="Mockup 1"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden dark:block"
+                        />
+                    </a>
+                    <div
+                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                    >
+                    </div>
+                </div>
+                <div class="mt-8 flex justify-between items-start">
+                    <div>
+                        <span class="text-[0.6875rem] uppercase tracking-widest"
+                            >Web Design / 2025</span
+                        >
+                        <h3 class="text-3xl font-bold mt-2">FSR Informatik TU Dresden</h3>
+                    </div>
+                    <ArrowUpRight class="w-10 h-10 text-primary" />
+                </div>
+            </div>
+            <!-- Project 02 -->
+            <div class="col-span-12 md:col-span-4 md:mt-24">
+                <div class="aspect-[3/4] overflow-hidden relative group">
+                    <a href="https://nachhilfe-zittau.de/">
+                        <Image
+                            src={mockup2}
+                            alt="Mockup 2"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                    </a>
+                    <div
+                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                    >
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <span class="text-[0.6875rem] uppercase tracking-widest">Web Design / 2025</span
+                    >
+                    <h3 class="text-3xl font-bold mt-2">Lernstudio Zittau</h3>
+                </div>
+            </div>
+            <!-- Project 03 -->
+            <div class="col-span-12 md:col-span-4">
+                <div class="aspect-square overflow-hidden relative group">
+                    <a href="https://ascii.jannikmenzel.me">
+                        <Image
+                            src={mockup3}
+                            alt="Mockup 3"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                    </a>
+                    <div
+                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                    >
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <span class="text-[0.6875rem] uppercase tracking-widest">Web Design / 2026</span
+                    >
+                    <h3 class="text-3xl font-bold mt-2">Ascii Dresden</h3>
+                </div>
+            </div>
+            <!-- Project 04 -->
+            <div class="col-span-12 md:col-span-8">
+                <div class="aspect-[16/10] overflow-hidden relative group">
+                    <a href="https://ploucquet.eu">
+                        <Image
+                            src={mockup4}
+                            alt="Mockup 4"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                    </a>
+                    <div
+                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                    >
+                    </div>
+                </div>
+                <div class="mt-8 flex justify-between items-start">
+                    <div>
+                        <span class="text-[0.6875rem] uppercase tracking-widest"
+                            >Visual Identity / 2023</span
+                        >
+                        <h3 class="text-3xl font-bold mt-2">Ploucquet GMBH</h3>
+                    </div>
+                    <ArrowUpRight class="w-10 h-10 text-primary" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,161 @@
+<svg height="350" width="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 310">
+    <rect fill="#0000" x="0" y="-40" height="120%" width="100%"/>
+    <path d="m70 256h460" stroke="#9f9f9f"/>
+    <path d="m70 87h460v169h-460z" fill="#0000"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle"
+          x="300" y="20">The number of movies Tom Hanks appeared in
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle" x="300" y="42">
+        correlates with
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="bold"
+          text-anchor="middle" x="300" y="68">The number of special education teachers in Georgia
+    </text>
+    <path d="m71 94.75h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="99.416667">9.0
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="99.416667">7.7K
+    </text>
+    <path d="m71 133.125h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="137.791667">7.2
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="137.791667">7.0K
+    </text>
+    <path d="m71 171.5h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="176.166667">5.5
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="176.166667">6.3K
+    </text>
+    <path d="m71 209.875h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="214.541667">3.8
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="214.541667">5.7K
+    </text>
+    <path d="m71 248.25h457" fill="#fefefe" stroke="#f3f3f3"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="end" x="62" y="252.916667">2.0
+    </text>
+    <text fill="#ba0f27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" x="538" y="252.916667">5.0K
+    </text>
+    <path d="m77.75 256v6" fill="none" stroke="#000"/>
+    <path d="m122.2 256v6" fill="none" stroke="#000"/>
+    <path d="m166.65 256v6" fill="none" stroke="#000"/>
+    <path d="m211.1 256v6" fill="none" stroke="#000"/>
+    <path d="m255.55 256v6" fill="none" stroke="#000"/>
+    <path d="m300 256v6" fill="none" stroke="#000"/>
+    <path d="m344.45 256v6" fill="none" stroke="#000"/>
+    <path d="m388.9 256v6" fill="none" stroke="#000"/>
+    <path d="m433.35 256v6" fill="none" stroke="#000"/>
+    <path d="m477.8 256v6" fill="none" stroke="#000"/>
+    <path d="m522.25 256v6" fill="none" stroke="#000"/>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="77.75" y="277">2012
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="122.2" y="277">2013
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="166.65" y="277">2014
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="211.1" y="277">2015
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="255.55" y="277">2016
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="300" y="277">2017
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="344.45" y="277">2018
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="388.9" y="277">2019
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="433.35" y="277">2020
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="477.8" y="277">2021
+    </text>
+    <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle"
+          x="522.25" y="277">2022
+    </text>
+    <path d="m77.75 129.18536122 44.45 65.95247148" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m122.2 195.1378327 44.45-44.94106464" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m166.65 150.19676806 44.45-5.25285171" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m211.1 144.94391635 44.45-22.76235741" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m255.55 122.18155894 44.45 82.87832699" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m300 205.05988593 44.45 34.43536122" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m344.45 239.49524715 44.45 8.75475285" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m388.9 248.25 44.45-49.61026616" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m433.35 198.63973384 44.45-66.53612167" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <path d="m477.8 132.10361217 44.45-37.35361217" fill="none" stroke="#ba0f27" stroke-width="2.8"/>
+    <g stroke-width="2.75">
+        <circle cx="77.75" cy="129.185361" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="77.75" cy="129.185361" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="122.2" cy="195.137833" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="122.2" cy="195.137833" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="166.65" cy="150.196768" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="166.65" cy="150.196768" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="211.1" cy="144.943916" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="211.1" cy="144.943916" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="255.55" cy="122.181559" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="255.55" cy="122.181559" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="300" cy="205.059886" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="300" cy="205.059886" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="344.45" cy="239.495247" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="344.45" cy="239.495247" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="388.9" cy="248.25" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="388.9" cy="248.25" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="433.35" cy="198.639734" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="433.35" cy="198.639734" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="477.8" cy="132.103612" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="477.8" cy="132.103612" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+        <circle cx="522.25" cy="94.75" fill="#f7f7f7" r="2.75" stroke="#f7f7f7"/>
+        <circle cx="522.25" cy="94.75" fill="#ba0f27" r="2.75" stroke="#ba0f27"/>
+    </g>
+    <path d="m77.75 138.60714286 44.45 65.78571428" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m122.2 204.39285714 44.45-43.85714285" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m166.65 160.53571429 44.45-21.92857143" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m211.1 138.60714286 44.45-21.92857143" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m255.55 116.67857143 44.45 65.78571428" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m300 182.46428571h44.45" fill="none" stroke="#000" stroke-dasharray="3 1" stroke-width="2.8"/>
+    <path d="m344.45 182.46428571 44.45 65.78571429" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m388.9 248.25 44.45-43.85714286" fill="none" stroke="#000" stroke-dasharray="3 1" stroke-width="2.8"/>
+    <path d="m433.35 204.39285714 44.45-43.85714285" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m477.8 160.53571429 44.45-65.78571429" fill="none" stroke="#000" stroke-dasharray="3 1"
+          stroke-width="2.8"/>
+    <path d="m74.45 138.60714286 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m74.45 138.60714286 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m118.9 204.39285714 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m118.9 204.39285714 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m163.35 160.53571429 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m163.35 160.53571429 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m207.8 138.60714286 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m207.8 138.60714286 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m252.25 116.67857143 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m252.25 116.67857143 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m296.7 182.46428571 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m296.7 182.46428571 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m341.15 182.46428571 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m341.15 182.46428571 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m385.6 248.25 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m385.6 248.25 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m430.05 204.39285714 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m430.05 204.39285714 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m474.5 160.53571429 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m474.5 160.53571429 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+    <path d="m518.95 94.75 3.3-3.3 3.3 3.3-3.3 3.3z" fill="#f7f7f7" stroke="#f7f7f7" stroke-width="2.75"/>
+    <path d="m518.95 94.75 3.3-3.3 3.3 3.3-3.3 3.3z" stroke="#000" stroke-width="2.75"/>
+
+    <text x="5" y="305" font-family="Arial" font-size="8" fill="black">
+        © Tyler Vigen, Spurious Correlations, https://tylervigen.com/ | abgerufen am 07. März 2025
+    </text>
+</svg>

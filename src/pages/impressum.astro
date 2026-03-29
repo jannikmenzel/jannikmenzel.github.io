@@ -1,0 +1,75 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const title = "Impressum";
+---
+
+<Layout title={title}>
+    <main class="w-full container p-16" style="max-width: 1100px;">
+        <!-- Header -->
+        <header class="py-20">
+            <h1 class="text-center text-5xl font-bold font-display mb-4">Impressum</h1>
+            <div class="h-1 w-24 bg-primary mx-auto"></div>
+        </header>
+
+        <!-- Content -->
+        <section class="mb-6">
+            <h2 class="text-2xl font-medium mb-2">Betreiber</h2>
+            <p class="font-thin">Jannik Menzel</p>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl font-medium mb-2">Anschrift</h2>
+            <address class="font-thin not-italic">
+                <span id="address-obfuscated"></span>
+            </address>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-2xl font-medium mb-2">Kontakt</h2>
+            <p class="font-thin">
+                E‑Mail:
+                <span id="email-obfuscated"></span>
+            </p>
+            <p class="font-thin">
+                Internet: <a
+                    href="https://jannikmenzel.me"
+                    class="text-primary underline"
+                    target="_blank"
+                    rel="noopener">jannikmenzel.me</a
+                >
+            </p>
+        </section>
+
+        <section class="text-sm text-lightOff">
+            <p>
+                Bei Fragen zum Impressum nutze bitte das Kontaktformular auf der Webseite oder
+                schreibe eine E‑Mail an die oben genannte Adresse.
+            </p>
+        </section>
+
+        <script is:inline>
+            // E-Mail Obfuscation
+            const emailUser = "jnk.menzel";
+            const emailDomain = "gmail.com";
+            const email = emailUser + "@" + emailDomain;
+            const emailSpan = document.getElementById("email-obfuscated");
+            if (emailSpan) {
+                emailSpan.innerHTML = `<a href="mailto:${email}" class="text-primary underline">${emailUser}&#64;${emailDomain}</a>`;
+            }
+
+            // Address Obfuscation
+            const addressParts = [
+                "Zellescher Weg ",
+                "41d",
+                "<br />01217 ",
+                "Dresden",
+                "<br />Deutschland",
+            ];
+            const addressSpan = document.getElementById("address-obfuscated");
+            if (addressSpan) {
+                addressSpan.innerHTML = addressParts.join("");
+            }
+        </script>
+    </main>
+</Layout>

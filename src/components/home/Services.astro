@@ -1,0 +1,81 @@
+---
+import { Code, PanelsTopLeft, Database, PenTool, Target, Zap } from "@lucide/astro";
+---
+
+<!-- Services Section -->
+<section class="py-24 px-6">
+    <div class="container px-4 mx-auto">
+        <div class="max-w-7xl mx-auto mb-24">
+            <h2
+                class="font-headline text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
+            >
+                Meine Leistungen
+            </h2>
+            <div class="h-1 w-24 bg-primary"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 1 -->
+            <div
+                class="flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
+            >
+                <Code class="w-12 h-12 text-primary mx-auto" />
+                <h3 class="text-xl font-semibold">Frontend Development</h3>
+                <p class="font-thin">
+                    Moderne und individuelle HTML/CSS/JS Anwendungen mit perfekter Performance
+                </p>
+            </div>
+
+            <!-- 2 -->
+            <div
+                class="flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
+            >
+                <PenTool class="w-12 h-12 text-primary mx-auto" />
+                <h3 class="text-xl font-semibold">UI/UX Design</h3>
+                <p class="font-thin">
+                    Intuitive Benutzeroberflächen mit Fokus auf optimale User Experience
+                </p>
+            </div>
+
+            <!-- 3 -->
+            <div
+                class="flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
+            >
+                <PanelsTopLeft class="w-12 h-12 text-primary mx-auto" />
+                <h3 class="text-xl font-semibold">WordPress Websites</h3>
+                <p class="font-thin">Umfangreiche und maßgeschneiderte Web-Lösungen in WordPress</p>
+            </div>
+
+            <!-- 4 -->
+            <div
+                class="flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
+            >
+                <Database class="w-12 h-12 text-primary mx-auto" />
+                <h3 class="text-xl font-semibold">SSGs für Blogs & Docs</h3>
+                <p class="font-thin">
+                    Optimiert für klare Workflows, kurze Build-Zeiten und strukturierte Inhalte
+                </p>
+            </div>
+
+            <!-- 5 -->
+            <div
+                class="flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
+            >
+                <Target class="w-12 h-12 text-primary mx-auto" />
+                <h3 class="text-xl font-semibold">Brand Identity</h3>
+                <p class="font-thin">
+                    Ganzheitliche Markenentwicklung mit konsistentem visuellen Auftritt
+                </p>
+            </div>
+
+            <!-- 6 -->
+            <div
+                class="flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
+            >
+                <Zap class="w-12 h-12 text-primary mx-auto" />
+                <h3 class="text-xl font-semibold">Performance Optimierung</h3>
+                <p class="font-thin">Geschwindigkeitsoptimierung und SEO für bestehende Websites</p>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,202 @@
+---
+import { Image } from "astro:assets";
+
+const skills = [
+    {
+        key: "c.svg",
+        href: "https://en.wikipedia.org/wiki/C_(programming_language)",
+        label: "C",
+    },
+    {
+        key: "javascript.svg",
+        href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        label: "JavaScript",
+    },
+    { key: "dart.svg", href: "https://dart.dev/", label: "Dart" },
+    { key: "python.svg", href: "https://www.python.org/", label: "Python" },
+    {
+        key: { light: "latex-light.svg", dark: "latex-dark.svg" },
+        href: "https://www.latex-project.org/",
+        label: "LaTeX",
+    },
+    {
+        key: "html.svg",
+        href: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        label: "HTML",
+    },
+    {
+        key: "css.svg",
+        href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        label: "CSS",
+    },
+    {
+        key: "bootstrap.svg",
+        href: "https://getbootstrap.com/",
+        label: "Bootstrap",
+    },
+    {
+        key: { light: "sql-light.svg", dark: "sql-dark.svg" },
+        href: "https://www.sql.org/",
+        label: "SQL",
+    },
+    { key: "mysql.svg", href: "https://www.mysql.com/", label: "MySQL" },
+    {
+        key: "wordpress.svg",
+        href: "https://wordpress.org/",
+        label: "WordPress",
+    },
+    { key: "framer.svg", href: "https://www.framer.com/", label: "Framer" },
+    { key: "flutter.svg", href: "https://flutter.dev/", label: "Flutter" },
+    {
+        key: { light: "markdown-light.svg", dark: "markdown-dark.svg" },
+        href: "https://commonmark.org/",
+        label: "Markdown",
+    },
+    { key: "canva.svg", href: "https://www.canva.com/", label: "Canva" },
+    { key: "figma.svg", href: "https://www.figma.com/", label: "Figma" },
+    {
+        key: "photoshop.svg",
+        href: "https://www.adobe.com/products/photoshop.html",
+        label: "Photoshop",
+    },
+    {
+        key: "lightroom.svg",
+        href: "https://www.adobe.com/products/photoshop-lightroom.html",
+        label: "Lightroom",
+    },
+    {
+        key: "illustrator.svg",
+        href: "https://www.adobe.com/products/illustrator.html",
+        label: "Illustrator",
+    },
+    {
+        key: "premiere.svg",
+        href: "https://www.adobe.com/products/premiere.html",
+        label: "Premiere",
+    },
+    {
+        key: "intellij.svg",
+        href: "https://www.jetbrains.com/idea/",
+        label: "IntelliJ",
+    },
+    {
+        key: "pycharm.svg",
+        href: "https://www.jetbrains.com/pycharm/",
+        label: "PyCharm",
+    },
+    {
+        key: "clion.svg",
+        href: "https://www.jetbrains.com/clion/",
+        label: "CLion",
+    },
+    {
+        key: "vscode.svg",
+        href: "https://code.visualstudio.com/",
+        label: "VS Code",
+    },
+    {
+        key: "android_studio.svg",
+        href: "https://developer.android.com/studio?hl=de",
+        label: "Android Studio",
+    },
+    { key: "reaper.svg", href: "https://www.reaper.fm/", label: "Reaper" },
+    { key: "git.svg", href: "https://git-scm.com/", label: "Git" },
+    { key: "android.svg", href: "https://www.android.com/", label: "Android" },
+    {
+        key: "office.svg",
+        href: "https://www.microsoft.com/en-us/microsoft-365/",
+        label: "Office",
+    },
+    { key: "obsidian.svg", href: "https://obsidian.md/", label: "Obsidian" },
+    { key: "notion.svg", href: "https://www.notion.so/", label: "Notion" },
+];
+
+const images = import.meta.glob("../../images/skills/*.svg", {
+    eager: true,
+}) as Record<string, { default: any }>;
+
+const doubledSkills = [...skills, ...skills];
+---
+
+<div class="container mb-24">
+    <div class="carousel-container overflow-x-hidden relative">
+        <div class="flex carousel gap-10 w-max">
+            {
+                doubledSkills.map((skill) => (
+                    <div class="flex-none snap-start w-32 text-center">
+                        <a href={skill.href} target="_blank" class="inline-block">
+                            {typeof skill.key === "string" ? (
+                                <Image
+                                    src={images[`../../images/skills/${skill.key}`].default}
+                                    alt={`${skill.label} Logo`}
+                                    class="mx-auto w-20 h-20 object-contain"
+                                    loading="eager"
+                                />
+                            ) : (
+                                <>
+                                    <Image
+                                        src={
+                                            images[`../../images/skills/${skill.key.light}`].default
+                                        }
+                                        alt={`${skill.label} Logo`}
+                                        class="mx-auto w-20 h-20 object-contain dark:hidden"
+                                        loading="eager"
+                                    />
+                                    <Image
+                                        src={
+                                            images[`../../images/skills/${skill.key.dark}`].default
+                                        }
+                                        alt={`${skill.label} Logo`}
+                                        class="mx-auto w-20 h-20 object-contain hidden dark:block"
+                                        loading="eager"
+                                    />
+                                </>
+                            )}
+                            <div class="mt-2 text-lg font-thin">{skill.label}</div>
+                        </a>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .carousel-container {
+        position: relative;
+    }
+
+    .carousel-container::before,
+    .carousel-container::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 4rem;
+        height: 100%;
+        pointer-events: none;
+        z-index: 10;
+    }
+
+    .carousel-container::before {
+        left: 0;
+        background: linear-gradient(to right, var(--background) 0%, transparent 100%);
+    }
+
+    .carousel-container::after {
+        right: 0;
+        background: linear-gradient(to left, var(--background) 0%, transparent 100%);
+    }
+
+    @keyframes carousel {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .carousel {
+        animation: carousel 25s linear infinite;
+    }
+</style>

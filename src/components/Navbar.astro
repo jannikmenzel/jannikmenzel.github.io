@@ -1,0 +1,202 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur">
+    <nav class="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <a href="/" class="text-2xl font-bold text-foreground"> Jannik Menzel </a>
+
+        <!-- Hamburger Button (Mobile) -->
+        <button
+            type="button"
+            class="lg:hidden p-2 cursor-pointer"
+            data-mobile-menu-toggle
+            aria-label="Menü öffnen"
+            aria-expanded="false"
+        >
+            <Icon name="lucide:menu" class="h-6 w-6 text-foreground" aria-hidden="true" />
+        </button>
+
+        <!-- Navigation -->
+        <ul class="hidden lg:flex items-center gap-10 list-none" data-mobile-menu>
+            <li>
+                <a href="/" class="font-light">Home</a>
+            </li>
+            <li>
+                <a href="/about" class="font-light">Über Mich</a>
+            </li>
+            <li>
+                <a href="/blog" class="font-light">Blog</a>
+            </li>
+            <li>
+                <button
+                    type="button"
+                    class="h-10 w-10 p-0 leading-none"
+                    data-theme-toggle
+                    aria-pressed="false"
+                    aria-label="Zu dunklem Modus wechseln"
+                >
+                    <span class="sr-only" data-theme-label>Dark mode</span>
+                    <Icon
+                        name="lucide:sun"
+                        class="hidden h-5 w-5 shrink-0"
+                        data-icon-sun
+                        aria-hidden="true"
+                    />
+                    <Icon
+                        name="lucide:moon"
+                        class="h-5 w-5 shrink-0"
+                        data-icon-moon
+                        aria-hidden="true"
+                    />
+                </button>
+            </li>
+        </ul>
+
+        <!-- Mobile Menu (Overlay) -->
+        <div
+            class="fixed left-0 top-16 w-full bg-navbar/98 backdrop-blur hidden flex-col border-b border-border"
+            data-mobile-menu-overlay
+        >
+            <ul class="flex flex-col gap-4 list-none p-6">
+                <li>
+                    <a
+                        href="/"
+                        class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
+                        >Home</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="/about"
+                        class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
+                        >About</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="/blog"
+                        class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
+                        >Blog</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="/portfolio"
+                        class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
+                        >Portfolio</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<script is:inline>
+    (() => {
+        // Theme Toggle
+        const storageKey = "theme";
+        const root = document.documentElement;
+        const buttons = document.querySelectorAll("[data-theme-toggle]");
+
+        const updateButtons = () => {
+            const isDark = root.classList.contains("dark");
+            buttons.forEach((button) => {
+                const sunIcon = button?.querySelector("[data-icon-sun]");
+                const moonIcon = button?.querySelector("[data-icon-moon]");
+                const themeLabel = button?.querySelector("[data-theme-label]");
+
+                button.setAttribute("aria-pressed", String(isDark));
+                button.setAttribute(
+                    "aria-label",
+                    isDark ? "Zu hellem Modus wechseln" : "Zu dunklem Modus wechseln"
+                );
+                if (sunIcon && moonIcon) {
+                    sunIcon.classList.toggle("hidden", !isDark);
+                    moonIcon.classList.toggle("hidden", isDark);
+                }
+
+                if (themeLabel) {
+                    themeLabel.textContent = isDark ? "Light mode" : "Dark mode";
+                }
+            });
+        };
+
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const shouldUseDark = !root.classList.contains("dark");
+                root.classList.toggle("dark", shouldUseDark);
+                root.style.colorScheme = shouldUseDark ? "dark" : "light";
+                localStorage.setItem(storageKey, shouldUseDark ? "dark" : "light");
+                updateButtons();
+            });
+        });
+
+        const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+        const syncWithSystem = (event) => {
+            if (localStorage.getItem(storageKey)) return;
+
+            root.classList.toggle("dark", event.matches);
+            root.style.colorScheme = event.matches ? "dark" : "light";
+            updateButtons();
+        };
+
+        if (typeof mediaQuery.addEventListener === "function") {
+            mediaQuery.addEventListener("change", syncWithSystem);
+        }
+
+        updateButtons();
+
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.querySelector("[data-mobile-menu-toggle]");
+        const mobileMenuOverlay = document.querySelector("[data-mobile-menu-overlay]");
+        const mobileMenuLinks = mobileMenuOverlay?.querySelectorAll("a");
+
+        // Hilfsfunktion zum Schließen des Menüs
+        function closeMobileMenu() {
+            if (mobileMenuOverlay && mobileMenuToggle) {
+                mobileMenuOverlay.classList.add("hidden");
+                mobileMenuOverlay.classList.remove("flex");
+                mobileMenuToggle.setAttribute("aria-expanded", "false");
+            }
+        }
+
+        if (mobileMenuToggle && mobileMenuOverlay) {
+            mobileMenuToggle.addEventListener("click", () => {
+                const isOpen = mobileMenuOverlay.classList.contains("flex");
+                mobileMenuOverlay.classList.toggle("flex", !isOpen);
+                mobileMenuOverlay.classList.toggle("hidden", isOpen);
+                mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
+            });
+
+            // Close menu when link is clicked
+            mobileMenuLinks?.forEach((link) => {
+                link.addEventListener("click", () => {
+                    closeMobileMenu();
+                });
+            });
+        }
+
+        // Menü schließen, wenn auf Desktop gewechselt wird
+        window.addEventListener("resize", () => {
+            if (window.innerWidth >= 1024) {
+                closeMobileMenu();
+            }
+        });
+
+        // Menü schließen, wenn Hamburger nicht mehr sichtbar ist (z.B. durch CSS)
+        const observer = new MutationObserver(() => {
+            const isHamburgerVisible =
+                mobileMenuToggle && window.getComputedStyle(mobileMenuToggle).display !== "none";
+            if (!isHamburgerVisible) {
+                closeMobileMenu();
+            }
+        });
+        if (mobileMenuToggle) {
+            observer.observe(mobileMenuToggle, {
+                attributes: true,
+                attributeFilter: ["style", "class"],
+            });
+        }
+    })();
+</script>

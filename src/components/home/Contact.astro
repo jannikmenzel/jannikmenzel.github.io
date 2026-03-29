@@ -1,0 +1,111 @@
+<section id="contact" class="py-32 px-6 bg-backgroundAlt">
+    <div class="container">
+        <div class="max-w-7xl mx-auto mb-24">
+            <h2
+                class="font-headline text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
+            >
+                Kontakt
+            </h2>
+            <div class="h-1 w-24 bg-primary"></div>
+        </div>
+
+        <form
+            id="contact-form"
+            class="max-w-4xl mx-auto bg-background p-8 space-y-6"
+            action="https://submit-form.com/d3tC67hAe"
+            method="POST"
+            target="hidden_iframe"
+            onsubmit="return showSuccess();"
+        >
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="group">
+                    <label
+                        for="name"
+                        class="font-label text-[0.9rem] uppercase tracking-widest mb-2 block"
+                        >Name</label
+                    >
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        required
+                        aria-required="true"
+                        placeholder="Max Mustermann"
+                        class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                    />
+                </div>
+
+                <div class="group">
+                    <label
+                        for="email"
+                        class="font-label text-[0.9rem] uppercase tracking-widest mb-2 block"
+                        >Email Address</label
+                    >
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        required
+                        aria-required="true"
+                        placeholder="max@example.com"
+                        class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
+                    />
+                </div>
+            </div>
+
+            <div class="group">
+                <label
+                    for="message"
+                    class="font-label text-[0.9rem] uppercase tracking-widest mb-2 block"
+                    >Nachricht</label
+                >
+                <textarea
+                    id="message"
+                    name="message"
+                    required
+                    aria-required="true"
+                    placeholder="Erzähle mir von deinem Projekt..."
+                    rows="5"
+                    class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary resize-none"
+                ></textarea>
+            </div>
+
+            <div class="flex items-center justify-between gap-4">
+                <button class="btn btn-primary" type="submit"> Senden </button>
+                <div id="form-success" class="text-sm font-thin hidden">
+                    Vielen Dank! Deine Nachricht wurde gesendet.
+                </div>
+            </div>
+        </form>
+
+        <iframe name="hidden_iframe" style="display:none;" title="Hidden Form Submission"></iframe>
+
+        <script>
+            const messageField = document.getElementById("message");
+
+            if (messageField) {
+                messageField.addEventListener("input", () => {
+                    messageField.style.height = "auto";
+                    messageField.style.height = messageField.scrollHeight + "px";
+                });
+            }
+
+            function showSuccess() {
+                const form = document.getElementById("contact-form") as HTMLFormElement | null;
+                const successMsg = document.getElementById("form-success");
+
+                if (successMsg) {
+                    successMsg.classList.remove("hidden");
+                    setTimeout(() => successMsg.classList.add("hidden"), 5000);
+                }
+
+                if (form) {
+                    setTimeout(() => form.reset(), 50);
+                }
+
+                return true;
+            }
+            (window as any).showSuccess = showSuccess;
+        </script>
+    </div>
+</section>

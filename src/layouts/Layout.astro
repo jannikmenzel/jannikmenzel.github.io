@@ -1,0 +1,103 @@
+---
+import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+
+const { title } = Astro.props;
+const siteTitle = "Jannik Menzel";
+const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+---
+
+<style is:global>
+    /* anker scroll fix */
+    html {
+        scroll-padding-top: 100px;
+    }
+    /* mathjax display fix */
+    .markdown-content mjx-container svg {
+        display: inline !important;
+    }
+
+    .markdown-content mjx-container[display="true"] {
+        display: block;
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .markdown-content mjx-container[display="true"] svg {
+        display: inline-block !important;
+    }
+</style>
+
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <script is:inline>
+            (() => {
+                const storageKey = "theme";
+                const savedTheme = localStorage.getItem(storageKey);
+                const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                const isDark = savedTheme ? savedTheme === "dark" : prefersDark;
+                const html = document.documentElement;
+
+                if (isDark) {
+                    html.classList.add("dark");
+                    html.style.colorScheme = "dark";
+                } else {
+                    html.classList.remove("dark");
+                    html.style.colorScheme = "light";
+                }
+            })();
+        </script>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{pageTitle}</title>
+
+        <meta
+            name="description"
+            content="Offizielles Portfolio von Jannik Menzel – Informatikstudent an der TU Dresden. Entdecke Projekte, Blogbeiträge und Tools rund um Webentwicklung, Programmierung und Tech."
+        />
+        <meta
+            name="keywords"
+            content="Jannik Menzel, Informatik, TU Dresden, Portfolio, Webentwicklung, Programmieren, Softwareentwicklung, Blog, GitHub, DEV, Instagram, Projekte"
+        />
+        <script is:inline type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Jannik Menzel",
+                "url": "https://jannikmenzel.me",
+                "sameAs": ["https://github.com/jannikmenzel", "https://www.instagram.com/jnk.mnz"],
+                "jobTitle": "Informatikstudent",
+                "affiliation": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Technische Universität Dresden"
+                }
+            }
+        </script>
+        <meta property="og:title" content="Jannik Menzel – Portfolio & Projekte" />
+        <meta
+            property="og:description"
+            content="Offizielles Portfolio von Jannik Menzel – Informatikstudent an der TU Dresden."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jannikmenzel.me" />
+        <meta property="og:image" content="https://jannikmenzel.me/social-preview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Jannik Menzel – Portfolio & Projekte" />
+        <meta
+            name="twitter:description"
+            content="Offizielles Portfolio von Jannik Menzel – Informatikstudent an der TU Dresden."
+        />
+        <meta name="twitter:image" content="https://jannikmenzel.me/social-preview.jpg" />
+    </head>
+
+    <body class="min-h-screen flex flex-col">
+        <Navbar />
+        <main class="flex-1">
+            <slot />
+        </main>
+        <Footer />
+    </body>
+</html>

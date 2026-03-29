@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+const posts = (await getCollection("blog")).sort(
+    (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+const dateFormatter = new Intl.DateTimeFormat("de-DE", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+});
+---
+
+<Layout title="Blog">
+    <main class="w-full container">
+        <!-- Header -->
+        <header class="pt-20">
+            <h1 class="text-center text-5xl font-bold font-display mb-4">Studienblog</h1>
+            <div class="h-1 w-24 bg-primary mx-auto"></div>
+        </header>
+
+        <!-- Content -->
+        <div class="py-16">
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-lg md:max-w-none mx-auto">
+                {
+                    posts.map((post) => (
+                        <article class="h-full rounded-xl border border-border bg-background-alt p-6 flex flex-col gap-6">
+                            <a href={`/blog/${post.data.slug}`} class="flex-1">
+                                <Image
+                                    src={post.data.image}
+                                    alt={post.data.title}
+                                    class="w-full h-50 object-cover rounded-md mb-4 border border-border"
+                                />
+                                <p class="text-sm text-muted-foreground mb-2">
+                                    {dateFormatter.format(post.data.date)}
+                                    {post.data.readingtime ? ` · ${post.data.readingtime}` : ""}
+                                </p>
+                                <h2 class="text-xl font-display font-semibold mb-3">
+                                    {post.data.title}
+                                </h2>
+                                <p class="text-muted-foreground leading-relaxed">
+                                    {post.data.teaser}
+                                </p>
+                            </a>
+                            <a
+                                href={`/blog/${post.data.slug}`}
+                                class="btn btn-secondary w-full mt-auto"
+                            >
+                                Lesen
+                            </a>
+                        </article>
+                    ))
+                }
+            </div>
+        </div>
+    </main>
+</Layout>

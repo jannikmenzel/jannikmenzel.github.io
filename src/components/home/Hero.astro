@@ -1,0 +1,58 @@
+---
+import profileImage from "../../images/profile.png";
+import { Image } from "astro:assets";
+---
+
+<div class="container bg-background font-sans">
+    <section
+        class="flex flex-col-reverse xl:flex-row justify-between items-center px-6 pt-12 pb-28 xl:py-32"
+    >
+        <!-- Textbereich -->
+        <div class="w-full mt-10 xl:mt-0">
+            <p
+                class="uppercase tracking-[0.2em] mb-2 xl:ml-1 font-semibold text-[10px] sm:text-xs md:text-sm xl:text-lg text-center md:text-center xl:text-left"
+            >
+                Portfolio and Freelance Offers
+            </p>
+            <h1
+                class="text-3xl sm:text-5xl md:text-6xl xl:text-8xl font-extrabold uppercase text-primary mb-4 text-center md:text-center xl:text-left"
+            >
+                Designer & <br /> Webentwickler
+            </h1>
+            <p
+                class="font-thin text-base sm:text-lg xl:text-xl mx-auto xl:mx-1 md:max-w-1/2 xl:max-w-3/4 opacity-80 text-center md:text-center xl:text-left"
+            >
+                Willkommen auf meinem Portfolio mit ausgewählten Projekten aus Webentwicklung und
+                Design.
+            </p>
+            <!-- CTA Buttons -->
+            <div class="mt-8 flex items-center justify-center xl:justify-start gap-4">
+                <a href="/about" class="btn btn-primary px-8 py-3" aria-label="Zu meinen Projekten"
+                    >Über Mich</a
+                >
+                <a href="/blog" class="btn btn-secondary px-8 py-3" aria-label="Kontakt aufnehmen"
+                    >Blog</a
+                >
+            </div>
+        </div>
+
+        <!-- Bild -->
+        <div
+            class="w-full flex justify-center md:justify-center xl:justify-end mt-8 md:mt-8 xl:mt-0"
+        >
+            <div class="relative">
+                <div
+                    class="absolute -inset-2 rounded-full border-2 border-primary/40 border-t-primary animate-spin"
+                    style="animation-duration: 20s;"
+                >
+                </div>
+                <Image
+                    src={profileImage}
+                    alt="Profilbild"
+                    loading="eager"
+                    class="w-64 h-64 xl:w-80 xl:h-80 object-cover rounded-full"
+                />
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,39 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { Image } from "astro:assets";
+
+export async function getStaticPaths() {
+    const posts = await getCollection("blog");
+
+    return posts.map((post) => ({
+        params: { slug: post.data.slug },
+        props: { post },
+    }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+new Intl.DateTimeFormat("de-DE", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+});
+---
+
+<Layout title={post.data.title}>
+    <article class="container p-16" style="max-width: 1100px;">
+        {
+            post.data.image && (
+                <Image
+                    src={post.data.image}
+                    alt={post.data.title}
+                    class="w-full max-h-96 rounded-xl mb-8 border border-border object-cover"
+                />
+            )
+        }
+        <div class="markdown-content">
+            <Content />
+        </div>
+    </article>
+</Layout>
