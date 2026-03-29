@@ -4,7 +4,31 @@ import { Icon } from "astro-icon/components";
 
 <header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur">
     <nav class="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="/" class="text-2xl font-bold text-foreground"> Jannik Menzel </a>
+        <div class="flex items-center gap-1">
+            <!-- Theme Toggle -->
+            <button
+                    type="button"
+                    class="lg:hidden h-10 w-10 p-0 leading-none ml-1"
+                    data-theme-toggle-mobile
+                    aria-pressed="false"
+                    aria-label="Zu dunklem Modus wechseln"
+            >
+                <span class="sr-only" data-theme-label-mobile>Dark mode</span>
+                <Icon
+                        name="lucide:sun"
+                        class="hidden h-5 w-5 shrink-0"
+                        data-icon-sun-mobile
+                        aria-hidden="true"
+                />
+                <Icon
+                        name="lucide:moon"
+                        class="h-5 w-5 shrink-0"
+                        data-icon-moon-mobile
+                        aria-hidden="true"
+                />
+            </button>
+            <a href="/" class="text-2xl font-bold text-foreground"> Jannik Menzel </a>
+        </div>
 
         <!-- Hamburger Button (Mobile) -->
         <button
@@ -197,6 +221,39 @@ import { Icon } from "astro-icon/components";
                 attributes: true,
                 attributeFilter: ["style", "class"],
             });
+        }
+
+        // Theme Toggle (Mobile)
+        const mobileThemeButton = document.querySelector("[data-theme-toggle-mobile]");
+        const updateMobileThemeButton = () => {
+            if (!mobileThemeButton) return;
+            const isDark = root.classList.contains("dark");
+            const sunIcon = mobileThemeButton.querySelector("[data-icon-sun-mobile]");
+            const moonIcon = mobileThemeButton.querySelector("[data-icon-moon-mobile]");
+            const themeLabel = mobileThemeButton.querySelector("[data-theme-label-mobile]");
+            mobileThemeButton.setAttribute("aria-pressed", String(isDark));
+            mobileThemeButton.setAttribute(
+                "aria-label",
+                isDark ? "Zu hellem Modus wechseln" : "Zu dunklem Modus wechseln"
+            );
+            if (sunIcon && moonIcon) {
+                sunIcon.classList.toggle("hidden", !isDark);
+                moonIcon.classList.toggle("hidden", isDark);
+            }
+            if (themeLabel) {
+                themeLabel.textContent = isDark ? "Light mode" : "Dark mode";
+            }
+        };
+        if (mobileThemeButton) {
+            mobileThemeButton.addEventListener("click", () => {
+                const shouldUseDark = !root.classList.contains("dark");
+                root.classList.toggle("dark", shouldUseDark);
+                root.style.colorScheme = shouldUseDark ? "dark" : "light";
+                localStorage.setItem(storageKey, shouldUseDark ? "dark" : "light");
+                updateButtons();
+                updateMobileThemeButton();
+            });
+            updateMobileThemeButton();
         }
     })();
 </script>
