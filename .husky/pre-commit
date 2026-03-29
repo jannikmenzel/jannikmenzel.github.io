@@ -1,1 +1,4 @@
-npx lint-staged --allow-empty
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run format
