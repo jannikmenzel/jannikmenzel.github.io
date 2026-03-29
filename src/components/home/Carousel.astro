@@ -175,16 +175,21 @@ const doubledSkills = [...skills, ...skills];
         height: 100%;
         pointer-events: none;
         z-index: 10;
+        transition: background-color 0.2s ease;
     }
 
     .carousel-container::before {
         left: 0;
-        background: linear-gradient(to right, var(--background) 0%, transparent 100%);
+        background-color: var(--background);
+        -webkit-mask-image: -webkit-linear-gradient(to right, black 0%, transparent 100%);
+        mask-image: linear-gradient(to right, black 0%, transparent 100%);
     }
 
     .carousel-container::after {
         right: 0;
-        background: linear-gradient(to left, var(--background) 0%, transparent 100%);
+        background-color: var(--background);
+        -webkit-mask-image: -webkit-linear-gradient(to left, black 0%, transparent 100%);
+        mask-image: linear-gradient(to left, black 0%, transparent 100%);
     }
 
     @keyframes carousel {

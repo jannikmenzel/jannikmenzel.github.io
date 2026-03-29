@@ -58,11 +58,15 @@
 }
 
 .btn-primary {
-    @apply border bg-background-foreground text-background hover:bg-muted hover:text-white;
+    @apply border bg-background-foreground text-background;
+    @apply transition-shadow duration-200 ease-out;
+    @apply hover:bg-transparent hover:text-background-foreground hover:shadow-[0_4px_0_0_var(--foreground)];
 }
 
 .btn-secondary {
-    @apply border border-background-foreground bg-background text-background-foreground hover:bg-muted hover:text-white;
+    @apply border border-background-foreground bg-background text-background-foreground;
+    @apply transition-shadow duration-200 ease-out;
+    @apply hover:shadow-[0_4px_0_0_var(--foreground)];
 }
 
 body {
@@ -133,6 +137,24 @@ body {
     margin: 1.25rem 0;
     hyphens: auto;
     text-align: justify;
+}
+
+@media (max-width: 640px) {
+  .markdown-content h1 {
+    font-size: 1.4rem;
+  }
+  .markdown-content h2 {
+    font-size: 1.2rem;
+  }
+  .markdown-content h3 {
+    font-size: 1.05rem;
+  }
+  .markdown-content h4 {
+    font-size: 0.95rem;
+  }
+  .markdown-content p {
+    font-size: 0.95rem;
+  }
 }
 
 .markdown-content a {

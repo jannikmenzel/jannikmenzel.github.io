@@ -2,19 +2,25 @@
 import { Heart } from "@lucide/astro";
 ---
 
-<footer class="bg-darkAlt dark:bg-darkOff px-8 py-20 text-sm">
-    <ul class="flex justify-center gap-10 list-none">
+<footer class="bg-darkAlt dark:bg-darkOff px-4 sm:px-8 py-10 sm:py-20 text-sm sm:text-base">
+    <ul class="flex flex-wrap justify-center gap-4 sm:gap-10 list-none text-center">
         <li>
-            <a href="/impressum" class="text-light text-base"> Impressum </a>
+            <a href="/about" class="text-light text-sm sm:text-base">Über Uns</a>
         </li>
         <li>
-            <a href="/datenschutz" class="text-light text-base"> Datenschutzerklärung </a>
+            <a href="/blog" class="text-light text-sm sm:text-base">Blog</a>
+        </li>
+        <li>
+            <a href="/impressum" class="text-light text-sm sm:text-base"> Impressum </a>
+        </li>
+        <li>
+            <a href="/datenschutz" class="text-light text-sm sm:text-base"> Datenschutzerklärung </a>
         </li>
     </ul>
-    <Heart class="h-12 w-12 mx-auto text-light my-10" />
-    <p class="text-lightOff text-center">
+    <Heart class="h-10 w-10 sm:h-12 sm:w-12 mx-auto text-light my-8 sm:my-10" />
+    <p class="text-lightOff text-center text-sm sm:text-base">
         &copy; Copyright {" "}
-        <a href="/" class="text-light text-base"> Jannik Menzel </a>{" "}
+        <a href="/" class="text-light text-sm sm:text-base"> Jannik Menzel </a>{" "}
         | Alle Rechte beibehalten.
     </p>
 </footer>
