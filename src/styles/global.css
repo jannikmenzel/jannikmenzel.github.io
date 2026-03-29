@@ -140,21 +140,21 @@ body {
 }
 
 @media (max-width: 640px) {
-  .markdown-content h1 {
-    font-size: 1.4rem;
-  }
-  .markdown-content h2 {
-    font-size: 1.2rem;
-  }
-  .markdown-content h3 {
-    font-size: 1.05rem;
-  }
-  .markdown-content h4 {
-    font-size: 0.95rem;
-  }
-  .markdown-content p {
-    font-size: 0.95rem;
-  }
+    .markdown-content h1 {
+        font-size: 1.4rem;
+    }
+    .markdown-content h2 {
+        font-size: 1.2rem;
+    }
+    .markdown-content h3 {
+        font-size: 1.05rem;
+    }
+    .markdown-content h4 {
+        font-size: 0.95rem;
+    }
+    .markdown-content p {
+        font-size: 0.95rem;
+    }
 }
 
 .markdown-content a {
