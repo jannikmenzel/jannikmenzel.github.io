@@ -5,28 +5,28 @@ const title = "Impressum";
 ---
 
 <Layout title={title}>
-    <main class="w-full container p-16" style="max-width: 1100px;">
+    <main class="w-full container p-4 sm:p-16 mb-12" style="max-width: 1100px;">
         <!-- Header -->
-        <header class="py-20">
-            <h1 class="text-center text-4xl sm:text-5xl font-bold font-display mb-4">Impressum</h1>
-            <div class="h-1 w-24 bg-primary mx-auto"></div>
+        <header class="py-10 sm:py-20">
+            <h1 class="text-center text-2xl sm:text-4xl md:text-5xl font-bold font-display mb-4">Impressum</h1>
+            <div class="h-1 w-16 sm:w-24 bg-primary mx-auto"></div>
         </header>
 
         <!-- Content -->
-        <section class="mb-6">
-            <h2 class="text-2xl font-medium mb-2">Betreiber</h2>
+        <section class="mb-6 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">Betreiber</h2>
             <p class="font-thin">Jannik Menzel</p>
         </section>
 
-        <section class="mb-6">
-            <h2 class="text-2xl font-medium mb-2">Anschrift</h2>
+        <section class="mb-6 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">Anschrift</h2>
             <address class="font-thin not-italic">
                 <span id="address-obfuscated"></span>
             </address>
         </section>
 
-        <section class="mb-6">
-            <h2 class="text-2xl font-medium mb-2">Kontakt</h2>
+        <section class="mb-6 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">Kontakt</h2>
             <p class="font-thin">
                 E‑Mail:
                 <span id="email-obfuscated"></span>
@@ -41,10 +41,10 @@ const title = "Impressum";
             </p>
         </section>
 
-        <section class="text-sm text-lightOff">
+        <section class="text-xs sm:text-sm text-lightOff">
             <p>
-                Bei Fragen zum Impressum nutze bitte das Kontaktformular auf der Webseite oder
-                schreibe eine E‑Mail an die oben genannte Adresse.
+                Bei Fragen zum Impressum nutzen Sie bitte das Kontaktformular auf der Webseite oder
+                schreiben Sie eine E‑Mail an die oben genannte Adresse.
             </p>
         </section>
 
