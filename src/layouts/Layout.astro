@@ -9,8 +9,15 @@ const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 ---
 
 <style is:global>
-    /* anker scroll fix */
-    html {
+    .markdown-content h1,
+    .markdown-content h2,
+    .markdown-content h3,
+    .markdown-content h4,
+    .markdown-content h5,
+    .markdown-content h6 {
+        scroll-margin-top: 100px;
+    }
+    .markdown-content {
         scroll-padding-top: 100px;
     }
     /* mathjax display fix */

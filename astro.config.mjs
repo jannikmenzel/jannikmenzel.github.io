@@ -1,17 +1,17 @@
+import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
 import icon from "astro-icon";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
-
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
     site: "https://jannikmenzel.me",
     base: "/",
     output: "static",
-    integrations: [icon()],
+    integrations: [icon(), sitemap()],
     markdown: {
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: "wrap" }], rehypeMathjax],

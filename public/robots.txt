@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /impressum
 Disallow: /datenschutz
+
+Sitemap: https://jannikmenzel.me/sitemap-index.xml
