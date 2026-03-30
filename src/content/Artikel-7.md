@@ -1,5 +1,5 @@
 ---
-title: "storytelling im alltag"
+title: "storytelling im Alltag"
 slug: "storytelling"
 date: 2025-02-01
 image: "../images/cover-images/Artikel-7.jpg"
