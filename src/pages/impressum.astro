@@ -4,7 +4,23 @@ import Layout from "../layouts/Layout.astro";
 const title = "Impressum";
 ---
 
-<Layout title={title}>
+<Layout
+  title={title}
+  description="Impressum von Jannik Menzel: Angaben gemäß § 5 TMG, Kontaktinformationen und rechtliche Hinweise."
+  keywords="Impressum, Kontakt, Rechtliches, Jannik Menzel, TMG, Website"
+  og={{
+    title: "Impressum – Jannik Menzel",
+    description: "Impressum von Jannik Menzel: Angaben gemäß § 5 TMG, Kontaktinformationen und rechtliche Hinweise.",
+    url: "https://jannikmenzel.me/impressum",
+    image: "https://jannikmenzel.me/social-preview.png"
+  }}
+  twitter={{
+    title: "Impressum – Jannik Menzel",
+    description: "Impressum von Jannik Menzel: Angaben gemäß § 5 TMG, Kontaktinformationen und rechtliche Hinweise.",
+    image: "https://jannikmenzel.me/social-preview.png"
+  }}
+  canonical="https://jannikmenzel.me/impressum"
+>
     <main class="w-full container p-4 sm:p-16 mb-12" style="max-width: 1100px;">
         <!-- Header -->
         <header class="py-10 sm:py-20">

@@ -2,7 +2,23 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Seite nicht Gefunden">
+<Layout
+  title="Seite nicht gefunden"
+  description="Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite."
+  keywords="404, Seite nicht gefunden, Fehler, Jannik Menzel, Portfolio"
+  og={{
+    title: "404 – Seite nicht gefunden",
+    description: "Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite.",
+    url: "https://jannikmenzel.me/404",
+    image: "https://jannikmenzel.me/social-preview.png"
+  }}
+  twitter={{
+    title: "404 – Seite nicht gefunden",
+    description: "Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite.",
+    image: "https://jannikmenzel.me/social-preview.png"
+  }}
+  canonical="https://jannikmenzel.me/404"
+>
     <section class="flex flex-col items-center justify-center min-h-[80vh] text-center py-16">
         <h1 class="text-8xl font-bold mb-4">404</h1>
         <h2 class="text-2xl font-semibold mb-2">Seite nicht gefunden</h2>

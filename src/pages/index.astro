@@ -7,7 +7,29 @@ import Services from "../components/home/Services.astro";
 import Contact from "../components/home/Contact.astro";
 ---
 
-<Layout title="Home">
+<Layout
+  title="Home"
+  description="Willkommen auf dem Portfolio von Jannik Menzel – Informatikstudent, Entwickler und Blogger aus Dresden. Entdecke Projekte, Blogbeiträge und mehr."
+  keywords="Jannik Menzel, Portfolio, Informatik, Dresden, Webentwicklung, Projekte, Blog"
+  og={{
+    title: "Jannik Menzel – Portfolio, Projekte & Blog",
+    description: "Willkommen auf dem Portfolio von Jannik Menzel – Informatikstudent, Entwickler und Blogger aus Dresden. Entdecke Projekte, Blogbeiträge und mehr.",
+    url: "https://jannikmenzel.me",
+    image: "https://jannikmenzel.me/social-preview.png"
+  }}
+  twitter={{
+    title: "Jannik Menzel – Portfolio, Projekte & Blog",
+    description: "Willkommen auf dem Portfolio von Jannik Menzel – Informatikstudent, Entwickler und Blogger aus Dresden. Entdecke Projekte, Blogbeiträge und mehr.",
+    image: "https://jannikmenzel.me/social-preview.png"
+  }}
+  canonical="https://jannikmenzel.me"
+  structuredData={{
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jannik Menzel",
+      "url": "https://jannikmenzel.me"
+  }}
+>
     <Hero />
     <Carousel />
     <Projects />

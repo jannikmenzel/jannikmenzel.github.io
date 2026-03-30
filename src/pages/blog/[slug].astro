@@ -21,7 +21,36 @@ new Intl.DateTimeFormat("de-DE", {
 });
 ---
 
-<Layout title={post.data.title}>
+<Layout
+  title={post.data.title}
+  description={post.data.teaser}
+  keywords={`Blog, Artikel, ${post.data.title}, Jannik Menzel, Informatik, Webentwicklung`}
+  og={{
+    title: post.data.title,
+    description: post.data.teaser,
+    url: `https://jannikmenzel.me/blog/${post.data.slug}`,
+    image: post.data.image?.src ? `https://jannikmenzel.me${post.data.image.src}` : "https://jannikmenzel.me/social-preview.png"
+  }}
+  twitter={{
+    title: post.data.title,
+    description: post.data.teaser,
+    image: post.data.image?.src ? `https://jannikmenzel.me${post.data.image.src}` : "https://jannikmenzel.me/social-preview.png"
+  }}
+  canonical={`https://jannikmenzel.me/blog/${post.data.slug}`}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.data.title,
+    "description": post.data.teaser,
+    "image": post.data.image?.src ? `https://jannikmenzel.me${post.data.image.src}` : "https://jannikmenzel.me/social-preview.png",
+    "author": {
+      "@type": "Person",
+      "name": "Jannik Menzel"
+    },
+    "datePublished": post.data.date,
+    "url": `https://jannikmenzel.me/blog/${post.data.slug}`
+  }}
+>
     <article class="container p-4 sm:p-16" style="max-width: 1100px;">
         {
             post.data.image && (
