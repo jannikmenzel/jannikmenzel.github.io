@@ -178,7 +178,7 @@ const title = "Datenschutzerklärung";
             const email = emailUser + "@" + emailDomain;
             const emailSpan = document.getElementById("email-obfuscated");
             if (emailSpan) {
-                emailSpan.innerHTML = `<a href=\"mailto:${email}\" class=\"text-primary underline\">${emailUser}&#64;${emailDomain}</a>`;
+                emailSpan.innerHTML = `<a href="mailto:${email}" class="text-primary underline">${emailUser}&#64;${emailDomain}</a>`;
             }
 
             // Address Obfuscation
