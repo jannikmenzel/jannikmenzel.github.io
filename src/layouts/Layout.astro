@@ -32,33 +32,35 @@ const defaultKeywords =
     .markdown-content {
         scroll-padding-top: 100px;
     }
+
     /* mathjax display fix */
     .markdown-content mjx-container svg {
         display: inline !important;
     }
-
     .markdown-content mjx-container[display="true"] {
         display: block;
         text-align: center;
         margin: 1em 0;
     }
-
     .markdown-content mjx-container[display="true"] svg {
         display: inline-block !important;
     }
+
     /* smooth theme transition */
-    html,
-    body,
-    *:not(.object-cover):not(.btn):not(.btn-primary):not(.btn-secondary) {
-        transition:
-            background-color 0.2s ease,
-            color 0.2s ease,
-            border-color 0.2s ease;
-    }
-    .btn,
-    .btn-primary,
-    .btn-secondary {
-        transition: box-shadow 0.2s ease;
+    @media (min-width: 768px) {
+        html,
+        body,
+        *:not(.object-cover):not(.btn):not(.btn-primary):not(.btn-secondary) {
+            transition:
+                background-color 0.2s ease,
+                color 0.2s ease,
+                border-color 0.2s ease;
+        }
+        .btn,
+        .btn-primary,
+        .btn-secondary {
+            transition: box-shadow 0.2s ease;
+        }
     }
 </style>
 

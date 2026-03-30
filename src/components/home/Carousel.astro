@@ -304,7 +304,13 @@ const doubledSkills = [...skills, ...skills];
         height: 100%;
         pointer-events: none;
         z-index: 10;
-        transition: background-color 0.2s ease;
+    }
+
+    @media (min-width: 768px) {
+        .carousel-container::before,
+        .carousel-container::after {
+            transition: background-color 0.2s ease;
+        }
     }
 
     .carousel-container::before {
