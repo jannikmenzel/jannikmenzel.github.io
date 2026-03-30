@@ -4,18 +4,20 @@ import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 
 const {
-  title,
-  description,
-  keywords,
-  og = {},
-  twitter = {},
-  canonical,
-  structuredData
+    title,
+    description,
+    keywords,
+    og = {},
+    twitter = {},
+    canonical,
+    structuredData,
 } = Astro.props;
 const siteTitle = "Jannik Menzel";
 const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
-const defaultDescription = "Offizielles Portfolio von Jannik Menzel – Informatikstudent an der TU Dresden. Entdecke Projekte, Blogbeiträge und Tools rund um Webentwicklung, Programmierung und Tech.";
-const defaultKeywords = "Jannik Menzel, Informatik, TU Dresden, Portfolio, Webentwicklung, Programmieren, Softwareentwicklung, Blog, GitHub, DEV, Instagram, Projekte";
+const defaultDescription =
+    "Offizielles Portfolio von Jannik Menzel – Informatikstudent an der TU Dresden. Entdecke Projekte, Blogbeiträge und Tools rund um Webentwicklung, Programmierung und Tech.";
+const defaultKeywords =
+    "Jannik Menzel, Informatik, TU Dresden, Portfolio, Webentwicklung, Programmieren, Softwareentwicklung, Blog, GitHub, DEV, Instagram, Projekte";
 ---
 
 <style is:global>
@@ -85,32 +87,40 @@ const defaultKeywords = "Jannik Menzel, Informatik, TU Dresden, Portfolio, Weben
         <meta name="generator" content={Astro.generator} />
         <title>{pageTitle}</title>
 
-        <meta
-            name="description"
-            content={description ?? defaultDescription}
-        />
-        <meta
-            name="keywords"
-            content={keywords ?? defaultKeywords}
-        />
-        {structuredData && (
-          <script
-            is:inline
-            type="application/ld+json"
-            set:html={JSON.stringify(structuredData).replace(/</g, '\\u003c')}
-          />
-        )}
+        <meta name="description" content={description ?? defaultDescription} />
+        <meta name="keywords" content={keywords ?? defaultKeywords} />
+        {
+            structuredData && (
+                <script
+                    is:inline
+                    type="application/ld+json"
+                    set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")}
+                />
+            )
+        }
 
         <meta property="og:title" content={og.title ?? pageTitle} />
-        <meta property="og:description" content={og.description ?? description ?? defaultDescription} />
+        <meta
+            property="og:description"
+            content={og.description ?? description ?? defaultDescription}
+        />
         <meta property="og:type" content={og.type ?? "website"} />
         <meta property="og:url" content={og.url ?? "https://jannikmenzel.me"} />
-        <meta property="og:image" content={og.image ?? "https://jannikmenzel.me/social-preview.png"} />
+        <meta
+            property="og:image"
+            content={og.image ?? "https://jannikmenzel.me/social-preview.png"}
+        />
 
         <meta name="twitter:card" content={twitter.card ?? "summary_large_image"} />
         <meta name="twitter:title" content={twitter.title ?? og.title ?? pageTitle} />
-        <meta name="twitter:description" content={twitter.description ?? og.description ?? description ?? defaultDescription} />
-        <meta name="twitter:image" content={twitter.image ?? og.image ?? "https://jannikmenzel.me/social-preview.png"} />
+        <meta
+            name="twitter:description"
+            content={twitter.description ?? og.description ?? description ?? defaultDescription}
+        />
+        <meta
+            name="twitter:image"
+            content={twitter.image ?? og.image ?? "https://jannikmenzel.me/social-preview.png"}
+        />
 
         {canonical && <link rel="canonical" href={canonical} />}
     </head>
