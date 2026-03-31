@@ -257,7 +257,7 @@ const doubledSkills = [...skills, ...skills];
                             {typeof skill.key === "string" ? (
                                 <Image
                                     src={images[`../../images/skills/${skill.key}`].default}
-                                    alt={`${skill.label} Logo`}
+                                    alt={skill.label}
                                     class="mx-auto w-20 h-20 object-contain"
                                     loading="eager"
                                 />
@@ -267,7 +267,7 @@ const doubledSkills = [...skills, ...skills];
                                         src={
                                             images[`../../images/skills/${skill.key.light}`].default
                                         }
-                                        alt={`${skill.label} Logo`}
+                                        alt={skill.label}
                                         class="mx-auto w-20 h-20 object-contain dark:hidden"
                                         loading="eager"
                                     />
@@ -275,7 +275,7 @@ const doubledSkills = [...skills, ...skills];
                                         src={
                                             images[`../../images/skills/${skill.key.dark}`].default
                                         }
-                                        alt={`${skill.label} Logo`}
+                                        alt={skill.label}
                                         class="mx-auto w-20 h-20 object-contain hidden dark:block"
                                         loading="eager"
                                     />
