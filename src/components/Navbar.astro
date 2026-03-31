@@ -1,5 +1,10 @@
 ---
 import { Icon } from "astro-icon/components";
+
+const NAV_ITEMS = [
+    { href: "/", label: "Home" },
+    { href: "/blog", label: "Blog" },
+];
 ---
 
 <header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur">
@@ -9,21 +14,21 @@ import { Icon } from "astro-icon/components";
             <button
                 type="button"
                 class="lg:hidden h-10 w-10 p-0 leading-none ml-1"
-                data-theme-toggle-mobile
+                data-theme-toggle
                 aria-pressed="false"
                 aria-label="Zu dunklem Modus wechseln"
             >
-                <span class="sr-only" data-theme-label-mobile>Dark mode</span>
+                <span class="sr-only" data-theme-label>Dark mode</span>
                 <Icon
                     name="lucide:sun"
                     class="hidden h-5 w-5 shrink-0"
-                    data-icon-sun-mobile
+                    data-icon-sun
                     aria-hidden="true"
                 />
                 <Icon
                     name="lucide:moon"
                     class="h-5 w-5 shrink-0"
-                    data-icon-moon-mobile
+                    data-icon-moon
                     aria-hidden="true"
                 />
             </button>
@@ -43,12 +48,15 @@ import { Icon } from "astro-icon/components";
 
         <!-- Navigation -->
         <ul class="hidden lg:flex items-center gap-10 list-none" data-mobile-menu>
-            <li>
-                <a href="/" class="font-light">Home</a>
-            </li>
-            <li>
-                <a href="/blog" class="font-light">Blog</a>
-            </li>
+            {
+                NAV_ITEMS.map((item) => (
+                    <li>
+                        <a href={item.href} class="font-light">
+                            {item.label}
+                        </a>
+                    </li>
+                ))
+            }
             <li>
                 <button
                     type="button"
@@ -80,20 +88,18 @@ import { Icon } from "astro-icon/components";
             data-mobile-menu-overlay
         >
             <ul class="flex flex-col gap-4 list-none p-6">
-                <li>
-                    <a
-                        href="/"
-                        class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
-                        >Home</a
-                    >
-                </li>
-                <li>
-                    <a
-                        href="/blog"
-                        class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
-                        >Blog</a
-                    >
-                </li>
+                {
+                    NAV_ITEMS.map((item) => (
+                        <li>
+                            <a
+                                href={item.href}
+                                class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
+                            >
+                                {item.label}
+                            </a>
+                        </li>
+                    ))
+                }
             </ul>
         </div>
     </nav>
@@ -101,7 +107,6 @@ import { Icon } from "astro-icon/components";
 
 <script is:inline>
     (() => {
-        // Theme Toggle
         const storageKey = "theme";
         const root = document.documentElement;
         const buttons = document.querySelectorAll("[data-theme-toggle]");
@@ -109,9 +114,9 @@ import { Icon } from "astro-icon/components";
         const updateButtons = () => {
             const isDark = root.classList.contains("dark");
             buttons.forEach((button) => {
-                const sunIcon = button?.querySelector("[data-icon-sun]");
-                const moonIcon = button?.querySelector("[data-icon-moon]");
-                const themeLabel = button?.querySelector("[data-theme-label]");
+                const sunIcon = button.querySelector("[data-icon-sun]");
+                const moonIcon = button.querySelector("[data-icon-moon]");
+                const themeLabel = button.querySelector("[data-theme-label]");
 
                 button.setAttribute("aria-pressed", String(isDark));
                 button.setAttribute(
@@ -154,12 +159,10 @@ import { Icon } from "astro-icon/components";
 
         updateButtons();
 
-        // Mobile Menu Toggle
         const mobileMenuToggle = document.querySelector("[data-mobile-menu-toggle]");
         const mobileMenuOverlay = document.querySelector("[data-mobile-menu-overlay]");
         const mobileMenuLinks = mobileMenuOverlay?.querySelectorAll("a");
 
-        // Hilfsfunktion zum Schließen des Menüs
         function closeMobileMenu() {
             if (mobileMenuOverlay && mobileMenuToggle) {
                 mobileMenuOverlay.classList.add("hidden");
@@ -176,7 +179,6 @@ import { Icon } from "astro-icon/components";
                 mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
             });
 
-            // Close menu when link is clicked
             mobileMenuLinks?.forEach((link) => {
                 link.addEventListener("click", () => {
                     closeMobileMenu();
@@ -184,14 +186,12 @@ import { Icon } from "astro-icon/components";
             });
         }
 
-        // Menü schließen, wenn auf Desktop gewechselt wird
         window.addEventListener("resize", () => {
             if (window.innerWidth >= 1024) {
                 closeMobileMenu();
             }
         });
 
-        // Menü schließen, wenn Hamburger nicht mehr sichtbar ist (z.B. durch CSS)
         const observer = new MutationObserver(() => {
             const isHamburgerVisible =
                 mobileMenuToggle && window.getComputedStyle(mobileMenuToggle).display !== "none";
@@ -204,39 +204,6 @@ import { Icon } from "astro-icon/components";
                 attributes: true,
                 attributeFilter: ["style", "class"],
             });
-        }
-
-        // Theme Toggle (Mobile)
-        const mobileThemeButton = document.querySelector("[data-theme-toggle-mobile]");
-        const updateMobileThemeButton = () => {
-            if (!mobileThemeButton) return;
-            const isDark = root.classList.contains("dark");
-            const sunIcon = mobileThemeButton.querySelector("[data-icon-sun-mobile]");
-            const moonIcon = mobileThemeButton.querySelector("[data-icon-moon-mobile]");
-            const themeLabel = mobileThemeButton.querySelector("[data-theme-label-mobile]");
-            mobileThemeButton.setAttribute("aria-pressed", String(isDark));
-            mobileThemeButton.setAttribute(
-                "aria-label",
-                isDark ? "Zu hellem Modus wechseln" : "Zu dunklem Modus wechseln"
-            );
-            if (sunIcon && moonIcon) {
-                sunIcon.classList.toggle("hidden", !isDark);
-                moonIcon.classList.toggle("hidden", isDark);
-            }
-            if (themeLabel) {
-                themeLabel.textContent = isDark ? "Light mode" : "Dark mode";
-            }
-        };
-        if (mobileThemeButton) {
-            mobileThemeButton.addEventListener("click", () => {
-                const shouldUseDark = !root.classList.contains("dark");
-                root.classList.toggle("dark", shouldUseDark);
-                root.style.colorScheme = shouldUseDark ? "dark" : "light";
-                localStorage.setItem(storageKey, shouldUseDark ? "dark" : "light");
-                updateButtons();
-                updateMobileThemeButton();
-            });
-            updateMobileThemeButton();
         }
     })();
 </script>

@@ -249,10 +249,10 @@ const doubledSkills = [...skills, ...skills];
 
 <div class="container mb-24">
     <div class="carousel-container overflow-x-hidden relative">
-        <div class="flex carousel gap-10 w-max">
+        <div class="flex carousel w-max">
             {
                 doubledSkills.map((skill) => (
-                    <div class="flex-none snap-start w-32 text-center">
+                    <div class="flex-none snap-start w-32 text-center mr-10">
                         <a href={skill.href} target="_blank" class="inline-block">
                             {typeof skill.key === "string" ? (
                                 <Image
@@ -338,5 +338,9 @@ const doubledSkills = [...skills, ...skills];
 
     .carousel {
         animation: carousel 50s linear infinite;
+    }
+
+    .carousel > *:last-child {
+        margin-right: 0;
     }
 </style>
