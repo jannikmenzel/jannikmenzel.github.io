@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Was ist eigentlich NotPetya?
+## Was ist eigentlich NotPetya?
 
 An einem sonnigen Dienstagnachmittag vor fünf Jahren bricht in der Ukraine ohne Vorwarnung das Chaos aus. Eine Vielzahl an staatlichen Einrichtungen, Unternehmen oder Banken verlieren einen Großteil ihrer Daten. Ganze Reihen an Computern schalten sich plötzlich ab und es ist lediglich eine in Rot geschriebene Meldung mit den Worten „Ooops, your important files are encrypted“ [[1]](#referenzen) zu sehen. Ursache für den milliardenschweren Vorfall ist „NotPetya“ – der folgenschwerste Hackerangriff in der Geschichte der Menschheit.
 
@@ -28,7 +28,7 @@ Bitcoin, um die verschlüsselten Daten eines PCs wieder freizugeben. Mit der Fra
 
 ---
 
-### Der Tathergang
+## Der Tathergang
 
 Wir schreiben den 27. Juni 2017, als einer der Updateserver des ukrainischen Softwareunternehmens „Linkos Group“ von einer Hackergruppe gekapert wird. Infolgedessen diente der Server den Hackern als Kurier eines unheilvollen Datenpakets: „NotPetya“. Ziel dieser als Update getarnten Schadsoftware war das ukrainische Buchhaltungsprogramm MEDoc, das zum Zeitpunkt des Cyberangriffes von einem Großteil der ukrainischen Steuerzahler verwendet wurde. Egal ob staatliche Institution oder Privatunternehmen. Das Scheinupdate infiltrierte an diesem Tag Tausende Netzwerke.
 
@@ -40,7 +40,7 @@ Nachdem der Trojaner nun alle benötigten Informationen und Zugriffe erlangt hat
 
 ---
 
-### Der Quelltext im Verhör
+## Der Quelltext im Verhör
 
 Nach dem Hackerangriff vom 27. Juni 2017 setzten sich IT-Spezialisten aus der ganzen Welt an den Quellcode des „NotPetya“ Hacks und versuchten herauszufinden, was den Wurm so zerstörerisch machte. Dieses sogenannte „Reversed Engineering“ ist eine wichtige Maßnahme, um sich vor zukünftigen Attacken schützen zu können. Das „International Journal of Recent Technology and Engineering“ kurz IJRTE veröffentlichte eine dieser Studien, anhand derer wir uns im Folgenden genauer mit der Funktionsweise von „NotPetya“ beschäftigen.
 
@@ -52,7 +52,7 @@ Falls das System jedoch über eine aktuelle Windows Version verfügt und „Eter
 
 ---
 
-### Motive
+## Motive
 
 Der Hackerangriff „NotPetya“ ist das Ergebnis eines langjährigen Krieges. „Am 18. März 2014 annektierte Russland völkerrechtswidrig die zum Staatsgebiet der Ukraine gehörige Halbinsel Krim mit ihren über zwei Millionen Einwohnern.“ [[4]](#referenzen) Das war der Beginn der russischen Eroberungskriege, in dessen Folge Tausende Menschen ihr Leben lassen mussten. Doch Putins Regime kämpft nicht nur mit Panzern, Bombern und Bodentruppen. Auch die digitale Kriegsführung hat in den letzten Jahren stark an Bedeutung gewonnen. Mit dem Ziel, die Ukraine von innen heraus zu schwächen, führt Russland einen rücksichtslosen Cyberkrieg.
 
@@ -64,7 +64,7 @@ Der russische Cyberkrieg hatte erstmals internationale Ausmaße angenommen. Der 
 
 ---
 
-### Fazit
+## Fazit
 
 Der milliardenschwere Hackerangriff „NotPetya“ hat uns abermals gezeigt, wie verehrend digitale Kriegsführung sein kann. Ein als Ransomware getarnter Wurm hat an nur einem Tag die komplette Infrastruktur weltweiter Banken, Telekommunikationsfirmen, Bahngesellschaften, Flughäfen und Unternehmen zerstört. So wurde sogar der Domain-Controller, also die zentrale Schnittstelle der Schifffahrtsgesellschaft Maersk unwiderruflich verschlüsselt. „NotPetya“ löschte alle 150 Backups der Serverdateien gleichzeitig. Das Unternehmen kann von Glück sprechen, dass eines der Backups durch einen Stromausfall des Servers, auf dem es gespeichert war, verschont geblieben ist. Viele der betroffenen Unternehmen hatten nicht so viel Glück und verzeichneten in der Folge millionenschwere Verluste.
 
@@ -74,7 +74,7 @@ Während meiner Recherche habe ich mich hauptsächlich auf die in der technische
 
 ---
 
-### Referenzen
+## Referenzen
 
 1. [Wired (2018). “NotPetya: How a Cyberattack on Ukraine Spread Around the World.”](https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/)
 2. [Bundesamt für Sicherheit in der Informationstechnik (BSI) (2022). “Ransomware: Bedrohung für Unternehmen und Verbraucher.”](https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Schadprogramme/Ransomware/ransomware_node.html)

@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Der Körper der Wissenschaft
+## Der Körper der Wissenschaft
 
 Wenn wir umgangssprachlich von "Wissenschaft" sprechen, entsteht oft das Bild eines objektiven, einheitlichen und unumstrittenen Erkenntnissystems. Doch der Schein trügt: Wissenschaft ist kein monolithischer Begriff. Er ist hingegen geprägt von den unterschiedlichsten Formen des Forschens, Denkens und Verstehens. Während ein Mathematiker mit Sätzen und Lemmata arbeitet, um logische Beweise zu führen, beobachtet ein Biologe Pflanzen unter dem Mikroskop. Die Historikerin wertet alte Schriften und historische Quellen aus und der Soziologe führt empirische Studien. Sie alle "forschen", aber auf ganz unterschiedliche und gleichermaßen faszinierende Weise.
 
@@ -22,7 +22,7 @@ Ziel dieses Artikels ist es, diese Unterschiede sichtbar zu machen, indem wir di
 
 ---
 
-### Exakte Wissenschaften – das Hirn
+## Exakte Wissenschaften – das Hirn
 
 Werfen wir zunächst einen Blick auf die exakten Wissenschaften. Zu ihnen zählen Königsdisziplinen wie Mathematik, Logik und Systemtheorie. Allgemein lässt sich der Bereich der exakten Wissenschaften in formale und technische Wissenschaften unterteilen. Während Hypothesen der formalen Wissenschaft oft rein logisch-deduktiv sind und auf systeminterner Konsistenz aufbauen, sind technische Wissenschaften meist anwendungsbezogen sowie modell- oder konstruktionsbasiert. Sie verfolgen das Ziel, theoretische Erkenntnisse in praktische Lösungen zu überführen – sei es in Form von technischen Systemen, Algorithmen oder ingenieurwissenschaftlichen Anwendungen. Dabei greifen sie häufig auf Methoden und Modelle der formalen Wissenschaften zurück, um komplexe Problemstellungen strukturiert und nachvollziehbar zu lösen.
 
@@ -30,7 +30,7 @@ Exakte Wissenschaften zeichnen sich insgesamt durch eine hohe Präzision in der 
 
 ---
 
-### Erfahrungswissenschaften – das Herz
+## Erfahrungswissenschaften – das Herz
 
 Die Erfahrungswissenschaften stellen eine ebenso facettenreiche Gruppe innerhalb der Wissenschaften dar. Zu ihnen zählen klassische Naturwissenschaften wie Physik, Chemie und Biologie, ebenso wie Gesellschaftswissenschaften etwa Psychologie und Soziologie. Im Zentrum steht die empirische Auseinandersetzung mit der Wirklichkeit: Hypothesen werden auf der Grundlage systematischer Beobachtungen, kontrollierter Experimente, Messungen oder historischer Rekonstruktionen formuliert und überprüft.
 
@@ -42,7 +42,7 @@ Trotz dieser Unterschiede verbindet beide Ansätze das Streben nach objektiver E
 
 ---
 
-### Der Außenseiter
+## Der Außenseiter
 
 Während die Ursprünge der zuvor beschriebenen Wissenschaften teils bis in die Antike zurückreichen, nimmt die Informatik eine Sonderstellung ein. Als eigenständige wissenschaftliche Disziplin existiert sie erst seit den 1950er- und 1960er-Jahren und gehört damit zu den vergleichsweise jungen Wissenschaften.
 
@@ -50,12 +50,12 @@ Weitaus bemerkenswerter ist jedoch, dass sich die Informatik nur schwer eindeuti
 
 ---
 
-### Ein lebendiger Organismus
+## Ein lebendiger Organismus
 
 Die Vielfalt wissenschaftlicher Herangehensweisen ist kein Mangel, sondern ihre größte Stärke. Sie ermöglicht es uns, die Welt aus unterschiedlichen Perspektiven zu begreifen – rational, beobachtend, historisch, kreativ – und dabei stets neue Fragen zu stellen. Denn genau darin liegt die Kraft der Wissenschaft: nicht in endgültigen Antworten und objektiven Wahrheiten, sondern im systematischen Streben nach immer tieferem Verstehen.
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Logik der Forschung** von Karl Popper

@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Der Idealist
+## Der Idealist
 
 Ein sonniger Morgen in Athen. Ich sitze in einem kleinen, von Olivenbäumen umschlossenen Innenhof. Der Duft von frischem Honigbrot liegt in der Luft. Mir gegenüber: ein älterer Herr mit durchdringendem Blick, weißem Gewand und einer Aura, als hätte er gerade die Idee der Gerechtigkeit persönlich umarmt. Platon räuspert sich und blickt mir ungeduldig in die Augen.
 
@@ -32,7 +32,7 @@ Ein Moment der Stille. Der Wind streicht durch die Blätter, als hätte die Natu
 
 ---
 
-### Der Systematiker
+## Der Systematiker
 
 Ein heißer, erdrückender Sommertag – Ich habe mein Handtuch am Strand der Küstenstadt Stagira ausgebreitet. Schweißperlen laufen mir über die Stirn. Es ist der Geburtsort eines der berühmtesten Philosophen unserer Geschichte.
 
@@ -52,7 +52,7 @@ Ein heißer, erdrückender Sommertag – Ich habe mein Handtuch am Strand der K�
 
 ---
 
-### Der Rationalist
+## Der Rationalist
 
 Ein kühler Morgen in der Abgeschiedenheit eines kleinen französischen Landhauses. Nebel liegt über den Feldern, die Fenster sind beschlagen – in meiner Hand halte ich eine Tasse heiße Schokolade. Das Wohnzimmer wirkt schlicht, fast asketisch. Bücher, Feder, Tinte – und mittendrin ein Mann mit messerscharfem Blick, in dunkler Kleidung, der in tiefes Nachdenken versunken scheint. Plötzlich hebt er den Kopf.
 
@@ -70,7 +70,7 @@ Ein Windhauch lässt die Flamme der Kerze flackern. Ich nehme einen Schluck mein
 
 ---
 
-### Der Architekt der Moderne
+## Der Architekt der Moderne
 
 Es beginnt zu schneien, als ich aus den Türen der Albertus-Universität trete. Der Park ist auch zu dieser Jahreszeit rege gefüllt. Die Menschen sind in regem Austausch hier in Königsberg, einer Stadt tief im Osten Preußens. Neben mir schreitet ein älterer Herr die Treppen hinunter, dessen Gewohnheiten so regelmäßig waren, dass selbst die Einwohner Königsbergs ihre Uhren nach seinem Spaziergang stellen konnten.
 
@@ -92,7 +92,7 @@ So sagt es auch ein bekanntes Sprichwort, denke ich, während wir gemeinsam die 
 
 ---
 
-### Der radikale Pessimist
+## Der radikale Pessimist
 
 Die Arbeitswoche neigt sich dem Ende zu und in den Restaurants Frankfurts sieht man für gewöhnlich Familien und Paare beim Abendessen. Doch an diesem Samstagabend betritt – wie so oft – ein Mann mit finsterem Blick ein abgelegenes Lokal. Ohne Gruß nimmt er Platz, stets derselbe Tisch, stets den Blick aus dem Fenster gerichtet – auf nichts Bestimmtes, auf alles zugleich.
 
@@ -114,7 +114,7 @@ Sein Ruhm sollte ihn erst im Alter und lange nach seinem Ableben ereilen. Sein L
 
 ---
 
-### Der Kritiker aller Werte
+## Der Kritiker aller Werte
 
 Es ist später Nachmittag, als ich in einem kleinen Café in den Bergen von Sils-Maria Platz nehme. Der Himmel ist bewölkt und das Licht fällt durch die Fensterscheiben. Draußen pfeift der Wind durch das Engadin, und ich erkenne eine schlanke Gestalt mit Schnurrbart und tief in Gedanken versunkenem Blick. Er trägt einen dunklen Mantel, die Augen glühen förmlich – als könnten sie durch das Weltgefüge hindurchsehen.
 
@@ -140,7 +140,7 @@ Draußen beginnt es zu schneien. Nietzsche sieht hinaus, wirkt für einen Moment
 
 ---
 
-### Die Existenzialistin & Feministin
+## Die Existenzialistin & Feministin
 
 Ein kühler Abend senkt sich über Paris. Die Fenster des Café de Flore beschlagen, während draußen das Lichterspiel der Stadt beginnt. Drinnen riecht es nach Zigarettenrauch, schwarzem Kaffee und alten Büchern. Sie sitzt allein, ihr Blick versinkt in dem Notizbuch, welches Gedanken umfasst, die ganze Generationen erschüttern werden. Simone de Beauvoir hebt den Kopf und nickt mir zu – sachlich, aber nicht unfreundlich.
 
@@ -162,7 +162,7 @@ Ihre Stimme bleibt ruhig, klar, unnachgiebig. Ein philosophischer Sturm im Gewan
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Politik** von Aristoteles
 2. **Der Staat** von Platon

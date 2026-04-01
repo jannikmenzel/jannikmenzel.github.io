@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Anschlag
+## Anschlag
 
 Am 20. August 2020 wurde der russische Politiker und Dissident Alexej Nawalny mit einem Neurotoxin vergiftet. Nur wenige Stunden nach dem Vorfall lag der damals 44-Jährige im künstlichen Koma. Ärzte der Charité, in die der Patient eilends ausgeflogen wurde, identifizierten das Gift als Nervenkampfstoff der Nowitschok-Gruppe. Es war ein Attentat, das weltweit für Entsetzen sorgte – nicht nur wegen des prominenten Opfers, sondern auch aufgrund der grausamen Präzision der Waffe. Nur zwei Jahre zuvor erlitt der ehemalige russische Doppelagent Sergej Skripal in Großbritannien ein ähnliches Schicksal. Auch er und seine Tochter wurden mit Nowitschok vergiftet.
 
@@ -22,7 +22,7 @@ Dieser Artikel handelt von der gefährlichsten bekannten Chemiewaffe – entwick
 
 ---
 
-### Substanz
+## Substanz
 
 Genau genommen handelt es sich bei Nowitschok nicht um ein einzelnes Toxin, sondern um eine ganze Gruppe von Nervengiften, die in den geheimen Laboren der ehemaligen Sowjetunion – und später Russlands – im Rahmen des sogenannten Foliant-Programms entwickelt wurden. Diese chemischen Waffen wurden mit einer klaren Absicht erschaffen, dem militärische Einsatz. Ihre Gefährlichkeit und Raffinesse machen sie zu einer der größten Bedrohungen der modernen Welt. Bis heute gelten sie als die tödlichsten Nervenkampfstoffe, die je entwickelt wurden.
 
@@ -34,7 +34,7 @@ Die Geheimnisse rund um die Strukturformeln dieser gefährlichen Substanzen ware
 
 ---
 
-### Exposition
+## Exposition
 
 Was Nawalny und Skripal in den ersten Minuten nach der Vergiftung erlebten, lässt sich aus medizinischer Sicht genau beschreiben – auch wenn das persönliche Empfinden wohl kaum in Worte zu fassen ist.
 
@@ -44,7 +44,7 @@ Die Folgen dieser Störung manifestieren sich durch eine Vielzahl von Symptomen,
 
 ---
 
-### Therapie
+## Therapie
 
 Es gibt jedoch einen Hoffnungsschimmer: Nowitschok ist behandelbar – vorausgesetzt, die richtigen Maßnahmen werden schnell und gezielt ergriffen. Wie bei jeder Vergiftung steht auch hier zu Beginn der Therapie das schnellstmögliche Beenden der Exposition gegenüber dem Gift. Nur wenn der Kontakt zum Toxin sofort unterbrochen wird, können die weiteren Schritte zur Rettung des Patienten erfolgreich eingeleitet werden. Die Grundlage der Behandlung bilden dabei die beiden Antitoxine Atropin und Obidoxin.
 
@@ -54,7 +54,7 @@ Bei Alexej Nawalny konnte genau diese Kombination eine akute Todesfolge verhinde
 
 ---
 
-### Resolution
+## Resolution
 
 So hoffnungsvoll die beschriebene Therapie gegen Nowitschok auch klingen mag – in der Realität bleibt sie oft ein Wettlauf gegen die Zeit, den viele nicht gewinnen. Nach dem Kontakt mit dem Toxin bleiben den Betroffenen meist nur wenige Minuten bis wenige Stunden, bevor sich schwerwiegende, oft irreversible Schäden im Körper manifestieren. Chronische Folgeerscheinungen sind nahezu unvermeidlich, und der Weg zur vollständigen Genesung – wenn überhaupt möglich – ist lang und unsicher. Die prominenten Vergiftungsfälle der Jahre 2018 und 2020 zeigen eindrucksvoll, wie erbarmungslos dieses Gift wirkt. Den Betroffenen gelang es zwar, das akute Stadium zu überleben – doch die langfristigen Folgen zeigen die wahre Gefahr des Toxins.
 
@@ -62,6 +62,6 @@ All das verdeutlicht, wie tödlich präzise und unberechenbar diese Substanz ist
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Nawalny** von Jan Matti Dollbaum, Morvan Lallouet & Ben Noble

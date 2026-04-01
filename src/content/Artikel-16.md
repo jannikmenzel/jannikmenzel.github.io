@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Warum Schach einzigartig ist
+## Warum Schach einzigartig ist
 
 Das königliche Spiel beansprucht seit jeher die Krone der Strategiespiele für sich. Kein vergleichbares Brettspiel erreicht in dessen Komplexität und Tiefgründigkeit jene majestätische Balance aus Struktur, Kreativität und strategischer Tiefe, die das Schachspiel bietet. Die Ursprünge des Schachs lassen sich bis ins 6. Jahrhundert nach Christus zurückverfolgen. Im späten Mittelalter erlebte das Spiel einen enormen Aufschwung an Beliebtheit und entwickelte allmählich jene Form, die sich bis in das 21. Jahrhundert durchsetzte. Mit der Einführung neuer Regeln und dynamischerer Figuren, allen voran der mächtigen Dame, gewann das Spiel nicht nur an Tempo, sondern auch an taktischer Raffinesse.
 
@@ -22,7 +22,7 @@ Die Geschichte brachte herausragende Persönlichkeiten hervor, welche allesamt n
 
 ---
 
-### Das Spiel der unendlichen Möglichkeiten
+## Das Spiel der unendlichen Möglichkeiten
 
 Doch selbst nach 1500 Jahren behält Schach seine Magie. Es hat sich längst vom Brettspiel zu einem weltweiten Phänomen entwickelt, das selbst mit der Popularität großer Sportereignisse mithalten kann – globale Turniere werden ausgetragen, und Weltmeister auserkoren. Das hat in diesem Ausmaß bisher noch kein anderes Brettspiel bewerkstelligt.
 
@@ -30,7 +30,7 @@ Grund hierfür ist nicht zuletzt die faszinierende Komplexität, die die 64 Feld
 
 ---
 
-### Berechenbarkeit
+## Berechenbarkeit
 
 Dennoch dürfen wir eines nicht vergessen. Schach ist ein Spiel, dass wir Menschen längst nicht mehr gegen den Computer gewinnen können. Die leistungsstärksten Schach Engines duellieren sich heutzutage auf einem Level, dass das menschliche Vorstellungsvermögen bei weitem übersteigt. Die KI erkennt Züge und deren Auswirkungen in Sekundenschnelle und analysiert Millionen von Varianten, die ein Mensch in einer ganzen Lebenszeit nicht einmal ansatzweise durchdenken könnte.
 
@@ -40,7 +40,7 @@ In der Theorie gilt: Schach ist ein gelöstes Spiel. Das bedeutet, dass in jeder
 
 ---
 
-### Ein Spiel für die Ewigkeit
+## Ein Spiel für die Ewigkeit
 
 Schach ist mehr als nur ein Brettspiel – es ist eine zeitlose Disziplin, die seit über 1500 Jahren Menschen auf der ganzen Welt fasziniert. Es überdauert Generationen und entführt dessen Spieler in eine einzigartige Welt der Möglichkeiten. Große Persönlichkeiten der Schachgeschichte hinterließen ihre eigenen Spuren und formten das Spiel so wie wir es kennen.
 
@@ -48,6 +48,6 @@ Doch trotz der Fortschritte der modernen Schach-Engines, die in der Lage sind, M
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. [Why AI Chess Bots Are Virtually Unbeatable (ft. GothamChess)](https://www.youtube.com/watch?v=CdFLEfRr3Qk) von WIRED

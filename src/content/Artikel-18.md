@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Zwischen Leben und Tod
+## Zwischen Leben und Tod
 
 **Nichts im Leben ist so gewiss wie der Tod.**
 Und doch fällt es uns schwer, darüber zu sprechen und noch viel schwerer, Entscheidungen zu treffen, wenn es um das eigene Lebensende oder das eines geliebten Menschen geht. Die Auseinandersetzung mit dem Tod ist geprägt von Unsicherheiten, Schuldgefühlen und der ewigen Suche nach einer Antwort, die es nicht gibt. Ein ebenso moralisch komplexes Thema ist die Sterbehilfe, also die Unterstützung eines Menschen beim Beenden seines Lebens – sei es durch aktive Tötung, assistierten Suizid, das Unterlassen lebenserhaltender Maßnahmen oder palliative Sedierung. Diese Begriffe sind wenig aufschlussreich, weshalb ich sie zur besseren Verständlichkeit im Folgenden zunächst erläutern möchte.
@@ -25,7 +25,7 @@ Im Folgenden wird sich zeigen: Hinter diesen Begriffen verbirgt sich mehr als nu
 
 ---
 
-### Europa im Rechtscheck
+## Europa im Rechtscheck
 
 Die rechtlichen Rahmenbedingungen zur Sterbehilfe variieren weltweit erheblich und werfen komplexe ethische und moralische Fragen auf. Während in einigen Ländern das Recht auf selbstbestimmtes Sterben anerkannt wird, wurden, die aktive Sterbehilfe betreffend, in anderen Staaten strenge Gesetze erlassen.
 
@@ -37,7 +37,7 @@ In anderen europäischen Ländern fällt der rechtliche Umgang mit Sterbehilfe d
 
 ---
 
-### Der König der Krankheiten
+## Der König der Krankheiten
 
 Krebs gilt nicht ohne Grund als der **König der Krankheiten**. Kaum eine andere Krankheit steht so sehr im Spannungsfeld zwischen medizinischem Fortschritt, existenzieller Angst und der währenden Hoffnung auf Heilung. Mit weltweit über 19 Millionen jährlichen Neuerkrankungen und fast 10 Millionen Todesfällen (Stand: 2022, WHO) zählt Krebs zu den tödlichsten Volkserkrankungen unserer Zeit. Therapien sind oft langwierig und körperlich wie seelisch stark belastend. Die Betroffenen fühlen sich oft gefangen – zwischen dem Wunsch, nichts unversucht zu lassen, Schuldgefühlen gegenüber Angehörigen und dem unvorstellbaren Entscheidungsdruck, der mit jeder Therapieempfehlung einhergeht.
 
@@ -45,7 +45,7 @@ Hinzu kommt eine ökonomische Frage, die ich an dieser Stelle thematisieren möc
 
 ---
 
-### Eine Vision der Palliativmedizin
+## Eine Vision der Palliativmedizin
 
 Wenn Heilung keine Option mehr ist, beginnt eine andere Form der Medizin – eine, die nicht länger gegen den Tod kämpft, sondern sich dem Leben im Sterben zuwendet. Die Palliativmedizin ist keine Kapitulation, sondern eine bewusste Entscheidung für das, was wirklich zählt: Empathie, Würde und menschliche Nähe – gerade dann, wenn die Zeit begrenzt ist.
 
@@ -53,7 +53,7 @@ Genau dort, wo der medizinische Fortschritt an seine Grenzen kommt und die Hoffn
 
 ---
 
-### Ein Tabu brechen
+## Ein Tabu brechen
 
 Das Geschäft mit dem Lebensende ist ein vielschichtiges Spannungsfeld aus medizinischen Möglichkeiten, wirtschaftlichen Interessen und ethischen Fragen. Wer hier klare Antworten erwartet, wird enttäuscht. Die medizinischen Fortschritte der letzten Jahrzehnte haben es uns ermöglicht, Leben zu retten und zu verlängern, wie es früher undenkbar war. Doch mit diesem Fortschritt kommt auch die Verantwortung, die Grenzen dessen, was medizinisch möglich ist, kritisch zu hinterfragen.
 
@@ -61,7 +61,7 @@ Der Tod darf längst kein Tabuthema mehr sein. Indem wir ihn nicht länger ausbl
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Bevor ich jetzt gehe** von Paul Kalanithi
 2. **Sterben** von Matthias Gockel

@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Ein widersprüchlicher Neologismus
+## Ein widersprüchlicher Neologismus
 
 Antifragilität – ein kraftvoller Begriff, der mich nicht mehr loslässt, seit ich erstmals mit Nassim Nicholas Talebs zentralem Gedanken in Berührung kam. Er trägt einen reizvollen Widerspruch in sich, der zum Innehalten und Nachdenken einlädt. Nüchtern betrachtet bezeichnet "Fragilität" die Anfälligkeit eines Systems gegenüber Stress, Erschütterungen oder plötzlichen Veränderungen – wie ein dünnes Glas oder eine kunstvoll verzierte Porzellanvase, die beim geringsten Stoß zu Bruch geht. Doch der Begriff Antifragilität darf keinesfalls als dessen Gegenteil verstanden werden.
 
@@ -26,7 +26,7 @@ Talebs Neologismus ist paradox, ungewohnt und ein radikal neuer Gedanke: Systeme
 
 ---
 
-### Unsere (anti)fragile Welt
+## Unsere (anti)fragile Welt
 
 Antifragilität herrscht überall dort, wo Versuch und Irrtum, dezentrale Strukturen und das Lernen aus Fehlern dominieren. Und sie fehlt überall dort, wo man Störungen zu vermeiden versucht, wo man zentralisiert plant, Risiken externalisiert und Systeme überoptimiert.
 
@@ -38,13 +38,13 @@ Demgegenüber stehen antifragile Strukturen: dezentrale Netzwerke, kleinere und 
 
 ---
 
-### Die Natur liebt Redundanz
+## Die Natur liebt Redundanz
 
 In der Natur ist Antifragilität das allgegenwärtige Grundprinzip. Evolution selbst ist ein antifragiler Prozess. Mutationen, die "Störungen" im genetischen Code, bilden die Grundlage für Variation – und damit für Anpassung. Die Natur testet unablässig, verwirft das Meiste, aber entwickelt sich dadurch fortlaufend weiter. Eine perfekte, dezentrale Optimierungsmaschine.
 
 ---
 
-### Ein Blick durch eine neue Linse
+## Ein Blick durch eine neue Linse
 
 Dieser Artikel soll dich beflügeln – nicht mit einem abschließenden Urteil, sondern mit einer Einladung: Sieh dich um. Beobachte, wie Antifragilität unser Leben bestimmt. In der Natur, in der Wirtschaft, in deinem Alltag. Frage dich: Wo in meinem Leben bin ich fragil, und wo antifragil? Wo strebe ich nach Kontrolle, obwohl ich lernen könnte, loszulassen? Was würde passieren, wenn ich Störungen nicht als Bedrohung, sondern als Quelle für Erkenntnis begreife?
 
@@ -54,6 +54,6 @@ Antifragilität beginnt im Kopf, mit der Entscheidung, Unsicherheit nicht länge
 
 ---
 
-### Referenzen
+## Referenzen
 
 1. **Antifragilität** von Nicholas Nassim Taleb

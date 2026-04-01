@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### 3x+1 – Das simpelste Problem, an dem die Menschheit scheitert
+## 3x+1 – Das simpelste Problem, an dem die Menschheit scheitert
 
 Unter Mathematikern gibt es eine ungeschriebene Regel, die angehende Wissenschaftler beherzigen sollten, wenn sie es in dieser Königsdisziplin wirklich zu etwas bringen wollen. Ein warnender Rat, den erfahrene Experten immer wieder an die nächste Generation weitergeben: „Halte dich fern von 3x+1.“
 
@@ -22,7 +22,7 @@ Diese scheinbar harmlose Formel steht im Zentrum des berühmten, bis heute ungel
 
 ---
 
-### Was steckt hinter dem Collatz-Problem
+## Was steckt hinter dem Collatz-Problem
 
 Das Prinzip ist simpel: Man nehme eine beliebige natürliche Zahl - für unser Beispiel **10**. Nun gelten zwei Regeln. Sollte die Zahl ungerade sein, multiplizieren wir diese mit **3** und addieren **1**. Für den Fall, dass die Zahl gerade ist, dividieren wir durch **2**. Nach diesem Prinzip fahren wir fort:
 
@@ -41,7 +41,7 @@ Damit erreichen wir die bekannte 4-2-1-Schleife, aus der es kein Entkommen gibt.
 
 ---
 
-### Eine Ordnung im Chaos?
+## Eine Ordnung im Chaos?
 
 Auf den ersten Blick scheint der Verlauf der Zahlenfolge völlig willkürlich. Manche Werte stürzen rasant ab, während andere in ungeahnte Höhen aufsteigen, bevor sie sich der unvermeidlichen 4-2-1-Schleife fügen. Doch verbirgt sich vielleicht eine versteckte Ordnung hinter dem Chaos? Eine einfache Frage steht im Raum: Gibt es eine Zahl, die sich dieser Regel widersetzt und niemals in den 4-2-1-Zyklus eintritt? Bis heute konnte niemand eine solche Zahl finden – doch auch ein Beweis, dass sie nicht existiert, fehlt.
 
@@ -51,13 +51,13 @@ Moderne Computer haben bereits Billionen von Zahlen überprüft – und bisher l
 
 ---
 
-### Ein Problem für die Ewigkeit?
+## Ein Problem für die Ewigkeit?
 
 Viele große Mathematiker haben sich an Collatz versucht – und sind daran gescheitert. Paul Erdős, einer der größten Zahlentheoretiker des 20. Jahrhunderts, sagte über das Problem: "Mathematics is not yet ready for such problems" [[2]](#referenzen) Und vielleicht hatte er recht. Die (3x+1)-Vermutung ist eines dieser Probleme, die einfach genug erscheinen, um jeden zu faszinieren, aber tief genug reichen, um selbst die klügsten Köpfe zu frustrieren.
 
 ---
 
-### Referenzen
+## Referenzen
 
 1. [The Simplest Math Problem No One Can Solve - Collatz Conjecture](https://www.youtube.com/watch?v=094y1Z2wpJg&t=318s&pp=ygUEM3grMQ%3D%3D) von Veritasium
 2. **The 3x+1 Problem: An Overview** von Jeffrey C. Lagarias

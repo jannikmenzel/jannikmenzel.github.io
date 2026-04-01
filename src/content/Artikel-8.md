@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Ein Geständnis und die magische Zahl 37
+## Ein Geständnis und die magische Zahl 37
 
 Auch wenn viele bisher nicht darüber nachgedacht haben, die Wahrheit ist: Algorithmen verbergen sich hinter einer Vielzahl alltäglicher Entscheidungen – vom Projektmanagement über die Jobsuche bis hin zur Konfliktlösung. Das Schöne daran: Wer die dahinterliegenden Prinzipien versteht, kann sie gezielt für sich nutzen und so die Oberhand gewinnen. Ein besonders bekanntes Problem in diesem Zusammenhang ist das _Optimal-Stopping-Problem_. Es hilft uns, im scheinbar endlosen Dschungel an Möglichkeiten den perfekten Zeitpunkt für eine Entscheidung zu finden – sei es bei der Wohnungssuche, der Jobwahl oder der Partnersuche. Viele kennen das Gefühl, aus Angst, eine noch bessere Option zu verpassen, keine endgültige Entscheidung treffen zu können – eine klassische Folge der _Fear of Missing Out_ (FOMO).
 
@@ -22,7 +22,7 @@ Hier kommt die magische Zahl 37 ins Spiel. Mathematiker haben herausgefunden, da
 
 ---
 
-### Die Kohäsion der Spieltheorie
+## Die Kohäsion der Spieltheorie
 
 Das nächste und wohl noch bekanntere Beispiel ist das Forschungsgebiet der Game Theory – besser bekannt als Prisoner’s Dilemma (Gefangenendilemma). Die Spieltheorie selbst ist zwar kein Algorithmus, bietet jedoch ein strukturiertes System, in dem sich verschiedene algorithmische Strategien bewähren können. Bevor wir uns tiefer mit diesen Konzepten befassen, werfen wir zunächst einen Blick auf das berühmte Prisoner’s Dilemma.
 
@@ -32,7 +32,7 @@ Besonders spannend wird es, wenn man nach Strategien zur Lösung dieses Problems
 
 ---
 
-### Tit for Tat – The winning strategy
+## Tit for Tat – The winning strategy
 
 Im Folgenden wollen wir die Dynamiken des Experiments näher betrachten und einige lehrreiche Erkenntnisse daraus gewinnen. Doch zuvor ein wichtiger Hinweis: Im Gegensatz zum klassischen Prisoner’s Dilemma wurden die Algorithmen nicht nur einmalig vor die Entscheidung gestellt, sondern mussten über eine festgelegte Anzahl von Iterationen hinweg die bestmögliche Strategie entwickeln. Es gilt: Bei einmaligem Kontakt ist Verrat fast immer die effizientere Strategie. Axelrod schrieb dazu in seinem Buch: "What makes it possible for cooperation to emerge is the fact that the players might meet again." [[1]](#referenzen) Betrachten wir nun einige der im Experiment getesteten Strategien:
 
@@ -46,19 +46,19 @@ Es stellte sich heraus, dass die erfolgreichsten Strategien allesamt der Kategor
 
 ---
 
-### Freundlichkeit, Vergeltung, Vergebung und Transparenz
+## Freundlichkeit, Vergeltung, Vergebung und Transparenz
 
 Die Erfolgsstrategie von Tit for Tat lässt sich durch einige wesentliche Eigenschaften zusammenfassen. Zunächst agierte der Algorithmus freundlich, was bedeutet, dass er niemals als Erster Verrat beging. Stattdessen setzte er auf Kooperation als Ausgangspunkt. Darüber hinaus reagierte Tit for Tat auf Verrat stets mit sofortiger Vergeltung, was ein klares Signal setzte, dass unkooperatives Verhalten nicht toleriert wird. Doch ebenso schnell zeigte Tit for Tat die Fähigkeit zur Vergebung und setzte die Kooperation fort, sobald der Gegner ebenfalls kooperierte. Ein weiterer Schlüsselpunkt dieser Strategie ist ihre Transparenz: Jeder Schritt, den Tit for Tat unternahm, war deterministisch, was die Wahrscheinlichkeit einer langfristigen Kooperation erhöhte, da der Gegner wusste, dass er durch eine kooperative Haltung auch kooperative Reaktionen zu erwarten hatte.
 
 ---
 
-### Eine Lektion in Sachen Zusammenarbeit
+## Eine Lektion in Sachen Zusammenarbeit
 
 Aus den Ergebnissen von Axelrods Experiment lassen sich verschiedene Schlüsse ziehen. Es steht jedoch fest, dass die **Tit for Tat**-Strategie in jedem Fall die Oberhand behält. Selbst als Axelrod das Experiment unter veränderten Bedingungen wiederholte und Algorithmen hinzufügte, die gezielt darauf abzielten, **Tit for Tat** zu schlagen, blieb das Ergebnis unverändert. Daraus können wir ableiten, dass uns eine freundliche, vergebende und transparente Haltung, verbunden mit klaren Grenzen und angemessenen Reaktionen, im Leben einige Vorteile verschaffen kann. Übrigens: Die Gesamtheit der freundlichen Algorithmen konnte, als Axelrod sie gegeneinander spielen ließ, stets die nasty Algorithmen besiegen. Es kann sich also durchaus lohnen, sich mit Menschen zu umgeben, die diese Eigenschaften teilen.
 
 ---
 
-### Referenzen
+## Referenzen
 
 1. **Die Evolution der Kooperation** von Robert Axelrod
 2. **Algorithms to Live By** von Brian Christian & Tom Griffiths

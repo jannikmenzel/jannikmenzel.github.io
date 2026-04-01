@@ -13,6 +13,13 @@ export default defineConfig({
     output: "static",
     integrations: [icon(), sitemap()],
     markdown: {
+        syntaxHighlight: "shiki",
+        shikiConfig: {
+            themes: {
+                light: "one-light",
+                dark: "one-dark-pro",
+            },
+        },
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: "wrap" }], rehypeMathjax],
     },

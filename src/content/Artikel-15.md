@@ -14,17 +14,17 @@ type: "default"
 
 ---
 
-### Large Language Models
+## Large Language Models
 
 Large Language Models (LLMs) wie GPT-4, DeepSeek oder Google Gemini sind beeindruckende Beispiele für moderne Künstliche Intelligenz (KI). Sie simulieren menschenähnliche Kommunikation, sprechen mehr Sprachen als ein Mensch je könnte und verfassen kreative Texte, Gedichte und Lieder. Für viele ist die Existenz von LLMs ein beunruhigender Beweis für den rasanten Fortschritt und die wachsende Präsenz künstlicher Intelligenz. In diesem Artikel entschlüsseln wir die Funktionsweise dieser künstlichen Intelligenzen und lichten die Ungewissheit, die seit jeher über solche Technologien vorherrscht.
 
 ---
 
-### Ein Blick hinter die Kulissen: Wie ein LLM Text verarbeitet
+## Ein Blick hinter die Kulissen: Wie ein LLM Text verarbeitet
 
 Um zu verstehen, wie LLMs arbeiten, müssen wir zunächst erörtern, wie sie Texte verarbeiten. Statt Worte oder ganze Sätze als geschlossene Einheit zu betrachten, zerlegen sie diese in kleinere, bedeutungstragende Teile – sogenannte **Tokens**. Dabei kann ein Token ein ganzes Wort, ein Wortteil oder lediglich ein einzelnes Zeichen beinhalten. Ein Beispiel: Der Satz „Die Sonne geht im Westen unter“ wird in die folgenden Tokens zerlegt:
 
-    “Die” “Sonne” “geht” “im” “Westen” “unter”
+    "Die" "Sonne" "geht" "im" "Westen" "unter"
 
 Diese Tokens werden anschließend durch ein Verfahren namens **Embedding** in numerische Vektoren umgewandelt. Ein Embedding ist eine mathematische Darstellung eines Tokens, die seine Bedeutung im Kontext des Textes widerspiegelt. Man kann sich diesen Prozess als das Anordnen von Punkten in einem hochdimensionalen Raum vorstellen, wobei semantisch ähnliche Tokens nahe beieinander liegen, sich also in Bedeutungsclustern sammeln. Das Token „Sonne“ liegt dabei beispielsweise in der Nähe von Tokens wie „Licht“, „Tag“ oder „Himmel“.
 
@@ -32,7 +32,7 @@ Ein wichtiger Bestandteil dieser Technik ist die **Self-Attention**, die es dem 
 
 ---
 
-### Ein Gedankenspiel: Das semantische Verständnis der KI
+## Ein Gedankenspiel: Das semantische Verständnis der KI
 
 Um das Verständnis von LLMs noch weiter zu vertiefen, können wir ein Gedankenexperiment wagen. Man stelle sich vor, dass Wörter als Vektoren in einem hochdimensionalen Raum interpretiert werden, wobei jeder Vektor eine bestimmte semantische Bedeutung repräsentiert. Interessanterweise können die Beziehungen zwischen diesen Vektoren durch geometrische Abstände und Richtungen erfasst werden. So lässt sich durch algebraische Operationen wie der Addition und Differenz zweier oder mehrerer Vektoren ein tieferes semantisches Verständnis ableiten.
 
@@ -40,7 +40,7 @@ Beispielsweise ergibt die Differenz der Embeddings von „Mann“ und „Frau“
 
 ---
 
-### Von der Theorie zur Praxis: Wie LLMs lernen
+## Von der Theorie zur Praxis: Wie LLMs lernen
 
 Damit ein LLM die Fähigkeit zur "Sprache" entwickeln kann, wird es mit Milliarden von Texten aus verschiedenen Quellen, wie Artikeln, Büchern oder Websites trainiert. Dieser Trainingsprozess, auch als **Pretraining** bezeichnet, beinhaltet das probabilistische Vorhersagen des nächsten Wortes in einem Satz. Ein einfaches Beispiel:
 
@@ -60,19 +60,19 @@ In diesem Fall wählte das LLM **Koch** als die am wahrscheinlichsten zutreffend
 
 ---
 
-### Wie LLMs zu Experten werden
+## Wie LLMs zu Experten werden
 
 Nachdem ein LLM das Pretraining abgeschlossen hat, folgt oft eine Feinabstimmung (Fine-Tuning), bei der das Modell auf spezifische Aufgaben oder Daten angepasst wird. In dieser Phase wird das Modell mit gezielten Datensätzen trainiert, um seine Leistung in bestimmten Bereichen zu verbessern. Beispielsweise könnte ein Modell für die medizinische Textverarbeitung oder die juristische Dokumentenanalyse feinjustiert werden, um in diesen spezialisierten Bereichen präziser und effizienter zu arbeiten.
 
 ---
 
-### Fazit: Chancen und Herausforderungen der LLMs
+## Fazit: Chancen und Herausforderungen der LLMs
 
 Die Entwicklung von Large Language Models zeigt, wie weit die KI-Technologie bereits fortgeschritten ist. LLMs sind in der Lage, komplexe sprachliche Zusammenhänge zu verstehen, Text zu generieren und in unterschiedlichen Bereichen beeindruckende Leistungen zu erbringen. Gleichzeitig bringen sie aber auch Herausforderungen mit sich. Die Qualität der Trainingsdaten und die Gefahr von Fehlinformationen sind nur zwei der vielen Fragestellungen, die im Umgang mit LLMs bedacht werden müssen. Es ist wichtig zu verinnerlichen, dass LLMs im Grunde nichts weiter als Vorhersagemaschinen sind. Sie analysieren Muster in großen Datenmengen und treffen Entscheidungen basierend auf Wahrscheinlichkeiten, ohne echtes Verständnis oder Kontext.
 
 ---
 
-### Referenzen
+## Referenzen
 
 1. [Transformers (how LLMs work) explained visually | DL5](https://www.youtube.com/watch?v=wjZofJX0v4M) von 3Blue1Brown
 2. [ScadsAI](https://scads.ai/)

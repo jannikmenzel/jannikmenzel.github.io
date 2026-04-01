@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### I have a dream
+## I have a dream
 
 Barack Obama, John F. Kennedy und Martin Luther King – sie alle sind bedeutende Persönlichkeiten, die uns nicht zuletzt aufgrund ihrer herausragenden rhetorischen Fähigkeiten in Erinnerung bleiben. Ihre Reden sind bis heute unvergessen. Es waren weit mehr als nur treffende Worte – Es waren Botschaften der Hoffnung, des Wandels und der Gerechtigkeit.
 
@@ -24,7 +24,7 @@ Doch was macht jemanden zu einem herausragenden Redner? Welche Techniken nutzen 
 
 ---
 
-### Motive
+## Motive
 
 Jeder Redner hat, ob er es nun zugibt oder nicht, eine klare Absicht, die sich hinter seinen Worten verbirgt. Aristoteles, einer der bedeutendsten Denker seiner Zeit, beschrieb bereits in der Antike drei grundlegende Typen der Rede. Der **Mentor**, dessen Absicht es ist, das Publikum zu erziehen und zu leiten, vermittelt Wissen und Weisheit. Seine Reden sind geprägt von einer didaktischen Haltung, die darauf abzielt, den Zuhörer zu einer tieferen Einsicht oder Veränderung zu führen.
 
@@ -36,7 +36,7 @@ Es ist wichtig sich diese Existenz eines tieferen Motivs zu verdeutlichen. Die K
 
 ---
 
-### Die drei Säulen der Kommunikation
+## Die drei Säulen der Kommunikation
 
 Wer die Kunst der Rhetorik erlernen möchte, für den reicht es nicht nur, mit kraftvoller Stimme zu sprechen und eine überzeugende Rede zu verfassen. Es bedarf vielmehr einer tiefen Auseinandersetzung mit den drei wesentlichen Säulen der Kommunikation verbale, nonverbale und paraverbale Kommunikation.
 
@@ -48,7 +48,7 @@ Oft vergessen, aber ebenso wichtig ist die **paraverbale Kommunikation**, also d
 
 ---
 
-### Eine gute Rede schreiben
+## Eine gute Rede schreiben
 
 Selbst der herausragendste Rhetoriker profitiert von einer niedergeschriebenen Rede. Sie schafft Struktur, komprimiert Ideen und dient als roter Faden. Im Folgenden möchte ich einige Techniken vorstellen, die diesen Prozess erleichtern und eine gute Rede von einer sehr guten Rede abheben.
 
@@ -74,13 +74,13 @@ Beide Ansätze sind nicht nur komplementär, sondern auch notwendig, um in der R
 
 ---
 
-### Jeder kann zu einem herausragenden Rhetoriker werden
+## Jeder kann zu einem herausragenden Rhetoriker werden
 
 Rhetorik ist keine angeborene Fähigkeit, keine Gabe oder Talent, sondern eine Kunst, die durch Übung und bewusste Auseinandersetzung mit Sprache und Emotionen erlernt werden kann. Jeder hat das Potenzial, seine Gedanken und Ideen kraftvoll in die Welt hinauszutragen. Es erfordert lediglich den Willen, sich weiterzuentwickeln und die eigene Stimme zu finden.
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Die Macht der Rhetorik** von Roman Braun
 2. **Meisterkurs Rhetorik** von Benedikt Held

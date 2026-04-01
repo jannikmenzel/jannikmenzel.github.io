@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Wie schießt man ein Foto eines Schwarzen Lochs
+## Wie schießt man ein Foto eines Schwarzen Lochs
 
 Schwarze Löcher sind ohne jeden Zweifel die zugleich faszinierendsten und mysteriösesten Phänomene unseres Universums. Sie sind bekannt als Planeten fressende Ungetüme, die jeden erbarmungslos verschlingen, der es wagt sich ihnen in den Weg zu stellen. Jenseits des **Ereignishorizonts** gibt es kein Zurück – was ihn passiert, bleibt für immer im Inneren des Schwarzen Lochs gefangen. Hier entkommt nicht einmal Licht der unvorstellbaren Gravitation.
 
@@ -32,7 +32,7 @@ Der Grund: Die Anziehungskraft ist an den Füßen bereits deutlich stärker als 
 
 ---
 
-### Warum Zeitreisen nicht nur Fiktion ist
+## Warum Zeitreisen nicht nur Fiktion ist
 
 Wir alle kennen Zeitreisen aus Kultfilmen wie Terminator oder Zurück in die Zukunft. Verrückte Wissenschaftler bauen umso verrücktere Maschinen, die uns auf Knopfdruck in die frühen Neunziger befördern. Doch so absurd das alles auch klingen mag – ganz so weit hergeholt ist die Idee des Zeitreisens nicht.
 
@@ -46,7 +46,7 @@ Ein physikalisches Limit also, das wir – solange wir uns nicht plötzlich in L
 
 ---
 
-### Ist Schrödingers Katze tot oder lebendig?
+## Ist Schrödingers Katze tot oder lebendig?
 
 Kaum ein Bereich der Wissenschaft fordert unser Verständnis von Realität so heraus wie die Quantenphysik. Mit ihren rätselhaften Phänomenen und scheinbar widersprüchlichen Aussagen stellt sie unsere Wahrheiten auf den Kopf. Ein besonders berühmtes Gedankenexperiment – Schrödingers Katze – bringt diese Fragen auf den Punkt und hat sich längst über die Grenzen der Physik hinaus zu einem Symbol für das Paradoxe entwickelt. Hier ist Quantenmechanik in a Nutshell:
 
@@ -58,7 +58,7 @@ Erst durch die Beobachtung – also das Öffnen der Kiste – wird der Zustand f
 
 ---
 
-### Gibt es außerirdisches Leben?
+## Gibt es außerirdisches Leben?
 
 Die Existenz außerirdischen Lebens gehört zu den faszinierendsten und zugleich rätselhaftesten Fragen der Menschheit. Angesichts der schier unvorstellbaren Größe des Universums – mit Milliarden von Galaxien, jeweils mit Milliarden von Sternen und noch mehr Planeten – erscheint es fast unwahrscheinlich, dass die Erde der einzige Ort ist, an dem Leben existiert. Doch bislang fehlt jeder eindeutige Beweis. Astronomen entdecken regelmäßig Planeten, die sich in der sogenannten habitablen Zone, das ist der Bereich um einen Stern, in dem Temperaturen herrschen, die flüssiges Wasser auf der Oberfläche eines Planeten ermöglichen, befinden. Allein in unserer Galaxie – der Milchstraße – wird die Anzahl solcher Exoplaneten auf 10 bis 40 Milliarden geschätzt.
 
@@ -70,7 +70,7 @@ Die wohl beunruhigendste Möglichkeit ist jedoch, dass der große Filter noch vo
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Eine kurze Geschichte der Zeit** von Stephen Hawking
 2. **Mehr als nur Atome** von Sabine Hossenfelder

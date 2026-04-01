@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Was macht einen Hit zum Hit?
+## Was macht einen Hit zum Hit?
 
 Ein signifikanter Anteil populärer Musik weltweit basiert auf einer gemeinsamen harmonischen Grundlage. Rund jeder vierte internationale Chart-Hit verwendet eine identische Akkordstruktur: die sogenannte I–V–vi–IV-Folge (in C-Dur: C – G – Am – F).
 
@@ -22,7 +22,7 @@ Auch wenn nicht jeder etwas mit Harmonien, Intervallen und Akkorden anfangen kan
 
 ---
 
-### Komfortmusik
+## Komfortmusik
 
 Die I–V–vi–IV-Folge ist wohl der Inbegriff westlich-funktionaler Harmonik. Sie ist simpel, eingängig und verfügt über ein hohes Wiedererkennungspotenzial. Für den Hörer bedeutet das vor allem eines: Komfort.
 
@@ -30,7 +30,7 @@ Denn Musik, die vertraut klingt, löst positive Emotionen aus. Die Akkordfolge b
 
 ---
 
-### Kulturelle Perspektiven auf Harmonie
+## Kulturelle Perspektiven auf Harmonie
 
 Musikalische Vorlieben sind stark kulturabhängig. Während die I–V–vi–IV-Folge im westlichen Popmusik-Kanon nahezu omnipräsent ist, sind in anderen Teilen der Welt ganz andere Klangstrukturen verbreitet und erfolgreich. In vielen asiatischen, arabischen oder afrikanischen Musiktraditionen dominieren beispielsweise pentatonische Skalen, mikrotonale Systeme oder rhythmisch betonte Modi, die mit der westlichen Harmonik, wie wir sie kennen, nur wenig gemeinsam haben.
 
@@ -38,12 +38,12 @@ Doch es lässt sich beobachten, dass sich westliche Popstrukturen zunehmend glob
 
 ---
 
-### Mehr als nur Akkorde
+## Mehr als nur Akkorde
 
 Ein Hit entsteht aus dem Zusammenspiel vieler Faktoren – Harmonie ist nur einer davon. Die I–V–vi–IV-Folge liefert dabei eine verlässliche Grundlage, die sich bewährt hat, aber sie ist kein Garant für Erfolg. Entscheidend bleibt die emotionale Wirkung auf den Hörer. Und diese entsteht nicht allein durch Theorie, sondern durch Kreativität, Timing, Persönlichkeit – und manchmal schlichtweg durch Zufall.
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. [4 Chords | The Axis Of Awesome](https://www.youtube.com/watch?v=oOlDewpCfZQ&list=RDoOlDewpCfZQ)

@@ -14,13 +14,13 @@ type: "default"
 
 ---
 
-### Was versteht man unter einem “Second Brain”?
+## Was versteht man unter einem “Second Brain”?
 
 Hinter der kunstvollen Bezeichnung Second Brain verbirgt sich ein überraschend simples Konzept: die effiziente und systematische Erfassung von Informationen. Das Medium zur Speicherung von Notizen variiert je nach Vorliebe des Nutzers. Während einige nach wie vor auf physische Notizbücher oder Karteikarten setzen – oft organisiert im bewährten Zettelkasten-System – bevorzugen andere digitale Lösungen. In diesem Artikel konzentriere ich mich auf ein digitales Medium, das ich in den letzten Jahren besonders schätzen gelernt habe.
 
 ---
 
-### Wie baue ich mein Second Brain auf
+## Wie baue ich mein Second Brain auf
 
 Wer sich ein eigenes _Second Brain_ aufbauen möchte, sollte einige grundlegende Aspekte beachten. Ein zentraler Punkt ist die Wahl der richtigen Software. Hier empfehle ich einen Markdown-Editor, da das Markdown-Format ideal für diesen Zweck ist. Es reduziert den Arbeitsaufwand für Formatierung und Design auf ein Minimum und ermöglicht eine effiziente, unkomplizierte Dokumentengliederung. Zudem sollten die erstellten Notizen atomar sein, das heißt, jede Notiz sollte sich auf eine einzige Thematik konzentrieren, anstatt mehrere Themen in einem Dokument zu vermischen. Diese Struktur erleichtert es, mithilfe von Tags und Metadaten Verknüpfungen zwischen einzelnen Notizen herzustellen und das _Second Brain_ effizient zu vernetzen.
 
@@ -28,7 +28,7 @@ Klassische hierarchische Ordnersysteme haben aus meiner Sicht viele Nachteile: S
 
 ---
 
-### Obsidian – ein Markdown-Editor, der mehr kann
+## Obsidian – ein Markdown-Editor, der mehr kann
 
 Obsidian hebt sich von anderen Markdown-Editoren durch seine außergewöhnliche Anpassungsfähigkeit durch Plugins und den nativen Support von QuickLaTeX ab, was das Erstellen von Formeln und Berechnungen mühelos und zeiteffizient ermöglicht. Zudem unterstützt der Editor die Verwendung von Tags, die unser _Second Brain_ in seiner Funktionalität vervollständigt. Es gilt jedoch: Was für mich funktioniert muss nicht zwingend für jeden die beste Lösung sein.
 
@@ -36,7 +36,7 @@ Die Wahl des richtigen Tools für das persönliche _Second Brain_ hängt stark v
 
 ---
 
-### Die Quintessenz
+## Die Quintessenz
 
 Unabhängig von der konkreten Implementierung ist es wichtig, sich die vorrangigen Aufgaben und Grenzen eines _Second Brains_ bewusst zu machen. Die atomaren und nicht-hierarchischen Notizen sollen einen schnellen und intuitiven Zugang zum persönlichen Wissen ermöglichen. Das _Second Brain_ dient dazu, Ideen, Gedanken und Notizen strukturiert zu organisieren und den eigenen Lernprozess gezielt zu unterstützen.
 
@@ -44,7 +44,7 @@ Allerdings sollte man nicht den Fehler machen, das _Second Brain_ als reines Arc
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Building a Second Brain** von Tiago Forte
 2. **How to Take Smart** Notes von Sönke Ahrens

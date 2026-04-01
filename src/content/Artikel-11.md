@@ -14,7 +14,7 @@ type: "default"
 
 ---
 
-### Jenseits jeglicher Intuition
+## Jenseits jeglicher Intuition
 
 Ein ausgedachtes Szenario: Stell dir vor, du stehst vor einer geheimnisvollen Höhle mit zwei Eingängen – einem linken und einem rechten Tunnel. Tief im Inneren der Höhle existiert ein verschlossenes Tor, das sich nur mit einem geheimen Schlüssel öffnen lässt. Ein misstrauischer Wächter möchte nun prüfen, ob du das Geheimnis kennst, doch du möchtest keinerlei Informationen preisgeben.
 
@@ -24,7 +24,7 @@ Die Möglichkeit, seinem Gegenüber zu beweisen, dass man ein Geheimnis kennt, o
 
 ---
 
-### Vertrauen neu definieren
+## Vertrauen neu definieren
 
 Je tiefer man in das Thema Zero Knowledge Proofs eintaucht, desto faszinierender erscheint es einem. Die Anwendungsmöglichkeiten sind endlos und vor allem höchst aktuell. In einem Informationszeitalter in welchem Vertrauen kleingeschrieben wird, ist die Möglichkeit eines Beweises, ohne Preisgabe jeglicher Information ein mächtiges Werkzeug. Jeder von uns gibt täglich persönliche Daten preis – ob in sozialen Medien, bei Online-Transaktionen oder in der Kommunikation mit Dritten. Doch trotz der allgegenwärtigen Kollektion von Daten bleibt das Vertrauen oft auf der Strecke. Wir hinterfragen ständig, wer unsere Informationen speichert und was mit ihnen geschieht.
 
@@ -32,12 +32,12 @@ Ein besonders aktuelles Beispiel ist der Informationsfluss im Bereich der Krypto
 
 ---
 
-### Ein ethisches Dilemma
+## Ein ethisches Dilemma
 
 Mit der enormen Macht, die Zero-Knowledge Proofs bieten, geht auch eine erhebliche Verantwortung einher. Während diese Technologie vielversprechende Vorteile im Bereich Datenschutz und Sicherheit bietet, werfen ihre Anwendungsmöglichkeiten auch ethische und gesellschaftliche Fragen auf. Die Fähigkeit, Transaktionen und Identitäten zu verschleiern, könnte Kriminellen als Werkzeug dienen, um illegale Aktivitäten wie Geldwäsche oder Terrorismusfinanzierung zu erleichtern. Wie können wir gewährleisten, dass ZKPs verantwortungsvoll genutzt werden? Welche Regulierungen sind notwendig, um Missbrauch zu verhindern? Diese Fragen gewinnen zunehmend an Bedeutung und müssen mit dem wachsendem Einsatz dieser Technologie dringend diskutiert werden.
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. [Computer Scientist Explains One Concept in 5 Levels of Difficulty](https://www.youtube.com/watch?v=fOGdb1CTu5c) von WIRED

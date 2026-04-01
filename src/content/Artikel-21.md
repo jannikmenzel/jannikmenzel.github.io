@@ -14,13 +14,13 @@ type: "default"
 
 ---
 
-### Vorwort – Ode an den inneren Schweinehund
+## Vorwort – Ode an den inneren Schweinehund
 
 Es ist nicht so, als wollte ich nichts tun. Ich warte nur auf den perfekten Moment, um alles perfekt zu machen. Und zwar jetzt. Oder morgen. Oder Übermorgen. Aber auf keinen Fall halbherzig. Der innere Schweinehund sitzt derweil auf der Couch, reicht mir eine Tüte Chips und flüstert: "Wenn du's nicht perfekt machen kannst – dann doch lieber gar nicht!" Ich nicke. Wir verstehen uns. Ein bisschen zu gut.
 
 Perfektionismus ist ein lästiger Mitbewohner. Er trägt ein Maßband bei sich, das er bei jeder Gelegenheit zückt. Und dann misst er: meine Texte, meine Arbeit, mein Lernen, meine Gedanken. Dann schwingt er den roten Marker, fährt langsam, Zeile für Zeile über mein Schaffen und streicht alles was ihm – mir – nicht zusagt. Er ist die Illusion von Kontrolle des Unkontrollierbaren. Er bremst und tarnt sich als Anspruch, aber er ist oft nur Angst. Angst vor Kritik. Angst vor Sichtbarkeit. Angst davor, dass "mein Bestes" am Ende doch nicht reicht.
 
-### Nachwort - Der Weg zur Unvollkommenheit
+## Nachwort - Der Weg zur Unvollkommenheit
 
 Der Text, den ich nicht vollendet habe, war großartig. Klar strukturiert, tiefgründig, witzig an den richtigen Stellen. Eine runde Sache – in meinem Kopf. Ich habe ihn angefangen. Mehrmals. Ich habe ihn zerlegt, verfeinert, infrage gestellt, verteidigt, verworfen. Er hätte glänzen können. Aber er war nicht perfekt.
 
@@ -32,7 +32,7 @@ Vielleicht ist das ehrlichste, was ich über Perfektionismus sagen kann: Er läs
 
 ---
 
-### Passende Literatur- und Medienempfehlungen
+## Passende Literatur- und Medienempfehlungen
 
 1. **Love for Imperfect Things** von Haemin Sunim
 2. **Die Kunst des perfekten Scheiterns** von Christian Rieck
