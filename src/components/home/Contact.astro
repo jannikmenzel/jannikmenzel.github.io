@@ -70,6 +70,21 @@
                 ></textarea>
             </div>
 
+            <div
+                class="absolute left-[-9999px] top-auto h-0 w-0 overflow-hidden"
+                aria-hidden="true"
+            >
+                <label for="website">Website</label>
+                <input
+                    id="website"
+                    name="_gotcha"
+                    type="text"
+                    autocomplete="off"
+                    tabindex="-1"
+                    spellcheck="false"
+                />
+            </div>
+
             <div class="flex items-center justify-between gap-4">
                 <button class="btn btn-primary" type="submit"> Senden </button>
                 <div id="form-success" class="text-sm font-thin hidden">
@@ -82,6 +97,7 @@
 
         <script>
             const messageField = document.getElementById("message");
+            const honeypotField = document.getElementById("website") as HTMLInputElement | null;
 
             if (messageField) {
                 messageField.addEventListener("input", () => {
@@ -91,6 +107,10 @@
             }
 
             function showSuccess() {
+                if (honeypotField && honeypotField.value.trim()) {
+                    return false;
+                }
+
                 const form = document.getElementById("contact-form") as HTMLFormElement | null;
                 const successMsg = document.getElementById("form-success");
 
