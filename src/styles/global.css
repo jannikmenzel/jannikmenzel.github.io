@@ -3,6 +3,9 @@
 
 @config "../../tailwind.config.js";
 
+/* ========================
+   Global Styles
+   ======================== */
 @layer base {
     :root {
         --font-poppins: "Poppins";
@@ -61,6 +64,9 @@
     }
 }
 
+/* ========================
+   Buttons
+   ======================== */
 .btn {
     @apply px-6 py-3 inline-flex items-center justify-center rounded-none text-sm font-medium;
     border: 2px solid var(--foreground);
@@ -83,6 +89,9 @@
     @apply hover:shadow-[0_4px_0_0_var(--foreground)];
 }
 
+/* ========================
+   Layout
+   ======================== */
 body {
     color: var(--foreground);
     background-color: var(--background);
@@ -93,6 +102,38 @@ body {
     @apply mx-auto;
 }
 
+/* ========================
+   Animation
+   ======================== */
+html.js .scrolling-section {
+    opacity: 0;
+    transform: translateY(24px);
+    will-change: opacity, transform;
+}
+
+html.js .scrolling-section .card {
+    opacity: 0;
+    transform: translateY(12px);
+    will-change: opacity, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html.js .scrolling-section {
+        opacity: 1;
+        transform: none;
+        will-change: auto;
+    }
+
+    html.js .scrolling-section .card {
+        opacity: 1;
+        transform: none;
+        will-change: auto;
+    }
+}
+
+/* ========================
+   Markdown
+   ======================== */
 .markdown-content {
     line-height: 1.8;
 }

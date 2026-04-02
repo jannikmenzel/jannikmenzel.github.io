@@ -96,7 +96,7 @@ const projects = [
         <div class="px-6 py-22 grid grid-cols-1 md:grid-cols-12 gap-8">
             {
                 projects.map((project) => (
-                    <article class={project.grid}>
+                    <article class={`${project.grid} scrolling-section`}>
                         <div
                             class={`group overflow-hidden relative border border-border/50 bg-background ${project.aspect}`}
                         >

@@ -26,6 +26,7 @@
         "astro-eslint-parser": "^1.4.0",
         "astro-icon": "^1.1.5",
         "eslint-plugin-prettier": "^5.5.5",
+        "motion": "^12.38.0",
         "rehype-autolink-headings": "^7.1.0",
         "rehype-mathjax": "^7.1.0",
         "rehype-slug": "^6.0.0",

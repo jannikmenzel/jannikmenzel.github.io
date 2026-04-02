@@ -47,7 +47,7 @@ const dateFormatter = new Intl.DateTimeFormat("de-DE", {
             <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-lg md:max-w-none mx-auto">
                 {
                     posts.map((post) => (
-                        <article class="h-full rounded-xl border border-border bg-background-alt p-6 flex flex-col gap-6">
+                        <article class="h-full rounded-xl border border-border bg-background-alt p-6 flex flex-col gap-6 scrolling-section">
                             <a href={`/blog/${post.data.slug}`} class="flex-1">
                                 <Image
                                     src={post.data.image}

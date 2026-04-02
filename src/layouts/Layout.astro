@@ -64,17 +64,20 @@ const defaultKeywords =
     }
 </style>
 
-<html lang="de">
+<html lang="de" class="no-js">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <script is:inline>
             (() => {
+                const html = document.documentElement;
+                html.classList.remove("no-js");
+                html.classList.add("js");
+
                 const storageKey = "theme";
                 const savedTheme = localStorage.getItem(storageKey);
                 const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
                 const isDark = savedTheme ? savedTheme === "dark" : prefersDark;
-                const html = document.documentElement;
 
                 if (isDark) {
                     html.classList.add("dark");
@@ -133,5 +136,8 @@ const defaultKeywords =
             <slot />
         </main>
         <Footer />
+        <script>
+            import "../scripts/scrolling-sections";
+        </script>
     </body>
 </html>
