@@ -53,7 +53,10 @@ const NAV_ITEMS = [
             {
                 NAV_ITEMS.map((item) => (
                     <li>
-                        <a href={item.href} class="font-light">
+                        <a
+                            href={item.href}
+                            class="font-light hover:text-muted-foreground hover:underline"
+                        >
                             {item.label}
                         </a>
                     </li>
