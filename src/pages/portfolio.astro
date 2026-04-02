@@ -1,0 +1,250 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { ArrowUpRight } from "@lucide/astro";
+import { Image } from "astro:assets";
+import mockup1light from "../images/mockups/mockup-1-light.png";
+import mockup1dark from "../images/mockups/mockup-1-dark.png";
+import mockup2 from "../images/mockups/mockup-2.png";
+import mockup3 from "../images/mockups/mockup-3.png";
+import mockup4 from "../images/mockups/mockup-4.png";
+
+const projects = [
+    {
+        title: "FSR Informatik TU Dresden",
+        href: "https://ifsr.jannikmenzel.me",
+        year: "Web Design / 2025",
+        aspect: "aspect-[16/9]",
+        grid: "md:col-span-8",
+        featured: true,
+        badge: ["Hugo", "HTML/CSS/JS", "Bootstrap"],
+        description:
+            "Konzeption und Umsetzung einer modernen Website für den Fachschaftsrat Informatik der TU Dresden. Der Fokus lag auf klarer Struktur, hoher technischer Wartbarkeit und einer professionellen Außenwirkung. Die Website wurde performance-optimiert und vollständig responsive umgesetzt.",
+        features: ["interaktiv", "SEO optimiert", "modern"],
+        imageLight: mockup1light,
+        imageDark: mockup1dark,
+        alt: "Projekt 1 Screenshot",
+    },
+    {
+        title: "Ascii Dresden",
+        href: "https://ascii.jannikmenzel.me",
+        year: "Web Design / 2026",
+        aspect: "aspect-square",
+        grid: "md:col-span-4",
+        featured: false,
+        badge: ["Hugo", "HTML/CSS/JS", "Tailwind"],
+        description:
+            "Konzeption und Umsetzung einer Website für das Ascii Dresden, ein Studentencafé an der Technischen Universität Dresden. Der Fokus lag auf einem modernen, ansprechenden Design, das die Atmosphäre des Cafés widerspiegelt, sowie auf einer optimierten Darstellung auf allen Geräten.",
+        image: mockup2,
+        alt: "Projekt 2 Screenshot",
+    },
+    {
+        title: "Lernstudio Zittau",
+        href: "https://nachhilfe-zittau.de/",
+        year: "Visual Identity / 2024",
+        aspect: "aspect-[3/4]",
+        grid: "md:col-span-4",
+        featured: false,
+        badge: ["WordPress", "CSS/JS", "Custom Theme"],
+        description:
+            "Entwicklung einer WordPress-Website für ein lokales Nachhilfestudio. Fokus auf einem minimalistischen und professionellen Design, das Vertrauen schafft, sowie auf einer benutzerfreundlichen Navigation und einer optimierten Darstellung auf allen Geräten.",
+        image: mockup3,
+        alt: "Projekt 3 Screenshot",
+    },
+    {
+        title: "Ploucquet GMBH",
+        href: "https://ploucquet.eu",
+        year: "Visual Identity / 2023",
+        aspect: "aspect-[16/10]",
+        grid: "md:col-span-8 md:mt-16",
+        featured: true,
+        badge: ["WordPress", "HTML/JS", "Custom Theme"],
+        description:
+            "Entwicklung einer individuellen WordPress-Website für ein mittelständisches Unternehmen. Schwerpunkt auf einfacher Inhaltspflege, klarer Seitenstruktur und einem seriösen, markenkonformen Erscheinungsbild. Die Umsetzung erfolgte vollständig responsive und performance-orientiert.",
+        image: mockup4,
+        alt: "Projekt 4 Screenshot",
+    },
+];
+---
+
+<Layout
+    title="Portfolio"
+    description="Portfolio von Jannik Menzel mit ausgewählten Webprojekten aus Design und Entwicklung."
+    keywords="Portfolio, Jannik Menzel, Webentwicklung, Design, Projekte, Dresden"
+    og={{
+        title: "Portfolio – Jannik Menzel",
+        description:
+            "Portfolio von Jannik Menzel mit ausgewählten Webprojekten aus Design und Entwicklung.",
+        url: "https://jannikmenzel.me/portfolio",
+        image: "https://jannikmenzel.me/social-preview.png",
+    }}
+    twitter={{
+        title: "Portfolio – Jannik Menzel",
+        description:
+            "Portfolio von Jannik Menzel mit ausgewählten Webprojekten aus Design und Entwicklung.",
+        image: "https://jannikmenzel.me/social-preview.png",
+    }}
+    canonical="https://jannikmenzel.me/portfolio"
+>
+    <section class="w-full container">
+        <!-- Header -->
+        <header class="pt-20">
+            <h1 class="text-center text-4xl sm:text-5xl font-bold font-display mb-4">Portfolio</h1>
+            <div class="h-1 w-24 bg-primary mx-auto"></div>
+        </header>
+
+        <!-- Content -->
+        <div class="px-6 py-22 grid grid-cols-1 md:grid-cols-12 gap-8">
+            {
+                projects.map((project) => (
+                    <article class={project.grid}>
+                        <div
+                            class={`group overflow-hidden relative border border-border/50 bg-background ${project.aspect}`}
+                        >
+                            <a
+                                href={project.href}
+                                target="_blank"
+                                rel="noreferrer"
+                                class="block h-full w-full"
+                            >
+                                {project.imageLight && project.imageDark ? (
+                                    <>
+                                        <Image
+                                            src={project.imageLight}
+                                            alt={project.alt}
+                                            class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 dark:hidden"
+                                        />
+                                        <Image
+                                            src={project.imageDark}
+                                            alt={project.alt}
+                                            class="hidden h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 dark:block"
+                                        />
+                                    </>
+                                ) : (
+                                    <Image
+                                        src={project.image}
+                                        alt={project.alt}
+                                        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                    />
+                                )}
+                            </a>
+                            <div class="absolute inset-0 bg-primary/15 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />
+                            <div class="absolute inset-x-0 bottom-0 flex justify-end p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                <a
+                                    href={project.href}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    class="btn btn-no-hover gap-2 px-4 py-2 text-xs uppercase tracking-[0.2em]"
+                                    aria-label={`Live ansehen: ${project.title}`}
+                                >
+                                    <ArrowUpRight class="h-4 w-4 text-background" />
+                                    Live ansehen
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 space-y-5">
+                            <div class="flex flex-wrap gap-2">
+                                {project.badge.map((item) => (
+                                    <span class="inline-flex items-center border border-primary/15 bg-background px-3 py-1 text-[0.7rem] font-medium uppercase tracking-[0.18em] text-muted-foreground">
+                                        {item}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div
+                                class={
+                                    project.featured
+                                        ? "flex items-start justify-between gap-4"
+                                        : "space-y-2"
+                                }
+                            >
+                                <div>
+                                    <span class="text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground">
+                                        {project.year}
+                                    </span>
+                                    <h3 class="mt-2 text-2xl sm:text-3xl font-bold text-foreground">
+                                        {project.title}
+                                    </h3>
+                                </div>
+
+                                {project.featured ? (
+                                    <ArrowUpRight class="hidden sm:block h-10 w-10 text-primary" />
+                                ) : null}
+                            </div>
+
+                            <p class="max-w-3xl text-sm sm:text-base leading-7 text-muted-foreground">
+                                {project.description}
+                            </p>
+                        </div>
+                    </article>
+                ))
+            }
+        </div>
+    </section>
+
+    <section id="github" class="px-6 py-20 bg-backgroundAlt">
+        <div class="container">
+            <div class="max-w-7xl mx-auto">
+                <h2
+                    class="text-4xl sm:text-5xl font-display font-bold tracking-tighter text-primary mb-4 text-center"
+                >
+                    Open Source &amp; Code
+                </h2>
+                <p class="text-center text-base sm:text-lg text-muted-foreground mb-12">
+                    Einblicke in meine Code-Projekte und Beiträge
+                </p>
+
+                <div class="mx-auto max-w-4xl">
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+                        <div class="bg-background p-6 text-center">
+                            <div class="text-3xl font-black text-primary">20+</div>
+                            <div
+                                class="mt-2 text-sm uppercase tracking-[0.2em] text-muted-foreground"
+                            >
+                                Repositorys
+                            </div>
+                        </div>
+                        <div class="bg-background p-6 text-center">
+                            <div class="text-3xl font-black text-primary">5+</div>
+                            <div
+                                class="mt-2 text-sm uppercase tracking-[0.2em] text-muted-foreground"
+                            >
+                                Sprachen
+                            </div>
+                        </div>
+                        <div class="bg-background p-6 text-center">
+                            <div class="text-3xl font-black text-primary">1000+</div>
+                            <div
+                                class="mt-2 text-sm uppercase tracking-[0.2em] text-muted-foreground"
+                            >
+                                Commits
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-10 flex justify-center">
+                        <a
+                            href="https://github.com/jannikmenzel"
+                            target="_blank"
+                            rel="noreferrer"
+                            class="btn btn-primary inline-flex items-center gap-3 px-5 py-3 no-underline"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                aria-hidden="true"
+                                class="h-6 w-6"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.09.68-.22.68-.49v-1.74c-2.79.63-3.38-1.37-3.38-1.37-.46-1.2-1.12-1.52-1.12-1.52-.92-.65.07-.64.07-.64 1.02.07 1.56 1.07 1.56 1.07.91 1.61 2.4 1.14 2.98.87.09-.68.35-1.14.63-1.4-2.23-.26-4.58-1.14-4.58-5.06 0-1.12.38-2.03 1.01-2.74-.1-.27-.44-1.35.1-2.81 0 0 .82-.27 2.7 1.05a9.2 9.2 0 0 1 4.92 0c1.88-1.32 2.7-1.05 2.7-1.05.54 1.46.2 2.54.1 2.81.63.71 1.01 1.62 1.01 2.74 0 3.93-2.35 4.8-4.59 5.05.36.32.69.95.69 1.92v2.84c0 .27.18.59.69.49C19.13 20.65 22 16.8 22 12.26 22 6.58 17.52 2 12 2Z"
+                                ></path>
+                            </svg>
+                            GitHub besuchen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>
