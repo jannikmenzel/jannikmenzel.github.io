@@ -42,7 +42,7 @@ export default {
                 sm: "calc(var(--radius) - 4px)",
             },
             fontFamily: {
-                display: ["var(--font-playfair)", "serif"],
+                display: ["var(--font-epilogue)", "serif"],
                 sans: ["var(--font-poppins)", "sans-serif"],
             },
         },

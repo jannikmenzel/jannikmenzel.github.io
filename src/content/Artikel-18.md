@@ -3,7 +3,7 @@ title: "Das Geschäft mit dem Lebensende"
 slug: "sterbehilfe"
 date: 2025-04-13
 image: "../images/cover-images/Artikel-18.jpg"
-teaser: "In unserer Gesellschaft ist der Tod oft ein Tabu – dabei betrifft er unsalle. Dieser Artikel beleuchtet Sterbehilfe, Palliativmedizin und die Frage: Wie wollen wir am Ende leben – und was ist ein würdevoller Tod?"
+teaser: "In unserer Gesellschaft ist der Tod oft ein Tabu – dabei betrifft er uns alle. Dieser Artikel beleuchtet Sterbehilfe, Palliativmedizin und die Frage: Wie wollen wir am Ende leben – und was ist ein würdevoller Tod?"
 readingtime: "11 min"
 type: "default"
 ---

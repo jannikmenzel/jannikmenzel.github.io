@@ -8,8 +8,8 @@
    ======================== */
 @layer base {
     :root {
-        --font-poppins: "Poppins";
-        --font-playfair: "Epilogue";
+        --font-poppins: "Poppins", "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+        --font-epilogue: "Epilogue", "Avenir Next", "Segoe UI", Arial, sans-serif;
 
         --white: #ffffff;
         --black: #000000;
@@ -95,6 +95,7 @@
 body {
     color: var(--foreground);
     background-color: var(--background);
+    font-synthesis: none;
 }
 
 .container {
@@ -142,7 +143,7 @@ html.js .scrolling-section .card {
 .markdown-content h2,
 .markdown-content h3,
 .markdown-content h4 {
-    font-family: var(--font-playfair), serif;
+    font-family: var(--font-epilogue), serif;
     color: var(--foreground);
 }
 

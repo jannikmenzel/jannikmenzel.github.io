@@ -25,8 +25,8 @@ const initScrollingSections = () => {
 
             animate(
                 section,
-                { opacity: [0, 1], y: [24, 0] },
-                { ease: [0.22, 1, 0.36, 1], duration: 0.7 }
+                { opacity: [0, 1], y: [40, 0] },
+                { ease: [0.22, 1, 0.36, 1], duration: 0.8 }
             );
 
             const cards = section.querySelectorAll(".card");

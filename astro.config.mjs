@@ -7,6 +7,33 @@ import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
 import tailwindcss from "@tailwindcss/vite";
 
+function rehypeOpenLinksInNewTab() {
+    return (tree) => {
+        const visit = (node) => {
+            if (!node || typeof node !== "object") {
+                return;
+            }
+
+            if (node.type === "element" && node.tagName === "a" && node.properties?.href) {
+                const href = String(node.properties.href);
+
+                if (!href.startsWith("#")) {
+                    node.properties.target = "_blank";
+                    node.properties.rel = "noopener noreferrer";
+                }
+            }
+
+            if (Array.isArray(node.children)) {
+                for (const child of node.children) {
+                    visit(child);
+                }
+            }
+        };
+
+        visit(tree);
+    };
+}
+
 export default defineConfig({
     site: "https://jannikmenzel.me",
     base: "/",
@@ -21,7 +48,12 @@ export default defineConfig({
             },
         },
         remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: "wrap" }], rehypeMathjax],
+        rehypePlugins: [
+            rehypeSlug,
+            [rehypeAutolinkHeadings, { behavior: "wrap" }],
+            rehypeMathjax,
+            rehypeOpenLinksInNewTab,
+        ],
     },
     vite: {
         plugins: [tailwindcss()],
