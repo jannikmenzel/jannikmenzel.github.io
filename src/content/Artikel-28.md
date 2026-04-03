@@ -105,7 +105,7 @@ Ich möchte diesen Artikel mit einem kurzen Blick auf das, was ich als die sechs
 
 Die erste und grundlegendste Säule der Webentwicklung ist der **Inhalt**. Ohne relevante, ansprechende und klar strukturierte Inhalte bleibt eine Website stets bloß eine leere Hülle ohne Aussagekraft. Einen festen Leitfaden dafür, was genau enthalten sein sollte, gibt es nicht. Dennoch hilft es, die Art der Website und die Zielgruppe genau zu kennen, um den Content gezielt und wirkungsvoll zu gestalten. Man unterscheidet dabei zwischen folgenden grundlegenden Arten von Websites:
 
-![Arten von Websites](/images/article-images/Arten-von-Websites.svg#inverted)
+![Arten von Websites](/images/article-images/Arten-von-Websites.svg "inverted")
 
 ### Landing Pages:
 

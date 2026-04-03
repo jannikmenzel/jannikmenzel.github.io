@@ -6,6 +6,7 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
 import tailwindcss from "@tailwindcss/vite";
+import rehypeImgSize from "rehype-img-size";
 
 function rehypeOpenLinksInNewTab() {
     return (tree) => {
@@ -49,6 +50,7 @@ export default defineConfig({
         },
         remarkPlugins: [remarkMath],
         rehypePlugins: [
+            [rehypeImgSize, { dir: "public" }],
             rehypeSlug,
             [rehypeAutolinkHeadings, { behavior: "wrap" }],
             rehypeMathjax,

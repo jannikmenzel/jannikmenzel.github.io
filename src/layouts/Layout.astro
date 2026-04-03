@@ -86,16 +86,6 @@ const defaultKeywords =
                     html.classList.remove("dark");
                     html.style.colorScheme = "light";
                 }
-
-                const markPageLoaded = () => {
-                    document.body.classList.add("page-loaded");
-                };
-
-                if (document.readyState === "complete") {
-                    markPageLoaded();
-                } else {
-                    window.addEventListener("load", markPageLoaded, { once: true });
-                }
             })();
         </script>
         <link rel="icon" href="/favicon.ico" />

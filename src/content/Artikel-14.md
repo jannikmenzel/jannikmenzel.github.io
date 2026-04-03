@@ -38,15 +38,15 @@ Der Gebrauch von Korrelationen statt Kausalitäten in der Statistik ist mit Abst
 
 > Die Popularität des Vornamens “Kenzie” scheint eine positive Korrelation mit der Häufigkeit von UFO-Sichtungen in South Dakota aufzuweisen. [[1]](#referenzen)
 
-![Korrelation 1](/images/article-images/Korrelation-1.svg#inverted)
+![Korrelation 1](/images/article-images/Korrelation-1.svg "inverted")
 
 > Die Anzahl der Masterabschlüsse im Bereich der Bildungswissenschaften scheint mit der Häufigkeit von Bankenzusammenbrüchen in den USA zusammenzuhängen. [[1]](#referenzen)
 
-![Korrelation 2](/images/article-images/Korrelation-2.svg#inverted)
+![Korrelation 2](/images/article-images/Korrelation-2.svg "inverted")
 
 > Es besteht eine Korrelation zwischen der Anzahl der Filme, in denen Tom Hanks eine Rolle spielt, und der Anzahl der Sonderpädagogen in Georgia. [[1]](#referenzen)
 
-![Korrelation 3](/images/article-images/Korrelation-3.svg#inverted)
+![Korrelation 3](/images/article-images/Korrelation-3.svg "inverted")
 
 Obwohl einige Korrelationen auf den ersten Blick spannend erscheinen, entpuppen sie sich letztendlich als bloße Zufälle. Tom Hanks bildet schließlich keine Sonderpädagogen aus, der Trend, dass mehr Menschen den Namen “Kenzie” wählen, führt nicht zu einer Zunahme von UFO-Sichtungen und ein Master in Bildungswissenschaften hat noch keine Bank in den Ruin getrieben.
 

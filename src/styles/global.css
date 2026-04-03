@@ -96,16 +96,6 @@ body {
     color: var(--foreground);
     background-color: var(--background);
     font-synthesis: none;
-    opacity: 1;
-    transition: opacity 0.35s ease-out;
-}
-
-html.js body {
-    opacity: 0;
-}
-
-html.js body.page-loaded {
-    opacity: 1;
 }
 
 .container {
@@ -129,10 +119,6 @@ html.js .scrolling-section .card {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    body {
-        transition: none;
-    }
-
     html.js .scrolling-section {
         opacity: 1;
         transform: none;
@@ -273,12 +259,19 @@ html.js .scrolling-section .card {
 
 .markdown-content img {
     width: 100%;
+    display: block;
+    height: auto;
     margin: 2rem 0;
     border: 1px solid var(--border);
     border-radius: 0.75rem;
 }
 
-.markdown-content img[src$="#inverted"] {
+.markdown-content img:not([width]):not([height]) {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.markdown-content img[title="inverted"] {
     max-width: 100%;
     height: auto;
     display: block;
@@ -288,7 +281,7 @@ html.js .scrolling-section .card {
     border: none;
 }
 
-.dark .markdown-content img[src$="#inverted"] {
+.dark .markdown-content img[title="inverted"] {
     filter: invert(1);
 }
 

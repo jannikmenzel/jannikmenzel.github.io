@@ -32,43 +32,43 @@ Design beginnt immer mit der Wahrnehmung des Betrachters. Unser Gehirn verarbeit
 
 Elemente, die räumlich nah beieinander stehen, werden als zusammengehörig wahrgenommen. Man nutzt dies, um Beziehungen zwischen Texten, Icons oder Bildern zu signalisieren.
 
-![Nähe (Proximity)](/images/article-images/Proximity.svg#inverted)
+![Nähe (Proximity)](/images/article-images/Proximity.svg "inverted")
 
 ### Ähnlichkeit (Similarity)
 
 Objekte mit ähnlichen Eigenschaften – etwa Farbe, Form oder Größe – erscheinen als Einheit. So kann ein Menü optisch zusammengefasst oder Kategorien leicht erkennbar gemacht werden.
 
-![Ähnlichkeit (Similarity)](/images/article-images/Similarity.svg#inverted)
+![Ähnlichkeit (Similarity)](/images/article-images/Similarity.svg "inverted")
 
 ### Geschlossenheit (Closure)
 
 Unser Gehirn ergänzt unvollständige Formen, um ein vollständiges Bild zu erzeugen. Logos, Icons oder abstrakte Grafiken profitieren von diesem Prinzip, da sie die Fantasie des Betrachters einbeziehen.
 
-![Geschlossenheit (Closure)](/images/article-images/Closure.svg#inverted)
+![Geschlossenheit (Closure)](/images/article-images/Closure.svg "inverted")
 
 ### Kontinuität (Continuity)
 
 Linien oder Reihen von Elementen werden als zusammengehörig wahrgenommen. Durch die richtige Ausrichtung von Texten, Bildern oder Linienführungen entsteht eine natürliche Leseführung.
 
-![Kontinuität (Continuity)](/images/article-images/Continuity.svg#inverted)
+![Kontinuität (Continuity)](/images/article-images/Continuity.svg "inverted")
 
 ### Figur-Grund-Prinzip (Figure-Ground)
 
 Elemente heben sich von ihrem Hintergrund ab. Effektives Design nutzt Kontraste und Raum, um das Wesentliche in den Vordergrund zu stellen.
 
-![Figur-Grund-Prinzip (Figure-Ground)](/images/article-images/Figure-Ground.svg#inverted)
+![Figur-Grund-Prinzip (Figure-Ground)](/images/article-images/Figure-Ground.svg "inverted")
 
 ### Symmetrie (Symmetry)
 
 Symmetrische Anordnungen wirken harmonisch und stabil. Sie vermitteln Ruhe und Ordnung, während asymmetrische Kompositionen Spannung erzeugen können.
 
-![Symmetrie (Symmetry)](/images/article-images/Symmetry.svg#inverted)
+![Symmetrie (Symmetry)](/images/article-images/Symmetry.svg "inverted")
 
 ### Gemeinsames Schicksal (Common Fate)
 
 Elemente, die sich gemeinsam bewegen oder verändern, werden als zusammengehörig wahrgenommen. In Animationen oder interaktiven Interfaces hilft dieses Prinzip, dynamische Gruppen zu definieren.
 
-![Gemeinsames Schicksal (Common Fate)](/images/article-images/Common-Fate.svg#inverted)
+![Gemeinsames Schicksal (Common Fate)](/images/article-images/Common-Fate.svg "inverted")
 
 ---
 
@@ -76,7 +76,7 @@ Elemente, die sich gemeinsam bewegen oder verändern, werden als zusammengehöri
 
 Farben haben eine tiefgreifende Wirkung auf unsere Emotionen, Wahrnehmung und Entscheidungen. Sie können Stimmungen erzeugen, Aufmerksamkeit lenken und sogar die Kaufentscheidung beeinflussen. Ein gutes Design berücksichtigt die Psychologie der Farben, um die gewünschte Botschaft zu vermitteln und die Zielgruppe anzusprechen. Jede Farbe trägt dabei eine eigene symbolische und emotionale Bedeutung:
 
-![Psychologie der Farben](/images/article-images/Psychologie-der-Farben.svg#inverted)
+![Psychologie der Farben](/images/article-images/Psychologie-der-Farben.svg "inverted")
 
 Neben der symbolischen Bedeutung spielen auch die grundlegenden Eigenschaften von Farben eine zentrale Rolle im Design. Dazu gehören insbesondere **Farbton (Hue)**, **Sättigung (Saturation)** und **Helligkeit bzw. Kontrastwert (Value)**:
 
@@ -100,7 +100,7 @@ Diese Aufteilung sorgt für ein ausgewogenes, harmonisches Erscheinungsbild und 
 
 Typografie ist ein zentrales Element im Design, da sie nicht nur Informationen vermittelt, sondern auch maßgeblich die Wirkung und Lesbarkeit eines Inhalts beeinflusst. Die Wahl der Schriftart entscheidet darüber, ob ein Design modern, klassisch, verspielt oder seriös wirkt. Grundsätzlich unterscheidet man dabei häufig zwischen Serif- und Sans-Serif-Schriften. Serifenschriften, erkennbar an ihren kleinen "Füßchen" an den Buchstabenenden, wirken traditionell, elegant und werden oft im Printbereich oder für lange Fließtexte eingesetzt, da sie den Lesefluss unterstützen. Sans-Serif-Schriften hingegen verzichten auf diese Verzierungen und erscheinen dadurch klarer, minimalistischer und moderner – weshalb sie besonders im digitalen Raum und im Webdesign weit verbreitet sind.
 
-![Serif vs. Sans-Serif](/images/article-images/Typografie.svg#inverted)
+![Serif vs. Sans-Serif](/images/article-images/Typografie.svg "inverted")
 
 ---
 
