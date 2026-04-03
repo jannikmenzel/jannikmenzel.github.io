@@ -96,6 +96,16 @@ body {
     color: var(--foreground);
     background-color: var(--background);
     font-synthesis: none;
+    opacity: 1;
+    transition: opacity 0.35s ease-out;
+}
+
+html.js body {
+    opacity: 0;
+}
+
+html.js body.page-loaded {
+    opacity: 1;
 }
 
 .container {
@@ -119,6 +129,10 @@ html.js .scrolling-section .card {
 }
 
 @media (prefers-reduced-motion: reduce) {
+    body {
+        transition: none;
+    }
+
     html.js .scrolling-section {
         opacity: 1;
         transform: none;
