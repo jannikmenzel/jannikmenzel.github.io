@@ -3,7 +3,15 @@ import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 import fontsStylesheet from "../styles/fonts.css?url";
+import poppins300 from "@fontsource/poppins/files/poppins-latin-300-normal.woff2";
+import poppins400 from "@fontsource/poppins/files/poppins-latin-400-normal.woff2";
+import poppins500 from "@fontsource/poppins/files/poppins-latin-500-normal.woff2";
+import poppins600 from "@fontsource/poppins/files/poppins-latin-600-normal.woff2";
 import poppins700 from "@fontsource/poppins/files/poppins-latin-700-normal.woff2";
+import epilogue300 from "@fontsource/epilogue/files/epilogue-latin-300-normal.woff2";
+import epilogue400 from "@fontsource/epilogue/files/epilogue-latin-400-normal.woff2";
+import epilogue500 from "@fontsource/epilogue/files/epilogue-latin-500-normal.woff2";
+import epilogue600 from "@fontsource/epilogue/files/epilogue-latin-600-normal.woff2";
 import epilogue700 from "@fontsource/epilogue/files/epilogue-latin-700-normal.woff2";
 
 const {
@@ -71,8 +79,17 @@ const defaultKeywords =
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
+        <link rel="preload" href={fontsStylesheet} as="style" />
         <link rel="stylesheet" href={fontsStylesheet} />
+        <link rel="preload" href={poppins300} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={poppins400} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={poppins500} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={poppins600} as="font" type="font/woff2" crossorigin />
         <link rel="preload" href={poppins700} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={epilogue300} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={epilogue400} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={epilogue500} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={epilogue600} as="font" type="font/woff2" crossorigin />
         <link rel="preload" href={epilogue700} as="font" type="font/woff2" crossorigin />
         <script is:inline>
             (() => {
