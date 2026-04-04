@@ -52,6 +52,8 @@ import { Image } from "astro:assets";
                     src={profileImage}
                     alt="Jannik Menzel"
                     loading="eager"
+                    fetchpriority="high"
+                    decoding="sync"
                     class="w-56 h-56 md:w-64 md:h-64 xl:w-80 xl:h-80 object-cover rounded-full max-w-full max-h-[60vw]"
                 />
             </div>

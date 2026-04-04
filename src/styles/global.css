@@ -61,6 +61,10 @@
         --navbar: #19191bef;
         --ring: #d4d4d4;
     }
+
+    img[decoding] {
+        color: transparent;
+    }
 }
 
 /* ========================

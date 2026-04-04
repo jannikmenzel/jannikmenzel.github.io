@@ -22,12 +22,16 @@ const NAV_ITEMS = [
                 <Image
                     src={logoLight}
                     loading={"eager"}
+                    fetchpriority="high"
+                    decoding="sync"
                     alt="Logo von Jannik Menzel"
                     class="h-10 w-10 shrink-0 dark:hidden"
                 />
                 <Image
                     src={logoDark}
                     loading={"eager"}
+                    fetchpriority="high"
+                    decoding="sync"
                     alt="Logo von Jannik Menzel"
                     class="h-10 w-10 shrink-0 dark:block hidden"
                 />
