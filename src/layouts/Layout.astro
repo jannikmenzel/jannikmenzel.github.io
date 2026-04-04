@@ -2,6 +2,8 @@
 import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
+import poppins400 from "@fontsource/poppins/files/poppins-latin-400-normal.woff2";
+import epilogue700 from "@fontsource/epilogue/files/epilogue-latin-700-normal.woff2";
 
 const {
     title,
@@ -68,6 +70,8 @@ const defaultKeywords =
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
+        <link rel="preload" href={poppins400} as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href={epilogue700} as="font" type="font/woff2" crossorigin />
         <script is:inline>
             (() => {
                 const html = document.documentElement;
