@@ -7,6 +7,9 @@ import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
 import tailwindcss from "@tailwindcss/vite";
 import rehypeImgSize from "rehype-img-size";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 function rehypeOpenLinksInNewTab() {
     return (tree) => {
@@ -35,11 +38,50 @@ function rehypeOpenLinksInNewTab() {
     };
 }
 
+function createSitemap() {
+    return {
+        name: "createSitemap",
+        hooks: {
+            "astro:build:done": async ({ dir }) => {
+                const distPath = fileURLToPath(dir);
+                const indexPath = path.join(distPath, "sitemap-index.xml");
+                const sitemap0Path = path.join(distPath, "sitemap-0.xml");
+                const finalSitemapPath = path.join(distPath, "sitemap.xml");
+
+                try {
+                    if (fs.existsSync(sitemap0Path)) {
+                        fs.renameSync(sitemap0Path, finalSitemapPath);
+                        console.log("Renamed sitemap-0.xml to sitemap.xml");
+                    }
+
+                    if (fs.existsSync(indexPath)) {
+                        fs.unlinkSync(indexPath);
+                        console.log("Removed sitemap-index.xml");
+                    }
+                } catch (error) {
+                    console.error("Error cleaning up sitemap files:", error);
+                }
+            },
+        },
+    };
+}
+
 export default defineConfig({
     site: "https://jannikmenzel.me",
     base: "/",
     output: "static",
-    integrations: [icon(), sitemap()],
+    integrations: [
+        icon(),
+        sitemap({
+            namespaces: {
+                news: false,
+                xhtml: false,
+                image: false,
+                video: false,
+            },
+        }),
+        createSitemap(),
+    ],
     markdown: {
         syntaxHighlight: "shiki",
         shikiConfig: {
