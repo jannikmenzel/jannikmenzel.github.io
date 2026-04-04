@@ -2,52 +2,56 @@
 import Layout from "../layouts/Layout.astro";
 import { ArrowUpRight } from "@lucide/astro";
 import { Image } from "astro:assets";
-import mockup1light from "../images/mockups/mockup-1-light.png";
-import mockup1dark from "../images/mockups/mockup-1-dark.png";
-import mockup2 from "../images/mockups/mockup-2.png";
-import mockup3 from "../images/mockups/mockup-3.png";
-import mockup4 from "../images/mockups/mockup-4.png";
+import fsrLight from "../images/mockups/fsr-mockup-light.png";
+import fsrDark from "../images/mockups/fsr-mockup-dark.png";
+import ascii from "../images/mockups/ascii-mockup.png";
+import ploucquet from "../images/mockups/ploucquet-mockup.png";
+import lernstudio from "../images/mockups/lernstudio-mockup.png";
+import asciiMobile from "../images/mockups/ascii-mockup-mobile.png";
+import lernstudioMobile from "../images/mockups/lernstudio-mockup-mobile.png";
 
 const projects = [
     {
         title: "FSR Informatik TU Dresden",
         href: "https://ifsr.jannikmenzel.me",
         year: "Web Design / 2025",
-        aspect: "aspect-[16/9]",
+        aspect: "aspect-[16/10]",
         grid: "md:col-span-8",
         featured: true,
         badge: ["Hugo", "HTML/CSS/JS", "Bootstrap"],
         description:
             "Konzeption und Umsetzung einer modernen Website für den Fachschaftsrat Informatik der TU Dresden. Der Fokus lag auf klarer Struktur, hoher technischer Wartbarkeit und einer professionellen Außenwirkung. Die Website wurde performance-optimiert und vollständig responsive umgesetzt.",
         features: ["interaktiv", "SEO optimiert", "modern"],
-        imageLight: mockup1light,
-        imageDark: mockup1dark,
+        imageLight: fsrLight,
+        imageDark: fsrDark,
         alt: "Projekt 1 Screenshot",
     },
     {
         title: "Ascii Dresden",
         href: "https://ascii.jannikmenzel.me",
         year: "Web Design / 2026",
-        aspect: "aspect-square",
+        aspect: "md:aspect-square",
         grid: "md:col-span-4",
         featured: false,
         badge: ["Hugo", "HTML/CSS/JS", "Tailwind"],
         description:
             "Konzeption und Umsetzung einer Website für das Ascii Dresden, ein Studentencafé an der Technischen Universität Dresden. Der Fokus lag auf einem modernen, ansprechenden Design, das die Atmosphäre des Cafés widerspiegelt, sowie auf einer optimierten Darstellung auf allen Geräten.",
-        image: mockup2,
+        image: ascii,
+        imageMobile: asciiMobile,
         alt: "Projekt 2 Screenshot",
     },
     {
         title: "Lernstudio Zittau",
         href: "https://nachhilfe-zittau.de/",
         year: "Visual Identity / 2024",
-        aspect: "aspect-[3/4]",
+        aspect: "md:aspect-[3/4]",
         grid: "md:col-span-4",
         featured: false,
         badge: ["WordPress", "CSS/JS", "Custom Theme"],
         description:
             "Entwicklung einer WordPress-Website für ein lokales Nachhilfestudio. Fokus auf einem minimalistischen und professionellen Design, das Vertrauen schafft, sowie auf einer benutzerfreundlichen Navigation und einer optimierten Darstellung auf allen Geräten.",
-        image: mockup3,
+        image: lernstudio,
+        imageMobile: lernstudioMobile,
         alt: "Projekt 3 Screenshot",
     },
     {
@@ -60,7 +64,7 @@ const projects = [
         badge: ["WordPress", "HTML/JS", "Custom Theme"],
         description:
             "Entwicklung einer individuellen WordPress-Website für ein mittelständisches Unternehmen. Schwerpunkt auf einfacher Inhaltspflege, klarer Seitenstruktur und einem seriösen, markenkonformen Erscheinungsbild. Die Umsetzung erfolgte vollständig responsive und performance-orientiert.",
-        image: mockup4,
+        image: ploucquet,
         alt: "Projekt 4 Screenshot",
     },
 ];
@@ -98,7 +102,7 @@ const projects = [
                 projects.map((project) => (
                     <article class={`${project.grid} scrolling-section`}>
                         <div
-                            class={`group overflow-hidden relative border border-border/50 bg-background ${project.aspect}`}
+                            class={`group overflow-hidden relative border border-border/50 bg-background aspect-[16/10] ${project.aspect}`}
                         >
                             <a
                                 href={project.href}
@@ -120,11 +124,20 @@ const projects = [
                                         />
                                     </>
                                 ) : (
-                                    <Image
-                                        src={project.image}
-                                        alt={project.alt}
-                                        class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                                    />
+                                    <>
+                                        <Image
+                                            src={project.image}
+                                            alt={project.alt}
+                                            class={`h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 ${project.imageMobile ? "hidden md:block" : ""}`}
+                                        />
+                                        {project.imageMobile ? (
+                                            <Image
+                                                src={project.imageMobile}
+                                                alt={project.alt}
+                                                class="block h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 md:hidden"
+                                            />
+                                        ) : null}
+                                    </>
                                 )}
                             </a>
                             <div class="absolute inset-0 bg-primary/15 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />

@@ -1,11 +1,13 @@
 ---
 import { ArrowUpRight } from "@lucide/astro";
 import { Image } from "astro:assets";
-import mockup1light from "../../images/mockups/mockup-1-light.png";
-import mockup1dark from "../../images/mockups/mockup-1-dark.png";
-import mockup2 from "../../images/mockups/mockup-2.png";
-import mockup3 from "../../images/mockups/mockup-3.png";
-import mockup4 from "../../images/mockups/mockup-4.png";
+import fsrLight from "../../images/mockups/fsr-mockup-light.png";
+import fsrDark from "../../images/mockups/fsr-mockup-dark.png";
+import ascii from "../../images/mockups/ascii-mockup.png";
+import ploucquet from "../../images/mockups/ploucquet-mockup.png";
+import lernstudio from "../../images/mockups/lernstudio-mockup.png";
+import asciiMobile from "../../images/mockups/ascii-mockup-mobile.png";
+import lernstudioMobile from "../../images/mockups/lernstudio-mockup-mobile.png";
 ---
 
 <section class="py-32 px-6 bg-backgroundAlt">
@@ -21,15 +23,15 @@ import mockup4 from "../../images/mockups/mockup-4.png";
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
             <!-- Project 01 -->
             <div class="col-span-12 md:col-span-8 scrolling-section">
-                <div class="aspect-[16/9] overflow-hidden relative group">
+                <div class="aspect-[16/10] overflow-hidden relative group">
                     <a href="https://ifsr.jannikmenzel.me">
                         <Image
-                            src={mockup1light}
+                            src={fsrLight}
                             alt="Mockup 1"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 dark:hidden"
                         />
                         <Image
-                            src={mockup1dark}
+                            src={fsrDark}
                             alt="Mockup 1"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden dark:block"
                         />
@@ -51,12 +53,17 @@ import mockup4 from "../../images/mockups/mockup-4.png";
             </div>
             <!-- Project 02 -->
             <div class="col-span-12 md:col-span-4 md:mt-24 scrolling-section">
-                <div class="aspect-square overflow-hidden relative group">
+                <div class="aspect-[16/10] md:aspect-square overflow-hidden relative group">
                     <a href="https://ascii.jannikmenzel.me">
                         <Image
-                            src={mockup2}
+                            src={ascii}
                             alt="Mockup 2"
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden md:block"
+                        />
+                        <Image
+                            src={asciiMobile}
+                            alt="Mockup 2"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 md:hidden"
                         />
                     </a>
                     <div
@@ -72,12 +79,17 @@ import mockup4 from "../../images/mockups/mockup-4.png";
             </div>
             <!-- Project 03 -->
             <div class="col-span-12 md:col-span-4 scrolling-section">
-                <div class="aspect-[3/4] overflow-hidden relative group">
+                <div class="aspect-[16/10] md:aspect-[3/4] overflow-hidden relative group">
                     <a href="https://nachhilfe-zittau.de/">
                         <Image
-                            src={mockup3}
+                            src={lernstudio}
                             alt="Mockup 3"
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden md:block"
+                        />
+                        <Image
+                            src={lernstudioMobile}
+                            alt="Mockup 3"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 md:hidden"
                         />
                     </a>
                     <div
@@ -96,7 +108,7 @@ import mockup4 from "../../images/mockups/mockup-4.png";
                 <div class="aspect-[16/10] overflow-hidden relative group">
                     <a href="https://ploucquet.eu">
                         <Image
-                            src={mockup4}
+                            src={ploucquet}
                             alt="Mockup 4"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
