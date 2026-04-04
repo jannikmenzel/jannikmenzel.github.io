@@ -1,5 +1,8 @@
 ---
 import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import logoLight from "../images/logo-light.svg";
+import logoDark from "../images/logo-dark.svg";
 
 const NAV_ITEMS = [
     { href: "/", label: "Home" },
@@ -12,29 +15,22 @@ const NAV_ITEMS = [
 <header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur">
     <nav class="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <div class="flex items-center gap-1">
-            <!-- Theme Toggle -->
-            <button
-                type="button"
-                class="lg:hidden h-10 w-10 p-0 leading-none ml-1"
-                data-theme-toggle
-                aria-pressed="false"
-                aria-label="Zu dunklem Modus wechseln"
+            <a
+                href="/"
+                class="flex items-center gap-2 text-2xl font-bold text-foreground leading-none"
             >
-                <span class="sr-only" data-theme-label>Dark mode</span>
-                <Icon
-                    name="lucide:sun"
-                    class="hidden h-5 w-5 shrink-0"
-                    data-icon-sun
-                    aria-hidden="true"
+                <Image
+                    src={logoLight}
+                    alt="Logo von Jannik Menzel"
+                    class="h-10 w-10 shrink-0 dark:hidden"
                 />
-                <Icon
-                    name="lucide:moon"
-                    class="h-5 w-5 shrink-0"
-                    data-icon-moon
-                    aria-hidden="true"
+                <Image
+                    src={logoDark}
+                    alt="Logo von Jannik Menzel"
+                    class="h-10 w-10 shrink-0 dark:block hidden"
                 />
-            </button>
-            <a href="/" class="text-2xl font-bold text-foreground"> Jannik Menzel </a>
+                <span>Jannik Menzel</span>
+            </a>
         </div>
 
         <!-- Hamburger Button (Mobile) -->
