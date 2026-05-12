@@ -1,32 +1,34 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getLangFromUrl, t } from "../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <Layout
-    title="Seite nicht gefunden"
-    description="Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite."
-    keywords="404, Seite nicht gefunden, Fehler, Jannik Menzel, Portfolio"
+    title={t(lang, "404.title")}
+    description={t(lang, "404.description")}
+    keywords="404, Page not found, Error, Jannik Menzel, Portfolio"
     og={{
-        title: "404 – Seite nicht gefunden",
-        description:
-            "Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite.",
-        url: "https://jannikmenzel.me/404",
+        title: `404 – ${t(lang, "404.title")}`,
+        description: t(lang, "404.description"),
+        url: "https://jannikmenzel.me/en/404",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
     twitter={{
-        title: "404 – Seite nicht gefunden",
-        description:
-            "Die angeforderte Seite existiert nicht oder wurde verschoben. Zurück zur Startseite.",
+        title: `404 – ${t(lang, "404.title")}`,
+        description: t(lang, "404.description"),
         image: "https://jannikmenzel.me/social-preview.png",
     }}
-    canonical="https://jannikmenzel.me/404"
+    canonical="https://jannikmenzel.me/en/404"
 >
     <section class="flex flex-col items-center justify-center min-h-[80vh] text-center py-16">
         <h1 class="text-8xl font-bold mb-4">404</h1>
-        <h2 class="text-2xl font-semibold mb-2">Seite nicht gefunden</h2>
+        <h2 class="text-2xl font-semibold mb-2">{t(lang, "404.title")}</h2>
         <p class="mb-8 text-lg text-muted-foreground">
-            Die angeforderte Seite existiert nicht oder wurde verschoben.
+            {t(lang, "404.description")}
         </p>
-        <a href="/" class="btn btn-primary">Zurück zur Startseite</a>
+        <a href={lang === "en" ? "/en" : "/"} class="btn btn-primary">{t(lang, "404.backToHome")}</a
+        >
     </section>
 </Layout>

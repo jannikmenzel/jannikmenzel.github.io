@@ -1,5 +1,17 @@
 ---
 import { Code, PanelsTopLeft, Database, PenTool, Target, Zap } from "@lucide/astro";
+import { getLangFromUrl, t } from "../../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
+
+const services = [
+    { icon: Code, key: "frontend" },
+    { icon: PenTool, key: "uiux" },
+    { icon: PanelsTopLeft, key: "wordpress" },
+    { icon: Database, key: "ssg" },
+    { icon: Target, key: "brand" },
+    { icon: Zap, key: "performance" },
+];
 ---
 
 <!-- Services Section -->
@@ -9,73 +21,25 @@ import { Code, PanelsTopLeft, Database, PenTool, Target, Zap } from "@lucide/ast
             <h2
                 class="font-headline text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
             >
-                Meine Leistungen
+                {t(lang, "services.title")}
             </h2>
             <div class="h-1 w-24 bg-primary"></div>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 scrolling-section">
-            <!-- 1 -->
-            <div
-                class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
-            >
-                <Code class="w-12 h-12 text-primary mx-auto" />
-                <h3 class="text-xl font-semibold">Frontend Development</h3>
-                <p class="font-thin">
-                    Moderne und individuelle HTML/CSS/JS Anwendungen mit perfekter Performance
-                </p>
-            </div>
-
-            <!-- 2 -->
-            <div
-                class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
-            >
-                <PenTool class="w-12 h-12 text-primary mx-auto" />
-                <h3 class="text-xl font-semibold">UI/UX Design</h3>
-                <p class="font-thin">
-                    Intuitive Benutzeroberflächen mit Fokus auf optimale User Experience
-                </p>
-            </div>
-
-            <!-- 3 -->
-            <div
-                class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
-            >
-                <PanelsTopLeft class="w-12 h-12 text-primary mx-auto" />
-                <h3 class="text-xl font-semibold">WordPress Websites</h3>
-                <p class="font-thin">Umfangreiche und maßgeschneiderte Web-Lösungen in WordPress</p>
-            </div>
-
-            <!-- 4 -->
-            <div
-                class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
-            >
-                <Database class="w-12 h-12 text-primary mx-auto" />
-                <h3 class="text-xl font-semibold">SSGs für Blogs & Docs</h3>
-                <p class="font-thin">
-                    Optimiert für klare Workflows, kurze Build-Zeiten und strukturierte Inhalte
-                </p>
-            </div>
-
-            <!-- 5 -->
-            <div
-                class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
-            >
-                <Target class="w-12 h-12 text-primary mx-auto" />
-                <h3 class="text-xl font-semibold">Brand Identity</h3>
-                <p class="font-thin">
-                    Ganzheitliche Markenentwicklung mit konsistentem visuellen Auftritt
-                </p>
-            </div>
-
-            <!-- 6 -->
-            <div
-                class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4"
-            >
-                <Zap class="w-12 h-12 text-primary mx-auto" />
-                <h3 class="text-xl font-semibold">Performance Optimierung</h3>
-                <p class="font-thin">Geschwindigkeitsoptimierung und SEO für bestehende Websites</p>
-            </div>
+            {
+                services.map((service) => (
+                    <div class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4">
+                        <service.icon class="w-12 h-12 text-primary mx-auto" />
+                        <h3 class="text-xl font-semibold">
+                            {t(lang, `services.items.${service.key}.title`)}
+                        </h3>
+                        <p class="font-thin">
+                            {t(lang, `services.items.${service.key}.description`)}
+                        </p>
+                    </div>
+                ))
+            }
         </div>
     </div>
 </section>

@@ -1,56 +1,60 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "../../layouts/Layout.astro";
+import { t } from "../../i18n/ui";
 
-const title = "Impressum";
+const lang = "en";
 ---
 
 <Layout
-    title={title}
-    description="Impressum von Jannik Menzel: Angaben gemäß § 5 TMG, Kontaktinformationen und rechtliche Hinweise."
-    keywords="Impressum, Kontakt, Rechtliches, Jannik Menzel, TMG, Website"
+    title={t(lang, "impressum.title")}
+    description="Imprint of Jannik Menzel: Information according to § 5 TMG, contact information and legal notices."
+    keywords="Imprint, Contact, Legal, Jannik Menzel, TMG, Website"
     og={{
-        title: "Impressum – Jannik Menzel",
+        title: `${t(lang, "impressum.title")} – Jannik Menzel`,
         description:
-            "Impressum von Jannik Menzel: Angaben gemäß § 5 TMG, Kontaktinformationen und rechtliche Hinweise.",
-        url: "https://jannikmenzel.me/impressum",
+            "Imprint of Jannik Menzel: Information according to § 5 TMG, contact information and legal notices.",
+        url: "https://jannikmenzel.me/en/impressum",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
     twitter={{
-        title: "Impressum – Jannik Menzel",
+        title: `${t(lang, "impressum.title")} – Jannik Menzel`,
         description:
-            "Impressum von Jannik Menzel: Angaben gemäß § 5 TMG, Kontaktinformationen und rechtliche Hinweise.",
+            "Imprint of Jannik Menzel: Information according to § 5 TMG, contact information and legal notices.",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
-    canonical="https://jannikmenzel.me/impressum"
+    canonical="https://jannikmenzel.me/en/impressum"
 >
     <main class="w-full container px-4 sm:px-16 mb-22" style="max-width: 1100px;">
         <!-- Header -->
         <header class="pt-20">
-            <h1 class="text-center text-4xl sm:text-5xl font-bold font-display mb-4">Impressum</h1>
+            <h1 class="text-center text-4xl sm:text-5xl font-bold font-display mb-4">
+                {t(lang, "impressum.title")}
+            </h1>
             <div class="h-1 w-24 bg-primary mx-auto"></div>
         </header>
 
         <!-- Content -->
         <section class="mb-6 sm:mb-6 pt-22">
-            <h2 class="text-xl sm:text-2xl font-medium mb-2">Betreiber</h2>
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">{t(lang, "impressum.operator")}</h2>
             <p class="font-thin">Jannik Menzel</p>
         </section>
 
         <section class="mb-6 sm:mb-6">
-            <h2 class="text-xl sm:text-2xl font-medium mb-2">Anschrift</h2>
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">{t(lang, "impressum.address")}</h2>
             <address class="font-thin not-italic">
                 <span id="address-obfuscated"></span>
             </address>
         </section>
 
         <section class="mb-6 sm:mb-6">
-            <h2 class="text-xl sm:text-2xl font-medium mb-2">Kontakt</h2>
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">{t(lang, "impressum.contact")}</h2>
             <p class="font-thin">
-                E‑Mail:
+                {t(lang, "impressum.email")}
                 <span id="email-obfuscated"></span>
             </p>
             <p class="font-thin">
-                Internet: <a
+                {t(lang, "impressum.website")}
+                <a
                     href="https://jannikmenzel.me"
                     class="text-primary underline"
                     target="_blank"
@@ -61,14 +65,13 @@ const title = "Impressum";
 
         <section class="text-xs sm:text-sm text-lightOff">
             <p>
-                Bei Fragen zum Impressum nutzen Sie bitte das Kontaktformular auf der Webseite oder
-                schreiben Sie eine E‑Mail an die oben genannte Adresse.
+                {t(lang, "impressum.footerNote")}
             </p>
         </section>
 
         <script is:inline>
             // E-Mail Obfuscation
-            const emailUser = "kontakt";
+            const emailUser = "contact";
             const emailDomain = "jannikmenzel.me";
             const email = emailUser + "@" + emailDomain;
             const emailSpan = document.getElementById("email-obfuscated");

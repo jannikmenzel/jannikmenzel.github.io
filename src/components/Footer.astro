@@ -3,35 +3,47 @@ import { Image } from "astro:assets";
 import instagramIcon from "../images/icons/instagram.svg";
 import linkedinIcon from "../images/icons/linkedin.svg";
 import githubIcon from "../images/icons/github.svg";
+import { getLangFromUrl, t, getLocalizedPath, defaultLang, type Lang } from "../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
+
+function localizedHref(href: string): string {
+    return getLocalizedPath(lang, href);
+}
+
+const otherLang: Lang = lang === defaultLang ? "en" : "de";
 ---
 
 <footer class="bg-darkAlt dark:bg-darkOff px-4 sm:px-8 py-10 sm:py-20 text-sm sm:text-base">
     <ul class="flex flex-wrap justify-center gap-4 sm:gap-10 list-none text-center">
         <li>
-            <a href="/" class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
-                >Home</a
+            <a
+                href={localizedHref("/")}
+                class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+                >{t(lang, "nav.home")}</a
             >
         </li>
         <li>
             <a
-                href="/blog"
-                class="text-light text-sm sm:text-base hover:text-lightOff hover:underline">Blog</a
+                href={localizedHref("/blog")}
+                class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+                >{t(lang, "nav.blog")}</a
             >
         </li>
         <li>
             <a
-                href="/impressum"
+                href={localizedHref("/impressum")}
                 class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
             >
-                Impressum
+                {t(lang, "nav.impressum")}
             </a>
         </li>
         <li>
             <a
-                href="/datenschutz"
+                href={localizedHref("/datenschutz")}
                 class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
             >
-                Datenschutzerklärung
+                {t(lang, "nav.datenschutz")}
             </a>
         </li>
     </ul>
@@ -63,7 +75,17 @@ import githubIcon from "../images/icons/github.svg";
     </div>
     <p class="text-lightOff text-center text-sm sm:text-base">
         &copy; Copyright {" "}
-        <a href="/" class="text-light text-sm sm:text-base"> Jannik Menzel </a>{" "}
-        | Alle Rechte vorbehalten.
+        <a href={localizedHref("/")} class="text-light text-sm sm:text-base"> Jannik Menzel </a>{
+            " "
+        }
+        | {t(lang, "footer.copyright")} |
+        <a
+            href={getLocalizedPath(otherLang, Astro.url.pathname)}
+            class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+            onclick={`localStorage.setItem('language', '${otherLang}')`}
+        >
+            {t(lang, "footer.switchTo")}
+            {otherLang === "en" ? "English" : "Deutsch"}
+        </a>
     </p>
 </footer>

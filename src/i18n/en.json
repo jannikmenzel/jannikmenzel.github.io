@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "home": "Home",
+        "portfolio": "Portfolio",
+        "blog": "Blog",
+        "contact": "Contact",
+        "impressum": "Imprint",
+        "datenschutz": "Privacy Policy"
+    },
+    "hero": {
+        "subtitle": "Portfolio and Freelance Offers",
+        "title": "Designer & Developer",
+        "description": "Welcome to my portfolio featuring selected projects in web development and design.",
+        "ctaPortfolio": "My Portfolio",
+        "ctaBlog": "Blog"
+    },
+    "contact": {
+        "title": "Contact",
+        "name": "Name",
+        "email": "Email Address",
+        "message": "Message",
+        "placeholder": {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "message": "Tell me about your project..."
+        },
+        "submit": "Send",
+        "success": "Thank you! Your message has been sent."
+    },
+    "projects": {
+        "title": "My Projects"
+    },
+    "services": {
+        "title": "My Services",
+        "items": {
+            "frontend": {
+                "title": "Frontend Development",
+                "description": "Modern and custom HTML/CSS/JS applications with perfect performance"
+            },
+            "uiux": {
+                "title": "UI/UX Design",
+                "description": "Intuitive user interfaces with focus on optimal user experience"
+            },
+            "wordpress": {
+                "title": "WordPress Websites",
+                "description": "Comprehensive and customized web solutions in WordPress"
+            },
+            "ssg": {
+                "title": "SSGs for Blogs & Docs",
+                "description": "Optimized for clear workflows, short build times and structured content"
+            },
+            "brand": {
+                "title": "Brand Identity",
+                "description": "Holistic brand development with consistent visual appearance"
+            },
+            "performance": {
+                "title": "Performance Optimization",
+                "description": "Speed optimization and SEO for existing websites"
+            }
+        }
+    },
+    "blog": {
+        "title": "Blog",
+        "readMore": "Read More"
+    },
+    "portfolio": {
+        "github": {
+            "title": "Open Source & Code",
+            "description": "Insights into my code projects and contributions",
+            "repositories": "Repositories",
+            "languages": "Languages",
+            "commits": "Commits",
+            "visitGithub": "Visit GitHub"
+        },
+        "liveView": "View Live"
+    },
+    "impressum": {
+        "title": "Imprint",
+        "operator": "Operator",
+        "address": "Address",
+        "contact": "Contact",
+        "email": "Email:",
+        "website": "Website:",
+        "footerNote": "For questions about the imprint, please use the contact form on the website or write an email to the address above."
+    },
+    "footer": {
+        "copyright": "All rights reserved.",
+        "switchTo": "Wechsle zu"
+    },
+    "common": {
+        "backToHome": "Back to Home"
+    },
+    "404": {
+        "title": "Page not found",
+        "description": "The requested page does not exist or has been moved.",
+        "backToHome": "Back to Home"
+    }
+}

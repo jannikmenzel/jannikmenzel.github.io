@@ -8,6 +8,9 @@ import ploucquet from "../../images/mockups/ploucquet-mockup.png";
 import lernstudio from "../../images/mockups/lernstudio-mockup.png";
 import asciiMobile from "../../images/mockups/ascii-mockup-mobile.png";
 import lernstudioMobile from "../../images/mockups/lernstudio-mockup-mobile.png";
+import { getLangFromUrl, t } from "../../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <section class="py-32 px-6 bg-backgroundAlt">
@@ -16,7 +19,7 @@ import lernstudioMobile from "../../images/mockups/lernstudio-mockup-mobile.png"
             <h2
                 class="text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
             >
-                Meine Projekte
+                {t(lang, "projects.title")}
             </h2>
             <div class="h-1 w-24 bg-primary"></div>
         </div>

@@ -1,13 +1,15 @@
 ---
-import Hero from "../components/home/Hero.astro";
-import Layout from "../layouts/Layout.astro";
-import Carousel from "../components/home/Carousel.astro";
-import Projects from "../components/home/Projects.astro";
-import Services from "../components/home/Services.astro";
-import Contact from "../components/home/Contact.astro";
-import { t } from "../i18n/ui";
+import Hero from "../../components/home/Hero.astro";
+import Layout from "../../layouts/Layout.astro";
+import Carousel from "../../components/home/Carousel.astro";
+import Projects from "../../components/home/Projects.astro";
+import Services from "../../components/home/Services.astro";
+import Contact from "../../components/home/Contact.astro";
+import { t } from "../../i18n/ui";
+import de from "../../i18n/de.json";
+import en from "../../i18n/en.json";
 
-const lang = "de";
+const lang = "en";
 
 const title = t(lang, "hero.title").replace("<br />", " & ");
 const description = t(lang, "hero.description");
@@ -16,11 +18,11 @@ const description = t(lang, "hero.description");
 <Layout
     title={`${title} - Portfolio & Blog`}
     description={description}
-    keywords="Jannik Menzel, Portfolio, Informatik, Dresden, Webentwicklung, Projekte, Blog"
+    keywords="Jannik Menzel, Portfolio, Computer Science, Dresden, Web Development, Projects, Blog"
     og={{
         title: `${title} - Portfolio & Blog`,
         description: description,
-        url: "https://jannikmenzel.me",
+        url: "https://jannikmenzel.me/en",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
     twitter={{
@@ -28,12 +30,12 @@ const description = t(lang, "hero.description");
         description: description,
         image: "https://jannikmenzel.me/social-preview.png",
     }}
-    canonical="https://jannikmenzel.me"
+    canonical="https://jannikmenzel.me/en"
     structuredData={{
         "@context": "https://schema.org",
         "@type": "Person",
         name: "Jannik Menzel",
-        url: "https://jannikmenzel.me",
+        url: "https://jannikmenzel.me/en",
     }}
 >
     <Hero />

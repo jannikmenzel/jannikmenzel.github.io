@@ -3,13 +3,20 @@ import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
 import logoLight from "../images/logo-light.svg";
 import logoDark from "../images/logo-dark.svg";
+import { getLangFromUrl, t, getLocalizedPath } from "../i18n/ui";
 
-const NAV_ITEMS = [
-    { href: "/", label: "Home" },
-    { href: "/portfolio", label: "Portfolio" },
-    { href: "/blog", label: "Blog" },
-    { href: "/#contact", label: "Kontakt" },
+const lang = getLangFromUrl(Astro.url);
+
+const navItems = [
+    { href: "/", labelKey: "nav.home" },
+    { href: "/portfolio", labelKey: "nav.portfolio" },
+    { href: "/blog", labelKey: "nav.blog" },
+    { href: "/#contact", labelKey: "nav.contact" },
 ];
+
+function localizedHref(href: string): string {
+    return getLocalizedPath(lang, href);
+}
 ---
 
 <header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur">
@@ -53,13 +60,13 @@ const NAV_ITEMS = [
         <!-- Navigation -->
         <ul class="hidden lg:flex items-center gap-10 list-none" data-mobile-menu>
             {
-                NAV_ITEMS.map((item) => (
+                navItems.map((item) => (
                     <li>
                         <a
-                            href={item.href}
+                            href={localizedHref(item.href)}
                             class="font-light hover:text-muted-foreground hover:underline"
                         >
-                            {item.label}
+                            {t(lang, item.labelKey)}
                         </a>
                     </li>
                 ))
@@ -96,13 +103,13 @@ const NAV_ITEMS = [
         >
             <ul class="flex flex-col gap-4 list-none p-6">
                 {
-                    NAV_ITEMS.map((item) => (
+                    navItems.map((item) => (
                         <li>
                             <a
-                                href={item.href}
+                                href={localizedHref(item.href)}
                                 class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
                             >
-                                {item.label}
+                                {t(lang, item.labelKey)}
                             </a>
                         </li>
                     ))

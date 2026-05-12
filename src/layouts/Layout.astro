@@ -77,6 +77,20 @@ const defaultKeywords =
 
 <html lang="de" class="no-js">
     <head>
+        <script is:inline>
+            (() => {
+                const storedLang = localStorage.getItem("language");
+                const browserLang = navigator.language.toLowerCase();
+                const isEnglishBrowser = browserLang.startsWith("en");
+                const isOnRoot = window.location.pathname === "/";
+
+                if (isOnRoot) {
+                    if (storedLang === "en" || (!storedLang && isEnglishBrowser)) {
+                        window.location.href = "/en";
+                    }
+                }
+            })();
+        </script>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="preload" href={fontsStylesheet} as="style" />

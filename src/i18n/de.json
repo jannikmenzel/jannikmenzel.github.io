@@ -1,0 +1,98 @@
+{
+    "nav": {
+        "home": "Home",
+        "portfolio": "Portfolio",
+        "blog": "Blog",
+        "contact": "Kontakt",
+        "impressum": "Impressum",
+        "datenschutz": "Datenschutzerklärung"
+    },
+    "hero": {
+        "subtitle": "Portfolio and Freelance Angebote",
+        "title": "Designer & Webentwickler",
+        "description": "Willkommen auf meinem Portfolio mit ausgewählten Projekten aus Webentwicklung und Design.",
+        "ctaPortfolio": "Mein Portfolio",
+        "ctaBlog": "Blog"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "name": "Name",
+        "email": "E-Mail-Adresse",
+        "message": "Nachricht",
+        "placeholder": {
+            "name": "Max Mustermann",
+            "email": "max@example.com",
+            "message": "Erzähl mir von deinem Projekt..."
+        },
+        "submit": "Senden",
+        "success": "Vielen Dank! Deine Nachricht wurde gesendet."
+    },
+    "projects": {
+        "title": "Meine Projekte"
+    },
+    "services": {
+        "title": "Meine Leistungen",
+        "items": {
+            "frontend": {
+                "title": "Frontend Development",
+                "description": "Moderne und individuelle HTML/CSS/JS Anwendungen mit perfekter Performance"
+            },
+            "uiux": {
+                "title": "UI/UX Design",
+                "description": "Intuitive Benutzeroberflächen mit Fokus auf optimale User Experience"
+            },
+            "wordpress": {
+                "title": "WordPress Websites",
+                "description": "Umfangreiche und maßgeschneiderte Web-Lösungen in WordPress"
+            },
+            "ssg": {
+                "title": "SSGs für Blogs & Docs",
+                "description": "Optimiert für klare Workflows, kurze Build-Zeiten und strukturierte Inhalte"
+            },
+            "brand": {
+                "title": "Brand Identity",
+                "description": "Ganzheitliche Markenentwicklung mit konsistentem visuellen Auftritt"
+            },
+            "performance": {
+                "title": "Performance Optimierung",
+                "description": "Geschwindigkeitsoptimierung und SEO für bestehende Websites"
+            }
+        }
+    },
+    "blog": {
+        "title": "Studienblog",
+        "readMore": "Lesen"
+    },
+    "portfolio": {
+        "github": {
+            "title": "Open Source & Code",
+            "description": "Einblicke in meine Code-Projekte und Beiträge",
+            "repositories": "Repositorys",
+            "languages": "Sprachen",
+            "commits": "Commits",
+            "visitGithub": "GitHub besuchen"
+        },
+        "liveView": "Live ansehen"
+    },
+    "impressum": {
+        "title": "Impressum",
+        "operator": "Betreiber",
+        "address": "Anschrift",
+        "contact": "Kontakt",
+        "email": "E‑Mail:",
+        "website": "Internet:",
+        "footerNote": "Bei Fragen zum Impressum nutzen Sie bitte das Kontaktformular auf der Webseite oder schreiben Sie eine E‑Mail an die oben genannte Adresse."
+    },
+    "footer": {
+        "copyright": "Alle Rechte vorbehalten.",
+        "switchTo": "Switch to"
+    },
+    "common": {
+        "backToHome": "Zurück zur Startseite"
+    },
+    "404": {
+        "title": "Seite nicht gefunden",
+        "description": "Die angeforderte Seite existiert nicht oder wurde verschoben.",
+        "backToHome": "Zurück zur Startseite"
+    }
+}
