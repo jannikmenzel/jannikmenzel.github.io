@@ -70,9 +70,17 @@ export default defineConfig({
     site: "https://jannikmenzel.me",
     base: "/",
     output: "static",
+    trailingSlash: "never",
     integrations: [
         icon(),
         sitemap({
+            filter: (page) => {
+                const url = new URL(page);
+                const path = url.pathname;
+                return (
+                    !path.includes("/404") && !path.includes("index.html") && !path.includes("//")
+                );
+            },
             namespaces: {
                 news: false,
                 xhtml: false,

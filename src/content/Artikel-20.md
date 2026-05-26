@@ -3,7 +3,7 @@ title: "Nowitschok: Anatomie einer unsichtbaren Waffe"
 slug: "nowitschok"
 date: 2025-04-29
 image: "../images/cover-images/Artikel-20.jpg"
-teaser: "Am 20. August 2020 wurde der russische Dissident Alexej Nawalny mit demNervengift Nowitschok vergiftet – ein Anschlag, der weltweit Schlagzeilen machte. Doch wassteckt hinter dieser tödlichen Waffe, die für ihre unsichtbare Präzision berüchtigt ist?"
+teaser: "Am 20. August 2020 wurde Alexej Nawalny mit Nowitschok vergiftet – ein Anschlag, der weltweit Schlagzeilen machte. Was steckt hinter dieser Waffe?"
 readingtime: "8 min"
 type: "default"
 ---

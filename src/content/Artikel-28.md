@@ -3,7 +3,7 @@ title: "Das ABC der Frontend-Entwicklung"
 slug: "frontend-development"
 date: 2026-04-01
 image: "../images/cover-images/Artikel-28.jpg"
-teaser: "Entdecke Frontend-Entwicklung: Von HTML über CSS bis JavaScript – lerne, wie moderne Websites entstehen, welche Tools Entwickler nutzen und welche sechs Säulen für Erfolg entscheidend sind."
+teaser: "Entdecke Frontend-Entwicklung: Von HTML über CSS bis JavaScript – lerne, wie moderne Websites entstehen und welche Tools Entwickler nutzen."
 readingtime: "9 min"
 type: "default"
 ---

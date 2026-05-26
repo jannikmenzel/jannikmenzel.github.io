@@ -1,9 +1,9 @@
 ---
-title: "Kosmische Irrtümer und wie unser Universum wirklich funktioniert"
+title: "Kosmische Irrtümer – Wie unser Universum wirklich funktioniert"
 slug: "kosmische-irrtuemer"
 date: 2025-05-17
 image: "../images/cover-images/Artikel-23.jpg"
-teaser: "Schwarze Löcher, Zeitreisen, Schrödingers Katze und außerirdisches Leben – dieser Artikel räumt mit kosmischen Irrtümern auf und zeigt, was moderne Physik wirklich über das Universum weiß."
+teaser: "Schwarze Löcher, Zeitreisen und außerirdisches Leben – dieser Artikel räumt mit kosmischen Irrtümern auf und zeigt, was Physik wirklich über das Universum weiß."
 readingtime: "10 min"
 type: "default"
 ---

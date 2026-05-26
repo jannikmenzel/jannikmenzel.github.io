@@ -2,5 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /impressum
 Disallow: /datenschutz
+Disallow: /en/impressum
+Disallow: /en/datenschutz
+Disallow: /404
 
 Sitemap: https://jannikmenzel.me/sitemap.xml

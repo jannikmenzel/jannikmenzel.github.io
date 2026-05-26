@@ -3,7 +3,7 @@ title: "Zero Knowledge Proof – Ich weiß etwas, was du nicht weißt"
 slug: "zero-knowledge-proof"
 date: 2025-02-20
 image: "../images/cover-images/Artikel-11.jpg"
-teaser: "Zero-Knowledge Proofs sind eine der faszinierendsten Entdeckungen der modernen Kryptografie. Doch was steckt hinter dieser scheinbar komplexen Technologie, die es ermöglicht, etwas zu beweisen, ohne dabei ein einziges Detail preiszugeben?"
+teaser: "Zero-Knowledge Proofs sind eine faszinierende Entdeckung der Kryptografie. Erfahre, wie du etwas beweisen kannst, ohne dabei Details preiszugeben."
 readingtime: "5 min"
 type: "default"
 ---

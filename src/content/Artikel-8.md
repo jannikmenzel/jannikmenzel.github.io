@@ -3,7 +3,7 @@ title: "Wie Algorithmen unsere Leben bestimmen"
 slug: "algorithmen-im-alltag"
 date: 2025-02-02
 image: "../images/cover-images/Artikel-8.jpg"
-teaser: "Algorithmen beeinflussen viele Entscheidungen im Alltag – von der Jobsuche bis hin zu persönlichen Beziehungen. Entdecke, was es mit der magischen Zahl 37 auf sich hat und warum die guten immer gewinnen."
+teaser: "Algorithmen beeinflussen viele Entscheidungen – von der Jobsuche bis zu Beziehungen. Entdecke, was es mit der magischen Zahl 37 auf sich hat."
 readingtime: "8 min"
 type: "default"
 ---

@@ -8,6 +8,7 @@ const lang = getLangFromUrl(Astro.url);
 <Layout
     title={t(lang, "404.title")}
     description={t(lang, "404.description")}
+    lang={lang === "en" ? "en" : "de"}
     keywords="404, Page not found, Error, Jannik Menzel, Portfolio"
     og={{
         title: `404 – ${t(lang, "404.title")}`,
@@ -20,7 +21,6 @@ const lang = getLangFromUrl(Astro.url);
         description: t(lang, "404.description"),
         image: "https://jannikmenzel.me/social-preview.png",
     }}
-    canonical="https://jannikmenzel.me/en/404"
 >
     <section class="flex flex-col items-center justify-center min-h-[80vh] text-center py-16">
         <h1 class="text-8xl font-bold mb-4">404</h1>

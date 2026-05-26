@@ -18,6 +18,7 @@ const {
     title,
     description,
     keywords,
+    lang = "de",
     og = {},
     twitter = {},
     canonical,
@@ -75,7 +76,7 @@ const defaultKeywords =
     }
 </style>
 
-<html lang="de" class="no-js">
+<html lang={lang} class="no-js">
     <head>
         <script is:inline>
             (() => {
@@ -125,6 +126,8 @@ const defaultKeywords =
                 }
             })();
         </script>
+
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
 
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

@@ -3,7 +3,7 @@ title: "Schach – Der König der Spiele"
 slug: "schach"
 date: 2025-04-06
 image: "../images/cover-images/Artikel-16.jpg"
-teaser: "Schach, das Spiel der unendlichen Möglichkeiten, fasziniert seit 1500 Jahren mit seiner strategischen Tiefe. Erkunde die Geschichte und die moderne Entwicklung, die das Spiel unsterblich machen."
+teaser: "Schach fasziniert seit 1500 Jahren mit seiner strategischen Tiefe. Erkunde die Geschichte und die moderne Entwicklung dieses zeitlosen Spiels."
 readingtime: "6 min"
 type: "default"
 ---

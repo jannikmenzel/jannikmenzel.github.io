@@ -3,7 +3,7 @@ title: "Die Kunst des Designs"
 slug: "art-of-design"
 date: 2026-04-03
 image: "../images/cover-images/Artikel-29.jpg"
-teaser: "Design ist mehr als Ästhetik – es prägt, wie wir die Welt wahrnehmen. Dieser Artikel erklärt zentrale Prinzipien, Farb- und Typografieeffekte sowie prägende Stilrichtungen. Eine kompakte Einführung in die Kunst des Designs."
+teaser: "Design ist mehr als Ästhetik – es prägt, wie wir die Welt wahrnehmen. Eine kompakte Einführung in Prinzipien, Farben, Typografie und Stilrichtungen."
 readingtime: 8 min
 type: "default"
 ---

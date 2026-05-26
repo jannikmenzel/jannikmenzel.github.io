@@ -3,7 +3,7 @@ title: "Generation ChatGPT – Wie KI unser Studium verändert"
 slug: "generation-chat-gpt"
 date: 2025-01-28
 image: "../images/cover-images/Artikel-4.jpg"
-teaser: "KI-basierte Chatbots wie ChatGPT revolutionieren das Studium, indem sie als persönliche Assistenten beim Lernen und Forschen unterstützen und den Zugang zu Wissen effizienter gestalten."
+teaser: "KI-basierte Chatbots wie ChatGPT revolutionieren das Studium. Sie unterstützen als Assistenten beim Lernen und Forschen und machen Wissen effizienter zugänglich."
 readingtime: "9 min"
 type: "default"
 ---

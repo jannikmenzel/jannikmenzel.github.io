@@ -3,7 +3,7 @@ title: "Systeme schaffen, statt Ziele zu verfolgen"
 slug: "systeme-statt-ziele"
 date: 2025-02-10
 image: "../images/cover-images/Artikel-9.jpg"
-teaser: "Setze auf kleine, tägliche Gewohnheiten statt auf große Anstrengungen. In diesem Artikel erfährst du, wie du deine Ziele durch konsequente Routinen erreichst – und Rückschläge als Teil des Prozesses nutzt."
+teaser: "Setze auf kleine, tägliche Gewohnheiten statt auf große Anstrengungen. Erfahre, wie du Ziele durch konsequente Routinen erreichst und Rückschläge nutzt."
 readingtime: "7 min"
 type: "default"
 ---

@@ -3,7 +3,7 @@ title: "Wie lernen chatbots das sprechen"
 slug: "chatbots"
 date: 2025-03-13
 image: "../images/cover-images/Artikel-15.jpg"
-teaser: "Tauche ein in die Welt der Chatbots! Lerne, wie Large Language Models Wörter in Vektoren umwandeln und durch geometrische Beziehungen tiefere Bedeutungen entdecken, um Sprache auf beeindruckende Weise zu verstehen."
+teaser: "Tauche ein in die Welt der Chatbots! Lerne, wie Large Language Models Wörter in Vektoren umwandeln, um Sprache auf beeindruckende Weise zu verstehen."
 readingtime: "9 min"
 type: "default"
 ---

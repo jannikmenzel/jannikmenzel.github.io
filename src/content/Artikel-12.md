@@ -1,9 +1,9 @@
 ---
-title: "Belohnt, gebremst, gelenkt – Die unsichtbare Macht der Feedback-Loops"
+title: "Belohnt, gebremst, gelenkt – Die Macht der Feedback-Loops"
 slug: "feedback-loops"
 date: 2025-02-23
 image: "../images/cover-images/Artikel-12.jpg"
-teaser: "Feedback-Loops steuern unser Verhalten – ob durch Likes, Lob oder Kritik. Erfahre, wie du sie bewusst gestalten kannst, um Gewohnheiten zu verändern, produktiver zu werden und langfristig zu wachsen."
+teaser: "Feedback-Loops steuern unser Verhalten – ob durch Likes, Lob oder Kritik. Erfahre, wie du sie bewusst gestaltest, um langfristig zu wachsen."
 readingtime: "6 min"
 type: "default"
 ---

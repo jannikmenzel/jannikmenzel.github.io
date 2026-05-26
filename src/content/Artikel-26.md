@@ -3,7 +3,7 @@ title: "The Science of Harmony"
 slug: "science-of-harmony"
 date: 2025-07-04
 image: "../images/cover-images/Artikel-26.jpg"
-teaser: "Was haben viele Welthits gemeinsam? Eine simple Akkordfolge! Dieser Artikel zeigt, warum die I–V–vi–IV-Folge so oft funktioniert – und warum ein Hit weit mehr als nur Harmonie braucht."
+teaser: "Was haben viele Welthits gemeinsam? Eine simple Akkordfolge! Dieser Artikel zeigt, warum sie so oft funktioniert – und was einen Hit wirklich ausmacht."
 readingtime: "6 min"
 type: "default"
 ---

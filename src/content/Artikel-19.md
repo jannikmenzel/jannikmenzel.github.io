@@ -1,9 +1,9 @@
 ---
-title: "Gedanken, die die Welt bewegten – philosophische Gespräche mit den größten Denkern der Geschichte"
+title: "Gedanken, die die Welt bewegten – Philosophische Gespräche"
 slug: "philosophische-gespraeche"
 date: 2025-04-23
 image: "../images/cover-images/Artikel-19.jpg"
-teaser: "Begib dich auf eine Zeitreise zu den größten Denkern der Geschichte – vonPlaton bis de Beauvoir – und erlebe philosophische Gespräche, die deine Sicht auf die Weltverändern könnten."
+teaser: "Begib dich auf eine Zeitreise zu den größten Denkern der Geschichte – von Platon bis de Beauvoir – und erlebe philosophische Gespräche."
 readingtime: "15 min"
 type: "default"
 ---

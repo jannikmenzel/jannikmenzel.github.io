@@ -3,7 +3,7 @@ title: "Die gefährlichste Ransomware der Welt"
 slug: "not-petya"
 date: 2025-01-29
 image: "../images/cover-images/Artikel-5.jpg"
-teaser: "NotPetya gilt als die gefährlichste Ransomware der Welt und sie hatte nur ein einziges Ziel: Chaos. Ein Cyberangriff, der Milliarden kostete und die Welt in eine neue Ära der digitalen Bedrohungen katapultierte."
+teaser: "NotPetya gilt als die gefährlichste Ransomware der Welt – ein Cyberangriff, der Milliarden kostete und die Welt in eine neue Ära digitaler Bedrohungen katapultierte."
 readingtime: "15 min"
 type: "default"
 ---

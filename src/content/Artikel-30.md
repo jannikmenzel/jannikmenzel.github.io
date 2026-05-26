@@ -3,7 +3,7 @@ title: "Denken in Modellen – (K)eine Anleitung zum Weltverständnis"
 slug: "denken-in-modellen"
 date: 2026-05-14
 image: "../images/cover-images/Artikel-30.jpg"
-teaser: "Warum vereinfachte Modelle unser Denken prägen, Entscheidungen beeinflussen und gefährlich werden, sobald wir beginnen, sie mit der Realität selbst zu verwechseln."
+teaser: "Warum vereinfachte Modelle unser Denken prägen, Entscheidungen beeinflussen und gefährlich werden, sobald wir sie mit der Realität verwechseln."
 readingtime: 5 min
 type: "default"
 ---

@@ -3,7 +3,7 @@ title: "Antifragilität und warum Resilienz überschätzt wird"
 slug: "antifragilitaet"
 date: 2025-05-19
 image: "../images/cover-images/Artikel-24.jpg"
-teaser: "Antifragilität bedeutet mehr als Resilienz: Es ist die Kunst, durch Chaos zu wachsen. Entdecke, warum Unsicherheit kein Risiko, sondern eine Chance ist – in Natur, Wirtschaft und deinem Alltag."
+teaser: "Antifragilität ist die Kunst, durch Chaos zu wachsen. Entdecke, warum Unsicherheit kein Risiko, sondern eine Chance ist – in Natur, Wirtschaft und Alltag."
 readingtime: "8 min"
 type: "default"
 ---

@@ -3,7 +3,7 @@ title: "The Company that Owns the World"
 slug: "blackrock"
 date: 2025-06-06
 image: "../images/cover-images/Artikel-25.jpg"
-teaser: "BlackRock verwaltet mehr Geld als jedes andere Unternehmen der Welt – doch kaum jemand kennt es. Dieser Artikel beleuchtet den Aufstieg, die Macht und die verborgenen Risiken des Finanzgiganten."
+teaser: "BlackRock verwaltet mehr Geld als jedes andere Unternehmen – doch kaum jemand kennt es. Ein Blick auf Aufstieg, Macht und Risiken des Finanzgiganten."
 readingtime: "8 min"
 type: "default"
 ---

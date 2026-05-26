@@ -3,7 +3,7 @@ title: "Der Tanz der Zahlen: Die Collatz-Vermutung entschlüsseln"
 slug: "collatz-vermutung"
 date: 2025-02-12
 image: "../images/cover-images/Artikel-10.jpg"
-teaser: "Das 3x+1-Problem fasziniert Mathematiker seit Jahrzehnten. In diesem Artikel erfährst du, wie diese scheinbar einfache Formel zu einem der größten ungelösten Rätsel der Mathematik wurde."
+teaser: "Das 3x+1-Problem fasziniert Mathematiker seit Jahrzehnten. Erfahre, wie diese scheinbar einfache Formel zu einem der größten ungelösten Rätsel wurde."
 readingtime: "7 min"
 type: "default"
 ---

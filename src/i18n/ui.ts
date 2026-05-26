@@ -28,11 +28,18 @@ export function getLangFromUrl(url: URL): Lang {
 }
 
 export function getPathForLang(path: string, targetLang: Lang): string {
+    const [base, hash] = path.split("#");
+    const hashPart = hash ? `#${hash}` : "";
+
     if (targetLang === defaultLang) {
-        return path.replace(/^\/en/, "") || "/";
+        const localized = base.replace(/^\/en/, "") || "/";
+        return `${localized}${hashPart}`;
     }
-    const cleanPath = path === "/" ? "" : path;
-    return `/en${cleanPath}`;
+    const cleanPath = base === "/" ? "" : base;
+    if (cleanPath === "" && hashPart) {
+        return `/en${hashPart}`;
+    }
+    return `/en${cleanPath}${hashPart}`;
 }
 
 export function getLocalizedPath(targetLang: Lang, path = "/"): string {

@@ -3,7 +3,7 @@ title: "Wer ist Cleo? – Der Ursprung eines Mathematik-Mythos"
 slug: "cleo"
 date: 2025-03-01
 image: "../images/cover-images/Artikel-13.jpg"
-teaser: "Cleo, das mysteriöse Mathematik-Genie aus dem Internet, verblüffte die Community mit brillanten Lösungen. Doch wer verbirgt sich hinter dem Mysterium? Entdecke das Rätsel und das Motiv hinter Cleos außergewöhnlichen Antworten."
+teaser: "Cleo, das mysteriöse Mathematik-Genie aus dem Internet, verblüffte die Community. Doch wer steckt wirklich hinter den brillanten Lösungen?"
 readingtime: "8 min"
 type: "default"
 ---

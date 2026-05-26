@@ -3,7 +3,7 @@ title: "Wissenschaft ist nicht gleich Wissenschaft"
 slug: "science"
 date: 2025-08-05
 image: "../images/cover-images/Artikel-27.jpg"
-teaser: "Wissenschaft ist vielschichtig: Sie reicht von exakten Formeln über empirische Studien bis hin zu historischen Interpretationen. Dieser Artikel beleuchtet ihre Vielfalt und zeigt, wie die Informatik als Schnittstelle eine besondere Rolle einnimmt."
+teaser: "Wissenschaft ist vielschichtig: Von exakten Formeln über empirische Studien bis zu historischen Interpretationen. Wie die Informatik als Schnittstelle eine besondere Rolle einnimmt."
 readingtime: "8 min"
 type: "default"
 ---

@@ -3,7 +3,7 @@ title: "Generalist vs Spezialist – Wissen im Wandel"
 slug: "generalist-vs-spezialist"
 date: 2025-05-13
 image: "../images/cover-images/Artikel-22.jpg"
-teaser: "In einer zunehmend komplexen Welt sind interdisziplinäres Denken und hybride Rollen entscheidend. Dieser Artikel beleuchtet, warum die Synthese aus Generalismus und Spezialisierung die Schlüsselkompetenz der Zukunft ist."
+teaser: "In einer komplexen Welt sind interdisziplinäres Denken und hybride Rollen entscheidend. Warum die Synthese aus Generalismus und Spezialisierung die Zukunft ist."
 readingtime: "8 min"
 type: "default"
 ---

@@ -3,7 +3,7 @@ title: "Wie ein Second Brain mein Lernen revolutioniert hat"
 slug: "second-brain"
 date: 2025-01-31
 image: "../images/cover-images/Artikel-6.jpg"
-teaser: "Statt Wissen zu verlieren, baue ich nun ein vernetztes System auf, das Gedanken speichert, verknüpft und jederzeit abrufbar macht – eine echte Revolution für meinen Lernprozess."
+teaser: "Statt Wissen zu verlieren, baue ich ein vernetztes System auf, das Gedanken speichert, verknüpft und jederzeit abrufbar macht – eine Revolution fürs Lernen."
 readingtime: "6 min"
 type: "default"
 ---

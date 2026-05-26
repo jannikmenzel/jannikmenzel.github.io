@@ -3,7 +3,7 @@ title: "storytelling im Alltag"
 slug: "storytelling"
 date: 2025-02-01
 image: "../images/cover-images/Artikel-7.jpg"
-teaser: "Storytelling verwandelt jede Begegnung in eine fesselnde Konversation, die nicht nur Emotionen weckt, sondern auch Verbindungen schafft und uns mit anderen in Resonanz treten lässt."
+teaser: "Storytelling verwandelt jede Begegnung in eine fesselnde Konversation, die Emotionen weckt, Verbindungen schafft und uns in Resonanz treten lässt."
 readingtime: "7 min"
 type: "default"
 ---

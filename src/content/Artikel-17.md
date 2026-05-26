@@ -3,7 +3,7 @@ title: "Rhetorik und die Kunst, Gehör zu finden"
 slug: "rhetorik"
 date: 2025-04-10
 image: "../images/cover-images/Artikel-17.jpg"
-teaser: "Rhetorik ist mehr als nur Worte – sie ist eine Kunst, die inspiriert, motiviert und überzeugt. Entdecke, wie große Redner ihre Botschaften vermitteln und wie auch du zu einem herausragenden Rhetoriker wirst."
+teaser: "Rhetorik ist mehr als nur Worte – sie inspiriert, motiviert und überzeugt. Entdecke, wie du zu einem herausragenden Rhetoriker wirst."
 readingtime: "9 min"
 type: "default"
 ---
