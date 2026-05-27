@@ -39,6 +39,7 @@ const lang = getLangFromUrl(Astro.url);
                         type="text"
                         required
                         aria-required="true"
+                        aria-label={t(lang, "contact.name")}
                         placeholder={t(lang, "contact.placeholder.name")}
                         class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                     />
@@ -56,6 +57,7 @@ const lang = getLangFromUrl(Astro.url);
                         type="email"
                         required
                         aria-required="true"
+                        aria-label={t(lang, "contact.email")}
                         placeholder={t(lang, "contact.placeholder.email")}
                         class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                     />
@@ -74,6 +76,7 @@ const lang = getLangFromUrl(Astro.url);
                     type="text"
                     required
                     aria-required="true"
+                    aria-label={t(lang, "contact.subject")}
                     placeholder={t(lang, "contact.placeholder.subject")}
                     class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                 />
@@ -90,13 +93,19 @@ const lang = getLangFromUrl(Astro.url);
                     name="message"
                     required
                     aria-required="true"
+                    aria-label={t(lang, "contact.message")}
                     placeholder={t(lang, "contact.placeholder.message")}
                     rows="5"
                     class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary resize-none"
                 ></textarea>
             </div>
 
-            <input type="hidden" name="access_key" value="bb6bd7c6-94b3-40e3-8bba-682f0227bd74" />
+            <input
+                type="hidden"
+                name="access_key"
+                value="bb6bd7c6-94b3-40e3-8bba-682f0227bd74"
+                aria-hidden="true"
+            />
 
             <div
                 class="absolute left-[-9999px] top-auto h-0 w-0 overflow-hidden"
@@ -107,6 +116,7 @@ const lang = getLangFromUrl(Astro.url);
                     id="website"
                     name="_gotcha"
                     type="text"
+                    aria-hidden="true"
                     autocomplete="off"
                     tabindex="-1"
                     spellcheck="false"
