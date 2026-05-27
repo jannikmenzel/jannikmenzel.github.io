@@ -79,7 +79,7 @@ const projects = [
         title: "Portfolio – Jannik Menzel",
         description:
             "Portfolio von Jannik Menzel mit ausgewählten Webprojekten aus Design und Entwicklung.",
-        url: "https://jannikmenzel.me/portfolio",
+        url: "https://jannikmenzel.me/portfolio/",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
     twitter={{
@@ -88,7 +88,7 @@ const projects = [
             "Portfolio von Jannik Menzel mit ausgewählten Webprojekten aus Design und Entwicklung.",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
-    canonical="https://jannikmenzel.me/portfolio"
+    canonical="https://jannikmenzel.me/portfolio/"
 >
     <section class="w-full container">
         <!-- Header -->
@@ -98,6 +98,7 @@ const projects = [
         </header>
 
         <!-- Content -->
+        <h2 class="sr-only">Projekte</h2>
         <div class="px-6 py-22 grid grid-cols-1 md:grid-cols-12 gap-8">
             {
                 projects.map((project) => (

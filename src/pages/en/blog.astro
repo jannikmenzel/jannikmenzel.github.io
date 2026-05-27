@@ -26,7 +26,7 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
         title: `${t(lang, "blog.title")} – Jannik Menzel`,
         description:
             "Blog of Jannik Menzel: Articles, tutorials and scientific posts about computer science, studies and more.",
-        url: "https://jannikmenzel.me/en/blog",
+        url: "https://jannikmenzel.me/en/blog/",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
     twitter={{
@@ -35,7 +35,7 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
             "Blog of Jannik Menzel: Articles, tutorials and scientific posts about computer science, studies and more.",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
-    canonical="https://jannikmenzel.me/en/blog"
+    canonical="https://jannikmenzel.me/en/blog/"
 >
     <main class="w-full container">
         <!-- Header -->
@@ -52,7 +52,7 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
                 {
                     posts.map((post) => (
                         <article class="h-full rounded-xl border border-border bg-background-alt p-6 flex flex-col gap-6 scrolling-section">
-                            <a href={`/en/blog/${post.data.slug}`} class="flex-1">
+                            <a href={`/en/blog/${post.data.slug}/`} class="flex-1">
                                 <Image
                                     src={post.data.image}
                                     alt={post.data.title}
@@ -70,7 +70,7 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
                                 </p>
                             </a>
                             <a
-                                href={`/en/blog/${post.data.slug}`}
+                                href={`/en/blog/${post.data.slug}/`}
                                 class="btn btn-secondary w-full mt-auto"
                             >
                                 {t(lang, "blog.readMore")}

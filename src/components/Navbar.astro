@@ -9,8 +9,8 @@ const lang = getLangFromUrl(Astro.url);
 
 const navItems = [
     { href: "/", labelKey: "nav.home" },
-    { href: "/portfolio", labelKey: "nav.portfolio" },
-    { href: "/blog", labelKey: "nav.blog" },
+    { href: "/portfolio/", labelKey: "nav.portfolio" },
+    { href: "/blog/", labelKey: "nav.blog" },
     { href: "/#contact", labelKey: "nav.contact" },
 ];
 
@@ -20,7 +20,10 @@ function localizedHref(href: string): string {
 ---
 
 <header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur">
-    <nav class="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <nav
+        class="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
+        aria-label="Hauptnavigation"
+    >
         <div class="flex items-center gap-1">
             <a
                 href="/"

@@ -23,7 +23,7 @@ const dateFormatter = new Intl.DateTimeFormat("de-DE", {
         title: "Studienblog – Jannik Menzel",
         description:
             "Studienblog von Jannik Menzel: Artikel, Tutorials und wissenschaftliche Beiträge rund um Informatik, Studium und vieles mehr.",
-        url: "https://jannikmenzel.me/blog",
+        url: "https://jannikmenzel.me/blog/",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
     twitter={{
@@ -32,7 +32,7 @@ const dateFormatter = new Intl.DateTimeFormat("de-DE", {
             "Studienblog von Jannik Menzel: Artikel, Tutorials und wissenschaftliche Beiträge rund um Informatik, Studium und vieles mehr.",
         image: "https://jannikmenzel.me/social-preview.png",
     }}
-    canonical="https://jannikmenzel.me/blog"
+    canonical="https://jannikmenzel.me/blog/"
 >
     <main class="w-full container">
         <!-- Header -->
@@ -49,7 +49,7 @@ const dateFormatter = new Intl.DateTimeFormat("de-DE", {
                 {
                     posts.map((post) => (
                         <article class="h-full rounded-xl border border-border bg-background-alt p-6 flex flex-col gap-6 scrolling-section">
-                            <a href={`/blog/${post.data.slug}`} class="flex-1">
+                            <a href={`/blog/${post.data.slug}/`} class="flex-1">
                                 <Image
                                     src={post.data.image}
                                     alt={post.data.title}
@@ -67,7 +67,7 @@ const dateFormatter = new Intl.DateTimeFormat("de-DE", {
                                 </p>
                             </a>
                             <a
-                                href={`/blog/${post.data.slug}`}
+                                href={`/blog/${post.data.slug}/`}
                                 class="btn btn-secondary w-full mt-auto"
                             >
                                 Lesen

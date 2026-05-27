@@ -36,8 +36,8 @@ export function getPathForLang(path: string, targetLang: Lang): string {
         return `${localized}${hashPart}`;
     }
     const cleanPath = base === "/" ? "" : base;
-    if (cleanPath === "" && hashPart) {
-        return `/en${hashPart}`;
+    if (cleanPath === "") {
+        return `/en/${hashPart}`;
     }
     return `/en${cleanPath}${hashPart}`;
 }

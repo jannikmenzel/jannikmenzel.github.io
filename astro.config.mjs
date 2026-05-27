@@ -70,7 +70,7 @@ export default defineConfig({
     site: "https://jannikmenzel.me",
     base: "/",
     output: "static",
-    trailingSlash: "never",
+    trailingSlash: "always",
     integrations: [
         icon(),
         sitemap({
@@ -106,6 +106,11 @@ export default defineConfig({
             rehypeMathjax,
             rehypeOpenLinksInNewTab,
         ],
+    },
+    compressHTML: true,
+    build: {
+        format: "directory",
+        assets: "_astro",
     },
     vite: {
         plugins: [tailwindcss()],
