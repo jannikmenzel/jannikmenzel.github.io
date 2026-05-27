@@ -95,6 +95,13 @@
     "common": {
         "backToHome": "Back to Home"
     },
+    "accessibility": {
+        "nav": "Main navigation",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu",
+        "switchToDark": "Switch to dark mode",
+        "switchToLight": "Switch to light mode"
+    },
     "404": {
         "title": "Page not found",
         "description": "The requested page does not exist or has been moved.",

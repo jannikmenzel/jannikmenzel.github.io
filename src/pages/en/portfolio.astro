@@ -24,7 +24,7 @@ const projects = [
         features: ["interactive", "SEO optimized", "modern"],
         imageLight: fsrLight,
         imageDark: fsrDark,
-        alt: "Project 1 Screenshot",
+        alt: "",
     },
     {
         title: "Ascii Dresden",
@@ -38,7 +38,7 @@ const projects = [
             "Conception and implementation of a website for Ascii Dresden, a student café at the Technical University of Dresden. The focus was on a modern, appealing design that reflects the café's atmosphere, as well as an optimized display on all devices.",
         image: ascii,
         imageMobile: asciiMobile,
-        alt: "Project 2 Screenshot",
+        alt: "",
     },
     {
         title: "Lernstudio Zittau",
@@ -52,7 +52,7 @@ const projects = [
             "Development of a WordPress website for a local tutoring center. Focus on a minimalist and professional design that builds trust, as well as user-friendly navigation and optimized display on all devices.",
         image: lernstudio,
         imageMobile: lernstudioMobile,
-        alt: "Project 3 Screenshot",
+        alt: "",
     },
     {
         title: "Ploucquet GMBH",
@@ -65,7 +65,7 @@ const projects = [
         description:
             "Development of an individual WordPress website for a medium-sized company. Focus on easy content management, clear page structure and a professional, brand-compliant appearance. The implementation was fully responsive and performance-oriented.",
         image: ploucquet,
-        alt: "Project 4 Screenshot",
+        alt: "",
     },
 ];
 ---
@@ -90,10 +90,15 @@ const projects = [
     }}
     canonical="https://jannikmenzel.me/en/portfolio/"
 >
-    <section class="w-full container">
+    <section class="w-full container" aria-labelledby="portfolio-heading">
         <!-- Header -->
         <header class="pt-20">
-            <h1 class="text-center text-4xl sm:text-5xl font-bold font-display mb-4">Portfolio</h1>
+            <h1
+                id="portfolio-heading"
+                class="text-center text-4xl sm:text-5xl font-bold font-display mb-4"
+            >
+                Portfolio
+            </h1>
             <div class="h-1 w-24 bg-primary mx-auto"></div>
         </header>
 
@@ -111,6 +116,7 @@ const projects = [
                                 target="_blank"
                                 rel="noreferrer"
                                 class="block h-full w-full"
+                                aria-label={project.title}
                             >
                                 {project.imageLight && project.imageDark ? (
                                     <>
@@ -197,10 +203,11 @@ const projects = [
         </div>
     </section>
 
-    <section id="github" class="px-6 py-20 bg-backgroundAlt">
+    <section id="github" class="px-6 py-20 bg-backgroundAlt" aria-labelledby="github-heading">
         <div class="container">
             <div class="max-w-7xl mx-auto">
                 <h2
+                    id="github-heading"
                     class="text-4xl sm:text-5xl font-display font-bold tracking-tighter text-primary mb-4 text-center"
                 >
                     Open Source &amp; Code

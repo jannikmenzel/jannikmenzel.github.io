@@ -95,6 +95,13 @@
     "common": {
         "backToHome": "Zurück zur Startseite"
     },
+    "accessibility": {
+        "nav": "Hauptnavigation",
+        "openMenu": "Menü öffnen",
+        "closeMenu": "Menü schließen",
+        "switchToDark": "Zu dunklem Modus wechseln",
+        "switchToLight": "Zu hellem Modus wechseln"
+    },
     "404": {
         "title": "Seite nicht gefunden",
         "description": "Die angeforderte Seite existiert nicht oder wurde verschoben.",

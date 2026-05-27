@@ -4,10 +4,11 @@ import { getLangFromUrl, t } from "../../i18n/ui";
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<section id="contact" class="py-32 px-6 bg-backgroundAlt">
+<section id="contact" class="py-32 px-6 bg-backgroundAlt" aria-labelledby="contact-title">
     <div class="container">
         <div class="max-w-7xl mx-auto mb-24">
             <h2
+                id="contact-title"
                 class="font-headline text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
             >
                 {t(lang, "contact.title")}

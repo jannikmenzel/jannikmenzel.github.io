@@ -19,10 +19,10 @@ function localizedHref(href: string): string {
 }
 ---
 
-<header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur">
+<header class="sticky top-0 z-50 border-b border-border bg-navbar/95 backdrop-blur" role="banner">
     <nav
         class="container mx-auto flex max-w-7xl items-center justify-between px-6 py-4"
-        aria-label="Hauptnavigation"
+        aria-label={t(lang, "accessibility.nav")}
     >
         <div class="flex items-center gap-1">
             <a
@@ -54,7 +54,9 @@ function localizedHref(href: string): string {
             type="button"
             class="lg:hidden p-2 cursor-pointer"
             data-mobile-menu-toggle
-            aria-label="Menü öffnen"
+            data-label-open={t(lang, "accessibility.openMenu")}
+            data-label-close={t(lang, "accessibility.closeMenu")}
+            aria-label={t(lang, "accessibility.openMenu")}
             aria-expanded="false"
         >
             <Icon name="lucide:menu" class="h-6 w-6 text-foreground" aria-hidden="true" />
@@ -80,7 +82,9 @@ function localizedHref(href: string): string {
                     class="h-10 w-10 p-0 leading-none"
                     data-theme-toggle
                     aria-pressed="false"
-                    aria-label="Zu dunklem Modus wechseln"
+                    data-label-dark={t(lang, "accessibility.switchToDark")}
+                    data-label-light={t(lang, "accessibility.switchToLight")}
+                    aria-label={t(lang, "accessibility.switchToDark")}
                 >
                     <span class="sr-only" data-theme-label>Dark mode</span>
                     <Icon
@@ -138,7 +142,9 @@ function localizedHref(href: string): string {
                 button.setAttribute("aria-pressed", String(isDark));
                 button.setAttribute(
                     "aria-label",
-                    isDark ? "Zu hellem Modus wechseln" : "Zu dunklem Modus wechseln"
+                    isDark
+                        ? button.dataset.labelLight || "Switch to light mode"
+                        : button.dataset.labelDark || "Switch to dark mode"
                 );
                 if (sunIcon && moonIcon) {
                     sunIcon.classList.toggle("hidden", !isDark);
@@ -180,11 +186,24 @@ function localizedHref(href: string): string {
         const mobileMenuOverlay = document.querySelector("[data-mobile-menu-overlay]");
         const mobileMenuLinks = mobileMenuOverlay?.querySelectorAll("a");
 
+        function updateHamburgerLabel() {
+            if (mobileMenuToggle) {
+                const isOpen = mobileMenuOverlay?.classList.contains("flex");
+                mobileMenuToggle.setAttribute(
+                    "aria-label",
+                    isOpen
+                        ? mobileMenuToggle.dataset.labelClose || "Close menu"
+                        : mobileMenuToggle.dataset.labelOpen || "Open menu"
+                );
+            }
+        }
+
         function closeMobileMenu() {
             if (mobileMenuOverlay && mobileMenuToggle) {
                 mobileMenuOverlay.classList.add("hidden");
                 mobileMenuOverlay.classList.remove("flex");
                 mobileMenuToggle.setAttribute("aria-expanded", "false");
+                updateHamburgerLabel();
             }
         }
 
@@ -194,6 +213,7 @@ function localizedHref(href: string): string {
                 mobileMenuOverlay.classList.toggle("flex", !isOpen);
                 mobileMenuOverlay.classList.toggle("hidden", isOpen);
                 mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
+                updateHamburgerLabel();
             });
 
             mobileMenuLinks?.forEach((link) => {

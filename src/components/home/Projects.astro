@@ -13,10 +13,11 @@ import { getLangFromUrl, t } from "../../i18n/ui";
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<section class="py-32 px-6 bg-backgroundAlt">
+<section class="py-32 px-6 bg-backgroundAlt" aria-labelledby="projects-title">
     <div class="container">
         <div class="max-w-7xl mx-auto mb-24">
             <h2
+                id="projects-title"
                 class="text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
             >
                 {t(lang, "projects.title")}
@@ -27,15 +28,15 @@ const lang = getLangFromUrl(Astro.url);
             <!-- Project 01 -->
             <div class="col-span-12 md:col-span-8 scrolling-section">
                 <div class="aspect-[16/10] overflow-hidden relative group">
-                    <a href="https://ifsr.jannikmenzel.me">
+                    <a href="https://ifsr.jannikmenzel.me" aria-label="FSR Informatik TU Dresden">
                         <Image
                             src={fsrLight}
-                            alt="Mockup 1"
+                            alt=""
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 dark:hidden"
                         />
                         <Image
                             src={fsrDark}
-                            alt="Mockup 1"
+                            alt=""
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden dark:block"
                         />
                     </a>
@@ -57,15 +58,15 @@ const lang = getLangFromUrl(Astro.url);
             <!-- Project 02 -->
             <div class="col-span-12 md:col-span-4 md:mt-24 scrolling-section">
                 <div class="aspect-[16/10] md:aspect-square overflow-hidden relative group">
-                    <a href="https://ascii.jannikmenzel.me">
+                    <a href="https://ascii.jannikmenzel.me" aria-label="Ascii Dresden">
                         <Image
                             src={ascii}
-                            alt="Mockup 2"
+                            alt=""
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden md:block"
                         />
                         <Image
                             src={asciiMobile}
-                            alt="Mockup 2"
+                            alt=""
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 md:hidden"
                         />
                     </a>
@@ -83,15 +84,15 @@ const lang = getLangFromUrl(Astro.url);
             <!-- Project 03 -->
             <div class="col-span-12 md:col-span-4 scrolling-section">
                 <div class="aspect-[16/10] md:aspect-[3/4] overflow-hidden relative group">
-                    <a href="https://nachhilfe-zittau.de/">
+                    <a href="https://nachhilfe-zittau.de/" aria-label="Lernstudio Zittau">
                         <Image
                             src={lernstudio}
-                            alt="Mockup 3"
+                            alt=""
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden md:block"
                         />
                         <Image
                             src={lernstudioMobile}
-                            alt="Mockup 3"
+                            alt=""
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 md:hidden"
                         />
                     </a>
@@ -109,10 +110,10 @@ const lang = getLangFromUrl(Astro.url);
             <!-- Project 04 -->
             <div class="col-span-12 md:col-span-8 md:mt-24 scrolling-section">
                 <div class="aspect-[16/10] overflow-hidden relative group">
-                    <a href="https://ploucquet.eu">
+                    <a href="https://ploucquet.eu" aria-label="Ploucquet GMBH">
                         <Image
                             src={ploucquet}
-                            alt="Mockup 4"
+                            alt=""
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
                     </a>

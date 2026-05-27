@@ -14,7 +14,10 @@ function localizedHref(href: string): string {
 const otherLang: Lang = lang === defaultLang ? "en" : "de";
 ---
 
-<footer class="bg-darkAlt dark:bg-darkOff px-4 sm:px-8 py-10 sm:py-20 text-sm sm:text-base">
+<footer
+    class="bg-darkAlt dark:bg-darkOff px-4 sm:px-8 py-10 sm:py-20 text-sm sm:text-base"
+    role="contentinfo"
+>
     <ul class="flex flex-wrap justify-center gap-4 sm:gap-10 list-none text-center">
         <li>
             <a
@@ -53,24 +56,27 @@ const otherLang: Lang = lang === defaultLang ? "en" : "de";
             target="_blank"
             rel="noopener noreferrer"
             class="text-light"
+            aria-label="Instagram"
         >
-            <Image src={instagramIcon} alt="Instagram" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
+            <Image src={instagramIcon} alt="" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
         </a>
         <a
             href="https://linkedin.com/in/jannik-menzel"
             target="_blank"
             rel="noopener noreferrer"
             class="text-light"
+            aria-label="LinkedIn"
         >
-            <Image src={linkedinIcon} alt="LinkedIn" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
+            <Image src={linkedinIcon} alt="" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
         </a>
         <a
             href="https://github.com/jannikmenzel"
             target="_blank"
             rel="noopener noreferrer"
             class="text-light"
+            aria-label="GitHub"
         >
-            <Image src={githubIcon} alt="GitHub" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
+            <Image src={githubIcon} alt="" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
         </a>
     </div>
     <p class="text-lightOff text-center text-sm sm:text-base">

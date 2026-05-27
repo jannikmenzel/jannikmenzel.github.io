@@ -253,7 +253,12 @@ const doubledSkills = [...skills, ...skills];
             {
                 doubledSkills.map((skill) => (
                     <div class="flex-none snap-start w-32 text-center mr-10">
-                        <a href={skill.href} target="_blank" class="inline-block">
+                        <a
+                            href={skill.href}
+                            target="_blank"
+                            class="inline-block"
+                            aria-label={skill.label}
+                        >
                             {typeof skill.key === "string" ? (
                                 <Image
                                     src={images[`../../images/skills/${skill.key}`].default}
