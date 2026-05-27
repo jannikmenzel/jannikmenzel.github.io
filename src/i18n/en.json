@@ -18,14 +18,19 @@
         "title": "Contact",
         "name": "Name",
         "email": "Email Address",
+        "subject": "Subject",
         "message": "Message",
         "placeholder": {
             "name": "John Doe",
             "email": "john@example.com",
+            "subject": "Your subject",
             "message": "Tell me about your project..."
         },
         "submit": "Send",
-        "success": "Thank you! Your message has been sent."
+        "success": "Thank you! Your message has been sent.",
+        "sending": "Sending...",
+        "errorPrefix": "Error: ",
+        "errorGeneric": "Something went wrong. Please try again."
     },
     "projects": {
         "title": "My Projects"

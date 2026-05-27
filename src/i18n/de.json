@@ -18,14 +18,19 @@
         "title": "Kontakt",
         "name": "Name",
         "email": "E-Mail-Adresse",
+        "subject": "Betreff",
         "message": "Nachricht",
         "placeholder": {
             "name": "Max Mustermann",
             "email": "max@example.com",
+            "subject": "Dein Betreff",
             "message": "Erzähl mir von deinem Projekt..."
         },
         "submit": "Senden",
-        "success": "Vielen Dank! Deine Nachricht wurde gesendet."
+        "success": "Vielen Dank! Deine Nachricht wurde gesendet.",
+        "sending": "Senden...",
+        "errorPrefix": "Fehler: ",
+        "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
     },
     "projects": {
         "title": "Meine Projekte"
