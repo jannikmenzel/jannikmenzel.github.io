@@ -123,6 +123,30 @@ const lang = getLangFromUrl(Astro.url);
                 />
             </div>
 
+            <div class="flex items-start gap-3">
+                <input
+                    id="consent"
+                    name="consent"
+                    type="checkbox"
+                    required
+                    aria-required="true"
+                    class="mt-1 shrink-0 cursor-pointer accent-primary"
+                />
+                <label
+                    for="consent"
+                    class="text-xs sm:text-sm font-thin cursor-pointer select-none"
+                >
+                    {t(lang, "contact.consentBefore")}
+                    <a
+                        href={lang === "en" ? "/en/datenschutz/" : "/datenschutz/"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-primary underline">{t(lang, "nav.datenschutz")}</a
+                    >
+                    {t(lang, "contact.consentAfter")}
+                </label>
+            </div>
+
             <div class="flex items-center justify-between gap-4">
                 <button class="btn btn-primary" type="submit"> {t(lang, "contact.submit")} </button>
                 <div id="form-success" class="text-sm font-thin hidden">
@@ -139,6 +163,7 @@ const lang = getLangFromUrl(Astro.url);
             ) as HTMLButtonElement | null;
             const successMsg = document.getElementById("form-success");
             const honeypotField = document.getElementById("website") as HTMLInputElement | null;
+            const consentField = document.getElementById("consent") as HTMLInputElement | null;
 
             if (messageField) {
                 messageField.addEventListener("input", () => {
@@ -166,6 +191,11 @@ const lang = getLangFromUrl(Astro.url);
                     e.preventDefault();
 
                     if (honeypotField && honeypotField.value.trim()) {
+                        return;
+                    }
+
+                    if (consentField && !consentField.checked) {
+                        showMessage(errorGeneric);
                         return;
                     }
 

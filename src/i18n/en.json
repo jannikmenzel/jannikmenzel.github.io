@@ -30,7 +30,10 @@
         "success": "Thank you! Your message has been sent.",
         "sending": "Sending...",
         "errorPrefix": "Error: ",
-        "errorGeneric": "Something went wrong. Please try again."
+        "errorGeneric": "Something went wrong. Please try again.",
+        "consentError": "Please agree to the privacy policy.",
+        "consentBefore": "I have read the ",
+        "consentAfter": " and agree to the processing of my data for handling my inquiry."
     },
     "projects": {
         "title": "My Projects"
@@ -86,7 +89,7 @@
         "contact": "Contact",
         "email": "Email:",
         "website": "Website:",
-        "footerNote": "For questions about the imprint, please use the contact form on the website or write an email to the address above."
+        "footerNote": "For questions regarding the legal notice (Impressum), please use the contact form on the website or send an email to the address listed above."
     },
     "footer": {
         "copyright": "All rights reserved.",

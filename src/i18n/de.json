@@ -30,7 +30,10 @@
         "success": "Vielen Dank! Deine Nachricht wurde gesendet.",
         "sending": "Senden...",
         "errorPrefix": "Fehler: ",
-        "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+        "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+        "consentError": "Bitte stimmen Sie der Datenschutzerklärung zu.",
+        "consentBefore": "Ich habe die ",
+        "consentAfter": " zur Kenntnis genommen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu."
     },
     "projects": {
         "title": "Meine Projekte"
