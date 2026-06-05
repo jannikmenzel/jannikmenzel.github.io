@@ -61,8 +61,14 @@ const title = "Datenschutzerklärung";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Wer ist verantwortlich?</h2>
             <p class="font-thin text-justify" style="hyphens: auto;">
                 Die Datenverarbeitung auf dieser Website sowie im Rahmen meiner freiberuflichen
-                Tätigkeit erfolgt durch mich als Betreiber. Die Kontaktdaten finden Sie im
-                Impressum.
+                Tätigkeit erfolgt durch mich als Betreiber. Verantwortliche Stelle im Sinne der
+                Datenschutzgesetze:
+            </p>
+
+            <p class="font-thin text-justify mt-4" style="hyphens: auto;">
+                Jannik Menzel<br />
+                <span id="ds-address-obfuscated"></span><br />
+                E-Mail: <span id="ds-email-obfuscated"></span>
             </p>
         </section>
 
@@ -94,6 +100,18 @@ const title = "Datenschutzerklärung";
                 Aufträgen, zur Bereitstellung meiner Inhalte sowie zur Wahrung berechtigter
                 Interessen (z. B. Sicherheit und Betrieb der Website, Rechnungslegung, Erfüllung
                 steuerrechtlicher Aufbewahrungspflichten).
+            </p>
+        </section>
+
+        <section class="mb-6 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">E-Mail-Kontakt</h2>
+            <p class="font-thin text-justify" style="hyphens: auto;">
+                Wenn Sie mich per E-Mail kontaktieren, werden Ihre mit der E-Mail übermittelten
+                personenbezogenen Daten (z. B. Name, E-Mail-Adresse, Nachricht) zum Zwecke der
+                Bearbeitung Ihrer Anfrage gespeichert und verarbeitet. Rechtsgrundlage hierfür ist
+                Art. 6 Abs. 1 lit. b DSGVO, sofern die Anfrage der Vertragsanbahnung oder -erfüllung
+                dient, sowie Art. 6 Abs. 1 lit. f DSGVO aufgrund des berechtigten Interesses an der
+                Beantwortung Ihrer Anfrage.
             </p>
         </section>
 
@@ -247,6 +265,31 @@ const title = "Datenschutzerklärung";
         </section>
 
         <section class="mb-6 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">
+                WIDERSPRUCHSRECHT NACH ART. 21 DSGVO
+            </h2>
+            <p class="font-thin text-justify" style="hyphens: auto;">
+                <strong>a) Widerspruch bei Verarbeitung aufgrund berechtigten Interesses</strong><br
+                />
+                Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit
+                gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Art.
+                6 Abs. 1 lit. f DSGVO (Datenverarbeitung auf der Grundlage einer Interessenabwägung) erfolgt,
+                Widerspruch einzulegen. Dies gilt auch für ein auf diese Bestimmung gestütztes Profiling.
+                Legen Sie Widerspruch ein, werde ich Ihre personenbezogenen Daten nicht mehr verarbeiten,
+                es sei denn, ich kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen,
+                die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der
+                Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+            </p>
+            <p class="font-thin text-justify mt-4" style="hyphens: auto;">
+                <strong>b) Widerspruch gegen Direktwerbung</strong><br />
+                Sofern ich Ihre personenbezogenen Daten verarbeite, um Direktwerbung zu betreiben, haben
+                Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener
+                Daten zum Zwecke derartiger Werbung einzulegen (Art. 21 Abs. 2 DSGVO). Wenn Sie widersprechen,
+                werde ich Ihre personenbezogenen Daten nicht mehr für Direktwerbezwecke verarbeiten.
+            </p>
+        </section>
+
+        <section class="mb-6 sm:mb-6">
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Sicherheit</h2>
             <p class="font-thin text-justify" style="hyphens: auto;">
                 Ich setze technische und organisatorische Sicherheitsmaßnahmen ein, um Ihre Daten
@@ -271,5 +314,29 @@ const title = "Datenschutzerklärung";
                 oder schreiben Sie eine E‑Mail an die im Impressum genannte Adresse.
             </p>
         </section>
+
+        <script is:inline>
+            // E-Mail Obfuscation
+            const dsEmailUser = "kontakt";
+            const dsEmailDomain = "jannikmenzel.me";
+            const dsEmail = dsEmailUser + "@" + dsEmailDomain;
+            const dsEmailSpan = document.getElementById("ds-email-obfuscated");
+            if (dsEmailSpan) {
+                dsEmailSpan.innerHTML = `<a href="mailto:${dsEmail}" class="text-primary underline">${dsEmailUser}&#64;${dsEmailDomain}</a>`;
+            }
+
+            // Address Obfuscation
+            const dsAddressParts = [
+                "Zellescher Weg ",
+                "41d",
+                "<br />01217 ",
+                "Dresden",
+                "<br />Deutschland",
+            ];
+            const dsAddressSpan = document.getElementById("ds-address-obfuscated");
+            if (dsAddressSpan) {
+                dsAddressSpan.innerHTML = dsAddressParts.join("");
+            }
+        </script>
     </main>
 </Layout>

@@ -61,8 +61,14 @@ const lang = "en";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Who is responsible?</h2>
             <p class="font-thin text-justify" style="hyphens: auto;">
                 The data processing on this website as well as in the context of my freelance work
-                is carried out by me as the operator. You can find the contact details in the
-                imprint.
+                is carried out by me as the operator. Controller within the meaning of data
+                protection laws:
+            </p>
+
+            <p class="font-thin text-justify mt-4" style="hyphens: auto;">
+                Jannik Menzel<br />
+                <span id="en-address-obfuscated"></span><br />
+                Email: <span id="en-email-obfuscated"></span>
             </p>
         </section>
 
@@ -93,6 +99,17 @@ const lang = "en";
                 measures, to fulfill and execute contracts, to provide my content, and to safeguard
                 legitimate interests (e.g., security and operation of the website, invoicing,
                 compliance with tax retention obligations).
+            </p>
+        </section>
+
+        <section class="mb-6 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">Email Contact</h2>
+            <p class="font-thin text-justify" style="hyphens: auto;">
+                If you contact me by email, the personal data transmitted with your email (e.g.,
+                name, email address, message) will be stored and processed for the purpose of
+                handling your inquiry. The legal basis for this is Art. 6 Para. 1 lit. b GDPR
+                insofar as the inquiry serves contract initiation or performance, as well as Art. 6
+                Para. 1 lit. f GDPR based on the legitimate interest in responding to your inquiry.
             </p>
         </section>
 
@@ -240,6 +257,29 @@ const lang = "en";
         </section>
 
         <section class="mb-6 sm:mb-6">
+            <h2 class="text-xl sm:text-2xl font-medium mb-2">
+                RIGHT TO OBJECT PURSUANT TO ART. 21 GDPR
+            </h2>
+            <p class="font-thin text-justify" style="hyphens: auto;">
+                <strong>a) Objection based on legitimate interests</strong><br />
+                You have the right, on grounds relating to your particular situation, to object at any
+                time to the processing of personal data concerning you that is carried out on the basis
+                of Art. 6 Para. 1 lit. f GDPR (data processing based on a balancing of interests). This
+                also applies to profiling based on this provision. If you object, I will no longer process
+                your personal data unless I can demonstrate compelling legitimate grounds for the processing
+                that override your interests, rights and freedoms, or the processing serves the establishment,
+                exercise or defense of legal claims.
+            </p>
+            <p class="font-thin text-justify mt-4" style="hyphens: auto;">
+                <strong>b) Objection to direct marketing</strong><br />
+                If I process your personal data for the purpose of direct marketing, you have the right
+                to object at any time to the processing of personal data concerning you for such marketing
+                purposes (Art. 21 Para. 2 GDPR). If you object, I will no longer process your personal
+                data for direct marketing purposes.
+            </p>
+        </section>
+
+        <section class="mb-6 sm:mb-6">
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Security</h2>
             <p class="font-thin text-justify" style="hyphens: auto;">
                 I use technical and organizational security measures to protect your data against
@@ -261,5 +301,29 @@ const lang = "en";
                 an email to the address provided in the imprint.
             </p>
         </section>
+
+        <script is:inline>
+            // E-Mail Obfuscation
+            const enEmailUser = "kontakt";
+            const enEmailDomain = "jannikmenzel.me";
+            const enEmail = enEmailUser + "@" + enEmailDomain;
+            const enEmailSpan = document.getElementById("en-email-obfuscated");
+            if (enEmailSpan) {
+                enEmailSpan.innerHTML = `<a href="mailto:${enEmail}" class="text-primary underline">${enEmailUser}&#64;${enEmailDomain}</a>`;
+            }
+
+            // Address Obfuscation
+            const enAddressParts = [
+                "Zellescher Weg ",
+                "41d",
+                "<br />01217 ",
+                "Dresden",
+                "<br />Germany",
+            ];
+            const enAddressSpan = document.getElementById("en-address-obfuscated");
+            if (enAddressSpan) {
+                enAddressSpan.innerHTML = enAddressParts.join("");
+            }
+        </script>
     </main>
 </Layout>
