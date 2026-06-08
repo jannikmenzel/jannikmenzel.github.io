@@ -1,6 +1,5 @@
 ---
 import "../styles/global.css";
-import { ClientRouter } from "astro:transitions";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 import fontsStylesheet from "../styles/fonts.css?url";
@@ -58,9 +57,7 @@ const defaultKeywords =
     @media (min-width: 768px) {
         html,
         body,
-        *:not(.object-cover):not(.btn):not(.btn-primary):not(.btn-secondary):not(
-                [data-astro-transition-persist]
-            ) {
+        *:not(.object-cover):not(.btn):not(.btn-primary):not(.btn-secondary) {
             transition:
                 background-color 0.2s ease,
                 color 0.2s ease,
@@ -92,7 +89,6 @@ const defaultKeywords =
         </script>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        <ClientRouter />
         <link rel="preload" href={fontsStylesheet} as="style" />
         <link rel="stylesheet" href={fontsStylesheet} />
         <link rel="preload" href={poppins400} as="font" type="font/woff2" crossorigin />
@@ -184,7 +180,6 @@ const defaultKeywords =
         </main>
         <Footer />
         <script>
-            import "../scripts/page-transitions";
             import "../scripts/scrolling-sections";
         </script>
         {
