@@ -32,6 +32,8 @@ Dieser Artikel zeigt, wie Modelle funktionieren, warum sie so wirkungsvoll sind 
 
 Ein Modell bildet niemals die Realität selbst ab. Es ist nur eine vereinfachte Beschreibung dessen, was die Wirklichkeit für uns bereithält. Genau hier liegt die größte Gefahr: Sobald Menschen beginnen, ihr Modell mit der Wirklichkeit gleichzusetzen, entstehen Fehlentscheidungen, manchmal sogar mit fatalen Folgen.
 
+---
+
 ## Der Mann, der glaubte, den Markt verstanden zu haben
 
 Im Oktober 1929 blickten Millionen Amerikaner optimistisch auf die scheinbar unaufhaltsam steigenden Aktienkurse. Die Wirtschaft boomte, eine moderne Technologie löste die nächste ab, und Aktienkurse stiegen scheinbar unaufhaltsam. Einer der lautesten Stimmen dieses Optimismus war der renommierte Ökonom **Irving Fisher**.

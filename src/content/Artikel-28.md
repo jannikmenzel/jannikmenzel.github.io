@@ -18,11 +18,15 @@ type: "default"
 
 Stelle dir eine Website wie eine Bühne vor. HTML ist das Bühnenbild, das den Raum formt und die Szenerie definiert. CSS sorgt für das Licht, die Farben und die Stimmung, die die Zuschauer fesseln. JavaScript schließlich ist der Regisseur, der die Darsteller bewegt, Reaktionen steuert und dafür sorgt, dass jede Szene lebendig wird. Frontend-Entwicklung verbindet Technik und Kreativität, um digitale Erlebnisse zu erschaffen, die Benutzer fesseln, inspirieren und mitreißen. Dieser Artikel nimmt dich mit auf eine Reise durch die Grundlagen, Werkzeuge und Trends, die moderne Weboberflächen prägen.
 
+---
+
 ## Was bedeutet Frontend-Entwicklung?
 
 Hinter dem Begriff der Frontend-Entwicklung verbirgt sich weit mehr als nur die künstlerische Gestaltung und Implementierung von Benutzeroberflächen. Es ist vielmehr ein komplexes Zusammenspiel verschiedener Disziplinen mit dem gemeinsamen Ziel, eine ansprechende (UI – User Interface), benutzerfreundliche (UX – User Experience), auffindbare (SEO – Search Engine Optimization) sowie performante und barrierefreie digitale Erfahrung zu schaffen. Während der Aufgabenbereich eines Frontend-Entwicklers noch vor einigen Jahren hauptsächlich in der Beherrschung von HTML, CSS und JavaScript – den drei Grundbausteinen der Webentwicklung – bestand, hat sich die Disziplin heute zu einem technisch vielschichtigen Feld entwickelt.
 
 Angeführt von Flaggschiff-Frameworks wie React, Angular und Vue.js und ergänzt durch eine Vielzahl von Tools und Technologien, die von der Automatisierung von Build-Prozessen bis hin zur Optimierung der Performance reichen, ist die Frontend-Entwicklung heute ein dynamisches und ständig wachsendes Feld, das sowohl Kreativität als auch technisches Know-how erfordert. Dieser Artikel soll einen Überblick über die Kernaspekte der Frontend-Entwicklung bieten und dabei die wichtigsten Technologien, Best Practices und Trends untersuchen, die die moderne Frontend-Entwicklung prägen.
+
+---
 
 ## Ein Blick hinter die Kulissen
 
@@ -100,6 +104,8 @@ Tools wie `11ty`, `Hugo` und `Jekyll` erzeugen schnelle, leicht zu hostende Webs
 ## Die Säulen der Webentwicklung
 
 Ich möchte diesen Artikel mit einem kurzen Blick auf das, was ich als die sechs Säulen der modernen Webentwicklung bezeichne, abschließen. Es soll die Vielschichtigkeit der Frontend-Entwicklung verdeutlichen und die Bedeutung von Aspekten hervorheben, die über die reine technische Umsetzung hinausgehen.
+
+---
 
 ## Inhalt
 
