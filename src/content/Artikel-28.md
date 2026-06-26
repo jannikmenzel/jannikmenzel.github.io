@@ -93,7 +93,7 @@ Tools wie `11ty`, `Hugo` und `Jekyll` erzeugen schnelle, leicht zu hostende Webs
 
 ### CSS-Frameworks:
 
-`Tailwind CSS`, `Bootstrap` und `Foundation` erleichtern das UI-Design durch vorgefertigte Stile. `Bootstrap/Foundation` bieten fertige Komponenten, während `Tailwind` einen flexiblen Utility-First-Ansatz verfolgt. Ich persönlich habe sowohl `Bootstrap`als auch `Tailwind CSS` bereits genutzt, bin mittlerweile jedoch vollständig auf `Tailwind CSS` umgestiegen, da es mir mehr kreative Freiheit bietet.
+`Tailwind CSS`, `Bootstrap` und `Foundation` erleichtern das UI-Design durch vorgefertigte Stile. `Bootstrap/Foundation` bieten fertige Komponenten, während `Tailwind` einen flexiblen Utility-First-Ansatz verfolgt. Ich persönlich habe sowohl `Bootstrap` als auch `Tailwind CSS` bereits genutzt, bin mittlerweile jedoch vollständig auf `Tailwind CSS` umgestiegen, da es mir mehr kreative Freiheit bietet.
 
 ### JavaScript-Frameworks:
 

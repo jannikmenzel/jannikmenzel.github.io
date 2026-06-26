@@ -1,5 +1,5 @@
 ---
-title: "Wie lernen chatbots das sprechen"
+title: "Wie lernen Chatbots das Sprechen?"
 slug: "chatbots"
 date: 2025-03-13
 image: "../images/cover-images/Artikel-15.jpg"

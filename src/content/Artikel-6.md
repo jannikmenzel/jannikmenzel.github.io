@@ -32,7 +32,7 @@ Klassische hierarchische Ordnersysteme haben aus meiner Sicht viele Nachteile: S
 
 Obsidian hebt sich von anderen Markdown-Editoren durch seine außergewöhnliche Anpassungsfähigkeit durch Plugins und den nativen Support von QuickLaTeX ab, was das Erstellen von Formeln und Berechnungen mühelos und zeiteffizient ermöglicht. Zudem unterstützt der Editor die Verwendung von Tags, die unser _Second Brain_ in seiner Funktionalität vervollständigt. Es gilt jedoch: Was für mich funktioniert muss nicht zwingend für jeden die beste Lösung sein.
 
-Die Wahl des richtigen Tools für das persönliche _Second Brain_ hängt stark von den eigenen Vorlieben und Bedürfnissen ab. Viele bevorzugen möglicherweise einen simpleren Ansatz oder eine andere Software, die besser zum eigenen Arbeitsstil passt. Beispiele sind Apple Notes, Microsoft OneNote oder Notion, die alle Ihre Vor- und Nachteile haben.
+Die Wahl des richtigen Tools für das persönliche _Second Brain_ hängt stark von den eigenen Vorlieben und Bedürfnissen ab. Viele bevorzugen möglicherweise einen simpleren Ansatz oder eine andere Software, die besser zum eigenen Arbeitsstil passt. Beispiele sind Apple Notes, Microsoft OneNote oder Notion, die alle ihre Vor- und Nachteile haben.
 
 ---
 

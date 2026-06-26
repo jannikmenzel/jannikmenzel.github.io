@@ -40,7 +40,7 @@ Ein besonders ausgefallenes Beispiel für diese Herangehensweise wurde in einer 
 
 ## Rückschläge einplanen
 
-Es ist wichtig, sich bewusst zu machen, dass Rückschläge Teil des Prozesses sind. Kein System ist perfekt, und erst recht kein Mensch. Doch anstatt sich von einem Fehler entmutigen zu lassen, sollten wir diese Momente als Lerngelegenheit betrachten. Rückschläge geben uns die Chance, unsere Strategien anzupassen und mit mehr Selbstbewusstsein wieder auf Kurs zu kommen. Ein Ziel zu erreichen, ist selten ein gerader Weg, sondern vielmehr eine Reihe von Versuchen und Missschlägen. Die Fähigkeit, nach einem Rückschlag wieder aufzustehen und weiterzumachen, ist oft der entscheidende Faktor für langfristigen Erfolg.
+Es ist wichtig, sich bewusst zu machen, dass Rückschläge Teil des Prozesses sind. Kein System ist perfekt, und erst recht kein Mensch. Doch anstatt sich von einem Fehler entmutigen zu lassen, sollten wir diese Momente als Lerngelegenheit betrachten. Rückschläge geben uns die Chance, unsere Strategien anzupassen und mit mehr Selbstbewusstsein wieder auf Kurs zu kommen. Ein Ziel zu erreichen, ist selten ein gerader Weg, sondern vielmehr eine Reihe von Versuchen und Rückschlägen. Die Fähigkeit, nach einem Rückschlag wieder aufzustehen und weiterzumachen, ist oft der entscheidende Faktor für langfristigen Erfolg.
 
 ---
 

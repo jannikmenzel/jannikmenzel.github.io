@@ -16,7 +16,7 @@ type: "default"
 
 ## Wenn Zahlen lügen
 
-Statistiken gelten allgemein bekannt als unangefochtener Maßstab in Sachen Objektivität und Zuverlässigkeit. Sie sind Grundlage vieler argumentativer Standpunkte, formen universelle Wahrheiten und ersticken Gegenrede im Keim. Dennoch, sie können auch gezielt manipuliert werden, um Botschaften und Falschdarstellungen zu vermitteln. "Traue keiner Statistik, die du nicht selbst gefälscht hast“ – ein Zitat, das fälschlicherweise oft dem britischen Premierminister Winston Churchill zugeschrieben wird, beschreibt das Phänomen treffend. In diesem Artikel wird gezeigt, wie Statistik manipuliert werden kann, um zu täuschen, irrezuführen und falsche Wahrheiten zu verbreiten.
+Statistiken gelten allgemein bekannt als unangefochtener Maßstab in Sachen Objektivität und Zuverlässigkeit. Sie sind Grundlage vieler argumentativer Standpunkte, formen universelle Wahrheiten und ersticken Gegenrede im Keim. Dennoch, sie können auch gezielt manipuliert werden, um Botschaften und Falschdarstellungen zu vermitteln. "Traue keiner Statistik, die du nicht selbst gefälscht hast“ – ein Zitat, das fälschlicherweise oft dem britischen Premierminister Winston Churchill zugeschrieben wird, beschreibt das Phänomen treffend. In diesem Artikel wird gezeigt, wie Statistik manipuliert werden kann, um zu täuschen, in die Irre zu führen und falsche Wahrheiten zu verbreiten.
 
 ---
 
@@ -52,7 +52,7 @@ Obwohl einige Korrelationen auf den ersten Blick spannend erscheinen, entpuppen 
 
 ---
 
-## Ein Résumé
+## Ein Resümee
 
 Die Welt der Statistik bietet uns ein mächtiges Werkzeug zur Analyse und Interpretation von Daten, doch wie jede Waffe kann auch sie missbraucht werden. Die Beispiele aus diesem Artikel verdeutlichen, wie leicht Zahlen manipuliert werden können, um falsche Narrative zu stützen oder den Eindruck einer Kausalität zu erzeugen, wo keine besteht. Es liegt letztendlich an uns, Quellen kritisch zu hinterfragen und Darstellungen von Daten sorgfältig zu prüfen. Denn nur so können wir sicherstellen, dass uns Statistiken nicht in die Irre führen und wir die Wahrheit hinter den Zahlen erkennen.
 

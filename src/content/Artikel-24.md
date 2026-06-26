@@ -30,7 +30,7 @@ Talebs Neologismus ist paradox, ungewohnt und ein radikal neuer Gedanke: Systeme
 
 Antifragilität herrscht überall dort, wo Versuch und Irrtum, dezentrale Strukturen und das Lernen aus Fehlern dominieren. Und sie fehlt überall dort, wo man Störungen zu vermeiden versucht, wo man zentralisiert plant, Risiken externalisiert und Systeme überoptimiert.
 
-Unsere Wirtschaft ist geprägt von fragilen und antifragilen Strukturen. Großkonzerne etwa erscheinen auf den ersten Blick als stabil und unverrückbar. Internationale Netzwerke und umfangreichen Ressourcen vermitteln ein Gefühl von Sicherheit. Doch der Schein trügt. Oft sind es gerade diese scheinbar unerschütterlichen Riesen, die im Innersten besonders fragil sind – weil sie auf Effizienz statt Redundanz setzen, auf Kontrolle statt Anpassungsfähigkeit und auf Prognosen statt auf experimentelles Lernen.
+Unsere Wirtschaft ist geprägt von fragilen und antifragilen Strukturen. Großkonzerne etwa erscheinen auf den ersten Blick als stabil und unverrückbar. Internationale Netzwerke und umfangreiche Ressourcen vermitteln ein Gefühl von Sicherheit. Doch der Schein trügt. Oft sind es gerade diese scheinbar unerschütterlichen Riesen, die im Innersten besonders fragil sind – weil sie auf Effizienz statt Redundanz setzen, auf Kontrolle statt Anpassungsfähigkeit und auf Prognosen statt auf experimentelles Lernen.
 
 Solche Unternehmen neigen dazu, Risiken zu zentralisieren, komplexe Abhängigkeiten zu schaffen und auf planbare, lineare Entwicklungen zu vertrauen. Ihre Prozesse sind so fein abgestimmt, dass bereits kleine Störungen, etwa ein Lieferengpass, ein Regulierungswechsel oder ein Reputationsverlust, das gesamte System ins Wanken bringen können. Statt auf kleine Rückschläge flexibel zu reagieren, sind sie gezwungen, Krisen zu vermeiden – und wenn sie doch eintreten, sind die Folgen oft unausweichlich gravierend.
 
@@ -56,4 +56,4 @@ Antifragilität beginnt im Kopf, mit der Entscheidung, Unsicherheit nicht länge
 
 ## Referenzen
 
-1. **Antifragilität** von Nicholas Nassim Taleb
+1. **Antifragilität** von Nassim Nicholas Taleb

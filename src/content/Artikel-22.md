@@ -30,13 +30,13 @@ Erst mit der Industrialisierung und dem damit einhergehenden Wandel des Arbeitsm
 
 ## Renaissance des Generalismus
 
-Heute, angesichts globaler Herausforderungen wie der Klimakrise, der Künstlichen Intelligenz oder geopolitischer Instabilität, erleben wir ein Wiederaufleben generalistischen Denkens. Wir kommen zunehmend zu der Erkenntnis, dass sich Komplexe Fragestellungen nicht mit Wissen aus nur einer Disziplin lösen lassen. Es bedarf jener Menschen, die disparate Perspektiven miteinander verweben, Brücken brauen und neuartige Lösungsansätze entwerfen.
+Heute, angesichts globaler Herausforderungen wie der Klimakrise, der Künstlichen Intelligenz oder geopolitischer Instabilität, erleben wir ein Wiederaufleben generalistischen Denkens. Wir kommen zunehmend zu der Erkenntnis, dass sich komplexe Fragestellungen nicht mit Wissen aus nur einer Disziplin lösen lassen. Es bedarf jener Menschen, die disparate Perspektiven miteinander verweben, Brücken bauen und neuartige Lösungsansätze entwerfen.
 
 ---
 
 ## Ein falscher Gegensatz?
 
-Vielleicht ist die Dichotomie zwischen Generalist und Spezialist längst überholt. Das Konzept des **T-Shaped Professional** bildet hierbei eine elegante Synthese: Mit profundem Fachwissen in einem Bereich und einem umfassenden Verständnis angrenzender Disziplinen können wir das beste aus beiden Welten miteinander vereinen. In zukunftsorientierten Organisationen gewinnen derartige hybride Rollen zunehmend an Bedeutung – sei es in agilen Teams, in der Entwicklung neuer Geschäftsmodelle oder im Bereich nachhaltiger Transformation.
+Vielleicht ist die Dichotomie zwischen Generalist und Spezialist längst überholt. Das Konzept des **T-Shaped Professional** bildet hierbei eine elegante Synthese: Mit profundem Fachwissen in einem Bereich und einem umfassenden Verständnis angrenzender Disziplinen können wir das Beste aus beiden Welten miteinander vereinen. In zukunftsorientierten Organisationen gewinnen derartige hybride Rollen zunehmend an Bedeutung – sei es in agilen Teams, in der Entwicklung neuer Geschäftsmodelle oder im Bereich nachhaltiger Transformation.
 
 Dieser Artikel ist als Plädoyer für Interdisziplinarität und ein vielseitiges Interessendenken zu verstehen – nicht nur aus der puren Neugier, sondern aus pragmatischer Weitsicht. In einer Welt, die immer stärker von Komplexität, Vernetzung und Wandel geprägt ist, wird die Fähigkeit, Zusammenhänge zu erkennen, Perspektiven zu wechseln und Wissen zu verknüpfen, zur entscheidenden Ressource. Wer bereit ist, über den Tellerrand hinauszublicken wird nicht nur flexibler denken, sondern auch nachhaltiger handeln. Genau darin liegt die Schlüsselkompetenz der Zukunft.
 

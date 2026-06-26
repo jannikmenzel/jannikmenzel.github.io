@@ -124,7 +124,7 @@ Es ist später Nachmittag, als ich in einem kleinen Café in den Bergen von Sils
 
 **Ich**: "Viele zitieren Sie, wenige verstehen Sie. Was genau bedeutet es, wenn Sie sagen: Gott ist tot?"
 
-**Nietzsche**: "Ein Missverständnis, das die Jahrhunderte überlebt hat. Es ist keineswegs die Rede vom Tot des Wesens Gottes – der Glaube ist, was uns Menschen verlassen hat, der Glaube ist gestorben. Die Idee Gottes – als höchstes Prinzip, als Maßstab für Gut und Böse – sie ist tot. Getötet durch Aufklärung, Wissenschaft und Zweifel."
+**Nietzsche**: "Ein Missverständnis, das die Jahrhunderte überlebt hat. Es ist keineswegs die Rede vom Tod des Wesens Gottes – der Glaube ist, was uns Menschen verlassen hat, der Glaube ist gestorben. Die Idee Gottes – als höchstes Prinzip, als Maßstab für Gut und Böse – sie ist tot. Getötet durch Aufklärung, Wissenschaft und Zweifel."
 
 **Ich**: "Aber wenn es keinen Gott mehr gibt, was bleibt dann? Wer sagt uns, was richtig und falsch ist?"
 

@@ -75,7 +75,7 @@
         "github": {
             "title": "Open Source & Code",
             "description": "Einblicke in meine Code-Projekte und Beiträge",
-            "repositories": "Repositorys",
+            "repositories": "Repositories",
             "languages": "Sprachen",
             "commits": "Commits",
             "visitGithub": "GitHub besuchen"
@@ -93,7 +93,7 @@
     },
     "footer": {
         "copyright": "Alle Rechte vorbehalten.",
-        "switchTo": "Switch to"
+        "switchTo": "Wechsle zu"
     },
     "common": {
         "backToHome": "Zurück zur Startseite"
