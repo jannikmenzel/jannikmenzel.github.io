@@ -25,6 +25,8 @@
         --foreground-alt: #19191b;
         --primary: #1d1d1f;
         --primary-foreground: #f8f8f8;
+        --accent: #ea580c;
+        --accent-foreground: #fff7ed;
         --destructive: #dc2626;
         --destructive-foreground: #fef2f2;
         --muted: #929292;
@@ -52,6 +54,8 @@
         --foreground-alt: #f5f5f5;
         --primary: #f8f8f8;
         --primary-foreground: #1d1d1f;
+        --accent: #fb923c;
+        --accent-foreground: #1d1d1f;
         --destructive: #ef4444;
         --destructive-foreground: #1d1d1f;
         --muted: #262626;
@@ -77,19 +81,24 @@
 
 .btn-primary {
     @apply border bg-background-foreground text-background;
-    @apply transition-shadow duration-200 ease-out;
-    @apply hover:bg-transparent hover:text-background-foreground hover:shadow-[0_4px_0_0_var(--foreground)];
+    @apply transition-colors duration-200 ease-out;
+    @apply hover:border-accent hover:bg-transparent hover:text-accent;
 }
 
 .btn-no-hover {
     @apply border bg-background-foreground text-background;
-    @apply transition-shadow duration-200 ease-out;
+    @apply transition-colors duration-200 ease-out;
 }
 
 .btn-secondary {
     @apply border border-background-foreground bg-background text-background-foreground;
-    @apply transition-shadow duration-200 ease-out;
-    @apply hover:shadow-[0_4px_0_0_var(--foreground)];
+    @apply transition-colors duration-200 ease-out;
+    @apply hover:border-accent hover:text-accent;
+}
+
+.group:hover .btn-secondary {
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 /* ========================

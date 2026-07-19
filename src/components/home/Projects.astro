@@ -4,29 +4,81 @@ import { Image } from "astro:assets";
 import fsrLight from "../../images/mockups/fsr-mockup-light.png";
 import fsrDark from "../../images/mockups/fsr-mockup-dark.png";
 import ascii from "../../images/mockups/ascii-mockup.png";
-import ploucquet from "../../images/mockups/ploucquet-mockup.png";
-import lernstudio from "../../images/mockups/lernstudio-mockup.png";
 import asciiMobile from "../../images/mockups/ascii-mockup-mobile.png";
-import lernstudioMobile from "../../images/mockups/lernstudio-mockup-mobile.png";
+import findora from "../../images/mockups/findora-mockup.png";
+import stura from "../../images/mockups/stura-mockup.png";
+import sturaMobile from "../../images/mockups/stura-mockup-mobile.png";
 import { getLangFromUrl, t } from "../../i18n/ui";
 
 const lang = getLangFromUrl(Astro.url);
 ---
 
-<section class="py-24 px-6 bg-backgroundAlt" aria-labelledby="projects-title">
+<section class="py-16 sm:py-24 px-6 bg-backgroundAlt" aria-labelledby="projects-title">
     <div class="container">
-        <div class="max-w-7xl mx-auto mb-24">
+        <div class="max-w-7xl mx-auto mb-12 sm:mb-16 lg:mb-24">
             <h2
                 id="projects-title"
-                class="text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
+                class="text-4xl font-black uppercase leading-[1.1] tracking-[-0.02em] text-background-foreground sm:text-5xl"
             >
                 {t(lang, "projects.title")}
             </h2>
-            <div class="h-1 w-24 bg-primary"></div>
+            <div class="mt-4 h-1 w-24 bg-accent"></div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
             <!-- Project 01 -->
+            <div class="col-span-12 md:col-span-4 md:mt-16 scrolling-section">
+                <div class="aspect-[16/10] md:aspect-square overflow-hidden relative group">
+                    <a href="https://www.stura.tu-dresden.de/" aria-label="Stura TU Dresden">
+                        <Image
+                            src={stura}
+                            alt=""
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden md:block"
+                        />
+                        <Image
+                            src={sturaMobile}
+                            alt=""
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 md:hidden"
+                        />
+                    </a>
+                    <div
+                        class="absolute inset-0 bg-primary/8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                    >
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <span class="text-[0.6875rem] uppercase tracking-widest"
+                        >Web Development / 2026</span
+                    >
+                    <h3 class="text-3xl font-bold mt-2">Stura TU Dresden</h3>
+                </div>
+            </div>
+            <!-- Project 02 -->
             <div class="col-span-12 md:col-span-8 scrolling-section">
+                <div class="aspect-[16/10] overflow-hidden relative group">
+                    <a href="https://findora.de" aria-label="Findora">
+                        <Image
+                            src={findora}
+                            alt=""
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                    </a>
+                    <div
+                        class="absolute inset-0 bg-primary/8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                    >
+                    </div>
+                </div>
+                <div class="mt-8 flex justify-between items-start">
+                    <div>
+                        <span class="text-[0.6875rem] uppercase tracking-widest"
+                            >Web Development / 2026</span
+                        >
+                        <h3 class="text-3xl font-bold mt-2">Findora</h3>
+                    </div>
+                    <ArrowUpRight class="w-10 h-10 text-accent" />
+                </div>
+            </div>
+            <!-- Project 03 -->
+            <div class="col-span-12 md:col-span-8 md:mt-16 scrolling-section">
                 <div class="aspect-[16/10] overflow-hidden relative group">
                     <a href="https://ifsr.jannikmenzel.me" aria-label="FSR Informatik TU Dresden">
                         <Image
@@ -41,7 +93,7 @@ const lang = getLangFromUrl(Astro.url);
                         />
                     </a>
                     <div
-                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                        class="absolute inset-0 bg-primary/8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                     >
                     </div>
                 </div>
@@ -52,10 +104,10 @@ const lang = getLangFromUrl(Astro.url);
                         >
                         <h3 class="text-3xl font-bold mt-2">FSR Informatik TU Dresden</h3>
                     </div>
-                    <ArrowUpRight class="w-10 h-10 text-primary" />
+                    <ArrowUpRight class="w-10 h-10 text-accent" />
                 </div>
             </div>
-            <!-- Project 02 -->
+            <!-- Project 04 -->
             <div class="col-span-12 md:col-span-4 md:mt-24 scrolling-section">
                 <div class="aspect-[16/10] md:aspect-square overflow-hidden relative group">
                     <a href="https://ascii.jannikmenzel.me" aria-label="Ascii Dresden">
@@ -71,7 +123,7 @@ const lang = getLangFromUrl(Astro.url);
                         />
                     </a>
                     <div
-                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                        class="absolute inset-0 bg-primary/8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                     >
                     </div>
                 </div>
@@ -79,57 +131,6 @@ const lang = getLangFromUrl(Astro.url);
                     <span class="text-[0.6875rem] uppercase tracking-widest">Web Design / 2026</span
                     >
                     <h3 class="text-3xl font-bold mt-2">Ascii Dresden</h3>
-                </div>
-            </div>
-            <!-- Project 03 -->
-            <div class="col-span-12 md:col-span-4 scrolling-section">
-                <div class="aspect-[16/10] md:aspect-[3/4] overflow-hidden relative group">
-                    <a href="https://nachhilfe-zittau.de/" aria-label="Lernstudio Zittau">
-                        <Image
-                            src={lernstudio}
-                            alt=""
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 hidden md:block"
-                        />
-                        <Image
-                            src={lernstudioMobile}
-                            alt=""
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 md:hidden"
-                        />
-                    </a>
-                    <div
-                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-                    >
-                    </div>
-                </div>
-                <div class="mt-8">
-                    <span class="text-[0.6875rem] uppercase tracking-widest">Web Design / 2025</span
-                    >
-                    <h3 class="text-3xl font-bold mt-2">Lernstudio Zittau</h3>
-                </div>
-            </div>
-            <!-- Project 04 -->
-            <div class="col-span-12 md:col-span-8 md:mt-24 scrolling-section">
-                <div class="aspect-[16/10] overflow-hidden relative group">
-                    <a href="https://ploucquet.eu" aria-label="Ploucquet GMBH">
-                        <Image
-                            src={ploucquet}
-                            alt=""
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                        />
-                    </a>
-                    <div
-                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-                    >
-                    </div>
-                </div>
-                <div class="mt-8 flex justify-between items-start">
-                    <div>
-                        <span class="text-[0.6875rem] uppercase tracking-widest"
-                            >Visual Identity / 2023</span
-                        >
-                        <h3 class="text-3xl font-bold mt-2">Ploucquet GMBH</h3>
-                    </div>
-                    <ArrowUpRight class="w-10 h-10 text-primary" />
                 </div>
             </div>
         </div>

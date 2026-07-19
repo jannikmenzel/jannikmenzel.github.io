@@ -1,8 +1,5 @@
 ---
-import { Image } from "astro:assets";
-import instagramIcon from "../images/icons/instagram.svg";
-import linkedinIcon from "../images/icons/linkedin.svg";
-import githubIcon from "../images/icons/github.svg";
+import { Icon } from "astro-icon/components";
 import { getLangFromUrl, t, getLocalizedPath, defaultLang, type Lang } from "../i18n/ui";
 
 const lang = getLangFromUrl(Astro.url);
@@ -12,6 +9,13 @@ function localizedHref(href: string): string {
 }
 
 const otherLang: Lang = lang === defaultLang ? "en" : "de";
+
+const socialLinks = [
+    { icon: "lucide:linkedin", href: "https://linkedin.com/in/jannik-menzel", label: "LinkedIn" },
+    { icon: "lucide:instagram", href: "https://instagram.com/jnk.mnz", label: "Instagram" },
+    { icon: "lucide:github", href: "https://github.com/jannikmenzel", label: "GitHub" },
+    { icon: "telegram", href: "https://t.me/jannikmenzel", label: "Telegram" },
+];
 ---
 
 <footer
@@ -51,32 +55,39 @@ const otherLang: Lang = lang === defaultLang ? "en" : "de";
         </li>
     </ul>
     <div class="flex justify-center gap-6 my-8 sm:my-10">
+        {
+            socialLinks.map((link) => (
+                <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={link.label}
+                    class="text-light transition-colors duration-200 hover:text-accent"
+                >
+                    {link.icon === "telegram" ? (
+                        <svg
+                            viewBox="0 0 24 24"
+                            class="h-6 w-6 sm:h-7 sm:w-7"
+                            fill="currentColor"
+                            aria-hidden="true"
+                        >
+                            <path d="M21.94 4.11c.27-1.02-.7-1.87-1.67-1.5L2.4 9.68c-1.05.4-1.03 1.9.03 2.27l4.4 1.52 1.7 5.46c.2.65 1.03.83 1.5.33l2.4-2.55 4.5 3.32c.8.6 1.96.16 2.16-.82L21.94 4.11ZM8.5 13.06l9.3-6.4c.2-.14.42.13.24.3l-7.72 7.1a1.1 1.1 0 0 0-.33.62l-.28 2.15-1.21-3.77Z" />
+                        </svg>
+                    ) : (
+                        <Icon name={link.icon} class="h-6 w-6 sm:h-7 sm:w-7" />
+                    )}
+                </a>
+            ))
+        }
         <a
-            href="https://instagram.com/jnk.mnz"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-light"
-            aria-label="Instagram"
+            href="#"
+            id="footer-email-link"
+            data-user="kontakt"
+            data-domain="jannikmenzel.me"
+            aria-label={t(lang, "accessibility.email")}
+            class="text-light transition-colors duration-200 hover:text-accent"
         >
-            <Image src={instagramIcon} alt="" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
-        </a>
-        <a
-            href="https://linkedin.com/in/jannik-menzel"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-light"
-            aria-label="LinkedIn"
-        >
-            <Image src={linkedinIcon} alt="" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
-        </a>
-        <a
-            href="https://github.com/jannikmenzel"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-light"
-            aria-label="GitHub"
-        >
-            <Image src={githubIcon} alt="" class="h-10 w-10 sm:h-12 sm:w-12 mx-auto" />
+            <Icon name="lucide:mail" class="h-6 w-6 sm:h-7 sm:w-7" />
         </a>
     </div>
     <p class="text-lightOff text-center text-sm sm:text-base">
@@ -95,3 +106,14 @@ const otherLang: Lang = lang === defaultLang ? "en" : "de";
         </a>
     </p>
 </footer>
+
+<script>
+    const footerEmailLink = document.getElementById("footer-email-link");
+    if (footerEmailLink instanceof HTMLAnchorElement) {
+        const user = footerEmailLink.dataset.user;
+        const domain = footerEmailLink.dataset.domain;
+        if (user && domain) {
+            footerEmailLink.href = `mailto:${user}@${domain}`;
+        }
+    }
+</script>

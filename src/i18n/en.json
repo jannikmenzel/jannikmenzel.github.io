@@ -9,7 +9,7 @@
     },
     "hero": {
         "subtitle": "Portfolio and Freelance Offers",
-        "title": "WebDesigner & Developer",
+        "title": "Designer & WebDeveloper",
         "description": "Welcome to my portfolio featuring selected projects in web development and design.",
         "ctaPortfolio": "My Portfolio",
         "ctaBlog": "Blog"
@@ -33,7 +33,11 @@
         "errorGeneric": "Something went wrong. Please try again.",
         "consentError": "Please agree to the privacy policy.",
         "consentBefore": "I have read the ",
-        "consentAfter": " and agree to the processing of my data for handling my inquiry."
+        "consentAfter": " and agree to the processing of my data for handling my inquiry.",
+        "profile": {
+            "description": "Computer science student at TU Dresden and freelance web developer. I help turn your idea into a modern, high-performance website.",
+            "cta": "Send an Email"
+        }
     },
     "projects": {
         "title": "My Projects"
@@ -103,7 +107,8 @@
         "openMenu": "Open menu",
         "closeMenu": "Close menu",
         "switchToDark": "Switch to dark mode",
-        "switchToLight": "Switch to light mode"
+        "switchToLight": "Switch to light mode",
+        "email": "Email"
     },
     "404": {
         "title": "Page not found",

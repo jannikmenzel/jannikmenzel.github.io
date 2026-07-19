@@ -36,19 +36,21 @@ const dateFormatter = new Intl.DateTimeFormat("de-DE", {
 >
     <main class="w-full container">
         <!-- Header -->
-        <header class="pt-20">
-            <h1 class="text-center text-4xl sm:text-5xl font-bold font-display mb-4">
+        <header class="pt-16 sm:pt-20 text-center">
+            <h1
+                class="text-4xl font-black uppercase leading-[1.1] tracking-[-0.02em] text-background-foreground sm:text-5xl"
+            >
                 Studienblog
             </h1>
-            <div class="h-1 w-24 bg-primary mx-auto"></div>
+            <div class="mx-auto mt-4 h-1 w-24 bg-accent"></div>
         </header>
 
         <!-- Content -->
-        <div class="py-16">
+        <div class="px-6 py-16 sm:py-24">
             <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-lg md:max-w-none mx-auto">
                 {
                     posts.map((post) => (
-                        <article class="h-full border border-border bg-background-alt p-6 flex flex-col gap-6 scrolling-section">
+                        <article class="group h-full border border-border bg-background-alt p-6 flex flex-col gap-6 scrolling-section transition-colors duration-200 hover:border-accent/50">
                             <a href={`/blog/${post.data.slug}/`} class="flex-1">
                                 <Image
                                     src={post.data.image}

@@ -15,23 +15,23 @@ const services = [
 ---
 
 <!-- Services Section -->
-<section class="py-24 px-6" aria-labelledby="services-title">
+<section class="py-16 sm:py-24 px-6" aria-labelledby="services-title">
     <div class="container px-4 mx-auto">
-        <div class="max-w-7xl mx-auto mb-24">
+        <div class="max-w-7xl mx-auto mb-12 sm:mb-16 lg:mb-24">
             <h2
                 id="services-title"
-                class="font-headline text-4xl sm:text-5xl font-black tracking-tighter text-primary mb-4 uppercase"
+                class="text-4xl font-black uppercase leading-[1.1] tracking-[-0.02em] text-background-foreground sm:text-5xl"
             >
                 {t(lang, "services.title")}
             </h2>
-            <div class="h-1 w-24 bg-primary"></div>
+            <div class="mt-4 h-1 w-24 bg-accent"></div>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 scrolling-section">
             {
                 services.map((service) => (
-                    <div class="card flex flex-col items-center justify-center bg-backgroundAlt p-6 h-64 text-center space-y-4">
-                        <service.icon class="w-12 h-12 text-primary mx-auto" />
+                    <div class="card group flex flex-col items-center justify-center border border-border bg-backgroundAlt p-6 h-64 text-center space-y-4 transition-colors duration-200 hover:border-accent hover:bg-accent/5">
+                        <service.icon class="w-12 h-12 text-primary mx-auto transition-colors duration-200 group-hover:text-accent" />
                         <h3 class="text-xl font-semibold">
                             {t(lang, `services.items.${service.key}.title`)}
                         </h3>

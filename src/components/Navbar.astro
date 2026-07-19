@@ -26,7 +26,7 @@ function localizedHref(href: string): string {
     >
         <div class="flex items-center gap-1">
             <a
-                href="/"
+                href={localizedHref("/")}
                 class="flex items-center gap-2 text-2xl font-bold text-foreground leading-none"
             >
                 <Image
@@ -69,7 +69,7 @@ function localizedHref(href: string): string {
                     <li>
                         <a
                             href={localizedHref(item.href)}
-                            class="font-light hover:text-muted-foreground hover:underline"
+                            class="font-light transition-colors duration-200 hover:text-accent hover:underline"
                         >
                             {t(lang, item.labelKey)}
                         </a>
@@ -114,7 +114,7 @@ function localizedHref(href: string): string {
                         <li>
                             <a
                                 href={localizedHref(item.href)}
-                                class="font-light text-lg block w-full p-3 rounded hover:bg-border transition-colors"
+                                class="font-light text-lg block w-full p-3 rounded transition-colors hover:bg-border hover:text-accent"
                             >
                                 {t(lang, item.labelKey)}
                             </a>

@@ -2,6 +2,9 @@ export default {
     content: ["./src/**/*.{astro,html,js,jsx,json,md,mdx,svelte,ts,tsx,vue}"],
     theme: {
         extend: {
+            screens: {
+                xs: "480px",
+            },
             colors: {
                 white: "var(--white)",
                 black: "var(--black)",
@@ -22,6 +25,10 @@ export default {
                 primary: {
                     DEFAULT: "var(--primary)",
                     foreground: "var(--primary-foreground)",
+                },
+                accent: {
+                    DEFAULT: "var(--accent)",
+                    foreground: "var(--accent-foreground)",
                 },
                 destructive: {
                     DEFAULT: "var(--destructive)",

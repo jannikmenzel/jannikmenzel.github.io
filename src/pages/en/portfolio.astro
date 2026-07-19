@@ -11,32 +11,34 @@ import asciiMobile from "../../images/mockups/ascii-mockup-mobile.png";
 import lernstudioMobile from "../../images/mockups/lernstudio-mockup-mobile.png";
 import findora from "../../images/mockups/findora-mockup.png";
 import stura from "../../images/mockups/stura-mockup.png";
+import sturaMobile from "../../images/mockups/stura-mockup-mobile.png";
 
 const projects = [
+    {
+        title: "Stura TU Dresden",
+        href: "https://www.stura.tu-dresden.de/",
+        year: "Web Development / 2026",
+        aspect: "md:aspect-square",
+        grid: "md:col-span-4",
+        featured: false,
+        badge: ["Astro", "Tailwind", "Sveltia"],
+        description:
+            "Development of an information and communication platform for the Student Council of TU Dresden. Modern design with focus on accessibility, easy content management and clear user guidance. Static generation for maximum performance and security.",
+        image: stura,
+        imageMobile: sturaMobile,
+        alt: "",
+    },
     {
         title: "Findora",
         href: "https://findora.de",
         year: "Web Development / 2026",
         aspect: "aspect-[16/10]",
-        grid: "md:col-span-6",
+        grid: "md:col-span-8",
         featured: true,
         badge: ["Astro", "Tailwind", "React"],
         description:
             "Complete migration of an existing Joomla website to Astro. Modernization of the page structure and design with a focus on usability and aesthetics. Significant performance improvement through static generation, optimized assets and modern frontend architecture.",
         image: findora,
-        alt: "",
-    },
-    {
-        title: "Stura TU Dresden",
-        href: "https://stura.jannikmenzel.me",
-        year: "Web Development / 2026",
-        aspect: "aspect-[16/10]",
-        grid: "md:col-span-6",
-        featured: true,
-        badge: ["Astro", "Tailwind", "Sveltia"],
-        description:
-            "Development of an information and communication platform for the Student Council of TU Dresden. Modern design with focus on accessibility, easy content management and clear user guidance. Static generation for maximum performance and security.",
-        image: stura,
         alt: "",
     },
     {
@@ -120,19 +122,19 @@ const projects = [
 >
     <section class="w-full container" aria-labelledby="portfolio-heading">
         <!-- Header -->
-        <header class="pt-20">
+        <header class="pt-16 sm:pt-20 text-center">
             <h1
                 id="portfolio-heading"
-                class="text-center text-4xl sm:text-5xl font-bold font-display mb-4"
+                class="text-4xl font-black uppercase leading-[1.1] tracking-[-0.02em] text-background-foreground sm:text-5xl"
             >
                 Portfolio
             </h1>
-            <div class="h-1 w-24 bg-primary mx-auto"></div>
+            <div class="mx-auto mt-4 h-1 w-24 bg-accent"></div>
         </header>
 
         <!-- Content -->
         <h2 class="sr-only">Projects</h2>
-        <div class="px-6 py-24 grid grid-cols-1 md:grid-cols-12 gap-8">
+        <div class="px-6 py-16 sm:py-24 grid grid-cols-1 md:grid-cols-12 gap-8">
             {
                 projects.map((project) => (
                     <article class={`${project.grid} scrolling-section`}>
@@ -176,7 +178,7 @@ const projects = [
                                     </>
                                 )}
                             </a>
-                            <div class="absolute inset-0 bg-primary/15 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />
+                            <div class="absolute inset-0 bg-primary/8 opacity-0 transition-opacity duration-500 group-hover:opacity-100 pointer-events-none" />
                             <div class="absolute inset-x-0 bottom-0 flex justify-end p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                                 <a
                                     href={project.href}
@@ -217,7 +219,7 @@ const projects = [
                                 </div>
 
                                 {project.featured ? (
-                                    <ArrowUpRight class="hidden sm:block h-10 w-10 text-primary" />
+                                    <ArrowUpRight class="hidden sm:block h-10 w-10 text-accent" />
                                 ) : null}
                             </div>
 
@@ -231,16 +233,21 @@ const projects = [
         </div>
     </section>
 
-    <section id="github" class="px-6 py-24 bg-backgroundAlt" aria-labelledby="github-heading">
+    <section
+        id="github"
+        class="px-6 py-16 sm:py-24 bg-backgroundAlt"
+        aria-labelledby="github-heading"
+    >
         <div class="container">
-            <div class="max-w-7xl mx-auto">
+            <div class="max-w-7xl mx-auto text-center">
                 <h2
                     id="github-heading"
-                    class="text-4xl sm:text-5xl font-display font-bold tracking-tighter text-primary mb-4 text-center"
+                    class="text-4xl font-black uppercase leading-[1.1] tracking-[-0.02em] text-background-foreground sm:text-5xl"
                 >
                     Open Source &amp; Code
                 </h2>
-                <p class="text-center text-base sm:text-lg text-muted-foreground mb-12">
+                <div class="mx-auto mt-4 h-1 w-24 bg-accent"></div>
+                <p class="mt-6 text-center text-base sm:text-lg text-muted-foreground mb-12">
                     Insights into my code projects and contributions
                 </p>
 

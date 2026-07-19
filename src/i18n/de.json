@@ -33,7 +33,11 @@
         "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
         "consentError": "Bitte stimmen Sie der Datenschutzerklärung zu.",
         "consentBefore": "Ich habe die ",
-        "consentAfter": " zur Kenntnis genommen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu."
+        "consentAfter": " zur Kenntnis genommen und stimme der Verarbeitung meiner Daten zu.",
+        "profile": {
+            "description": "Informatikstudent an der TU Dresden und freiberuflicher Webentwickler. Ich helfe dir, deine Idee in eine moderne, performante Website zu verwandeln.",
+            "cta": "E-Mail schreiben"
+        }
     },
     "projects": {
         "title": "Meine Projekte"
@@ -103,7 +107,8 @@
         "openMenu": "Menü öffnen",
         "closeMenu": "Menü schließen",
         "switchToDark": "Zu dunklem Modus wechseln",
-        "switchToLight": "Zu hellem Modus wechseln"
+        "switchToLight": "Zu hellem Modus wechseln",
+        "email": "E-Mail"
     },
     "404": {
         "title": "Seite nicht gefunden",

@@ -1,6 +1,7 @@
 ---
 import profileImage from "../../images/avatar.png";
 import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 import { getLangFromUrl, t, getLocalizedPath } from "../../i18n/ui";
 
 const lang = getLangFromUrl(Astro.url);
@@ -8,65 +9,145 @@ const lang = getLangFromUrl(Astro.url);
 function localizedHref(href: string): string {
     return getLocalizedPath(lang, href);
 }
+
+const titleText = t(lang, "hero.title");
+const sepIndex = titleText.indexOf(" & ");
+const titleStart = sepIndex >= 0 ? titleText.slice(0, sepIndex) : titleText;
+const titleEnd = sepIndex >= 0 ? titleText.slice(sepIndex + 3) : "";
+
+const socialLinks = [
+    { icon: "lucide:linkedin", href: "https://linkedin.com/in/jannik-menzel", label: "LinkedIn" },
+    { icon: "lucide:instagram", href: "https://instagram.com/jnk.mnz", label: "Instagram" },
+    { icon: "lucide:github", href: "https://github.com/jannikmenzel", label: "GitHub" },
+    { icon: "telegram", href: "https://t.me/jannikmenzel", label: "Telegram" },
+];
 ---
 
-<div class="container bg-background font-sans">
+<div class="container relative bg-background font-sans">
+    <div class="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
+        <div class="absolute -top-24 left-1/4 h-72 w-72 rounded-full bg-accent/20 blur-3xl"></div>
+        <div class="absolute -bottom-32 -right-16 h-96 w-96 rounded-full bg-primary/10 blur-3xl">
+        </div>
+    </div>
     <section
-        class="flex flex-col-reverse xl:flex-row justify-between items-center px-6 pt-12 pb-28 xl:py-32 scrolling-section"
+        class="flex flex-col-reverse lg:flex-row items-center justify-center xl:justify-between gap-6 sm:gap-8 lg:gap-8 xl:gap-16 px-6 pt-16 pb-20 lg:py-28 xl:py-32 scrolling-section"
         aria-labelledby="hero-title"
     >
         <!-- Textbereich -->
-        <div class="w-full mt-10 xl:mt-0">
-            <p
-                class="uppercase tracking-[0.2em] mb-2 xl:ml-1 font-semibold text-[10px] sm:text-xs md:text-sm xl:text-lg text-center md:text-center xl:text-left"
-            >
-                {t(lang, "hero.subtitle")}
-            </p>
+        <div class="w-full max-w-2xl">
+            <div class="text-center lg:text-left">
+                <span
+                    class="mb-3 inline-flex items-center text-xs lg:text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground"
+                    >{t(lang, "hero.subtitle")}</span
+                >
+            </div>
             <h1
                 id="hero-title"
-                class="text-3xl sm:text-5xl md:text-6xl xl:text-8xl font-bold uppercase text-primary mb-4 text-center md:text-center xl:text-left"
+                class="mb-5 text-center text-4xl font-black uppercase leading-[1.05] tracking-tight text-primary xs:text-5xl sm:text-6xl md:text-7xl xl:text-[5.25rem] lg:text-left"
             >
-                {t(lang, "hero.title")}
+                {titleStart}{
+                    titleEnd && (
+                        <>
+                            {" "}
+                            <span class="text-accent">&amp;</span> {titleEnd}
+                        </>
+                    )
+                }
             </h1>
             <p
-                class="font-light text-base sm:text-lg xl:text-xl mx-auto xl:mx-1 md:max-w-1/2 xl:max-w-3/4 opacity-80 text-center md:text-center xl:text-left"
+                class="mx-auto max-w-xl text-center font-light text-base opacity-80 sm:text-lg xl:text-xl lg:mx-0 lg:text-left"
             >
                 {t(lang, "hero.description")}
             </p>
+
             <!-- CTA Buttons -->
-            <div class="mt-8 flex items-center justify-center xl:justify-start gap-4">
-                <a
-                    href={localizedHref("/portfolio/")}
-                    class="btn btn-primary px-8 py-3"
-                    aria-label={t(lang, "hero.ctaPortfolio")}>{t(lang, "hero.ctaPortfolio")}</a
-                >
-                <a
-                    href={localizedHref("/blog/")}
-                    class="btn btn-secondary px-8 py-3"
-                    aria-label={t(lang, "hero.ctaBlog")}>{t(lang, "hero.ctaBlog")}</a
-                >
+            <div
+                class="mt-8 flex flex-col items-center gap-6 lg:flex-row lg:items-center lg:justify-start"
+            >
+                <div class="flex flex-wrap items-center justify-center gap-4 lg:justify-start">
+                    <a
+                        href={localizedHref("/portfolio/")}
+                        class="btn btn-primary px-8 py-3"
+                        aria-label={t(lang, "hero.ctaPortfolio")}>{t(lang, "hero.ctaPortfolio")}</a
+                    >
+                    <a
+                        href={localizedHref("/blog/")}
+                        class="btn btn-secondary px-8 py-3"
+                        aria-label={t(lang, "hero.ctaBlog")}>{t(lang, "hero.ctaBlog")}</a
+                    >
+                </div>
+
+                <div class="hidden h-8 w-px bg-border lg:block"></div>
+
+                <!-- Social Links -->
+                <div class="flex items-center justify-center gap-3 lg:justify-start">
+                    {
+                        socialLinks.map((link) => (
+                            <a
+                                href={link.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={link.label}
+                                class="flex h-11 w-11 items-center justify-center rounded-full border border-border text-foreground transition-colors duration-200 hover:border-accent hover:text-accent"
+                            >
+                                {link.icon === "telegram" ? (
+                                    <svg
+                                        viewBox="0 0 24 24"
+                                        class="h-5 w-5"
+                                        fill="currentColor"
+                                        aria-hidden="true"
+                                    >
+                                        <path d="M21.94 4.11c.27-1.02-.7-1.87-1.67-1.5L2.4 9.68c-1.05.4-1.03 1.9.03 2.27l4.4 1.52 1.7 5.46c.2.65 1.03.83 1.5.33l2.4-2.55 4.5 3.32c.8.6 1.96.16 2.16-.82L21.94 4.11ZM8.5 13.06l9.3-6.4c.2-.14.42.13.24.3l-7.72 7.1a1.1 1.1 0 0 0-.33.62l-.28 2.15-1.21-3.77Z" />
+                                    </svg>
+                                ) : (
+                                    <Icon name={link.icon} class="h-5 w-5" />
+                                )}
+                            </a>
+                        ))
+                    }
+                    <a
+                        href="#"
+                        id="hero-email-link"
+                        data-user="kontakt"
+                        data-domain="jannikmenzel.me"
+                        aria-label={t(lang, "accessibility.email")}
+                        class="flex h-11 w-11 items-center justify-center rounded-full border border-border text-foreground transition-colors duration-200 hover:border-accent hover:text-accent"
+                    >
+                        <Icon name="lucide:mail" class="h-5 w-5" />
+                    </a>
+                </div>
             </div>
         </div>
 
         <!-- Bild -->
-        <div
-            class="w-full flex justify-center md:justify-center xl:justify-end mt-8 md:mt-8 xl:mt-0"
-        >
+        <div class="flex w-full shrink-0 justify-center lg:w-auto lg:justify-end">
             <div class="relative">
                 <div
-                    class="absolute -inset-2 rounded-full border-2 border-primary/40 border-t-primary animate-spin"
+                    class="absolute -inset-2 rounded-full border-2 border-primary/20 border-t-accent animate-spin"
                     style="animation-duration: 20s;"
                 >
                 </div>
+                <div class="absolute -inset-6 -z-10 rounded-full bg-accent/10 blur-2xl"></div>
                 <Image
                     src={profileImage}
                     alt="Jannik Menzel"
                     loading="eager"
                     fetchpriority="high"
                     decoding="sync"
-                    class="w-56 h-56 md:w-64 md:h-64 xl:w-80 xl:h-80 object-cover rounded-full max-w-full max-h-[60vw]"
+                    class="aspect-square w-64 rounded-full object-cover sm:w-72 md:w-80 xl:w-96"
                 />
             </div>
         </div>
     </section>
 </div>
+
+<script>
+    const emailLink = document.getElementById("hero-email-link");
+    if (emailLink instanceof HTMLAnchorElement) {
+        const user = emailLink.dataset.user;
+        const domain = emailLink.dataset.domain;
+        if (user && domain) {
+            emailLink.href = `mailto:${user}@${domain}`;
+        }
+    }
+</script>
