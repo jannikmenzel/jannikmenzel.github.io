@@ -150,8 +150,8 @@ const lang = getLangFromUrl(Astro.url);
                     </label>
                 </div>
 
-                <div class="flex items-center justify-between gap-4">
-                    <button class="btn btn-primary" type="submit">
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                    <button class="btn btn-primary w-full sm:w-auto" type="submit">
                         {t(lang, "contact.submit")}
                     </button>
                     <div id="form-success" class="text-sm font-thin hidden">

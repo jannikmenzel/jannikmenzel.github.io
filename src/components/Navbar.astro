@@ -220,12 +220,31 @@ function localizedHref(href: string): string {
             }
         }
 
+        let lockedScrollY = 0;
+
+        function lockBodyScroll() {
+            lockedScrollY = window.scrollY;
+            document.body.classList.add("overflow-hidden");
+            document.body.style.position = "fixed";
+            document.body.style.top = `-${lockedScrollY}px`;
+            document.body.style.width = "100%";
+        }
+
+        function unlockBodyScroll() {
+            if (document.body.style.position !== "fixed") return;
+            document.body.classList.remove("overflow-hidden");
+            document.body.style.position = "";
+            document.body.style.top = "";
+            document.body.style.width = "";
+            window.scrollTo(0, lockedScrollY);
+        }
+
         function closeMobileMenu() {
             if (mobileMenuOverlay && mobileMenuToggle) {
                 mobileMenuOverlay.classList.add("hidden");
                 mobileMenuOverlay.classList.remove("flex");
                 mobileMenuToggle.setAttribute("aria-expanded", "false");
-                document.body.classList.remove("overflow-hidden");
+                unlockBodyScroll();
                 updateHamburgerLabel();
             }
         }
@@ -236,7 +255,11 @@ function localizedHref(href: string): string {
                 mobileMenuOverlay.classList.toggle("flex", !isOpen);
                 mobileMenuOverlay.classList.toggle("hidden", isOpen);
                 mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
-                document.body.classList.toggle("overflow-hidden", !isOpen);
+                if (isOpen) {
+                    unlockBodyScroll();
+                } else {
+                    lockBodyScroll();
+                }
                 updateHamburgerLabel();
             });
 

@@ -26,9 +26,13 @@ const lang = getLangFromUrl(Astro.url);
         </div>
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
             <!-- Project 01 -->
-            <div class="col-span-12 md:col-span-4 md:mt-16 scrolling-section">
+            <div class="md:col-span-4 md:mt-16 scrolling-section">
                 <div class="aspect-[16/10] md:aspect-square overflow-hidden relative group">
-                    <a href="https://www.stura.tu-dresden.de/" aria-label="Stura TU Dresden">
+                    <a
+                        href="https://www.stura.tu-dresden.de/"
+                        aria-label="Stura TU Dresden"
+                        class="block h-full w-full"
+                    >
                         <Image
                             src={stura}
                             alt=""
@@ -53,9 +57,9 @@ const lang = getLangFromUrl(Astro.url);
                 </div>
             </div>
             <!-- Project 02 -->
-            <div class="col-span-12 md:col-span-8 scrolling-section">
+            <div class="md:col-span-8 scrolling-section">
                 <div class="aspect-[16/10] overflow-hidden relative group">
-                    <a href="https://findora.de" aria-label="Findora">
+                    <a href="https://findora.de" aria-label="Findora" class="block h-full w-full">
                         <Image
                             src={findora}
                             alt=""
@@ -78,9 +82,13 @@ const lang = getLangFromUrl(Astro.url);
                 </div>
             </div>
             <!-- Project 03 -->
-            <div class="col-span-12 md:col-span-8 md:mt-16 scrolling-section">
+            <div class="md:col-span-8 md:mt-16 scrolling-section">
                 <div class="aspect-[16/10] overflow-hidden relative group">
-                    <a href="https://ifsr.jannikmenzel.me" aria-label="FSR Informatik TU Dresden">
+                    <a
+                        href="https://ifsr.jannikmenzel.me"
+                        aria-label="FSR Informatik TU Dresden"
+                        class="block h-full w-full"
+                    >
                         <Image
                             src={fsrLight}
                             alt=""
@@ -108,9 +116,13 @@ const lang = getLangFromUrl(Astro.url);
                 </div>
             </div>
             <!-- Project 04 -->
-            <div class="col-span-12 md:col-span-4 md:mt-24 scrolling-section">
+            <div class="md:col-span-4 md:mt-24 scrolling-section">
                 <div class="aspect-[16/10] md:aspect-square overflow-hidden relative group">
-                    <a href="https://ascii.jannikmenzel.me" aria-label="Ascii Dresden">
+                    <a
+                        href="https://ascii.jannikmenzel.me"
+                        aria-label="Ascii Dresden"
+                        class="block h-full w-full"
+                    >
                         <Image
                             src={ascii}
                             alt=""
