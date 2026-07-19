@@ -5,13 +5,12 @@ import { bookmarks, type BookmarkCategory } from "../../data/bookmarks";
 
 const lang = getLangFromUrl(Astro.url);
 
-// grid is 3 columns at lg (rows of 3) and 2 columns below that (rows of 2)
 const BOOKMARKS_PER_PAGE_LG = 9;
 const BOOKMARKS_PER_PAGE_DEFAULT = 10;
 
 const filters: { key: "all" | BookmarkCategory; icon: typeof Globe }[] = [
     { key: "all", icon: LayoutGrid },
-    { key: "website", icon: Globe },
+    { key: "tool", icon: Globe },
     { key: "video", icon: Video },
     { key: "reading", icon: BookOpen },
     { key: "podcast", icon: Mic },
@@ -19,7 +18,7 @@ const filters: { key: "all" | BookmarkCategory; icon: typeof Globe }[] = [
 ];
 
 const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
-    website: Globe,
+    tool: Globe,
     video: Video,
     reading: BookOpen,
     podcast: Mic,
@@ -77,11 +76,16 @@ const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
             {
                 bookmarks.map((bookmark) => {
                     const Icon = categoryIcon[bookmark.category];
+                    const isBook = Boolean(bookmark.isbn);
+                    const displayUrl = bookmark.isbn
+                        ? `ISBN ${bookmark.isbn}`
+                        : (bookmark.url ?? "").replace(/^https?:\/\//, "").replace(/\/$/, "");
+                    const Tag = isBook ? "div" : "a";
                     return (
-                        <a
-                            href={bookmark.url}
-                            target="_blank"
-                            rel="noreferrer"
+                        <Tag
+                            href={isBook ? undefined : bookmark.url}
+                            target={isBook ? undefined : "_blank"}
+                            rel={isBook ? undefined : "noreferrer"}
                             data-bookmark-card
                             data-category={bookmark.category}
                             class="group flex flex-col gap-3 border border-border bg-backgroundAlt p-6 transition-colors duration-200 hover:border-accent hover:bg-accent/5"
@@ -91,15 +95,17 @@ const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
                                     <Icon class="h-4 w-4 text-accent" aria-hidden="true" />
                                     {t(lang, `about.bookmarks.filters.${bookmark.category}`)}
                                 </span>
-                                <ArrowUpRight class="h-4 w-4 text-muted-foreground transition-colors duration-200 group-hover:text-accent" />
+                                {!isBook && (
+                                    <ArrowUpRight class="h-4 w-4 text-muted-foreground transition-colors duration-200 group-hover:text-accent" />
+                                )}
                             </div>
                             <h3 class="text-base sm:text-lg font-semibold text-foreground">
                                 {bookmark.title}
                             </h3>
-                            <p class="text-sm text-muted-foreground">
-                                {bookmark.description[lang]}
-                            </p>
-                        </a>
+                            <span class="mt-auto truncate font-mono text-xs text-muted-foreground/70">
+                                {displayUrl}
+                            </span>
+                        </Tag>
                     );
                 })
             }

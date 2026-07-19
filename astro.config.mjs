@@ -7,6 +7,7 @@ import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
 import tailwindcss from "@tailwindcss/vite";
 import rehypeImgSize from "rehype-img-size";
+import { unified } from "@astrojs/markdown-remark";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -98,14 +99,16 @@ export default defineConfig({
                 dark: "one-dark-pro",
             },
         },
-        remarkPlugins: [remarkMath],
-        rehypePlugins: [
-            [rehypeImgSize, { dir: "public" }],
-            rehypeSlug,
-            [rehypeAutolinkHeadings, { behavior: "wrap" }],
-            rehypeMathjax,
-            rehypeOpenLinksInNewTab,
-        ],
+        processor: unified({
+            remarkPlugins: [remarkMath],
+            rehypePlugins: [
+                [rehypeImgSize, { dir: "public" }],
+                rehypeSlug,
+                [rehypeAutolinkHeadings, { behavior: "wrap" }],
+                rehypeMathjax,
+                rehypeOpenLinksInNewTab,
+            ],
+        }),
     },
     compressHTML: true,
     build: {

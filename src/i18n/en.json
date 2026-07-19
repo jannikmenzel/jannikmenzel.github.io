@@ -100,10 +100,10 @@
     "about": {
         "bookmarks": {
             "heading": "Bookmarks",
-            "subtitle": "A selection of websites, videos, readings, podcasts and repositories.",
+            "subtitle": "A selection of tools, videos, readings, podcasts and repositories.",
             "filters": {
                 "all": "All",
-                "website": "Websites",
+                "tool": "Tools",
                 "video": "Videos",
                 "reading": "Readings",
                 "podcast": "Podcasts",
