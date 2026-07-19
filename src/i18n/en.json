@@ -2,6 +2,7 @@
     "nav": {
         "home": "Home",
         "portfolio": "Portfolio",
+        "about": "Bookmarks",
         "blog": "Blog",
         "contact": "Contact",
         "impressum": "Imprint",
@@ -73,6 +74,7 @@
     },
     "blog": {
         "title": "Blog",
+        "subtitle": "Articles and thoughts on computer science, my studies and more.",
         "readMore": "Read More"
     },
     "portfolio": {
@@ -94,6 +96,27 @@
         "email": "Email:",
         "website": "Website:",
         "footerNote": "For questions regarding the legal notice (Impressum), please use the contact form on the website or send an email to the address listed above."
+    },
+    "about": {
+        "bookmarks": {
+            "heading": "Bookmarks",
+            "subtitle": "A selection of websites, videos, readings, podcasts and repositories.",
+            "filters": {
+                "all": "All",
+                "website": "Websites",
+                "video": "Videos",
+                "reading": "Readings",
+                "podcast": "Podcasts",
+                "repository": "Repositories"
+            },
+            "empty": "No entries in this category.",
+            "pagination": {
+                "nav": "Pagination",
+                "previous": "Previous page",
+                "next": "Next page",
+                "page": "Page"
+            }
+        }
     },
     "footer": {
         "copyright": "All rights reserved.",

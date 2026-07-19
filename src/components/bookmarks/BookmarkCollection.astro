@@ -1,0 +1,270 @@
+---
+import { Globe, Video, BookOpen, Mic, GitBranch, LayoutGrid, ArrowUpRight } from "@lucide/astro";
+import { getLangFromUrl, t } from "../../i18n/ui";
+import { bookmarks, type BookmarkCategory } from "../../data/bookmarks";
+
+const lang = getLangFromUrl(Astro.url);
+
+// grid is 3 columns at lg (rows of 3) and 2 columns below that (rows of 2)
+const BOOKMARKS_PER_PAGE_LG = 9;
+const BOOKMARKS_PER_PAGE_DEFAULT = 10;
+
+const filters: { key: "all" | BookmarkCategory; icon: typeof Globe }[] = [
+    { key: "all", icon: LayoutGrid },
+    { key: "website", icon: Globe },
+    { key: "video", icon: Video },
+    { key: "reading", icon: BookOpen },
+    { key: "podcast", icon: Mic },
+    { key: "repository", icon: GitBranch },
+];
+
+const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
+    website: Globe,
+    video: Video,
+    reading: BookOpen,
+    podcast: Mic,
+    repository: GitBranch,
+};
+---
+
+<section class="w-full container" aria-labelledby="bookmarks-heading">
+    <header class="pt-16 sm:pt-20 text-center">
+        <h1
+            id="bookmarks-heading"
+            class="text-4xl font-black uppercase leading-[1.1] tracking-[-0.02em] text-background-foreground sm:text-5xl"
+        >
+            {t(lang, "about.bookmarks.heading")}
+        </h1>
+        <div class="mx-auto mt-4 h-1 w-24 bg-accent"></div>
+        <p class="mt-6 text-base sm:text-lg text-muted-foreground">
+            {t(lang, "about.bookmarks.subtitle")}
+        </p>
+    </header>
+
+    <div class="px-6 py-16 sm:py-24">
+        <div
+            class="flex flex-wrap justify-center gap-2 mb-10 sm:mb-14"
+            role="group"
+            aria-label={t(lang, "about.bookmarks.heading")}
+            data-bookmark-filters
+        >
+            {
+                filters.map((filter, i) => (
+                    <button
+                        type="button"
+                        data-filter={filter.key}
+                        aria-pressed={i === 0 ? "true" : "false"}
+                        class:list={[
+                            "inline-flex items-center gap-2 border px-4 py-2 text-xs uppercase tracking-[0.15em] transition-colors duration-200",
+                            i === 0
+                                ? "border-primary bg-background-foreground text-background"
+                                : "border-border text-muted-foreground hover:border-accent hover:text-accent",
+                        ]}
+                    >
+                        <filter.icon class="h-4 w-4" aria-hidden="true" />
+                        {t(lang, `about.bookmarks.filters.${filter.key}`)}
+                    </button>
+                ))
+            }
+        </div>
+
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+            data-bookmark-grid
+            data-page-size-default={BOOKMARKS_PER_PAGE_DEFAULT}
+            data-page-size-lg={BOOKMARKS_PER_PAGE_LG}
+        >
+            {
+                bookmarks.map((bookmark) => {
+                    const Icon = categoryIcon[bookmark.category];
+                    return (
+                        <a
+                            href={bookmark.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            data-bookmark-card
+                            data-category={bookmark.category}
+                            class="group flex flex-col gap-3 border border-border bg-backgroundAlt p-6 transition-colors duration-200 hover:border-accent hover:bg-accent/5"
+                        >
+                            <div class="flex items-center justify-between">
+                                <span class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.2em] text-muted-foreground">
+                                    <Icon class="h-4 w-4 text-accent" aria-hidden="true" />
+                                    {t(lang, `about.bookmarks.filters.${bookmark.category}`)}
+                                </span>
+                                <ArrowUpRight class="h-4 w-4 text-muted-foreground transition-colors duration-200 group-hover:text-accent" />
+                            </div>
+                            <h3 class="text-base sm:text-lg font-semibold text-foreground">
+                                {bookmark.title}
+                            </h3>
+                            <p class="text-sm text-muted-foreground">
+                                {bookmark.description[lang]}
+                            </p>
+                        </a>
+                    );
+                })
+            }
+        </div>
+
+        <script is:inline>
+            (() => {
+                const grid = document.querySelector("[data-bookmark-grid]");
+                if (!grid) return;
+                const isLg = window.matchMedia("(min-width: 1024px)").matches;
+                const pageSize =
+                    Number(isLg ? grid.dataset.pageSizeLg : grid.dataset.pageSizeDefault) ||
+                    Infinity;
+                grid.querySelectorAll("[data-bookmark-card]").forEach((card, index) => {
+                    if (index >= pageSize) card.classList.add("hidden");
+                });
+            })();
+        </script>
+
+        <p class="hidden mt-10 text-center text-sm text-muted-foreground" data-bookmark-empty>
+            {t(lang, "about.bookmarks.empty")}
+        </p>
+
+        <nav
+            class="mt-12 flex flex-wrap items-center justify-center gap-2"
+            aria-label={t(lang, "about.bookmarks.pagination.nav")}
+            data-bookmark-pagination
+            data-previous-label={t(lang, "about.bookmarks.pagination.previous")}
+            data-next-label={t(lang, "about.bookmarks.pagination.next")}
+            data-page-label={t(lang, "about.bookmarks.pagination.page")}
+            hidden
+        >
+        </nav>
+    </div>
+</section>
+
+<script>
+    const filterContainer = document.querySelector("[data-bookmark-filters]");
+    const grid = document.querySelector<HTMLElement>("[data-bookmark-grid]");
+    const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-bookmark-card]"));
+    const emptyMessage = document.querySelector<HTMLElement>("[data-bookmark-empty]");
+    const pagination = document.querySelector<HTMLElement>("[data-bookmark-pagination]");
+    const lgQuery = window.matchMedia("(min-width: 1024px)");
+
+    function getPageSize() {
+        const size = lgQuery.matches ? grid?.dataset.pageSizeLg : grid?.dataset.pageSizeDefault;
+        return Number(size) || cards.length || 1;
+    }
+
+    let activeFilter = "all";
+    let currentPage = 1;
+
+    function createPageButton(
+        label: string,
+        page: number,
+        options: { disabled?: boolean; current?: boolean; ariaLabel?: string } = {}
+    ) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = label;
+        button.dataset.page = String(page);
+        button.disabled = Boolean(options.disabled);
+        if (options.ariaLabel) button.setAttribute("aria-label", options.ariaLabel);
+        if (options.current) button.setAttribute("aria-current", "page");
+        button.className = options.current
+            ? "h-9 w-9 border border-primary bg-background-foreground text-xs font-medium text-background transition-colors duration-200"
+            : "h-9 w-9 border border-border text-xs font-medium text-muted-foreground transition-colors duration-200 hover:border-accent hover:text-accent disabled:pointer-events-none disabled:opacity-30";
+        return button;
+    }
+
+    function renderPagination(totalPages: number) {
+        if (!pagination) return;
+        pagination.innerHTML = "";
+
+        if (totalPages <= 1) {
+            pagination.hidden = true;
+            return;
+        }
+        pagination.hidden = false;
+
+        pagination.appendChild(
+            createPageButton("‹", currentPage - 1, {
+                disabled: currentPage === 1,
+                ariaLabel: pagination.dataset.previousLabel,
+            })
+        );
+
+        for (let page = 1; page <= totalPages; page++) {
+            pagination.appendChild(
+                createPageButton(String(page), page, {
+                    current: page === currentPage,
+                    ariaLabel: `${pagination.dataset.pageLabel ?? ""} ${page}`,
+                })
+            );
+        }
+
+        pagination.appendChild(
+            createPageButton("›", currentPage + 1, {
+                disabled: currentPage === totalPages,
+                ariaLabel: pagination.dataset.nextLabel,
+            })
+        );
+    }
+
+    function render() {
+        const pageSize = getPageSize();
+        const filtered = cards.filter(
+            (card) => activeFilter === "all" || card.dataset.category === activeFilter
+        );
+        const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+        currentPage = Math.min(currentPage, totalPages);
+
+        const start = (currentPage - 1) * pageSize;
+        const end = start + pageSize;
+
+        cards.forEach((card) => {
+            const index = filtered.indexOf(card);
+            const isOnPage = index >= start && index < end;
+            card.classList.toggle("hidden", !isOnPage);
+        });
+
+        emptyMessage?.classList.toggle("hidden", filtered.length !== 0);
+        renderPagination(totalPages);
+    }
+
+    filterContainer?.addEventListener("click", (event) => {
+        const button = (event.target as HTMLElement).closest<HTMLButtonElement>("[data-filter]");
+        if (!button) return;
+
+        activeFilter = button.dataset.filter ?? "all";
+        currentPage = 1;
+
+        filterContainer.querySelectorAll("[data-filter]").forEach((btn) => {
+            const isActive = btn === button;
+            btn.setAttribute("aria-pressed", String(isActive));
+            btn.classList.toggle("border-primary", isActive);
+            btn.classList.toggle("bg-background-foreground", isActive);
+            btn.classList.toggle("text-background", isActive);
+            btn.classList.toggle("border-border", !isActive);
+            btn.classList.toggle("text-muted-foreground", !isActive);
+        });
+
+        render();
+    });
+
+    function scrollToGrid() {
+        if (!grid) return;
+        const header = document.querySelector<HTMLElement>("header");
+        const offset = (header?.offsetHeight ?? 0) + 24;
+        const top = grid.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: "smooth" });
+    }
+
+    pagination?.addEventListener("click", (event) => {
+        const button = (event.target as HTMLElement).closest<HTMLButtonElement>(
+            "button[data-page]"
+        );
+        if (!button || button.disabled) return;
+
+        currentPage = Number(button.dataset.page);
+        render();
+        scrollToGrid();
+    });
+
+    lgQuery.addEventListener("change", () => render());
+
+    render();
+</script>

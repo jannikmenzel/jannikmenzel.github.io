@@ -2,6 +2,7 @@
     "nav": {
         "home": "Home",
         "portfolio": "Portfolio",
+        "about": "Bookmarks",
         "blog": "Blog",
         "contact": "Kontakt",
         "impressum": "Impressum",
@@ -73,6 +74,7 @@
     },
     "blog": {
         "title": "Studienblog",
+        "subtitle": "Artikel und Gedanken rund um Informatik, Studium und mehr.",
         "readMore": "Lesen"
     },
     "portfolio": {
@@ -94,6 +96,27 @@
         "email": "E‑Mail:",
         "website": "Internet:",
         "footerNote": "Bei Fragen zum Impressum nutzen Sie bitte das Kontaktformular auf der Webseite oder schreiben Sie eine E‑Mail an die oben genannte Adresse."
+    },
+    "about": {
+        "bookmarks": {
+            "heading": "Bookmarks",
+            "subtitle": "Eine Auswahl an Websites, Videos, Readings, Podcasts und Repositories.",
+            "filters": {
+                "all": "Alle",
+                "website": "Websites",
+                "video": "Videos",
+                "reading": "Readings",
+                "podcast": "Podcasts",
+                "repository": "Repositories"
+            },
+            "empty": "Keine Einträge in dieser Kategorie.",
+            "pagination": {
+                "nav": "Seitennavigation",
+                "previous": "Vorherige Seite",
+                "next": "Nächste Seite",
+                "page": "Seite"
+            }
+        }
     },
     "footer": {
         "copyright": "Alle Rechte vorbehalten.",

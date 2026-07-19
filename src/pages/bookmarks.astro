@@ -1,0 +1,27 @@
+---
+import Layout from "../layouts/Layout.astro";
+import BookmarkCollection from "../components/bookmarks/BookmarkCollection.astro";
+---
+
+<Layout
+    title="Bookmarks"
+    lang="de"
+    description="Eine kuratierte Bookmark Collection von Jannik Menzel: Websites, Videos, Readings, Podcasts und Repositories."
+    keywords="Bookmarks, Jannik Menzel, Websites, Videos, Readings, Podcasts, Repositories"
+    og={{
+        title: "Bookmarks – Jannik Menzel",
+        description:
+            "Eine kuratierte Bookmark Collection von Jannik Menzel: Websites, Videos, Readings, Podcasts und Repositories.",
+        url: "https://jannikmenzel.me/bookmarks/",
+        image: "https://jannikmenzel.me/social-preview.png",
+    }}
+    twitter={{
+        title: "Bookmarks – Jannik Menzel",
+        description:
+            "Eine kuratierte Bookmark Collection von Jannik Menzel: Websites, Videos, Readings, Podcasts und Repositories.",
+        image: "https://jannikmenzel.me/social-preview.png",
+    }}
+    canonical="https://jannikmenzel.me/bookmarks/"
+>
+    <BookmarkCollection />
+</Layout>
