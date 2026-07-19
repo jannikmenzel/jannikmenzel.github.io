@@ -102,29 +102,50 @@ function localizedHref(href: string): string {
                 </button>
             </li>
         </ul>
-
-        <!-- Mobile Menu (Overlay) -->
-        <div
-            class="fixed left-0 top-16 w-full bg-navbar/98 backdrop-blur hidden flex-col border-b border-border"
-            data-mobile-menu-overlay
-        >
-            <ul class="flex flex-col gap-4 list-none p-6">
-                {
-                    navItems.map((item) => (
-                        <li>
-                            <a
-                                href={localizedHref(item.href)}
-                                class="font-light text-lg block w-full p-3 rounded transition-colors hover:bg-border hover:text-accent"
-                            >
-                                {t(lang, item.labelKey)}
-                            </a>
-                        </li>
-                    ))
-                }
-            </ul>
-        </div>
     </nav>
 </header>
+
+<!-- Mobile Menu (Overlay) -->
+<div
+    class="fixed inset-0 z-[60] bg-background/95 backdrop-blur-lg hidden flex-col pt-20 pb-6 px-6"
+    data-mobile-menu-overlay
+>
+    <button
+        type="button"
+        class="absolute top-4 left-6 p-2 cursor-pointer"
+        data-theme-toggle
+        aria-pressed="false"
+        data-label-dark={t(lang, "accessibility.switchToDark")}
+        data-label-light={t(lang, "accessibility.switchToLight")}
+        aria-label={t(lang, "accessibility.switchToDark")}
+    >
+        <span class="sr-only" data-theme-label>Dark mode</span>
+        <Icon name="lucide:sun" class="hidden h-6 w-6 shrink-0" data-icon-sun aria-hidden="true" />
+        <Icon name="lucide:moon" class="h-6 w-6 shrink-0" data-icon-moon aria-hidden="true" />
+    </button>
+    <button
+        type="button"
+        class="absolute top-4 right-6 p-2 cursor-pointer"
+        data-mobile-menu-close
+        aria-label={t(lang, "accessibility.closeMenu")}
+    >
+        <Icon name="lucide:x" class="h-6 w-6 text-foreground" aria-hidden="true" />
+    </button>
+    <ul class="flex flex-col gap-4 list-none">
+        {
+            navItems.map((item) => (
+                <li>
+                    <a
+                        href={localizedHref(item.href)}
+                        class="font-light text-lg block w-full p-3 rounded transition-colors hover:bg-border hover:text-accent"
+                    >
+                        {t(lang, item.labelKey)}
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</div>
 
 <script is:inline>
     (() => {
@@ -203,6 +224,7 @@ function localizedHref(href: string): string {
                 mobileMenuOverlay.classList.add("hidden");
                 mobileMenuOverlay.classList.remove("flex");
                 mobileMenuToggle.setAttribute("aria-expanded", "false");
+                document.body.classList.remove("overflow-hidden");
                 updateHamburgerLabel();
             }
         }
@@ -213,7 +235,15 @@ function localizedHref(href: string): string {
                 mobileMenuOverlay.classList.toggle("flex", !isOpen);
                 mobileMenuOverlay.classList.toggle("hidden", isOpen);
                 mobileMenuToggle.setAttribute("aria-expanded", String(!isOpen));
+                document.body.classList.toggle("overflow-hidden", !isOpen);
                 updateHamburgerLabel();
+            });
+
+            const mobileMenuClose = document.querySelector("[data-mobile-menu-close]");
+            mobileMenuClose?.addEventListener("click", closeMobileMenu);
+
+            mobileMenuOverlay?.addEventListener("click", (e) => {
+                if (e.target === mobileMenuOverlay) closeMobileMenu();
             });
 
             mobileMenuLinks?.forEach((link) => {
