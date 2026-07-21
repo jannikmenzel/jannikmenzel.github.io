@@ -39,27 +39,27 @@ export const bookmarks: Bookmark[] = [
         category: "tool",
     },
     {
-        title: "The One Habit That Is Changing My Life",
+        title: "A life-changing habit",
         url: "https://youtube.com/watch?v=T4FWTQJcW4U",
         category: "video",
     },
     {
-        title: "Computer Scientist Explains One Concept in 5 Levels of Difficulty",
+        title: "Explaining Zero-Knowledge Proofs",
         url: "https://youtube.com/watch?v=fOGdb1CTu5c",
         category: "video",
     },
     {
-        title: "The Simplest Math Problem No One Can Solve",
+        title: "A Math Problem No One Can Solve",
         url: "https://youtube.com/watch?v=094y1Z2wpJg",
         category: "video",
     },
     {
-        title: "I Ran a Chess Programming Tournament!",
+        title: "Chess Programming Tournament!",
         url: "https://www.youtube.com/watch?v=Ne40a5LkK6A",
         category: "video",
     },
     {
-        title: "This Pattern Breaks, But for a Good Reason",
+        title: "Mathematical Pattern Breaks",
         url: "https://youtube.com/watch?v=YtkIWDE36qU",
         category: "video",
     },

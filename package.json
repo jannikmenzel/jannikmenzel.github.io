@@ -18,6 +18,7 @@
     "dependencies": {
         "@astrojs/markdown-remark": "^7.2.1",
         "@astrojs/sitemap": "^3.7.3",
+        "@fontsource-variable/jetbrains-mono": "^5.3.0",
         "@fontsource/epilogue": "^5.2.8",
         "@fontsource/poppins": "^5.2.7",
         "@iconify-json/lucide": "^1.2.98",

@@ -51,6 +51,7 @@ export default {
             fontFamily: {
                 display: ["var(--font-epilogue)", "serif"],
                 sans: ["var(--font-poppins)", "sans-serif"],
+                mono: ["var(--font-jetbrains)", "monospace"],
             },
         },
     },

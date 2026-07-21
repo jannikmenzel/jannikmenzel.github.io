@@ -9,6 +9,7 @@
     :root {
         --font-poppins: "Poppins", "Inter", "Segoe UI", Roboto, Arial, sans-serif;
         --font-epilogue: "Epilogue", "Avenir Next", "Segoe UI", Arial, sans-serif;
+        --font-jetbrains: "JetBrains Mono Variable", "JetBrains Mono", monospace;
 
         --white: #ffffff;
         --black: #000000;
