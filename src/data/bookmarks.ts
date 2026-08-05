@@ -198,4 +198,79 @@ export const bookmarks: Bookmark[] = [
         url: "https://futurespodcast.net/",
         category: "podcast",
     },
+    {
+        title: "Figma",
+        url: "https://www.figma.com/",
+        category: "tool",
+    },
+    {
+        title: "Excalidraw",
+        url: "https://excalidraw.com/",
+        category: "tool",
+    },
+    {
+        title: "Overleaf",
+        url: "https://www.overleaf.com/",
+        category: "tool",
+    },
+    {
+        title: "Thinking, Fast and Slow",
+        category: "reading",
+        isbn: "9780374533557",
+    },
+    {
+        title: "The Art of Thinking Clearly",
+        category: "reading",
+        isbn: "9780062343963",
+    },
+    {
+        title: "Sapiens",
+        category: "reading",
+        isbn: "9780062316097",
+    },
+    {
+        title: "The Structure of Scientific Revolutions",
+        category: "reading",
+        isbn: "9780226458120",
+    },
+    {
+        title: "Meditations",
+        category: "reading",
+        isbn: "9780140449334",
+    },
+    {
+        title: "The Beginning of Infinity",
+        category: "reading",
+        isbn: "9780140286793",
+    },
+    {
+        title: "Fooled by Randomness",
+        category: "reading",
+        isbn: "9780812975215",
+    },
+    {
+        title: "The Black Swan",
+        category: "reading",
+        isbn: "9780812973815",
+    },
+    {
+        title: "Skin in the Game",
+        category: "reading",
+        isbn: "9780425284629",
+    },
+    {
+        title: "Linchpin",
+        category: "reading",
+        isbn: "9781591844280",
+    },
+    {
+        title: "Hackers & Painters",
+        category: "reading",
+        isbn: "9780596007119",
+    },
+    {
+        title: "LessWrong",
+        url: "https://www.lesswrong.com/",
+        category: "reading",
+    },
 ];
