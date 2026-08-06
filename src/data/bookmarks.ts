@@ -234,16 +234,6 @@ export const bookmarks: Bookmark[] = [
         isbn: "9780226458120",
     },
     {
-        title: "Meditations",
-        category: "reading",
-        isbn: "9780140449334",
-    },
-    {
-        title: "The Beginning of Infinity",
-        category: "reading",
-        isbn: "9780140286793",
-    },
-    {
         title: "Fooled by Randomness",
         category: "reading",
         isbn: "9780812975215",
@@ -257,16 +247,6 @@ export const bookmarks: Bookmark[] = [
         title: "Skin in the Game",
         category: "reading",
         isbn: "9780425284629",
-    },
-    {
-        title: "Linchpin",
-        category: "reading",
-        isbn: "9781591844280",
-    },
-    {
-        title: "Hackers & Painters",
-        category: "reading",
-        isbn: "9780596007119",
     },
     {
         title: "LessWrong",
