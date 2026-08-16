@@ -253,4 +253,14 @@ export const bookmarks: Bookmark[] = [
         url: "https://www.lesswrong.com/",
         category: "reading",
     },
+    {
+        title: "Symbl",
+        url: "https://www.symbl.space/",
+        category: "tool",
+    },
+    {
+        title: "selfh.st",
+        url: "https://selfh.st/",
+        category: "tool",
+    },
 ];
