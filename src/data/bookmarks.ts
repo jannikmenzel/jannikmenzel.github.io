@@ -263,4 +263,49 @@ export const bookmarks: Bookmark[] = [
         url: "https://selfh.st/",
         category: "tool",
     },
+    {
+        title: "free-for.dev",
+        url: "https://free-for.dev/",
+        category: "tool",
+    },
+    {
+        title: "Motrix",
+        url: "https://motrix.app/",
+        category: "tool",
+    },
+    {
+        title: "Full Stack Open",
+        url: "https://fullstackopen.com/",
+        category: "tool",
+    },
+    {
+        title: "Meetily",
+        url: "https://meetily.ai/",
+        category: "tool",
+    },
+    {
+        title: "Design Prompts",
+        url: "https://www.designprompts.dev/",
+        category: "tool",
+    },
+    {
+        title: "Scrapling",
+        url: "https://github.com/d4vinci/Scrapling",
+        category: "repository",
+    },
+    {
+        title: "Manim",
+        url: "https://github.com/3b1b/manim",
+        category: "repository",
+    },
+    {
+        title: "Plausible Analytics",
+        url: "https://github.com/plausible/analytics",
+        category: "repository",
+    },
+    {
+        title: "Pretext",
+        url: "https://github.com/chenglou/pretext",
+        category: "repository",
+    },
 ];

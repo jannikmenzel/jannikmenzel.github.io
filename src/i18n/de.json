@@ -74,10 +74,13 @@
     },
     "blog": {
         "title": "Studienblog",
-        "subtitle": "Artikel und Gedanken rund um Informatik, Studium und mehr.",
+        "subtitle": "Artikel und Gedanken rund um Informatik, Studium und mehr, die ich hier für dich festhalte.",
         "readMore": "Lesen"
     },
     "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "Eine Auswahl an Projekten aus Webentwicklung und Design, die ich in den letzten Jahren umgesetzt habe.",
+        "projectsHeading": "Projekte",
         "github": {
             "title": "Open Source & Code",
             "description": "Einblicke in meine Code-Projekte und Beiträge",
@@ -86,7 +89,27 @@
             "commits": "Commits",
             "visitGithub": "GitHub besuchen"
         },
-        "liveView": "Live ansehen"
+        "liveView": "Live ansehen",
+        "projects": {
+            "stura": {
+                "description": "Entwicklung einer Informations- und Kommunikationsplattform für den Stura der TU Dresden. Modernes Design mit Fokus auf Barrierefreiheit, einfache Inhaltsverwaltung und klare Nutzerführung. Statische Generierung für maximale Performance und Sicherheit."
+            },
+            "findora": {
+                "description": "Komplette Migration einer bestehenden Joomla-Website zu Astro. Modernisierung der Seitenstruktur und des Designs mit Fokus auf Benutzerfreundlichkeit und Ästhetik. Deutliche Performance-Steigerung durch statische Generierung, optimierte Assets und moderne Frontend-Architektur."
+            },
+            "fsr": {
+                "description": "Konzeption und Umsetzung einer modernen Website für den Fachschaftsrat Informatik der TU Dresden. Der Fokus lag auf klarer Struktur, hoher technischer Wartbarkeit und einer professionellen Außenwirkung. Die Website wurde performance-optimiert und vollständig responsive umgesetzt."
+            },
+            "ascii": {
+                "description": "Konzeption und Umsetzung einer Website für das Ascii Dresden, ein Studentencafé an der Technischen Universität Dresden. Der Fokus lag auf einem modernen, ansprechenden Design, das die Atmosphäre des Cafés widerspiegelt, sowie auf einer optimierten Darstellung auf allen Geräten."
+            },
+            "lernstudio": {
+                "description": "Entwicklung einer WordPress-Website für ein lokales Nachhilfestudio. Fokus auf einem minimalistischen und professionellen Design, das Vertrauen schafft, sowie auf einer benutzerfreundlichen Navigation und einer optimierten Darstellung auf allen Geräten."
+            },
+            "ploucquet": {
+                "description": "Entwicklung einer individuellen WordPress-Website für ein mittelständisches Unternehmen. Schwerpunkt auf einfacher Inhaltspflege, klarer Seitenstruktur und einem seriösen, markenkonformen Erscheinungsbild. Die Umsetzung erfolgte vollständig responsive und performance-orientiert."
+            }
+        }
     },
     "impressum": {
         "title": "Impressum",

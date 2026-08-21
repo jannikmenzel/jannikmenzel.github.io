@@ -74,10 +74,13 @@
     },
     "blog": {
         "title": "Blog",
-        "subtitle": "Articles and thoughts on computer science, my studies and more.",
+        "subtitle": "Articles and thoughts on computer science, my studies and more that I keep track of here for you.",
         "readMore": "Read More"
     },
     "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "A selection of web development and design projects I've worked on over the past few years.",
+        "projectsHeading": "Projects",
         "github": {
             "title": "Open Source & Code",
             "description": "Insights into my code projects and contributions",
@@ -86,7 +89,27 @@
             "commits": "Commits",
             "visitGithub": "Visit GitHub"
         },
-        "liveView": "View Live"
+        "liveView": "View Live",
+        "projects": {
+            "stura": {
+                "description": "Development of an information and communication platform for the Student Council of TU Dresden. Modern design with focus on accessibility, easy content management and clear user guidance. Static generation for maximum performance and security."
+            },
+            "findora": {
+                "description": "Complete migration of an existing Joomla website to Astro. Modernization of the page structure and design with a focus on usability and aesthetics. Significant performance improvement through static generation, optimized assets and modern frontend architecture."
+            },
+            "fsr": {
+                "description": "Conception and implementation of a modern website for the Department of Computer Science at TU Dresden. The focus was on clear structure, high technical maintainability and a professional appearance. The website was performance-optimized and fully responsive."
+            },
+            "ascii": {
+                "description": "Conception and implementation of a website for Ascii Dresden, a student café at the Technical University of Dresden. The focus was on a modern, appealing design that reflects the café's atmosphere, as well as an optimized display on all devices."
+            },
+            "lernstudio": {
+                "description": "Development of a WordPress website for a local tutoring center. Focus on a minimalist and professional design that builds trust, as well as user-friendly navigation and optimized display on all devices."
+            },
+            "ploucquet": {
+                "description": "Development of an individual WordPress website for a medium-sized company. Focus on easy content management, clear page structure and a professional, brand-compliant appearance. The implementation was fully responsive and performance-oriented."
+            }
+        }
     },
     "impressum": {
         "title": "Imprint",
