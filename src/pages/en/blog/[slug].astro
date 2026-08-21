@@ -53,14 +53,14 @@ const { Content } = await render(post);
         url: `https://jannikmenzel.me/en/blog/${post.data.slug}/`,
     }}
 >
-    <article class="container p-4 sm:p-16" style="max-width: 1100px;">
+    <article class="container p-4 sm:p-16 max-w-[1100px]">
         {
             post.data.image && (
                 <Image
                     src={post.data.image}
                     alt={post.data.title}
                     loading={"eager"}
-                    class="w-full max-h-[30rem] mb-8 border border-border object-cover"
+                    class="w-full max-h-120 mb-8 border border-border object-cover"
                 />
             )
         }

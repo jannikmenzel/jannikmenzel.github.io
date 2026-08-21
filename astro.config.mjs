@@ -92,13 +92,7 @@ export default defineConfig({
         createSitemap(),
     ],
     markdown: {
-        syntaxHighlight: "shiki",
-        shikiConfig: {
-            themes: {
-                light: "one-light",
-                dark: "one-dark-pro",
-            },
-        },
+        syntaxHighlight: "prism",
         processor: unified({
             remarkPlugins: [remarkMath],
             rehypePlugins: [
@@ -114,6 +108,19 @@ export default defineConfig({
     build: {
         format: "directory",
         assets: "_astro",
+    },
+    security: {
+        csp: {
+            directives: [
+                "default-src 'self'",
+                "img-src 'self' data: https:",
+                "font-src 'self' data:",
+                "connect-src 'self' https://api.web3forms.com",
+            ],
+            styleDirective: {
+                resources: [{ resource: "'unsafe-inline'", kind: "attribute" }],
+            },
+        },
     },
     vite: {
         plugins: [tailwindcss()],

@@ -37,15 +37,6 @@
         --navbar: #ffffffef;
         --ring: #101010;
         --radius: 0.5rem;
-
-        /* Shiki runtime variables */
-        --shiki-light: currentColor;
-        --shiki-light-bg: transparent;
-        --shiki-dark: currentColor;
-        --shiki-dark-bg: transparent;
-        --shiki-dark-font-style: normal;
-        --shiki-dark-font-weight: inherit;
-        --shiki-dark-text-decoration: none;
     }
 
     .dark {
@@ -111,9 +102,11 @@ body {
     font-synthesis: none;
 }
 
-.container {
-    max-width: 1300px;
-    @apply mx-auto;
+@layer base {
+    .container {
+        max-width: 1300px;
+        @apply mx-auto;
+    }
 }
 
 /* ========================
@@ -308,19 +301,53 @@ html.js .scrolling-section .card {
     line-height: 1.6;
 }
 
-.markdown-content pre.astro-code,
-.markdown-content pre.astro-code.github-dark,
-.markdown-content pre.astro-code.github-light {
-    background-color: var(--background-alt) !important;
-    color: var(--shiki-light, inherit);
+.markdown-content pre[class*="language-"] {
+    color: var(--foreground);
 }
 
-.dark .markdown-content pre.astro-code,
-.dark .markdown-content pre.astro-code span {
-    color: var(--shiki-dark) !important;
-    font-style: var(--shiki-dark-font-style) !important;
-    font-weight: var(--shiki-dark-font-weight) !important;
-    text-decoration: var(--shiki-dark-text-decoration) !important;
+.markdown-content .token.comment,
+.markdown-content .token.prolog,
+.markdown-content .token.doctype,
+.markdown-content .token.cdata {
+    color: var(--muted);
+    font-style: italic;
+}
+
+.markdown-content .token.punctuation,
+.markdown-content .token.operator {
+    color: var(--muted-foreground);
+}
+
+.markdown-content .token.tag,
+.markdown-content .token.keyword,
+.markdown-content .token.selector,
+.markdown-content .token.important {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.markdown-content .token.attr-name,
+.markdown-content .token.property,
+.markdown-content .token.function,
+.markdown-content .token.class-name {
+    color: var(--foreground);
+    font-weight: 600;
+}
+
+.markdown-content .token.attr-value,
+.markdown-content .token.string,
+.markdown-content .token.char,
+.markdown-content .token.number,
+.markdown-content .token.boolean {
+    color: var(--foreground-alt);
+}
+
+.dark .markdown-content .token.attr-value,
+.dark .markdown-content .token.string,
+.dark .markdown-content .token.char,
+.dark .markdown-content .token.number,
+.dark .markdown-content .token.boolean {
+    color: var(--foreground);
 }
 
 .markdown-content code {
