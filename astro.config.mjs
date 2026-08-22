@@ -6,11 +6,43 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
 import tailwindcss from "@tailwindcss/vite";
-import rehypeImgSize from "rehype-img-size";
+import sharp from "sharp";
+import { visit } from "unist-util-visit";
 import { unified } from "@astrojs/markdown-remark";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+
+const absolutePathRegex = /^(?:[a-z]+:)?\/\//;
+
+function rehypeImgSize({ dir } = {}) {
+    return async (tree) => {
+        const imgNodes = [];
+        visit(tree, "element", (node) => {
+            if (node.tagName === "img" && node.properties?.src) {
+                imgNodes.push(node);
+            }
+        });
+
+        await Promise.all(
+            imgNodes.map(async (node) => {
+                let src = String(node.properties.src);
+                if (absolutePathRegex.test(src)) {
+                    return;
+                }
+
+                const shouldJoin = !path.isAbsolute(src) || src.startsWith("/");
+                if (dir && shouldJoin) {
+                    src = path.join(dir, src);
+                }
+
+                const { width, height } = await sharp(src).metadata();
+                node.properties.width = width;
+                node.properties.height = height;
+            })
+        );
+    };
+}
 
 function rehypeOpenLinksInNewTab() {
     return (tree) => {
