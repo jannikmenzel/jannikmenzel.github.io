@@ -102,8 +102,9 @@ const socialLinks = [
         | {t(lang, "footer.copyright")} |
         <a
             href={languageSwitchHref}
+            id="footer-language-switch"
+            data-lang={otherLang}
             class="text-light text-sm sm:text-base underline hover:text-lightOff"
-            onclick={`localStorage.setItem('language', '${otherLang}')`}
             >{t(lang, "footer.switchTo")} {otherLang === "en" ? "English" : "Deutsch"}</a
         >
     </p>
@@ -117,5 +118,15 @@ const socialLinks = [
         if (user && domain) {
             footerEmailLink.href = `mailto:${user}@${domain}`;
         }
+    }
+
+    const footerLanguageSwitch = document.getElementById("footer-language-switch");
+    if (footerLanguageSwitch instanceof HTMLAnchorElement) {
+        footerLanguageSwitch.addEventListener("click", () => {
+            const newLang = footerLanguageSwitch.dataset.lang;
+            if (newLang) {
+                localStorage.setItem("language", newLang);
+            }
+        });
     }
 </script>
