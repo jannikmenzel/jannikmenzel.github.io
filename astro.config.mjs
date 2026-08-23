@@ -18,7 +18,7 @@ import {
 import { createSitemap } from "./lib/sitemap-cleanup.js";
 
 export default defineConfig({
-    site: "https://jannikmenzel.me",
+    site: "https://www.jannikmenzel.me",
     base: "/",
     output: "static",
     trailingSlash: "always",

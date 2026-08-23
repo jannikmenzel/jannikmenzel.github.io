@@ -24,33 +24,33 @@ const { Content } = await render(post);
     og={{
         title: post.data.title,
         description: post.data.teaser,
-        url: `https://jannikmenzel.me/en/blog/${post.data.slug}/`,
+        url: `https://www.jannikmenzel.me/en/blog/${post.data.slug}/`,
         image: post.data.image?.src
-            ? `https://jannikmenzel.me${post.data.image.src}`
-            : "https://jannikmenzel.me/social-preview.png",
+            ? `https://www.jannikmenzel.me${post.data.image.src}`
+            : "https://www.jannikmenzel.me/social-preview.png",
     }}
     twitter={{
         title: post.data.title,
         description: post.data.teaser,
         image: post.data.image?.src
-            ? `https://jannikmenzel.me${post.data.image.src}`
-            : "https://jannikmenzel.me/social-preview.png",
+            ? `https://www.jannikmenzel.me${post.data.image.src}`
+            : "https://www.jannikmenzel.me/social-preview.png",
     }}
-    canonical={`https://jannikmenzel.me/blog/${post.data.slug}/`}
+    canonical={`https://www.jannikmenzel.me/blog/${post.data.slug}/`}
     structuredData={{
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         headline: post.data.title,
         description: post.data.teaser,
         image: post.data.image?.src
-            ? `https://jannikmenzel.me${post.data.image.src}`
-            : "https://jannikmenzel.me/social-preview.png",
+            ? `https://www.jannikmenzel.me${post.data.image.src}`
+            : "https://www.jannikmenzel.me/social-preview.png",
         author: {
             "@type": "Person",
             name: "Jannik Menzel",
         },
         datePublished: post.data.date,
-        url: `https://jannikmenzel.me/en/blog/${post.data.slug}/`,
+        url: `https://www.jannikmenzel.me/en/blog/${post.data.slug}/`,
     }}
 >
     <article class="container p-4 sm:p-16 max-w-[1100px]">

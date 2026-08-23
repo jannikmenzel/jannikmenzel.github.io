@@ -6,4 +6,4 @@ Disallow: /en/impressum
 Disallow: /en/datenschutz
 Disallow: /404
 
-Sitemap: https://jannikmenzel.me/sitemap.xml
+Sitemap: https://www.jannikmenzel.me/sitemap.xml
