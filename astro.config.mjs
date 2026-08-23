@@ -1,103 +1,21 @@
 import sitemap from "@astrojs/sitemap";
+import { unified } from "@astrojs/markdown-remark";
 import { defineConfig } from "astro/config";
 import icon from "astro-icon";
-import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
+import rehypeSlug from "rehype-slug";
+import remarkMath from "remark-math";
 import tailwindcss from "@tailwindcss/vite";
-import sharp from "sharp";
-import { visit } from "unist-util-visit";
-import { unified } from "@astrojs/markdown-remark";
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const absolutePathRegex = /^(?:[a-z]+:)?\/\//;
-
-function rehypeImgSize({ dir } = {}) {
-    return async (tree) => {
-        const imgNodes = [];
-        visit(tree, "element", (node) => {
-            if (node.tagName === "img" && node.properties?.src) {
-                imgNodes.push(node);
-            }
-        });
-
-        await Promise.all(
-            imgNodes.map(async (node) => {
-                let src = String(node.properties.src);
-                if (absolutePathRegex.test(src)) {
-                    return;
-                }
-
-                const shouldJoin = !path.isAbsolute(src) || src.startsWith("/");
-                if (dir && shouldJoin) {
-                    src = path.join(dir, src);
-                }
-
-                const { width, height } = await sharp(src).metadata();
-                node.properties.width = width;
-                node.properties.height = height;
-            })
-        );
-    };
-}
-
-function rehypeOpenLinksInNewTab() {
-    return (tree) => {
-        const visit = (node) => {
-            if (!node || typeof node !== "object") {
-                return;
-            }
-
-            if (node.type === "element" && node.tagName === "a" && node.properties?.href) {
-                const href = String(node.properties.href);
-
-                if (!href.startsWith("#")) {
-                    node.properties.target = "_blank";
-                    node.properties.rel = "noopener noreferrer";
-                }
-            }
-
-            if (Array.isArray(node.children)) {
-                for (const child of node.children) {
-                    visit(child);
-                }
-            }
-        };
-
-        visit(tree);
-    };
-}
-
-function createSitemap() {
-    return {
-        name: "createSitemap",
-        hooks: {
-            "astro:build:done": async ({ dir }) => {
-                const distPath = fileURLToPath(dir);
-                const indexPath = path.join(distPath, "sitemap-index.xml");
-                const sitemap0Path = path.join(distPath, "sitemap-0.xml");
-                const finalSitemapPath = path.join(distPath, "sitemap.xml");
-
-                try {
-                    if (fs.existsSync(sitemap0Path)) {
-                        fs.renameSync(sitemap0Path, finalSitemapPath);
-                        console.log("Renamed sitemap-0.xml to sitemap.xml");
-                    }
-
-                    if (fs.existsSync(indexPath)) {
-                        fs.unlinkSync(indexPath);
-                        console.log("Removed sitemap-index.xml");
-                    }
-                } catch (error) {
-                    console.error("Error cleaning up sitemap files:", error);
-                }
-            },
-        },
-    };
-}
+import { cspHashIntegration } from "./lib/csp-integration.js";
+import { rehypeOpenLinksInNewTab } from "./lib/rehype-external-links.js";
+import { rehypeImageSize } from "./lib/rehype-image-size.js";
+import {
+    mathJaxA11yReportIntegration,
+    rehypeMathApplyAccessibleTitles,
+    rehypeMathCaptureSource,
+} from "./lib/rehype-mathjax-a11y.js";
+import { createSitemap } from "./lib/sitemap-cleanup.js";
 
 export default defineConfig({
     site: "https://jannikmenzel.me",
@@ -122,16 +40,20 @@ export default defineConfig({
             },
         }),
         createSitemap(),
+        cspHashIntegration(),
+        mathJaxA11yReportIntegration(),
     ],
     markdown: {
         syntaxHighlight: "prism",
         processor: unified({
             remarkPlugins: [remarkMath],
             rehypePlugins: [
-                [rehypeImgSize, { dir: "public" }],
+                [rehypeImageSize, { dir: "public" }],
                 rehypeSlug,
                 [rehypeAutolinkHeadings, { behavior: "wrap" }],
+                rehypeMathCaptureSource,
                 rehypeMathjax,
+                rehypeMathApplyAccessibleTitles,
                 rehypeOpenLinksInNewTab,
             ],
         }),
@@ -152,6 +74,7 @@ export default defineConfig({
             styleDirective: {
                 resources: [{ resource: "'unsafe-inline'", kind: "attribute" }],
             },
+            scriptDirective: {},
         },
     },
     vite: {

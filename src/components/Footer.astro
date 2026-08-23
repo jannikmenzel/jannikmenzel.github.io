@@ -10,6 +10,9 @@ function localizedHref(href: string): string {
 
 const otherLang: Lang = lang === defaultLang ? "en" : "de";
 
+const isNotFoundPage = Astro.url.pathname.replace(/\/+$/, "") === "/404";
+const languageSwitchHref = getLocalizedPath(otherLang, isNotFoundPage ? "/" : Astro.url.pathname);
+
 const socialLinks = [
     { icon: "lucide:linkedin", href: "https://linkedin.com/in/jannik-menzel", label: "LinkedIn" },
     { icon: "lucide:instagram", href: "https://instagram.com/jnk.mnz", label: "Instagram" },
@@ -26,21 +29,21 @@ const socialLinks = [
         <li>
             <a
                 href={localizedHref("/")}
-                class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+                class="text-light text-sm sm:text-base underline hover:text-lightOff"
                 >{t(lang, "nav.home")}</a
             >
         </li>
         <li>
             <a
                 href={localizedHref("/blog/")}
-                class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+                class="text-light text-sm sm:text-base underline hover:text-lightOff"
                 >{t(lang, "nav.blog")}</a
             >
         </li>
         <li>
             <a
                 href={localizedHref("/impressum/")}
-                class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+                class="text-light text-sm sm:text-base underline hover:text-lightOff"
             >
                 {t(lang, "nav.impressum")}
             </a>
@@ -48,7 +51,7 @@ const socialLinks = [
         <li>
             <a
                 href={localizedHref("/datenschutz/")}
-                class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+                class="text-light text-sm sm:text-base underline hover:text-lightOff"
             >
                 {t(lang, "nav.datenschutz")}
             </a>
@@ -92,18 +95,17 @@ const socialLinks = [
     </div>
     <p class="text-lightOff text-center text-sm sm:text-base">
         &copy; Copyright {" "}
-        <a href={localizedHref("/")} class="text-light text-sm sm:text-base"> Jannik Menzel </a>{
-            " "
-        }
+        <a
+            href={localizedHref("/")}
+            class="text-light text-sm sm:text-base underline hover:text-lightOff">Jannik Menzel</a
+        >{" "}
         | {t(lang, "footer.copyright")} |
         <a
-            href={getLocalizedPath(otherLang, Astro.url.pathname)}
-            class="text-light text-sm sm:text-base hover:text-lightOff hover:underline"
+            href={languageSwitchHref}
+            class="text-light text-sm sm:text-base underline hover:text-lightOff"
             onclick={`localStorage.setItem('language', '${otherLang}')`}
+            >{t(lang, "footer.switchTo")} {otherLang === "en" ? "English" : "Deutsch"}</a
         >
-            {t(lang, "footer.switchTo")}
-            {otherLang === "en" ? "English" : "Deutsch"}
-        </a>
     </p>
 </footer>
 
