@@ -17,7 +17,7 @@ const { Content } = await render(post);
 ---
 
 <Layout
-    title={post.data.title}
+    title={post.data.seoTitle ?? post.data.title}
     description={post.data.teaser}
     lang="en"
     keywords={`Blog, Article, ${post.data.title}, Jannik Menzel, Computer Science, Web Development`}

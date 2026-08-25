@@ -1,5 +1,6 @@
 ---
 title: "Glück verstehen – 5 statistische Kernkonzepte intuitiv erklärt"
+seoTitle: "Glück verstehen – 5 Kernkonzepte erklärt"
 slug: "glueck-verstehen"
 date: 2026-06-25
 image: "../images/cover-images/Artikel-31.jpg"

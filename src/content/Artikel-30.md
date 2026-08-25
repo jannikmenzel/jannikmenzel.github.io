@@ -1,5 +1,6 @@
 ---
 title: "Denken in Modellen – (K)eine Anleitung zum Weltverständnis"
+seoTitle: "Denken in Modellen: Weltverständnis"
 slug: "denken-in-modellen"
 date: 2026-05-14
 image: "../images/cover-images/Artikel-30.jpg"

@@ -25,6 +25,14 @@ const lang = "de";
         image: "https://www.jannikmenzel.me/social-preview.png",
     }}
     canonical="https://www.jannikmenzel.me/blog/"
+    structuredData={{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: t(lang, "blog.title"),
+        description:
+            "Studienblog von Jannik Menzel: Artikel, Tutorials und wissenschaftliche Beiträge rund um Informatik, Studium und vieles mehr.",
+        url: "https://www.jannikmenzel.me/blog/",
+    }}
 >
     <BlogCollection />
 </Layout>

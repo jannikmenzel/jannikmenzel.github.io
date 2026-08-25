@@ -1,5 +1,6 @@
 ---
 title: "Gedanken, die die Welt bewegten – Philosophische Gespräche"
+seoTitle: "Große Gedanken – Philosophische Gespräche"
 slug: "philosophische-gespraeche"
 date: 2025-04-23
 image: "../images/cover-images/Artikel-19.jpg"

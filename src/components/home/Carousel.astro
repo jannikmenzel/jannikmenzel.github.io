@@ -251,45 +251,49 @@ const doubledSkills = [...skills, ...skills];
     <div class="carousel-container overflow-x-hidden relative">
         <div class="flex carousel w-max">
             {
-                doubledSkills.map((skill) => (
-                    <div class="flex-none snap-start w-32 text-center mr-10">
-                        <a
-                            href={skill.href}
-                            target="_blank"
-                            class="inline-block"
-                            aria-label={skill.label}
-                        >
-                            {typeof skill.key === "string" ? (
-                                <Image
-                                    src={images[`../../images/skills/${skill.key}`].default}
-                                    alt={skill.label}
-                                    class="mx-auto w-20 h-20 object-contain"
-                                    loading="eager"
-                                />
-                            ) : (
-                                <>
+                doubledSkills.map((skill) => {
+                    return (
+                        <div class="flex-none snap-start w-32 text-center mr-10">
+                            <a
+                                href={skill.href}
+                                target="_blank"
+                                class="inline-block"
+                                aria-label={skill.label}
+                            >
+                                {typeof skill.key === "string" ? (
                                     <Image
-                                        src={
-                                            images[`../../images/skills/${skill.key.light}`].default
-                                        }
+                                        src={images[`../../images/skills/${skill.key}`].default}
                                         alt={skill.label}
-                                        class="mx-auto w-20 h-20 object-contain dark:hidden"
-                                        loading="eager"
+                                        class="mx-auto w-20 h-20 object-contain"
+                                        loading="lazy"
                                     />
-                                    <Image
-                                        src={
-                                            images[`../../images/skills/${skill.key.dark}`].default
-                                        }
-                                        alt={skill.label}
-                                        class="mx-auto w-20 h-20 object-contain hidden dark:block"
-                                        loading="eager"
-                                    />
-                                </>
-                            )}
-                            <div class="mt-2 text-lg font-thin">{skill.label}</div>
-                        </a>
-                    </div>
-                ))
+                                ) : (
+                                    <>
+                                        <Image
+                                            src={
+                                                images[`../../images/skills/${skill.key.light}`]
+                                                    .default
+                                            }
+                                            alt={skill.label}
+                                            class="mx-auto w-20 h-20 object-contain dark:hidden"
+                                            loading="lazy"
+                                        />
+                                        <Image
+                                            src={
+                                                images[`../../images/skills/${skill.key.dark}`]
+                                                    .default
+                                            }
+                                            alt={skill.label}
+                                            class="mx-auto w-20 h-20 object-contain hidden dark:block"
+                                            loading="lazy"
+                                        />
+                                    </>
+                                )}
+                                <div class="mt-2 text-lg font-thin">{skill.label}</div>
+                            </a>
+                        </div>
+                    );
+                })
             }
         </div>
     </div>

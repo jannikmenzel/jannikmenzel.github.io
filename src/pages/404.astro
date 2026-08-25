@@ -10,6 +10,7 @@ const lang = getLangFromUrl(Astro.url);
     description={t(lang, "404.description")}
     lang={lang === "en" ? "en" : "de"}
     keywords="404, Page not found, Error, Jannik Menzel, Portfolio"
+    noindex
     og={{
         title: `404 – ${t(lang, "404.title")}`,
         description: t(lang, "404.description"),

@@ -1,5 +1,6 @@
 ---
 title: "Zero Knowledge Proof – Ich weiß etwas, was du nicht weißt"
+seoTitle: "Zero Knowledge Proof – was du nicht weißt"
 slug: "zero-knowledge-proof"
 date: 2025-02-20
 image: "../images/cover-images/Artikel-11.jpg"

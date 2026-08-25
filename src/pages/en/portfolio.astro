@@ -25,6 +25,14 @@ const lang = "en";
         image: "https://www.jannikmenzel.me/social-preview.png",
     }}
     canonical="https://www.jannikmenzel.me/en/portfolio/"
+    structuredData={{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: t(lang, "portfolio.title"),
+        description:
+            "Portfolio of Jannik Menzel with selected web projects in design and development.",
+        url: "https://www.jannikmenzel.me/en/portfolio/",
+    }}
 >
     <PortfolioCollection />
 </Layout>

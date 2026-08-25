@@ -1,5 +1,6 @@
 ---
 title: "Kosmische Irrtümer – Wie unser Universum wirklich funktioniert"
+seoTitle: "Kosmische Irrtümer – Unser Universum"
 slug: "kosmische-irrtuemer"
 date: 2025-05-17
 image: "../images/cover-images/Artikel-23.jpg"
@@ -22,7 +23,7 @@ Dennoch gelang es Wissenschaftlern im Jahr 2019 erstmals ein Bild eines Schwarze
 
 Ganz einfach: Man fotografiert nicht das Schwarze Loch selbst, sondern den Schatten, den es im hellen, heißen Gas um sich herum, der sogenannten Akkretionsscheibe, wirft. Dieses Gas strahlt Radiowellen aus, die mit einem weltweiten Netzwerk von Radioteleskopen – dem Event Horizon Telescope – eingefangen werden konnten. Durch die nachträgliche Rekonstruktion der Daten entsteht so ein Bild, das die Silhouette des Schwarzen Lochs sichtbar macht.
 
-![Schwarzes Loch Foto](/images/article-images/Schwarzes-Loch.jpg)
+![Schwarzes Loch Foto](/images/article-images/Schwarzes-Loch.webp)
 _Quelle: Event Horizon Telescope Collaboration, 2019_
 
 Und für alle, die sich schon einmal gefragt haben, was mit einem Menschen geschieht, der einem Schwarzen Loch zu nahe kommt, hat die Wissenschaft eine detaillierte Antwort:

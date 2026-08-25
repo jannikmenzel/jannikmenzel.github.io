@@ -22,7 +22,7 @@ new Intl.DateTimeFormat("de-DE", {
 ---
 
 <Layout
-    title={post.data.title}
+    title={post.data.seoTitle ?? post.data.title}
     description={post.data.teaser}
     lang="de"
     keywords={`Blog, Artikel, ${post.data.title}, Jannik Menzel, Informatik, Webentwicklung`}

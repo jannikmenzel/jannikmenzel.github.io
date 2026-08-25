@@ -1,5 +1,6 @@
 ---
 title: "Der Tanz der Zahlen: Die Collatz-Vermutung entschlüsseln"
+seoTitle: "Die Collatz-Vermutung entschlüsseln"
 slug: "collatz-vermutung"
 date: 2025-02-12
 image: "../images/cover-images/Artikel-10.jpg"

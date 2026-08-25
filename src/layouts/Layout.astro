@@ -18,6 +18,7 @@ const {
     twitter = {},
     canonical,
     structuredData,
+    noindex = false,
 } = Astro.props;
 const pageLang = lang ?? (Astro.url.pathname.startsWith("/en/") ? "en" : "de");
 
@@ -130,6 +131,7 @@ const defaultKeywords =
 
         <meta name="generator" content={Astro.generator} />
         <title>{pageTitle}</title>
+        {noindex && <meta name="robots" content="noindex, follow" />}
 
         <meta name="description" content={description ?? defaultDescription} />
         <meta name="keywords" content={keywords ?? defaultKeywords} />

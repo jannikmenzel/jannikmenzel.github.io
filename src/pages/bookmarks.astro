@@ -22,6 +22,14 @@ import BookmarkCollection from "../components/bookmarks/BookmarkCollection.astro
         image: "https://www.jannikmenzel.me/social-preview.png",
     }}
     canonical="https://www.jannikmenzel.me/bookmarks/"
+    structuredData={{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: "Bookmarks",
+        description:
+            "Eine kuratierte Bookmark Collection von Jannik Menzel: Tools, Videos, Readings, Podcasts und Repositories.",
+        url: "https://www.jannikmenzel.me/bookmarks/",
+    }}
 >
     <BookmarkCollection />
 </Layout>

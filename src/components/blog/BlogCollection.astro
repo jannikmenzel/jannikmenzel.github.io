@@ -38,13 +38,14 @@ function postHref(slug: string) {
     <div class="px-3 sm:px-6 py-16 sm:py-24">
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-lg md:max-w-none mx-auto">
             {
-                posts.map((post) => (
+                posts.map((post, i) => (
                     <article class="group h-full border border-border bg-background-alt p-6 flex flex-col gap-6 scrolling-section transition-colors duration-200 hover:border-accent/50">
                         <a href={postHref(post.data.slug)} class="flex-1">
                             <Image
                                 src={post.data.image}
                                 alt={post.data.title}
                                 class="w-full h-56 object-cover mb-4 border border-border"
+                                loading={i < 3 ? "eager" : "lazy"}
                             />
                             <p class="text-sm text-muted-foreground mb-2">
                                 {dateFormatter.format(post.data.date)}

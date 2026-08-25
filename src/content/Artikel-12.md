@@ -1,5 +1,6 @@
 ---
 title: "Belohnt, gebremst, gelenkt – Die Macht der Feedback-Loops"
+seoTitle: "Belohnt, gebremst, gelenkt: Feedback-Loops"
 slug: "feedback-loops"
 date: 2025-02-23
 image: "../images/cover-images/Artikel-12.jpg"
