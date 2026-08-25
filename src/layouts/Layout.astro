@@ -35,6 +35,8 @@ const defaultDescription =
     "Offizielles Portfolio von Jannik Menzel – Informatikstudent an der TU Dresden. Entdecke Projekte, Blogbeiträge und Tools rund um Webentwicklung, Programmierung und Tech.";
 const defaultKeywords =
     "Jannik Menzel, Informatik, TU Dresden, Portfolio, Webentwicklung, Programmieren, Softwareentwicklung, Blog, GitHub, DEV, Instagram, Projekte";
+
+const structuredDataJson = structuredData ? JSON.stringify(structuredData) : undefined;
 ---
 
 <style is:global>
@@ -136,12 +138,8 @@ const defaultKeywords =
         <meta name="description" content={description ?? defaultDescription} />
         <meta name="keywords" content={keywords ?? defaultKeywords} />
         {
-            structuredData && (
-                <script
-                    is:inline
-                    type="application/ld+json"
-                    set:html={JSON.stringify(structuredData)}
-                />
+            structuredDataJson && (
+                <script is:inline type="application/ld+json" set:html={structuredDataJson} />
             )
         }
 
