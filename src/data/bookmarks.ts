@@ -313,4 +313,14 @@ export const bookmarks: Bookmark[] = [
         url: "https://github.com/advaitpaliwal/feynman",
         category: "repository",
     },
+    {
+        title: "Wealthfolio",
+        url: "https://github.com/wealthfolio/wealthfolio",
+        category: "repository",
+    },
+    {
+        title: "Slidev",
+        url: "https://github.com/slidevjs/slidev",
+        category: "repository",
+    },
 ];
