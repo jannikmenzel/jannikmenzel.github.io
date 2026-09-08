@@ -4,7 +4,7 @@
 
 # Jannik Menzel — Portfolio & Blog
 
-Personal portfolio and freelance website of **Jannik Menzel**, Computer Science student at TU Dresden — built with [Astro](https://astro.build).
+Personal portfolio and freelance website of **Jannik Menzel**, Computer Science student at TU Dresden.
 
 [![Deploy to GitHub Pages](https://github.com/jannikmenzel/jannikmenzel.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/jannikmenzel/jannikmenzel.github.io/actions/workflows/deploy.yml)
 [![Vortix Quality Check](https://github.com/jannikmenzel/jannikmenzel.github.io/actions/workflows/vortix.yml/badge.svg)](https://github.com/jannikmenzel/jannikmenzel.github.io/actions/workflows/vortix.yml)
