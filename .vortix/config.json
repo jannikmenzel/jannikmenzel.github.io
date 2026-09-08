@@ -1,0 +1,15 @@
+{
+    "target": {
+        "adapter": "astro"
+    },
+    "categories": {
+        "performance": true,
+        "security": true,
+        "accessibility": true,
+        "bugs": true,
+        "seo": true,
+        "maintainability": true,
+        "privacy": true
+    },
+    "failOn": "error"
+}
