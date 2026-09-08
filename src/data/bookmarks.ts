@@ -308,4 +308,9 @@ export const bookmarks: Bookmark[] = [
         url: "https://github.com/chenglou/pretext",
         category: "repository",
     },
+    {
+        title: "Feynman",
+        url: "https://github.com/advaitpaliwal/feynman",
+        category: "repository",
+    },
 ];
