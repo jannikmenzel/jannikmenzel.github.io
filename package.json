@@ -54,7 +54,7 @@
         "prettier": "3.8.1",
         "prettier-plugin-astro": "0.14.1",
         "vite": "^7.3.1",
-        "vortix-cli": "^0.1.0"
+        "vortix-cli": "^0.1.1"
     },
     "lint-staged": {
         "**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx,astro}": [
