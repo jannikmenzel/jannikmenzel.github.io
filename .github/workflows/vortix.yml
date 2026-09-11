@@ -14,4 +14,12 @@ jobs:
                   node-version: 22.12.0
                   cache: npm
             - run: npm ci
+            - uses: actions/cache@v4
+              # Persists the dynamic-check cache (.vortix/cache.json) across runs, so `vortix ci`
+              # only re-checks pages that changed since the last run instead of the whole site.
+              with:
+                  path: .vortix/cache.json
+                  key: vortix-cache-${{ github.sha }}
+                  restore-keys: |
+                      vortix-cache-
             - run: npx vortix ci https://www.jannikmenzel.me/
