@@ -149,6 +149,8 @@ const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
     const emptyMessage = document.querySelector<HTMLElement>("[data-bookmark-empty]");
     const pagination = document.querySelector<HTMLElement>("[data-bookmark-pagination]");
     const lgQuery = window.matchMedia("(min-width: 1024px)");
+    const mobileQuery = window.matchMedia("(max-width: 639px)");
+    const MAX_VISIBLE_PAGES_MOBILE = 3;
 
     function getPageSize() {
         const size = lgQuery.matches ? grid?.dataset.pageSizeLg : grid?.dataset.pageSizeDefault;
@@ -176,6 +178,22 @@ const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
         return button;
     }
 
+    function getVisiblePageRange(totalPages: number) {
+        const maxVisible = mobileQuery.matches
+            ? Math.min(MAX_VISIBLE_PAGES_MOBILE, totalPages)
+            : totalPages;
+
+        let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+        let end = start + maxVisible - 1;
+
+        if (end > totalPages) {
+            end = totalPages;
+            start = Math.max(1, end - maxVisible + 1);
+        }
+
+        return { start, end };
+    }
+
     function renderPagination(totalPages: number) {
         if (!pagination) return;
         pagination.innerHTML = "";
@@ -193,7 +211,8 @@ const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
             })
         );
 
-        for (let page = 1; page <= totalPages; page++) {
+        const { start, end } = getVisiblePageRange(totalPages);
+        for (let page = start; page <= end; page++) {
             pagination.appendChild(
                 createPageButton(String(page), page, {
                     current: page === currentPage,
@@ -271,6 +290,7 @@ const categoryIcon: Record<BookmarkCategory, typeof Globe> = {
     });
 
     lgQuery.addEventListener("change", () => render());
+    mobileQuery.addEventListener("change", () => render());
 
     render();
 </script>
