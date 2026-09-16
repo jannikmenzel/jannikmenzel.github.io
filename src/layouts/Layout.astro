@@ -64,6 +64,45 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData) : und
     .markdown-content mjx-container[display="true"] svg {
         display: inline-block !important;
     }
+    .markdown-content .chart-diagram {
+        margin: 1.5em 0;
+        overflow-x: auto;
+    }
+    .markdown-content .chart-diagram-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5em;
+        margin: 1.5em 0;
+    }
+    .markdown-content .chart-diagram-row .chart-diagram {
+        flex: 1 1 320px;
+        margin: 0;
+        min-width: 0;
+    }
+    .markdown-content .chart-diagram svg {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .markdown-content .chart-diagram-dark {
+        display: none;
+    }
+    html.dark .markdown-content .chart-diagram-light {
+        display: none;
+    }
+    html.dark .markdown-content .chart-diagram-dark {
+        display: block;
+    }
+
+    html.js .markdown-content .chart-diagram:not(.is-revealed) svg * {
+        animation-play-state: paused !important;
+    }
+    @media (prefers-reduced-motion: reduce) {
+        html.js .markdown-content .chart-diagram svg * {
+            animation: none !important;
+        }
+    }
 
     /* smooth theme transition */
     @media (min-width: 768px) {

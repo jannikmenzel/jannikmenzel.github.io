@@ -15,6 +15,8 @@ import {
     rehypeMathApplyAccessibleTitles,
     rehypeMathCaptureSource,
 } from "./lib/rehype-mathjax-a11y.js";
+import { rehypeEcharts } from "./lib/rehype-echarts.js";
+import { remarkChartRow } from "./lib/remark-chart-row.js";
 import { createSitemap } from "./lib/sitemap-cleanup.js";
 
 export default defineConfig({
@@ -44,9 +46,9 @@ export default defineConfig({
         mathJaxA11yReportIntegration(),
     ],
     markdown: {
-        syntaxHighlight: "prism",
+        syntaxHighlight: { type: "prism", excludeLangs: ["echarts"] },
         processor: unified({
-            remarkPlugins: [remarkMath],
+            remarkPlugins: [remarkMath, remarkChartRow],
             rehypePlugins: [
                 [rehypeImageSize, { dir: "public" }],
                 rehypeSlug,
@@ -54,6 +56,7 @@ export default defineConfig({
                 rehypeMathCaptureSource,
                 rehypeMathjax,
                 rehypeMathApplyAccessibleTitles,
+                rehypeEcharts,
                 rehypeOpenLinksInNewTab,
             ],
         }),

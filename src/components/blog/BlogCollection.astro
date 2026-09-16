@@ -46,6 +46,7 @@ function postHref(slug: string) {
                                 alt={post.data.title}
                                 class="w-full h-56 object-cover mb-4 border border-border"
                                 loading={i < 3 ? "eager" : "lazy"}
+                                densities={[1, 1.5, 2]}
                             />
                             <p class="text-sm text-muted-foreground mb-2">
                                 {dateFormatter.format(post.data.date)}
