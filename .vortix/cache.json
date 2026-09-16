@@ -2,14 +2,14 @@
     "fingerprint": "26377b25462c0b2075b84618ccfa21a0cebf81e82d32be5952a8032ecc8aa3fd",
     "pages": {
         "index.html": {
-            "contentHash": "d41687f02b33bde4c5721c89a129d204ccf049810dd4780dbfab0b2a44dcca37",
+            "contentHash": "418e83a3987041e16e58a03d252f43f7dacb45cb6e33894821bd5cd01807b598",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "44ms (budget: 2500ms)",
+                    "value": "56ms (budget: 2500ms)",
                     "url": "/"
                 },
                 {
@@ -23,7 +23,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "794KB (budget: 1500KB)",
+                    "value": "795KB (budget: 1500KB)",
                     "url": "/"
                 },
                 {
@@ -92,14 +92,14 @@
             ]
         },
         "404.html": {
-            "contentHash": "7567fa85dd037ce09eaf7c46b6bb7a609c5b44a36a5ae5e690cdeca733291099",
+            "contentHash": "eac9cbb8d6e7f0b99d822d7c649dad3e33b7f92db1be487cf09e78260d05628a",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "28ms (budget: 2500ms)",
+                    "value": "24ms (budget: 2500ms)",
                     "url": "/404.html"
                 },
                 {
@@ -113,7 +113,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "171KB (budget: 1500KB)",
+                    "value": "172KB (budget: 1500KB)",
                     "url": "/404.html"
                 },
                 {
@@ -175,7 +175,7 @@
             ]
         },
         "blog/index.html": {
-            "contentHash": "f4163233054ba9e96aac037b687c097b7fb9176f0f13eaa00f6640b5041848a2",
+            "contentHash": "0738888700127e928295f4b1a229c6efc84955bcf3a8202f1fe47289db28ef91",
             "findings": [],
             "details": [
                 {
@@ -196,7 +196,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "1210KB (budget: 1500KB)",
+                    "value": "1282KB (budget: 1500KB)",
                     "url": "/blog/"
                 },
                 {
@@ -210,7 +210,7 @@
                     "checkId": "performance.lazy-loading",
                     "category": "performance",
                     "label": "Images checked / marked lazy",
-                    "value": "32 / 28",
+                    "value": "33 / 29",
                     "url": "/blog/"
                 },
                 {
@@ -265,7 +265,7 @@
             ]
         },
         "blog/algorithmen-im-alltag/index.html": {
-            "contentHash": "176b3027545cc8a609d6539ec80e86ba5b5d1f8abb95b246cdb9af29195d6e50",
+            "contentHash": "e3c0efb190990e7f1ed46fe6e9547644be0d1f60bab924d970cbdfe027f1e5d4",
             "findings": [],
             "details": [
                 {
@@ -286,7 +286,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "210KB (budget: 1500KB)",
+                    "value": "211KB (budget: 1500KB)",
                     "url": "/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -355,7 +355,7 @@
             ]
         },
         "blog/antifragilitaet/index.html": {
-            "contentHash": "637e09b5f4250ebecc57649c6ed8976ff14d4edc9f7360a2728ecefcced93f6c",
+            "contentHash": "29b3d046308a40ef3406354b3d263850c8bcae0545ebf3e03e3144646869c872",
             "findings": [],
             "details": [
                 {
@@ -376,7 +376,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "219KB (budget: 1500KB)",
+                    "value": "220KB (budget: 1500KB)",
                     "url": "/blog/antifragilitaet/"
                 },
                 {
@@ -445,14 +445,14 @@
             ]
         },
         "blog/art-of-design/index.html": {
-            "contentHash": "aafc1fd356afc17c367f4829f693bd3ce9d619b82fd0f288f5dcc9417e8a3839",
+            "contentHash": "750fa09e26b1f954071d5da746a9532dbd0360ce6d5a5c3b24e00cba1d45f3be",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "44ms (budget: 2500ms)",
                     "url": "/blog/art-of-design/"
                 },
                 {
@@ -466,7 +466,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "330KB (budget: 1500KB)",
+                    "value": "331KB (budget: 1500KB)",
                     "url": "/blog/art-of-design/"
                 },
                 {
@@ -535,7 +535,7 @@
             ]
         },
         "blog/blackrock/index.html": {
-            "contentHash": "19a78e9c45f3b9d0e712d8ab3549922f43f593d6bebd11b7ab39a635b180c6e8",
+            "contentHash": "4bba9c6dd03476e28ebdcec19a5032b750f700d16b17883e89089552f1e665a3",
             "findings": [],
             "details": [
                 {
@@ -556,7 +556,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "298KB (budget: 1500KB)",
+                    "value": "299KB (budget: 1500KB)",
                     "url": "/blog/blackrock/"
                 },
                 {
@@ -625,14 +625,14 @@
             ]
         },
         "blog/chatbots/index.html": {
-            "contentHash": "8f9b1eef966d785092fbaca6ee01112813ab77331d390e657f99f41467528700",
+            "contentHash": "e6135c70a063684aeaf6b2432647f3427c1ad475ab4f22c3af9f760bd1f1bde5",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/blog/chatbots/"
                 },
                 {
@@ -646,7 +646,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "242KB (budget: 1500KB)",
+                    "value": "243KB (budget: 1500KB)",
                     "url": "/blog/chatbots/"
                 },
                 {
@@ -715,14 +715,14 @@
             ]
         },
         "blog/cleo/index.html": {
-            "contentHash": "a689d7a9fc2f59641b1a072c2487bab4d50ae8f8e9df79cb7541abd42290a8d1",
+            "contentHash": "4dfc1a558d011da8828f04ab04fb7d7eae123649f7fe2df64a047ef5c0faa8db",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/cleo/"
                 },
                 {
@@ -736,7 +736,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "200KB (budget: 1500KB)",
+                    "value": "201KB (budget: 1500KB)",
                     "url": "/blog/cleo/"
                 },
                 {
@@ -805,14 +805,14 @@
             ]
         },
         "blog/collatz-vermutung/index.html": {
-            "contentHash": "d18e798400d2b7b78d93e813339474f0d0cff07247d8152bdeeda825dac2b5a9",
+            "contentHash": "26c6dc489f4e3df518095dc8a61fac9338055f7a33f942157073c5772dc55772",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "44ms (budget: 2500ms)",
                     "url": "/blog/collatz-vermutung/"
                 },
                 {
@@ -826,7 +826,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "288KB (budget: 1500KB)",
+                    "value": "289KB (budget: 1500KB)",
                     "url": "/blog/collatz-vermutung/"
                 },
                 {
@@ -895,7 +895,7 @@
             ]
         },
         "blog/computerkurse/index.html": {
-            "contentHash": "f2aa5b6d92bdede691589b7a17cf0da986bd9ab570a164d7571415c73de77d18",
+            "contentHash": "9e37abec56dbfa8fb335ebf400c320aec6384c65face0b3b574a5718fbd373c0",
             "findings": [],
             "details": [
                 {
@@ -916,7 +916,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "198KB (budget: 1500KB)",
+                    "value": "199KB (budget: 1500KB)",
                     "url": "/blog/computerkurse/"
                 },
                 {
@@ -985,7 +985,7 @@
             ]
         },
         "blog/denken-in-modellen/index.html": {
-            "contentHash": "a70fed8b35c01f0839152b8e912b460c52a35adb8f37159098fb64201504182d",
+            "contentHash": "f94436dd95b660f602db50962011bad9e0c1852dece66c0d0422d3bc6e9632e6",
             "findings": [],
             "details": [
                 {
@@ -1006,7 +1006,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "198KB (budget: 1500KB)",
+                    "value": "199KB (budget: 1500KB)",
                     "url": "/blog/denken-in-modellen/"
                 },
                 {
@@ -1075,7 +1075,7 @@
             ]
         },
         "blog/eine-leber-drucken/index.html": {
-            "contentHash": "9d26ffb68982f0575fa6951920ad071b7f77af4d9a081510fdbe059e5fc9a278",
+            "contentHash": "a1349f4536363ff6d2b03fcd85aeb825003997a0a38f3d512339444043da02b7",
             "findings": [],
             "details": [
                 {
@@ -1096,7 +1096,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "222KB (budget: 1500KB)",
+                    "value": "223KB (budget: 1500KB)",
                     "url": "/blog/eine-leber-drucken/"
                 },
                 {
@@ -1165,7 +1165,7 @@
             ]
         },
         "blog/feedback-loops/index.html": {
-            "contentHash": "d4f6567569375b37fbbdd16b383652a130baeaac140737c9ac67ee65ab83165e",
+            "contentHash": "11b742aaee7ffc58faec4946d4c56d0bfddf159278ff26e8d1e0748350a5314b",
             "findings": [],
             "details": [
                 {
@@ -1186,7 +1186,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "192KB (budget: 1500KB)",
+                    "value": "193KB (budget: 1500KB)",
                     "url": "/blog/feedback-loops/"
                 },
                 {
@@ -1255,14 +1255,14 @@
             ]
         },
         "blog/frontend-development/index.html": {
-            "contentHash": "04848395925a333b7e03086432a33b7c85c4da76825d0430136ec49055d0b1ad",
+            "contentHash": "c99570108bc8ee686a22cb739517be8b8db4e123003e58f3825822918fbf0142",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "40ms (budget: 2500ms)",
+                    "value": "48ms (budget: 2500ms)",
                     "url": "/blog/frontend-development/"
                 },
                 {
@@ -1345,7 +1345,7 @@
             ]
         },
         "blog/generalist-vs-spezialist/index.html": {
-            "contentHash": "3e1bf310cb45b8de0ee0ef580b6b95fc485063871fcf92ddb4da08e940085c0e",
+            "contentHash": "1fa179e09ec67748e3ab47a5296cc1d8da53eb5ae13b58a259f5089bfa5f72bc",
             "findings": [],
             "details": [
                 {
@@ -1366,7 +1366,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "208KB (budget: 1500KB)",
+                    "value": "209KB (budget: 1500KB)",
                     "url": "/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -1435,7 +1435,7 @@
             ]
         },
         "blog/generation-chat-gpt/index.html": {
-            "contentHash": "c67868d01bfc2a69738cf6db413d825f01b471c198e5c86406d7373fc9b7e362",
+            "contentHash": "4d52ab0a23c2f61e256b34b1938caa829027edd8d9b91afc02e380ee9cf2a24f",
             "findings": [],
             "details": [
                 {
@@ -1456,7 +1456,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "201KB (budget: 1500KB)",
+                    "value": "202KB (budget: 1500KB)",
                     "url": "/blog/generation-chat-gpt/"
                 },
                 {
@@ -1525,7 +1525,7 @@
             ]
         },
         "blog/glueck-verstehen/index.html": {
-            "contentHash": "ea0495e9557d3306a398488ac11d531b4f7e2474b1e498721e569bb93ce38b44",
+            "contentHash": "ed605f265b7f7c712521d1d9277903d99dda1bb2c0ace279539b3d7f118a6be0",
             "findings": [],
             "details": [
                 {
@@ -1546,7 +1546,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "408KB (budget: 1500KB)",
+                    "value": "409KB (budget: 1500KB)",
                     "url": "/blog/glueck-verstehen/"
                 },
                 {
@@ -1615,7 +1615,7 @@
             ]
         },
         "blog/kosmische-irrtuemer/index.html": {
-            "contentHash": "8218febb918820bf805173b5841eaba657387f78204c2ed385c84bdbec73a9fb",
+            "contentHash": "c007c79133cda2d3673ee20c73357abf2dac3815e26b6ddbdb7f6efb1af095bc",
             "findings": [],
             "details": [
                 {
@@ -1636,7 +1636,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "336KB (budget: 1500KB)",
+                    "value": "337KB (budget: 1500KB)",
                     "url": "/blog/kosmische-irrtuemer/"
                 },
                 {
@@ -1705,14 +1705,14 @@
             ]
         },
         "blog/lying-with-statistics/index.html": {
-            "contentHash": "5b433bbb070aa8e671eec64bf0f5387e8bafd2d47b3b8ce38e6916eedb173cc5",
+            "contentHash": "c39f0be6063cb898359e593e8c4f4fcce87c3a0d2817d9e5d842192a60bad710",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "44ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/lying-with-statistics/"
                 },
                 {
@@ -1726,7 +1726,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "271KB (budget: 1500KB)",
+                    "value": "272KB (budget: 1500KB)",
                     "url": "/blog/lying-with-statistics/"
                 },
                 {
@@ -1795,14 +1795,14 @@
             ]
         },
         "blog/not-petya/index.html": {
-            "contentHash": "467ae227684cfc3145d30f8a812e59ede6259d1eb2993fd3bdd4c0edf4d4098f",
+            "contentHash": "82c63b4d9fb9080f5925f83aa48c7c4a4801bbb815c20dfe024566e9549bfbde",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/not-petya/"
                 },
                 {
@@ -1816,7 +1816,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "241KB (budget: 1500KB)",
+                    "value": "242KB (budget: 1500KB)",
                     "url": "/blog/not-petya/"
                 },
                 {
@@ -1885,14 +1885,14 @@
             ]
         },
         "blog/nowitschok/index.html": {
-            "contentHash": "6ec5303c663f9b748c716799815ca917935cc39fd4ac04cc853a9bb20f1519fc",
+            "contentHash": "fc88b7518844c34e962af830a31065d02e43164e8df164d19845eee14dd3f5ef",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/nowitschok/"
                 },
                 {
@@ -1906,7 +1906,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "206KB (budget: 1500KB)",
+                    "value": "207KB (budget: 1500KB)",
                     "url": "/blog/nowitschok/"
                 },
                 {
@@ -1975,14 +1975,14 @@
             ]
         },
         "blog/perfektionismus/index.html": {
-            "contentHash": "3a67fef26619bca1aee7e40b864b3c9ffd23728938b0cf30a19b7bed2273c5a3",
+            "contentHash": "7f973c94005329b2d9b39a86c61cdd51e4888a19af043690c4a37017e4fcc85f",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "28ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/perfektionismus/"
                 },
                 {
@@ -1996,7 +1996,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "205KB (budget: 1500KB)",
+                    "value": "206KB (budget: 1500KB)",
                     "url": "/blog/perfektionismus/"
                 },
                 {
@@ -2065,14 +2065,14 @@
             ]
         },
         "blog/philosophische-gespraeche/index.html": {
-            "contentHash": "f3a3fdcd88caace664f32652cc3b7afae1756e52767ab07c8a4aa5cf4962668e",
+            "contentHash": "c19924f4202e4ac510ec0cb39475de2b93b7e740ad766845be514094450d77e5",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/philosophische-gespraeche/"
                 },
                 {
@@ -2086,7 +2086,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "327KB (budget: 1500KB)",
+                    "value": "328KB (budget: 1500KB)",
                     "url": "/blog/philosophische-gespraeche/"
                 },
                 {
@@ -2155,14 +2155,14 @@
             ]
         },
         "blog/rhetorik/index.html": {
-            "contentHash": "2c76cbc426323e82dc8de26e6745cc0aea1df7f467206acd7b2a3d1a4c1c5242",
+            "contentHash": "38b32bfa547e4b107dee27c6935ed2b1e2c1e3fc79524da8a1a6b86eeaa8d9b5",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "60ms (budget: 2500ms)",
                     "url": "/blog/rhetorik/"
                 },
                 {
@@ -2245,14 +2245,14 @@
             ]
         },
         "blog/schach/index.html": {
-            "contentHash": "e6b93cb91a90ade6ea36f5d50992b810e5c88c26eca50cae515bd33f14e9cf5e",
+            "contentHash": "a99c6d6ec1385ee5702354ed9d6572d1d9b07b494dc0c248ad6053b8bc615624",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "64ms (budget: 2500ms)",
                     "url": "/blog/schach/"
                 },
                 {
@@ -2266,7 +2266,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "211KB (budget: 1500KB)",
+                    "value": "212KB (budget: 1500KB)",
                     "url": "/blog/schach/"
                 },
                 {
@@ -2335,14 +2335,14 @@
             ]
         },
         "blog/science-of-harmony/index.html": {
-            "contentHash": "a9fb6a1cc1ef8294ffc58613b72f505ba9baff57b66baee432294a2f6df083d6",
+            "contentHash": "5bd1d69e0768856dda86170dcc8e97972036af17f3bd9516d02e4a6f6195dfb1",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/science-of-harmony/"
                 },
                 {
@@ -2425,14 +2425,14 @@
             ]
         },
         "blog/science/index.html": {
-            "contentHash": "f0c09d955b600621bee29ecb0c1e1d7850e53a4216c317bcba7a7145f12fbe43",
+            "contentHash": "e8f39add3cc059e7e40e440918494e7060968e3a0c655d26abe2cb71bf3f0800",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/science/"
                 },
                 {
@@ -2446,7 +2446,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "223KB (budget: 1500KB)",
+                    "value": "224KB (budget: 1500KB)",
                     "url": "/blog/science/"
                 },
                 {
@@ -2515,7 +2515,7 @@
             ]
         },
         "blog/second-brain/index.html": {
-            "contentHash": "f3250443040e40e009bbde6d3ac52f83a387a6c632169e741389375a88509e6e",
+            "contentHash": "c361d907a509cf222df04c0451abc39c8c7eb62b701a50752af8d75342841ecc",
             "findings": [],
             "details": [
                 {
@@ -2536,7 +2536,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "197KB (budget: 1500KB)",
+                    "value": "198KB (budget: 1500KB)",
                     "url": "/blog/second-brain/"
                 },
                 {
@@ -2605,7 +2605,7 @@
             ]
         },
         "blog/software-is-eating-the-world/index.html": {
-            "contentHash": "362b571dab5ba65f25509d0d9a62f5ea275093125fec757abeba44ef845a3b0e",
+            "contentHash": "c78c57e5b28a7caf80d0bbcf3c6f885163a04de454cac7e35c1598c9b8dd9bd6",
             "findings": [],
             "details": [
                 {
@@ -2626,7 +2626,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "212KB (budget: 1500KB)",
+                    "value": "213KB (budget: 1500KB)",
                     "url": "/blog/software-is-eating-the-world/"
                 },
                 {
@@ -2695,7 +2695,7 @@
             ]
         },
         "blog/sterbehilfe/index.html": {
-            "contentHash": "0aecace3a8dc37c00e7ae4ff9fd5dbde010a86456e1dec2603888dd775be15a7",
+            "contentHash": "f1d7dfb2dd1733f9808fc49c2cd1ce8063de03d896a16516620431f2f35626ae",
             "findings": [],
             "details": [
                 {
@@ -2716,7 +2716,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "225KB (budget: 1500KB)",
+                    "value": "226KB (budget: 1500KB)",
                     "url": "/blog/sterbehilfe/"
                 },
                 {
@@ -2785,7 +2785,7 @@
             ]
         },
         "blog/storytelling/index.html": {
-            "contentHash": "af767956df2ff3042996f9794bf3a23a62cead69549da2761631a3723ed20236",
+            "contentHash": "e13097f8f5a5c044ab8b88adf19461628e0a3fc3be15bd8326a7b64b279b9918",
             "findings": [],
             "details": [
                 {
@@ -2806,7 +2806,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "230KB (budget: 1500KB)",
+                    "value": "231KB (budget: 1500KB)",
                     "url": "/blog/storytelling/"
                 },
                 {
@@ -2875,7 +2875,7 @@
             ]
         },
         "blog/systeme-statt-ziele/index.html": {
-            "contentHash": "780bfa8a8045456d3b46aa9f5577929ca6d5cc2fa768e7e083f1d4321e321377",
+            "contentHash": "12c26e6611b7523b25d528219d34c73a481bd546efa314de282c122cd54de463",
             "findings": [],
             "details": [
                 {
@@ -2896,7 +2896,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "217KB (budget: 1500KB)",
+                    "value": "218KB (budget: 1500KB)",
                     "url": "/blog/systeme-statt-ziele/"
                 },
                 {
@@ -2964,15 +2964,105 @@
                 }
             ]
         },
-        "blog/zero-knowledge-proof/index.html": {
-            "contentHash": "f99fd59d689dc58e0c7c3d374f619324810476af461fc8e0187f30f3634a0bb9",
+        "blog/tierhaltung-und-umwelt/index.html": {
+            "contentHash": "a31579c614c9ad0b52cd3d1a177add921fe24d16e798757cd9c627523e0aa0e7",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "44ms (budget: 2500ms)",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "CLS",
+                    "value": "0.000 (budget: 0.1)",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Page weight",
+                    "value": "344KB (budget: 1500KB)",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Largest image",
+                    "value": "103KB (budget: 300KB)",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.lazy-loading",
+                    "category": "performance",
+                    "label": "Images checked / marked lazy",
+                    "value": "2 / 0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.third-party-impact",
+                    "category": "performance",
+                    "label": "Third-party requests / render-blocking",
+                    "value": "0 / 0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "accessibility.axe",
+                    "category": "accessibility",
+                    "label": "Rules checked / passed / violated",
+                    "value": "24 / 24 / 0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "accessibility.color-contrast",
+                    "category": "accessibility",
+                    "label": "Elements checked / failing contrast",
+                    "value": "110 / 0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "bugs.console-errors",
+                    "category": "bugs",
+                    "label": "Console messages captured",
+                    "value": "0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "privacy.tracker-requests",
+                    "category": "privacy",
+                    "label": "Tracker requests detected",
+                    "value": "0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "privacy.external-fonts",
+                    "category": "privacy",
+                    "label": "Externally loaded fonts/APIs",
+                    "value": "0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "privacy.fingerprinting",
+                    "category": "privacy",
+                    "label": "Fingerprinting APIs checked / found",
+                    "value": "8 / 0",
+                    "url": "/blog/tierhaltung-und-umwelt/"
+                }
+            ]
+        },
+        "blog/zero-knowledge-proof/index.html": {
+            "contentHash": "5fbab0e9a4284c9d8c71ff73c1cf2bea54f195d22c2783c1385d93c6277322e0",
+            "findings": [],
+            "details": [
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "LCP",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/zero-knowledge-proof/"
                 },
                 {
@@ -2986,7 +3076,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "223KB (budget: 1500KB)",
+                    "value": "224KB (budget: 1500KB)",
                     "url": "/blog/zero-knowledge-proof/"
                 },
                 {
@@ -3055,14 +3145,14 @@
             ]
         },
         "bookmarks/index.html": {
-            "contentHash": "a001f77d19b972639cda05d26fcd5dc95d81010aeddfcca91cc015f52e0152da",
+            "contentHash": "808fcabaa9b11e5c051797e609f6a5af3db106786025dfdac2fc666c20aaa1a0",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "44ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/bookmarks/"
                 },
                 {
@@ -3076,7 +3166,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "299KB (budget: 1500KB)",
+                    "value": "300KB (budget: 1500KB)",
                     "url": "/bookmarks/"
                 },
                 {
@@ -3138,7 +3228,7 @@
             ]
         },
         "datenschutz/index.html": {
-            "contentHash": "45e4831a7c98db41b25bdf6b5517f94dcc8183f261e2954069f193e47e82d632",
+            "contentHash": "9b2e15761c5b7443ca4b61408010ca5bcf3ae45ce4f95066e11b0d1fc1fc59d4",
             "findings": [],
             "details": [
                 {
@@ -3221,7 +3311,7 @@
             ]
         },
         "en/index.html": {
-            "contentHash": "0f9e9f0f981a00fcf3c3af633a7a313fd0ef7d5f090945f1832663059066395d",
+            "contentHash": "433bbb361fd0df21e7f9f3ea02fdf92a8743eb0a31c0e1cb8181a82784caf1e8",
             "findings": [],
             "details": [
                 {
@@ -3242,7 +3332,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "703KB (budget: 1500KB)",
+                    "value": "704KB (budget: 1500KB)",
                     "url": "/en/"
                 },
                 {
@@ -3311,7 +3401,7 @@
             ]
         },
         "en/blog/index.html": {
-            "contentHash": "60c525fbc3d98c06e1790eab9c44793ecca523788fe10ae4ad66cae349e168fc",
+            "contentHash": "bbc85231ec19def05b4c6bd452ae140360fe24e72641dd87552dbd8a21cc395c",
             "findings": [],
             "details": [
                 {
@@ -3332,7 +3422,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "1211KB (budget: 1500KB)",
+                    "value": "1282KB (budget: 1500KB)",
                     "url": "/en/blog/"
                 },
                 {
@@ -3346,7 +3436,7 @@
                     "checkId": "performance.lazy-loading",
                     "category": "performance",
                     "label": "Images checked / marked lazy",
-                    "value": "32 / 28",
+                    "value": "33 / 29",
                     "url": "/en/blog/"
                 },
                 {
@@ -3401,7 +3491,7 @@
             ]
         },
         "en/blog/algorithmen-im-alltag/index.html": {
-            "contentHash": "87a8f66b53b67156ddf0730de84947185933c358241e728d457e24978deaca98",
+            "contentHash": "37804e1d3c78d04a51b7a7cd31bffc9650aa0dc09e1b76350199396f70152d9e",
             "findings": [],
             "details": [
                 {
@@ -3422,7 +3512,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "210KB (budget: 1500KB)",
+                    "value": "211KB (budget: 1500KB)",
                     "url": "/en/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -3491,7 +3581,7 @@
             ]
         },
         "en/blog/antifragilitaet/index.html": {
-            "contentHash": "b9df738048590f5059de290738a1dd78599b37dd8e950c0d03e16c621134801e",
+            "contentHash": "477f7641c03c50861813a1fd681917b5455ad601ccf6b09e1deef50b0a918633",
             "findings": [],
             "details": [
                 {
@@ -3512,7 +3602,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "219KB (budget: 1500KB)",
+                    "value": "220KB (budget: 1500KB)",
                     "url": "/en/blog/antifragilitaet/"
                 },
                 {
@@ -3581,7 +3671,7 @@
             ]
         },
         "en/blog/art-of-design/index.html": {
-            "contentHash": "1ee5892a65ce76b5fc389709b9102e411952232177a3e5a856643667333162d9",
+            "contentHash": "a82ed0146b20c07546f57cdd3fea42feab31e78508d936115441c8ebe3e73f95",
             "findings": [],
             "details": [
                 {
@@ -3602,7 +3692,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "330KB (budget: 1500KB)",
+                    "value": "331KB (budget: 1500KB)",
                     "url": "/en/blog/art-of-design/"
                 },
                 {
@@ -3671,14 +3761,14 @@
             ]
         },
         "en/blog/blackrock/index.html": {
-            "contentHash": "b5eaf67de1dcb37832c52e5ad192c7a9e4c8d049ddb9fb64e0d55bb9e9385919",
+            "contentHash": "f041a7c2ffd054681307a0240d677a833dd657eaf71ca28c850f21fe817f6dc4",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "44ms (budget: 2500ms)",
                     "url": "/en/blog/blackrock/"
                 },
                 {
@@ -3692,7 +3782,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "298KB (budget: 1500KB)",
+                    "value": "299KB (budget: 1500KB)",
                     "url": "/en/blog/blackrock/"
                 },
                 {
@@ -3761,7 +3851,7 @@
             ]
         },
         "en/blog/chatbots/index.html": {
-            "contentHash": "21d350697a1cad23e53ff090214ace6e60cc5bfe4925b3bd58173d6f43964447",
+            "contentHash": "b92529a656aaf5497018cbd7032ebe9f354572890e0d46e2a674b260868248ae",
             "findings": [],
             "details": [
                 {
@@ -3782,7 +3872,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "242KB (budget: 1500KB)",
+                    "value": "243KB (budget: 1500KB)",
                     "url": "/en/blog/chatbots/"
                 },
                 {
@@ -3851,7 +3941,7 @@
             ]
         },
         "en/blog/cleo/index.html": {
-            "contentHash": "470121a09cec9929354c016c1c7f1d131e62f109c25eaccd630b029d3529da30",
+            "contentHash": "c381f0ce1ea115f4e8a4d7f8c00c8dc109a3cbf68f25f88dbca9740196da43d9",
             "findings": [],
             "details": [
                 {
@@ -3872,7 +3962,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "200KB (budget: 1500KB)",
+                    "value": "201KB (budget: 1500KB)",
                     "url": "/en/blog/cleo/"
                 },
                 {
@@ -3941,14 +4031,14 @@
             ]
         },
         "en/blog/collatz-vermutung/index.html": {
-            "contentHash": "c3ff7b20cb0a052c6c08587b23d9722b544b3684705a48300676d0bbb00c5c5e",
+            "contentHash": "09a56320cece09f17f5bf41dfd5b5f0acea7474464c816c62bc5a20d1d84a11f",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/en/blog/collatz-vermutung/"
                 },
                 {
@@ -3962,7 +4052,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "288KB (budget: 1500KB)",
+                    "value": "289KB (budget: 1500KB)",
                     "url": "/en/blog/collatz-vermutung/"
                 },
                 {
@@ -4031,7 +4121,7 @@
             ]
         },
         "en/blog/computerkurse/index.html": {
-            "contentHash": "7454914560b076d92921f7401cbd9d4621243a5fc0d2a6d5dc38af4f7c4a9dc6",
+            "contentHash": "ca5829e7949b050a67ab77de8296afdfdc2f0349f1e02ba9d92f98e8b129d039",
             "findings": [],
             "details": [
                 {
@@ -4052,7 +4142,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "198KB (budget: 1500KB)",
+                    "value": "199KB (budget: 1500KB)",
                     "url": "/en/blog/computerkurse/"
                 },
                 {
@@ -4121,7 +4211,7 @@
             ]
         },
         "en/blog/denken-in-modellen/index.html": {
-            "contentHash": "ee2cee92844623996628743d22dfde57bd696ed61c10bfabffb142f804daa91e",
+            "contentHash": "4b8771357d370b5d32d2cc00cdcebee6ca39215425eff34454fc1accb4e97b4f",
             "findings": [],
             "details": [
                 {
@@ -4142,7 +4232,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "198KB (budget: 1500KB)",
+                    "value": "199KB (budget: 1500KB)",
                     "url": "/en/blog/denken-in-modellen/"
                 },
                 {
@@ -4211,7 +4301,7 @@
             ]
         },
         "en/blog/eine-leber-drucken/index.html": {
-            "contentHash": "4228cf6d4468621d815c368219b1ebac3c9b94c864fcaba8799027c99cf6bfec",
+            "contentHash": "87c54a6c7b8d79d2e0da747ff15447008f7a9811ec152f55d267a923e26240f6",
             "findings": [],
             "details": [
                 {
@@ -4232,7 +4322,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "222KB (budget: 1500KB)",
+                    "value": "223KB (budget: 1500KB)",
                     "url": "/en/blog/eine-leber-drucken/"
                 },
                 {
@@ -4301,7 +4391,7 @@
             ]
         },
         "en/blog/feedback-loops/index.html": {
-            "contentHash": "e8bde5901f8df50946252c17346862fb9fbb2f0e16860a7edf54fc227c8c8d83",
+            "contentHash": "864084742c7774b86b5403b236ee60b8f0f56db1b92a1a2db2aca849538e1cdc",
             "findings": [],
             "details": [
                 {
@@ -4322,7 +4412,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "192KB (budget: 1500KB)",
+                    "value": "193KB (budget: 1500KB)",
                     "url": "/en/blog/feedback-loops/"
                 },
                 {
@@ -4391,14 +4481,14 @@
             ]
         },
         "en/blog/frontend-development/index.html": {
-            "contentHash": "1521b1dcfab40d71f9924b8f80888a1805c602e11d90eec80749f7ae0337dca1",
+            "contentHash": "73d4bd821abfa69d93d477d8ae785e41e4910af0e29011546802ceda9c37ce2c",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "40ms (budget: 2500ms)",
+                    "value": "48ms (budget: 2500ms)",
                     "url": "/en/blog/frontend-development/"
                 },
                 {
@@ -4481,14 +4571,14 @@
             ]
         },
         "en/blog/generalist-vs-spezialist/index.html": {
-            "contentHash": "4c687726d84493bb61d4572b533fdeacd3daf706246c1e10d7eb31ba53cd69ac",
+            "contentHash": "4b19368d8a26db7850cdd97bd8f75c71088a1cf0352f65dd03b78e56fb4a6b13",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "60ms (budget: 2500ms)",
                     "url": "/en/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -4502,7 +4592,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "208KB (budget: 1500KB)",
+                    "value": "209KB (budget: 1500KB)",
                     "url": "/en/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -4571,14 +4661,14 @@
             ]
         },
         "en/blog/generation-chat-gpt/index.html": {
-            "contentHash": "c636e225f4eaca62b2bfc790b0f397d9e1d4a46eca188d35ef2e630110e1f096",
+            "contentHash": "13db8ffa17f536cf02c40c75abc263ae08eeabd2960123c5655b3fcf3308d4f5",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/generation-chat-gpt/"
                 },
                 {
@@ -4592,7 +4682,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "201KB (budget: 1500KB)",
+                    "value": "202KB (budget: 1500KB)",
                     "url": "/en/blog/generation-chat-gpt/"
                 },
                 {
@@ -4661,7 +4751,7 @@
             ]
         },
         "en/blog/glueck-verstehen/index.html": {
-            "contentHash": "91f4a8d58f78bd380bd7d6e34560edcaf158e3e660d7ad17270de113760f1c53",
+            "contentHash": "9bbda2585dbba67cefe481e574af6fff77cc9cea860a70d4f9f2bdd63d6d7e7b",
             "findings": [],
             "details": [
                 {
@@ -4682,7 +4772,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "408KB (budget: 1500KB)",
+                    "value": "409KB (budget: 1500KB)",
                     "url": "/en/blog/glueck-verstehen/"
                 },
                 {
@@ -4751,7 +4841,7 @@
             ]
         },
         "en/blog/kosmische-irrtuemer/index.html": {
-            "contentHash": "9a0b63f9d90abf74c8245ee2780ee756da88f7a66131eb14eae74a3c2772d98f",
+            "contentHash": "9563e9eb2941c694244c95d5cd7c1f9a872e0d6eeb768e7fe2489b14b74a5088",
             "findings": [],
             "details": [
                 {
@@ -4772,7 +4862,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "336KB (budget: 1500KB)",
+                    "value": "337KB (budget: 1500KB)",
                     "url": "/en/blog/kosmische-irrtuemer/"
                 },
                 {
@@ -4841,7 +4931,7 @@
             ]
         },
         "en/blog/lying-with-statistics/index.html": {
-            "contentHash": "f7b6089431a83b92e3e6cbf059b7900c562910a3b320ac7d93dc3ebf918abc5e",
+            "contentHash": "e86fbb14a16ae3cdfc05d36504dfe30c54e40fb28af82d1a87ee4d285f02c8e1",
             "findings": [],
             "details": [
                 {
@@ -4862,7 +4952,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "271KB (budget: 1500KB)",
+                    "value": "272KB (budget: 1500KB)",
                     "url": "/en/blog/lying-with-statistics/"
                 },
                 {
@@ -4931,7 +5021,7 @@
             ]
         },
         "en/blog/not-petya/index.html": {
-            "contentHash": "730f12c18a8a9e727be9c0b9c3ad23a39057d815ea383016413552f2d5e3c9d7",
+            "contentHash": "ed12b665bc0048a68cc5f680761e6de95c8836e508f87bea41eb0e458bafb959",
             "findings": [],
             "details": [
                 {
@@ -4952,7 +5042,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "241KB (budget: 1500KB)",
+                    "value": "242KB (budget: 1500KB)",
                     "url": "/en/blog/not-petya/"
                 },
                 {
@@ -5021,7 +5111,7 @@
             ]
         },
         "en/blog/nowitschok/index.html": {
-            "contentHash": "d4ebd00c8c76462971443173c58291d197c5e3fd9395d17195ccba85b8bf445e",
+            "contentHash": "84f43273b7d28bc93d083748644b1ebb14e0281fa0f52fcc5aee419a65751c9a",
             "findings": [],
             "details": [
                 {
@@ -5042,7 +5132,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "206KB (budget: 1500KB)",
+                    "value": "207KB (budget: 1500KB)",
                     "url": "/en/blog/nowitschok/"
                 },
                 {
@@ -5111,14 +5201,14 @@
             ]
         },
         "en/blog/perfektionismus/index.html": {
-            "contentHash": "f55d776b5076387312eefdb46d401fa7e0d45068b29bf69de9d5d6b43c3fff97",
+            "contentHash": "54b40c7ad1ea04e041be01b1433985edaa58405eb4a1f762a9d4e28fb868c0d4",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/perfektionismus/"
                 },
                 {
@@ -5132,7 +5222,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "205KB (budget: 1500KB)",
+                    "value": "206KB (budget: 1500KB)",
                     "url": "/en/blog/perfektionismus/"
                 },
                 {
@@ -5201,14 +5291,14 @@
             ]
         },
         "en/blog/philosophische-gespraeche/index.html": {
-            "contentHash": "5718b05cd93e1431eb4f3a9ccf54fc8acd61132ce3c05a304757bb3543c774fc",
+            "contentHash": "6cf0aa9fe4d099eb97c874e03251f9d6a7318bbfb79aa263d49a892b576979d1",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/philosophische-gespraeche/"
                 },
                 {
@@ -5222,7 +5312,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "327KB (budget: 1500KB)",
+                    "value": "328KB (budget: 1500KB)",
                     "url": "/en/blog/philosophische-gespraeche/"
                 },
                 {
@@ -5291,7 +5381,7 @@
             ]
         },
         "en/blog/rhetorik/index.html": {
-            "contentHash": "8cd75a61991ae0a13546090bae7112d2f92018e20d947d1505e9b2160a15ebe6",
+            "contentHash": "0aea9bea318dc8a764ddda4b7ece74df20147e2d4d4cf98dd0f001dad994c6a9",
             "findings": [],
             "details": [
                 {
@@ -5381,7 +5471,7 @@
             ]
         },
         "en/blog/schach/index.html": {
-            "contentHash": "f0933c489259e5d8682b5dc30257d3464c0274c7f8d72b4be3c927bf4b680fd4",
+            "contentHash": "2be30dbd3d96971e9a8231d592fa2a03e6e9859227022aad2802e15670e1d856",
             "findings": [],
             "details": [
                 {
@@ -5402,7 +5492,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "211KB (budget: 1500KB)",
+                    "value": "212KB (budget: 1500KB)",
                     "url": "/en/blog/schach/"
                 },
                 {
@@ -5471,7 +5561,7 @@
             ]
         },
         "en/blog/science-of-harmony/index.html": {
-            "contentHash": "9407cf04202b9e645f72b95c5af0b2da013efde055d57696ce110b11d0bcc5b9",
+            "contentHash": "d205621fc22eaa998eb7d4915005ac04cce481ff9394bc80d99a19aaf7925857",
             "findings": [],
             "details": [
                 {
@@ -5561,7 +5651,7 @@
             ]
         },
         "en/blog/science/index.html": {
-            "contentHash": "598d73eb9b545b74906aeb20a59cbe6dfb749656fdf62297f51fc0cdbe306379",
+            "contentHash": "dde617fba7f4be6d872d7fd6fbe159e2d31a34cc892a57524fffbdd08391ef2b",
             "findings": [],
             "details": [
                 {
@@ -5582,7 +5672,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "223KB (budget: 1500KB)",
+                    "value": "224KB (budget: 1500KB)",
                     "url": "/en/blog/science/"
                 },
                 {
@@ -5651,14 +5741,14 @@
             ]
         },
         "en/blog/second-brain/index.html": {
-            "contentHash": "c72ca4b658d56437c5d221b8922fc22742203fe3030f3aee9e54d3ce99f19481",
+            "contentHash": "482bf76b8519f2dffcb188d647187ae7667ed5bab9f27839d976ff1d4edefe10",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/second-brain/"
                 },
                 {
@@ -5672,7 +5762,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "197KB (budget: 1500KB)",
+                    "value": "198KB (budget: 1500KB)",
                     "url": "/en/blog/second-brain/"
                 },
                 {
@@ -5741,7 +5831,7 @@
             ]
         },
         "en/blog/software-is-eating-the-world/index.html": {
-            "contentHash": "b8cfba04a13e33cf4338a436c796474de52050d9654b57101f9119017f69bca8",
+            "contentHash": "ac5eda3c265622583e2b1c73c08aec7d243b7085899d00075e0b094aa0c469c3",
             "findings": [],
             "details": [
                 {
@@ -5762,7 +5852,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "212KB (budget: 1500KB)",
+                    "value": "213KB (budget: 1500KB)",
                     "url": "/en/blog/software-is-eating-the-world/"
                 },
                 {
@@ -5831,7 +5921,7 @@
             ]
         },
         "en/blog/sterbehilfe/index.html": {
-            "contentHash": "a09e48814a1847b50608776958976061048a97691fd80c7f407a062ed9579968",
+            "contentHash": "fc6a7d33009fa31259bba4dc5844d4ad60571fe4de9fea03eea788d211353725",
             "findings": [],
             "details": [
                 {
@@ -5852,7 +5942,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "225KB (budget: 1500KB)",
+                    "value": "226KB (budget: 1500KB)",
                     "url": "/en/blog/sterbehilfe/"
                 },
                 {
@@ -5921,7 +6011,7 @@
             ]
         },
         "en/blog/storytelling/index.html": {
-            "contentHash": "c563bd908702422080b606c019da9c0da1171e78605714033e5a558581f8c527",
+            "contentHash": "a2bb0c3ebcaaa15b4eff9f086f17a18ef7cc9c058dd389bfe7a17ef2c00f3a04",
             "findings": [],
             "details": [
                 {
@@ -5942,7 +6032,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "230KB (budget: 1500KB)",
+                    "value": "231KB (budget: 1500KB)",
                     "url": "/en/blog/storytelling/"
                 },
                 {
@@ -6011,7 +6101,7 @@
             ]
         },
         "en/blog/systeme-statt-ziele/index.html": {
-            "contentHash": "6613b91f3269cffb7def2566b223275c5c030d896820bcc2cb08cbdebd1e7570",
+            "contentHash": "e7aa4de938bf4a87ef2bf538b3f1d174d734c937e994c3f4e2e490902656aead",
             "findings": [],
             "details": [
                 {
@@ -6032,7 +6122,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "217KB (budget: 1500KB)",
+                    "value": "218KB (budget: 1500KB)",
                     "url": "/en/blog/systeme-statt-ziele/"
                 },
                 {
@@ -6100,15 +6190,105 @@
                 }
             ]
         },
-        "en/blog/zero-knowledge-proof/index.html": {
-            "contentHash": "8da3cbbd2a6c765166e7197f32c278f0eed979469bf2d7e553e78bd1cb1a8a74",
+        "en/blog/tierhaltung-und-umwelt/index.html": {
+            "contentHash": "43c364d1b406adc213f673a9c8df77c7d13354e9f86d81b9e2e7a44738eb9211",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "28ms (budget: 2500ms)",
+                    "value": "44ms (budget: 2500ms)",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "CLS",
+                    "value": "0.000 (budget: 0.1)",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Page weight",
+                    "value": "344KB (budget: 1500KB)",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Largest image",
+                    "value": "103KB (budget: 300KB)",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.lazy-loading",
+                    "category": "performance",
+                    "label": "Images checked / marked lazy",
+                    "value": "2 / 0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "performance.third-party-impact",
+                    "category": "performance",
+                    "label": "Third-party requests / render-blocking",
+                    "value": "0 / 0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "accessibility.axe",
+                    "category": "accessibility",
+                    "label": "Rules checked / passed / violated",
+                    "value": "24 / 24 / 0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "accessibility.color-contrast",
+                    "category": "accessibility",
+                    "label": "Elements checked / failing contrast",
+                    "value": "110 / 0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "bugs.console-errors",
+                    "category": "bugs",
+                    "label": "Console messages captured",
+                    "value": "0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "privacy.tracker-requests",
+                    "category": "privacy",
+                    "label": "Tracker requests detected",
+                    "value": "0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "privacy.external-fonts",
+                    "category": "privacy",
+                    "label": "Externally loaded fonts/APIs",
+                    "value": "0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                },
+                {
+                    "checkId": "privacy.fingerprinting",
+                    "category": "privacy",
+                    "label": "Fingerprinting APIs checked / found",
+                    "value": "8 / 0",
+                    "url": "/en/blog/tierhaltung-und-umwelt/"
+                }
+            ]
+        },
+        "en/blog/zero-knowledge-proof/index.html": {
+            "contentHash": "18c38c2bbea5bae8548931eda5b47ac594ba5d6fce6a88bd8edbd5285f830fb8",
+            "findings": [],
+            "details": [
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "LCP",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/en/blog/zero-knowledge-proof/"
                 },
                 {
@@ -6122,7 +6302,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "223KB (budget: 1500KB)",
+                    "value": "224KB (budget: 1500KB)",
                     "url": "/en/blog/zero-knowledge-proof/"
                 },
                 {
@@ -6191,7 +6371,7 @@
             ]
         },
         "en/bookmarks/index.html": {
-            "contentHash": "54c7528d298ca4d39faf7894dc2581d796decf5e9db0b84a9b3f6b84f2de68bd",
+            "contentHash": "c320bee6f9a59e2a5a98802cdcf49a67a12c80bdb881ad1162bcc1a6eaf45392",
             "findings": [],
             "details": [
                 {
@@ -6212,7 +6392,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "299KB (budget: 1500KB)",
+                    "value": "300KB (budget: 1500KB)",
                     "url": "/en/bookmarks/"
                 },
                 {
@@ -6274,7 +6454,7 @@
             ]
         },
         "en/datenschutz/index.html": {
-            "contentHash": "b7649522cd25dec8b84f116972eed11ff1e06cf784ecfd4d8163189eabd342d4",
+            "contentHash": "c2775a293fd2b6e668b0a2b9f160edc0f74c79cc9fc99cf4c28d8fd1bfc176bc",
             "findings": [],
             "details": [
                 {
@@ -6295,7 +6475,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "184KB (budget: 1500KB)",
+                    "value": "185KB (budget: 1500KB)",
                     "url": "/en/datenschutz/"
                 },
                 {
@@ -6357,7 +6537,7 @@
             ]
         },
         "en/impressum/index.html": {
-            "contentHash": "13780309c92691cd0b207edbaf682acb4415e395207ff36d0a9c3c54b1afb3af",
+            "contentHash": "e00c25f2d15942e99717a5fca22c61b268b93108b3611ab7d013890d1d052de7",
             "findings": [],
             "details": [
                 {
@@ -6378,7 +6558,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "173KB (budget: 1500KB)",
+                    "value": "174KB (budget: 1500KB)",
                     "url": "/en/impressum/"
                 },
                 {
@@ -6440,14 +6620,14 @@
             ]
         },
         "en/portfolio/index.html": {
-            "contentHash": "5505d213b582726c6e793b59b87af4557e17d1b653258e837b130763ae4f4ea8",
+            "contentHash": "bbd6c845249b1bcd85705c00a49bd844ae4d54514be93660746f3fb4a503586b",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "28ms (budget: 2500ms)",
                     "url": "/en/portfolio/"
                 },
                 {
@@ -6461,7 +6641,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "794KB (budget: 1500KB)",
+                    "value": "795KB (budget: 1500KB)",
                     "url": "/en/portfolio/"
                 },
                 {
@@ -6530,14 +6710,14 @@
             ]
         },
         "impressum/index.html": {
-            "contentHash": "4ddc6c518a864c92b8181f0fcf1fce17b2d9f30326960fa9244799fe724cf89e",
+            "contentHash": "7b178c7c69fd8d3612089223301f73ae498ce3689393de6223c62ad08d9f2662",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "24ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/impressum/"
                 },
                 {
@@ -6551,7 +6731,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "173KB (budget: 1500KB)",
+                    "value": "174KB (budget: 1500KB)",
                     "url": "/impressum/"
                 },
                 {
@@ -6613,14 +6793,14 @@
             ]
         },
         "portfolio/index.html": {
-            "contentHash": "4fdd3bc3ed2bd26d02b3ab7afe64ef182de103a643197b7e79ae4619d1e47022",
+            "contentHash": "d4cba1038e57aa83852c4e0b10f05fe3beefe735d390966fc8340210d65e4478",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/portfolio/"
                 },
                 {
@@ -6634,7 +6814,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "794KB (budget: 1500KB)",
+                    "value": "795KB (budget: 1500KB)",
                     "url": "/portfolio/"
                 },
                 {
