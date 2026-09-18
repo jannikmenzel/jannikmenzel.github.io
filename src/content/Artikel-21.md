@@ -34,6 +34,22 @@ Vielleicht ist das ehrlichste, was ich über Perfektionismus sagen kann: Er läs
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Love for Imperfect Things** von Haemin Sunim
-2. **Die Kunst des perfekten Scheiterns** von Christian Rieck
-3. **How To Live An Extraordinary Life** von Anthony Pompliano
+```references
+[
+  {
+    "type": "book",
+    "title": "Love for Imperfect Things",
+    "authors": "Haemin Sunim"
+  },
+  {
+    "type": "book",
+    "title": "Die Kunst des perfekten Scheiterns",
+    "authors": "Christian Rieck"
+  },
+  {
+    "type": "book",
+    "title": "How To Live An Extraordinary Life",
+    "authors": "Anthony Pompliano"
+  }
+]
+```

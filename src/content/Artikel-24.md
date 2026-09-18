@@ -56,4 +56,12 @@ Antifragilität beginnt im Kopf, mit der Entscheidung, Unsicherheit nicht länge
 
 ## Referenzen
 
-1. **Antifragilität** von Nassim Nicholas Taleb
+```references
+[
+  {
+    "type": "book",
+    "title": "Antifragilität",
+    "authors": "Nassim Nicholas Taleb"
+  }
+]
+```

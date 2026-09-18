@@ -46,5 +46,17 @@ Allerdings sollte man nicht den Fehler machen, das _Second Brain_ als reines Arc
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Building a Second Brain** von Tiago Forte
-2. **How to Take Smart** Notes von Sönke Ahrens
+```references
+[
+  {
+    "type": "book",
+    "title": "Building a Second Brain",
+    "authors": "Tiago Forte"
+  },
+  {
+    "type": "book",
+    "title": "How to Take Smart",
+    "authors": "Sönke Ahrens"
+  }
+]
+```

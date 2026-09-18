@@ -61,6 +61,10 @@
     img[decoding] {
         color: transparent;
     }
+
+    footer {
+        --accent: #94a3b8;
+    }
 }
 
 /* ========================
@@ -227,7 +231,7 @@ html.js .scrolling-section .card {
 }
 
 .markdown-content a:hover {
-    color: var(--muted-foreground);
+    color: var(--accent);
 }
 
 .markdown-content ul,
@@ -372,4 +376,48 @@ html.js .scrolling-section .card {
     display: block !important;
     text-align: center !important;
     margin: 1.5rem 0 !important;
+}
+
+.markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.markdown-content table:not([data-ref-table] table) {
+    margin: 1.5rem 0;
+    border: 1px solid var(--border);
+}
+
+.markdown-content [data-ref-table] table {
+    margin: 0;
+}
+
+.markdown-content th,
+.markdown-content td {
+    border-bottom: 1px solid var(--border);
+    padding: 0.6rem 0.9rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.markdown-content thead th {
+    background-color: var(--background-alt);
+    font-weight: 600;
+}
+
+.markdown-content tbody tr:nth-child(even) {
+    background-color: var(--background-alt);
+}
+
+.markdown-content tbody tr:last-child td {
+    border-bottom: none;
+}
+
+@media (max-width: 640px) {
+    .markdown-content table:not([data-ref-table] table) {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }

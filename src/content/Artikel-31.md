@@ -80,6 +80,22 @@ Und ja, selbst bei kontroversen Themen lässt sich das Muster erkennen: Wer etwa
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **The Signal and the Noise** von Nate Silver
-2. **Thinking, Fast and Slow** von Daniel Kahneman
-3. **The Art of Statistics** von David Spiegelhalter
+```references
+[
+  {
+    "type": "book",
+    "title": "The Signal and the Noise",
+    "authors": "Nate Silver"
+  },
+  {
+    "type": "book",
+    "title": "Thinking, Fast and Slow",
+    "authors": "Daniel Kahneman"
+  },
+  {
+    "type": "book",
+    "title": "The Art of Statistics",
+    "authors": "David Spiegelhalter"
+  }
+]
+```

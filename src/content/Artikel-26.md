@@ -46,4 +46,13 @@ Ein Hit entsteht aus dem Zusammenspiel vieler Faktoren – Harmonie ist nur eine
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. [4 Chords | The Axis Of Awesome](https://www.youtube.com/watch?v=oOlDewpCfZQ&list=RDoOlDewpCfZQ)
+```references
+[
+  {
+    "type": "video",
+    "title": "4 Chords | The Axis Of Awesome",
+    "authors": "The Axis of Awesome",
+    "url": "https://www.youtube.com/watch?v=oOlDewpCfZQ&list=RDoOlDewpCfZQ"
+  }
+]
+```

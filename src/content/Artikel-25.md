@@ -54,4 +54,12 @@ BlackRock steht exemplarisch für eine Weltordnung, in der Kapitalströme mehr z
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **BlackRock** von Heike Buchter
+```references
+[
+  {
+    "type": "book",
+    "title": "BlackRock",
+    "authors": "Heike Buchter"
+  }
+]
+```

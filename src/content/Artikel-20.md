@@ -64,4 +64,12 @@ All das verdeutlicht, wie tödlich präzise und unberechenbar diese Substanz ist
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Nawalny** von Jan Matti Dollbaum, Morvan Lallouet & Ben Noble
+```references
+[
+  {
+    "type": "book",
+    "title": "Nawalny",
+    "authors": "Jan Matti Dollbaum, Morvan Lallouet & Ben Noble"
+  }
+]
+```

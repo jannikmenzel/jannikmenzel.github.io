@@ -40,6 +40,22 @@ Wie sich der Trend KI Chatbots betreffend entwickeln wird, bleibt abzuwarten. Go
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Ein Algorithmus hat kein Taktgefühl** von Katharina Zweig
-2. **Die KI war's!** von Katharina Zweig
-3. **Künstliche Intelligenz** von Manuela Lenzen
+```references
+[
+  {
+    "type": "book",
+    "title": "Ein Algorithmus hat kein Taktgefühl",
+    "authors": "Katharina Zweig"
+  },
+  {
+    "type": "book",
+    "title": "Die KI war's!",
+    "authors": "Katharina Zweig"
+  },
+  {
+    "type": "book",
+    "title": "Künstliche Intelligenz",
+    "authors": "Manuela Lenzen"
+  }
+]
+```

@@ -16,6 +16,7 @@ import {
     rehypeMathCaptureSource,
 } from "./lib/rehype-mathjax-a11y.js";
 import { rehypeEcharts } from "./lib/rehype-echarts.js";
+import { rehypeReferences } from "./lib/rehype-references.js";
 import { remarkChartRow } from "./lib/remark-chart-row.js";
 import { createSitemap } from "./lib/sitemap-cleanup.js";
 
@@ -46,7 +47,7 @@ export default defineConfig({
         mathJaxA11yReportIntegration(),
     ],
     markdown: {
-        syntaxHighlight: { type: "prism", excludeLangs: ["echarts"] },
+        syntaxHighlight: { type: "prism", excludeLangs: ["echarts", "references"] },
         processor: unified({
             remarkPlugins: [remarkMath, remarkChartRow],
             rehypePlugins: [
@@ -57,6 +58,7 @@ export default defineConfig({
                 rehypeMathjax,
                 rehypeMathApplyAccessibleTitles,
                 rehypeEcharts,
+                rehypeReferences,
                 rehypeOpenLinksInNewTab,
             ],
         }),

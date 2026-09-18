@@ -41,4 +41,13 @@ Mit der enormen Macht, die Zero-Knowledge Proofs bieten, geht auch eine erheblic
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. [Computer Scientist Explains One Concept in 5 Levels of Difficulty](https://www.youtube.com/watch?v=fOGdb1CTu5c) von WIRED
+```references
+[
+  {
+    "type": "video",
+    "title": "Computer Scientist Explains One Concept in 5 Levels of Difficulty",
+    "authors": "WIRED",
+    "url": "https://www.youtube.com/watch?v=fOGdb1CTu5c"
+  }
+]
+```

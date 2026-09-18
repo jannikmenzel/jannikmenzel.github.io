@@ -46,6 +46,22 @@ Zum Abschluss möchte ich gerne auf eine weitere spannende Anwendungsmöglichkei
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Tell me!** von Thomas Pyczak
-2. **Storyworthy** von Matthew Dicks
-3. **The Storytelling Animal** von Jonathan Gottschall
+```references
+[
+  {
+    "type": "book",
+    "title": "Tell me!",
+    "authors": "Thomas Pyczak"
+  },
+  {
+    "type": "book",
+    "title": "Storyworthy",
+    "authors": "Matthew Dicks"
+  },
+  {
+    "type": "book",
+    "title": "The Storytelling Animal",
+    "authors": "Jonathan Gottschall"
+  }
+]
+```

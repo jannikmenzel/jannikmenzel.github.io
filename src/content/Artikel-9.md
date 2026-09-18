@@ -46,5 +46,17 @@ Es ist wichtig, sich bewusst zu machen, dass Rückschläge Teil des Prozesses si
 
 ## Referenzen
 
-1. **Atomic Habits** von James Clear
-2. **Creator Science** Podcast von Jay Clouse
+```references
+[
+  {
+    "type": "book",
+    "title": "Atomic Habits",
+    "authors": "James Clear"
+  },
+  {
+    "type": "podcast",
+    "title": "Creator Science",
+    "authors": "Jay Clouse"
+  }
+]
+```

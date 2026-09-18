@@ -50,4 +50,13 @@ Doch trotz der Fortschritte der modernen Schach-Engines, die in der Lage sind, M
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. [Why AI Chess Bots Are Virtually Unbeatable (ft. GothamChess)](https://www.youtube.com/watch?v=CdFLEfRr3Qk) von WIRED
+```references
+[
+  {
+    "type": "video",
+    "title": "Why AI Chess Bots Are Virtually Unbeatable (ft. GothamChess)",
+    "authors": "WIRED",
+    "url": "https://www.youtube.com/watch?v=CdFLEfRr3Qk"
+  }
+]
+```

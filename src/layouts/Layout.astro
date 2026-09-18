@@ -45,7 +45,8 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData) : und
     .markdown-content h3,
     .markdown-content h4,
     .markdown-content h5,
-    .markdown-content h6 {
+    .markdown-content h6,
+    .markdown-content [data-ref-row] {
         scroll-margin-top: 100px;
     }
     .markdown-content {
@@ -85,14 +86,22 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData) : und
         max-width: 100%;
         height: auto;
     }
-    .markdown-content .chart-diagram-dark {
-        display: none;
+    .markdown-content .chart-diagram {
+        display: grid;
     }
+    .markdown-content .chart-diagram-light,
+    .markdown-content .chart-diagram-dark {
+        grid-area: 1 / 1;
+        min-width: 0;
+    }
+    .markdown-content .chart-diagram-dark,
     html.dark .markdown-content .chart-diagram-light {
-        display: none;
+        opacity: 0;
+        visibility: hidden;
     }
     html.dark .markdown-content .chart-diagram-dark {
-        display: block;
+        opacity: 1;
+        visibility: visible;
     }
 
     html.js .markdown-content .chart-diagram:not(.is-revealed) svg * {
@@ -113,6 +122,12 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData) : und
                 background-color 0.2s ease,
                 color 0.2s ease,
                 border-color 0.2s ease;
+        }
+        .markdown-content .chart-diagram-light,
+        .markdown-content .chart-diagram-dark {
+            transition:
+                opacity 0.2s ease,
+                visibility 0.2s ease;
         }
     }
 </style>

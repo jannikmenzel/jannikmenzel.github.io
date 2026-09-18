@@ -60,5 +60,17 @@ Aus den Ergebnissen von Axelrods Experiment lassen sich verschiedene Schlüsse z
 
 ## Referenzen
 
-1. **Die Evolution der Kooperation** von Robert Axelrod
-2. **Algorithms to Live By** von Brian Christian & Tom Griffiths
+```references
+[
+  {
+    "type": "book",
+    "title": "Die Evolution der Kooperation",
+    "authors": "Robert Axelrod"
+  },
+  {
+    "type": "book",
+    "title": "Algorithms to Live By",
+    "authors": "Brian Christian & Tom Griffiths"
+  }
+]
+```

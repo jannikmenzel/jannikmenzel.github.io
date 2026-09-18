@@ -144,7 +144,28 @@ Der Glasmorphismus ist eine moderne Designrichtung, die sich durch transparente,
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. [Laws of UX](https://lawsofux.com/) von Jon Yablonski
-2. **The Design of Everyday Things** von Donald A. Norman
-3. **Visual Thinking for Design** von Colin Ware
-4. **Why Design Matters** von Debbie Millman
+```references
+[
+  {
+    "type": "website",
+    "title": "Laws of UX",
+    "authors": "Jon Yablonski",
+    "url": "https://lawsofux.com/"
+  },
+  {
+    "type": "book",
+    "title": "The Design of Everyday Things",
+    "authors": "Donald A. Norman"
+  },
+  {
+    "type": "book",
+    "title": "Visual Thinking for Design",
+    "authors": "Colin Ware"
+  },
+  {
+    "type": "book",
+    "title": "Why Design Matters",
+    "authors": "Debbie Millman"
+  }
+]
+```

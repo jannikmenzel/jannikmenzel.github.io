@@ -58,4 +58,12 @@ Die Vielfalt wissenschaftlicher Herangehensweisen ist kein Mangel, sondern ihre 
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Logik der Forschung** von Karl Popper
+```references
+[
+  {
+    "type": "book",
+    "title": "Logik der Forschung",
+    "authors": "Karl Popper"
+  }
+]
+```

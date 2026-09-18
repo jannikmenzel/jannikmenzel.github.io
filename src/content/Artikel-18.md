@@ -63,5 +63,17 @@ Der Tod darf längst kein Tabuthema mehr sein. Indem wir ihn nicht länger ausbl
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Bevor ich jetzt gehe** von Paul Kalanithi
-2. **Sterben** von Matthias Gockel
+```references
+[
+  {
+    "type": "book",
+    "title": "Bevor ich jetzt gehe",
+    "authors": "Paul Kalanithi"
+  },
+  {
+    "type": "book",
+    "title": "Sterben",
+    "authors": "Matthias Gockel"
+  }
+]
+```

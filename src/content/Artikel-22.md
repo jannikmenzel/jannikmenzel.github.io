@@ -44,4 +44,12 @@ Dieser Artikel ist als Plädoyer für Interdisziplinarität und ein vielseitiges
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Es lebe der Generalist!** von David Epstein
+```references
+[
+  {
+    "type": "book",
+    "title": "Es lebe der Generalist!",
+    "authors": "David Epstein"
+  }
+]
+```

@@ -73,7 +73,27 @@ Die wohl beunruhigendste Möglichkeit ist jedoch, dass der große Filter noch vo
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Eine kurze Geschichte der Zeit** von Stephen Hawking
-2. **Mehr als nur Atome** von Sabine Hossenfelder
-3. **Das All und das Nichts** von Stefan Klein
-4. **Die perfekte Theorie** von Pedro G. Ferreira
+```references
+[
+  {
+    "type": "book",
+    "title": "Eine kurze Geschichte der Zeit",
+    "authors": "Stephen Hawking"
+  },
+  {
+    "type": "book",
+    "title": "Mehr als nur Atome",
+    "authors": "Sabine Hossenfelder"
+  },
+  {
+    "type": "book",
+    "title": "Das All und das Nichts",
+    "authors": "Stefan Klein"
+  },
+  {
+    "type": "book",
+    "title": "Die perfekte Theorie",
+    "authors": "Pedro G. Ferreira"
+  }
+]
+```

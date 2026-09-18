@@ -60,4 +60,13 @@ Die Welt der Statistik bietet uns ein mächtiges Werkzeug zur Analyse und Interp
 
 ## Referenzen
 
-1. [Tyler Vigen. Spurious correlations](https://tylervigen.com/)
+```references
+[
+  {
+    "type": "website",
+    "title": "Spurious Correlations",
+    "authors": "Tyler Vigen",
+    "url": "https://tylervigen.com/"
+  }
+]
+```

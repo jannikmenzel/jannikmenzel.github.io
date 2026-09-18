@@ -165,6 +165,22 @@ Die sechste und letzte Säule ist die **Barrierefreiheit**. Sie stellt sicher, d
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. [W3Schools](https://www.w3schools.com/)
-2. [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/)
-3. [CS50's Introduction to Computer Science](https://cs50.harvard.edu/x/)
+```references
+[
+  {
+    "type": "website",
+    "title": "W3Schools",
+    "url": "https://www.w3schools.com/"
+  },
+  {
+    "type": "website",
+    "title": "CS50's Web Programming with Python and JavaScript",
+    "url": "https://cs50.harvard.edu/web/"
+  },
+  {
+    "type": "website",
+    "title": "CS50's Introduction to Computer Science",
+    "url": "https://cs50.harvard.edu/x/"
+  }
+]
+```

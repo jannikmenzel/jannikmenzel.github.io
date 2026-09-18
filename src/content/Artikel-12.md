@@ -37,5 +37,15 @@ Abschließend möchte ich noch einmal die Bedeutung des bewussten Gestaltens eig
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Dickie Bush: Feedback Loops** (Creative Elements Podcast Episode 20)
-2. **Kim Scott: The Future of Feedback** (Brave New Work Podcast Episode 2)
+```references
+[
+  {
+    "type": "podcast",
+    "title": "Dickie Bush: Feedback Loops"
+  },
+  {
+    "type": "podcast",
+    "title": "Kim Scott: The Future of Feedback"
+  }
+]
+```

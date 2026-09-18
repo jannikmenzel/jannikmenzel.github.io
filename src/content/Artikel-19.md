@@ -165,10 +165,42 @@ Ihre Stimme bleibt ruhig, klar, unnachgiebig. Ein philosophischer Sturm im Gewan
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **Politik** von Aristoteles
-2. **Der Staat** von Platon
-3. **Meditationen über die Erste Philosophie** von René Descartes
-4. **Kritik der reinen Vernunft** von Immanuel Kant
-5. **Jenseits von Gut und Böse** von Friedrich Nietzsche
-6. **Aphorismen zur Lebensweisheit** von Arthur Schopenhauer
-7. **Das andere Geschlecht** von Simone de Beauvoir
+```references
+[
+  {
+    "type": "book",
+    "title": "Politik",
+    "authors": "Aristoteles"
+  },
+  {
+    "type": "book",
+    "title": "Der Staat",
+    "authors": "Platon"
+  },
+  {
+    "type": "book",
+    "title": "Meditationen über die Erste Philosophie",
+    "authors": "René Descartes"
+  },
+  {
+    "type": "book",
+    "title": "Kritik der reinen Vernunft",
+    "authors": "Immanuel Kant"
+  },
+  {
+    "type": "book",
+    "title": "Jenseits von Gut und Böse",
+    "authors": "Friedrich Nietzsche"
+  },
+  {
+    "type": "book",
+    "title": "Aphorismen zur Lebensweisheit",
+    "authors": "Arthur Schopenhauer"
+  },
+  {
+    "type": "book",
+    "title": "Das andere Geschlecht",
+    "authors": "Simone de Beauvoir"
+  }
+]
+```

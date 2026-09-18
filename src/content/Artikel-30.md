@@ -51,5 +51,17 @@ Seine Berechnungen basierten auf historischen Daten, rationalem Verhalten und st
 
 ## Passende Literatur- und Medienempfehlungen
 
-1. **The Model Thinker** von Scott E. Page
-2. **Thinking in Systems** von Donella H. Meadows
+```references
+[
+  {
+    "type": "book",
+    "title": "The Model Thinker",
+    "authors": "Scott E. Page"
+  },
+  {
+    "type": "book",
+    "title": "Thinking in Systems",
+    "authors": "Donella H. Meadows"
+  }
+]
+```
