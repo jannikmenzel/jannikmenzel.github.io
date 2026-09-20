@@ -88,6 +88,18 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData) : und
     }
     .markdown-content .chart-diagram {
         display: grid;
+        container-type: inline-size;
+    }
+    .markdown-content .chart-diagram svg.chart-diagram-svg--mobile {
+        display: none;
+    }
+    @container (max-width: 520px) {
+        .markdown-content .chart-diagram svg.chart-diagram-svg--desktop {
+            display: none;
+        }
+        .markdown-content .chart-diagram svg.chart-diagram-svg--mobile {
+            display: block;
+        }
     }
     .markdown-content .chart-diagram-light,
     .markdown-content .chart-diagram-dark {
