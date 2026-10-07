@@ -2,14 +2,14 @@
     "fingerprint": "26377b25462c0b2075b84618ccfa21a0cebf81e82d32be5952a8032ecc8aa3fd",
     "pages": {
         "index.html": {
-            "contentHash": "418e83a3987041e16e58a03d252f43f7dacb45cb6e33894821bd5cd01807b598",
+            "contentHash": "1bbb4c6a20296c3e6c767e7bfc39ccd7891967bc8d3324dd822ce17ba7b48747",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "56ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/"
                 },
                 {
@@ -23,7 +23,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "795KB (budget: 1500KB)",
+                    "value": "797KB (budget: 1500KB)",
                     "url": "/"
                 },
                 {
@@ -92,14 +92,14 @@
             ]
         },
         "404.html": {
-            "contentHash": "eac9cbb8d6e7f0b99d822d7c649dad3e33b7f92db1be487cf09e78260d05628a",
+            "contentHash": "b3e16c6ebf107afcc5cf142aab542095dcd8d53f5023d1a2266a769869d92a14",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "24ms (budget: 2500ms)",
+                    "value": "28ms (budget: 2500ms)",
                     "url": "/404.html"
                 },
                 {
@@ -113,7 +113,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "172KB (budget: 1500KB)",
+                    "value": "174KB (budget: 1500KB)",
                     "url": "/404.html"
                 },
                 {
@@ -175,7 +175,7 @@
             ]
         },
         "blog/index.html": {
-            "contentHash": "0738888700127e928295f4b1a229c6efc84955bcf3a8202f1fe47289db28ef91",
+            "contentHash": "d687f57692eb04d4cb38711be6a96d571a8c041fdc02d68321968236dbb1d7d1",
             "findings": [],
             "details": [
                 {
@@ -196,7 +196,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "1282KB (budget: 1500KB)",
+                    "value": "1249KB (budget: 1500KB)",
                     "url": "/blog/"
                 },
                 {
@@ -210,7 +210,7 @@
                     "checkId": "performance.lazy-loading",
                     "category": "performance",
                     "label": "Images checked / marked lazy",
-                    "value": "33 / 29",
+                    "value": "34 / 30",
                     "url": "/blog/"
                 },
                 {
@@ -265,14 +265,14 @@
             ]
         },
         "blog/algorithmen-im-alltag/index.html": {
-            "contentHash": "e3c0efb190990e7f1ed46fe6e9547644be0d1f60bab924d970cbdfe027f1e5d4",
+            "contentHash": "2fb875274bad513f96c4c9e10610c5446f59674f86161bbc6745a559cc80ba4b",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -286,7 +286,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "211KB (budget: 1500KB)",
+                    "value": "258KB (budget: 1500KB)",
                     "url": "/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -314,14 +314,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/algorithmen-im-alltag/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "47 / 0",
+                    "value": "53 / 0",
                     "url": "/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -355,7 +355,7 @@
             ]
         },
         "blog/antifragilitaet/index.html": {
-            "contentHash": "29b3d046308a40ef3406354b3d263850c8bcae0545ebf3e03e3144646869c872",
+            "contentHash": "33bb2a123d80ee1772dc59e3092f5ec1627eaf348b8ebf5baead700be3348017",
             "findings": [],
             "details": [
                 {
@@ -376,7 +376,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "220KB (budget: 1500KB)",
+                    "value": "266KB (budget: 1500KB)",
                     "url": "/blog/antifragilitaet/"
                 },
                 {
@@ -404,14 +404,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/antifragilitaet/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "41 / 0",
                     "url": "/blog/antifragilitaet/"
                 },
                 {
@@ -445,14 +445,14 @@
             ]
         },
         "blog/art-of-design/index.html": {
-            "contentHash": "750fa09e26b1f954071d5da746a9532dbd0360ce6d5a5c3b24e00cba1d45f3be",
+            "contentHash": "f3f62d754df1f7e132d46b843795b7726125a1c69d7ece91952963c7d1781cc0",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "44ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/art-of-design/"
                 },
                 {
@@ -466,7 +466,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "331KB (budget: 1500KB)",
+                    "value": "380KB (budget: 1500KB)",
                     "url": "/blog/art-of-design/"
                 },
                 {
@@ -494,14 +494,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/art-of-design/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "87 / 0",
+                    "value": "98 / 0",
                     "url": "/blog/art-of-design/"
                 },
                 {
@@ -535,14 +535,14 @@
             ]
         },
         "blog/blackrock/index.html": {
-            "contentHash": "4bba9c6dd03476e28ebdcec19a5032b750f700d16b17883e89089552f1e665a3",
+            "contentHash": "4b8994bcd548e1982aac7347ca85bb05ae43be2325b4122e1c8edc056154463f",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/blog/blackrock/"
                 },
                 {
@@ -556,7 +556,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "299KB (budget: 1500KB)",
+                    "value": "345KB (budget: 1500KB)",
                     "url": "/blog/blackrock/"
                 },
                 {
@@ -584,14 +584,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/blackrock/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "34 / 0",
+                    "value": "39 / 0",
                     "url": "/blog/blackrock/"
                 },
                 {
@@ -625,14 +625,14 @@
             ]
         },
         "blog/chatbots/index.html": {
-            "contentHash": "e6135c70a063684aeaf6b2432647f3427c1ad475ab4f22c3af9f760bd1f1bde5",
+            "contentHash": "9dac40d90464c0d33fca4680ef2c71edc8c3b21949c835a2930012f99a8a4310",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "40ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/chatbots/"
                 },
                 {
@@ -646,7 +646,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "243KB (budget: 1500KB)",
+                    "value": "252KB (budget: 1500KB)",
                     "url": "/blog/chatbots/"
                 },
                 {
@@ -674,14 +674,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/chatbots/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "46 / 0",
+                    "value": "55 / 0",
                     "url": "/blog/chatbots/"
                 },
                 {
@@ -715,7 +715,7 @@
             ]
         },
         "blog/cleo/index.html": {
-            "contentHash": "4dfc1a558d011da8828f04ab04fb7d7eae123649f7fe2df64a047ef5c0faa8db",
+            "contentHash": "ecafe96e74cf71a5b91f9e333c445bfb3d324791896bdceee56faa9ba03f59a0",
             "findings": [],
             "details": [
                 {
@@ -736,7 +736,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "201KB (budget: 1500KB)",
+                    "value": "250KB (budget: 1500KB)",
                     "url": "/blog/cleo/"
                 },
                 {
@@ -764,14 +764,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/blog/cleo/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "40 / 0",
+                    "value": "50 / 0",
                     "url": "/blog/cleo/"
                 },
                 {
@@ -805,14 +805,14 @@
             ]
         },
         "blog/collatz-vermutung/index.html": {
-            "contentHash": "26c6dc489f4e3df518095dc8a61fac9338055f7a33f942157073c5772dc55772",
+            "contentHash": "e7a42a69260e321cb698ffce4e51a1499a7e2753aecc49345129b8db4692cf66",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "44ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/blog/collatz-vermutung/"
                 },
                 {
@@ -826,7 +826,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "289KB (budget: 1500KB)",
+                    "value": "337KB (budget: 1500KB)",
                     "url": "/blog/collatz-vermutung/"
                 },
                 {
@@ -854,14 +854,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/blog/collatz-vermutung/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "45 / 0",
                     "url": "/blog/collatz-vermutung/"
                 },
                 {
@@ -895,7 +895,7 @@
             ]
         },
         "blog/computerkurse/index.html": {
-            "contentHash": "9e37abec56dbfa8fb335ebf400c320aec6384c65face0b3b574a5718fbd373c0",
+            "contentHash": "29608ea93041565fd81026ccb037811ac1e08567bb752e065410d3e04b5727b7",
             "findings": [],
             "details": [
                 {
@@ -916,7 +916,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "199KB (budget: 1500KB)",
+                    "value": "244KB (budget: 1500KB)",
                     "url": "/blog/computerkurse/"
                 },
                 {
@@ -944,14 +944,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/computerkurse/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "22 / 0",
+                    "value": "30 / 0",
                     "url": "/blog/computerkurse/"
                 },
                 {
@@ -985,7 +985,7 @@
             ]
         },
         "blog/denken-in-modellen/index.html": {
-            "contentHash": "f94436dd95b660f602db50962011bad9e0c1852dece66c0d0422d3bc6e9632e6",
+            "contentHash": "3ee163849cc390d217fbbde50f5ce8b61ace55f601ecbbdf3cba5e535a048ad1",
             "findings": [],
             "details": [
                 {
@@ -1006,7 +1006,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "199KB (budget: 1500KB)",
+                    "value": "246KB (budget: 1500KB)",
                     "url": "/blog/denken-in-modellen/"
                 },
                 {
@@ -1034,14 +1034,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/denken-in-modellen/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "35 / 0",
+                    "value": "41 / 0",
                     "url": "/blog/denken-in-modellen/"
                 },
                 {
@@ -1075,7 +1075,7 @@
             ]
         },
         "blog/eine-leber-drucken/index.html": {
-            "contentHash": "a1349f4536363ff6d2b03fcd85aeb825003997a0a38f3d512339444043da02b7",
+            "contentHash": "9c147ad7acdd675c643779747f150a64f6c05b02bef66183b764d3f12dee020d",
             "findings": [],
             "details": [
                 {
@@ -1096,7 +1096,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "223KB (budget: 1500KB)",
+                    "value": "269KB (budget: 1500KB)",
                     "url": "/blog/eine-leber-drucken/"
                 },
                 {
@@ -1124,14 +1124,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/eine-leber-drucken/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "24 / 0",
+                    "value": "32 / 0",
                     "url": "/blog/eine-leber-drucken/"
                 },
                 {
@@ -1165,7 +1165,7 @@
             ]
         },
         "blog/feedback-loops/index.html": {
-            "contentHash": "11b742aaee7ffc58faec4946d4c56d0bfddf159278ff26e8d1e0748350a5314b",
+            "contentHash": "84c96946896c5bc50d50bf34a22966a4fcc7e70d0e4c262e48fa20a47b48f854",
             "findings": [],
             "details": [
                 {
@@ -1186,7 +1186,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "193KB (budget: 1500KB)",
+                    "value": "239KB (budget: 1500KB)",
                     "url": "/blog/feedback-loops/"
                 },
                 {
@@ -1214,14 +1214,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/feedback-loops/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "29 / 0",
+                    "value": "33 / 0",
                     "url": "/blog/feedback-loops/"
                 },
                 {
@@ -1255,14 +1255,14 @@
             ]
         },
         "blog/frontend-development/index.html": {
-            "contentHash": "c99570108bc8ee686a22cb739517be8b8db4e123003e58f3825822918fbf0142",
+            "contentHash": "84e3011d0938816bcd308ac97ba02c2ffae6fa8a2ee1d36659ee30f1797fa0d6",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "48ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/frontend-development/"
                 },
                 {
@@ -1276,7 +1276,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "246KB (budget: 1500KB)",
+                    "value": "254KB (budget: 1500KB)",
                     "url": "/blog/frontend-development/"
                 },
                 {
@@ -1304,14 +1304,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/frontend-development/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "146 / 0",
+                    "value": "153 / 0",
                     "url": "/blog/frontend-development/"
                 },
                 {
@@ -1345,7 +1345,7 @@
             ]
         },
         "blog/generalist-vs-spezialist/index.html": {
-            "contentHash": "1fa179e09ec67748e3ab47a5296cc1d8da53eb5ae13b58a259f5089bfa5f72bc",
+            "contentHash": "ce184141948838d5cb8a019c9cfb2ca22af08a2adbad29dc798bddd2177b4499",
             "findings": [],
             "details": [
                 {
@@ -1366,7 +1366,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "209KB (budget: 1500KB)",
+                    "value": "255KB (budget: 1500KB)",
                     "url": "/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -1394,14 +1394,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/generalist-vs-spezialist/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "29 / 0",
+                    "value": "34 / 0",
                     "url": "/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -1435,7 +1435,7 @@
             ]
         },
         "blog/generation-chat-gpt/index.html": {
-            "contentHash": "4d52ab0a23c2f61e256b34b1938caa829027edd8d9b91afc02e380ee9cf2a24f",
+            "contentHash": "f85d0473367677b1d129fec2023d5db7ba91ee397c9f2c88aeb7be1b11f40c84",
             "findings": [],
             "details": [
                 {
@@ -1456,7 +1456,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "202KB (budget: 1500KB)",
+                    "value": "249KB (budget: 1500KB)",
                     "url": "/blog/generation-chat-gpt/"
                 },
                 {
@@ -1484,14 +1484,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/generation-chat-gpt/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "30 / 0",
+                    "value": "37 / 0",
                     "url": "/blog/generation-chat-gpt/"
                 },
                 {
@@ -1525,7 +1525,7 @@
             ]
         },
         "blog/glueck-verstehen/index.html": {
-            "contentHash": "ed605f265b7f7c712521d1d9277903d99dda1bb2c0ace279539b3d7f118a6be0",
+            "contentHash": "219583ecc66edca7fc0e537ed35eb163c0099b62903e83538d2be7bb40334b22",
             "findings": [],
             "details": [
                 {
@@ -1546,7 +1546,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "409KB (budget: 1500KB)",
+                    "value": "456KB (budget: 1500KB)",
                     "url": "/blog/glueck-verstehen/"
                 },
                 {
@@ -1574,14 +1574,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/blog/glueck-verstehen/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "46 / 0",
+                    "value": "53 / 0",
                     "url": "/blog/glueck-verstehen/"
                 },
                 {
@@ -1614,8 +1614,98 @@
                 }
             ]
         },
+        "blog/ki-blase-oder-boom/index.html": {
+            "contentHash": "df37470fed017f33a592642667f723f67a0fca968bb5bb4039a9c3a16b88c733",
+            "findings": [],
+            "details": [
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "LCP",
+                    "value": "44ms (budget: 2500ms)",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "CLS",
+                    "value": "0.000 (budget: 0.1)",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Page weight",
+                    "value": "352KB (budget: 1500KB)",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Largest image",
+                    "value": "28KB (budget: 300KB)",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.lazy-loading",
+                    "category": "performance",
+                    "label": "Images checked / marked lazy",
+                    "value": "2 / 0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.third-party-impact",
+                    "category": "performance",
+                    "label": "Third-party requests / render-blocking",
+                    "value": "0 / 0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "accessibility.axe",
+                    "category": "accessibility",
+                    "label": "Rules checked / passed / violated",
+                    "value": "28 / 28 / 0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "accessibility.color-contrast",
+                    "category": "accessibility",
+                    "label": "Elements checked / failing contrast",
+                    "value": "118 / 0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "bugs.console-errors",
+                    "category": "bugs",
+                    "label": "Console messages captured",
+                    "value": "0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "privacy.tracker-requests",
+                    "category": "privacy",
+                    "label": "Tracker requests detected",
+                    "value": "0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "privacy.external-fonts",
+                    "category": "privacy",
+                    "label": "Externally loaded fonts/APIs",
+                    "value": "0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "privacy.fingerprinting",
+                    "category": "privacy",
+                    "label": "Fingerprinting APIs checked / found",
+                    "value": "8 / 0",
+                    "url": "/blog/ki-blase-oder-boom/"
+                }
+            ]
+        },
         "blog/kosmische-irrtuemer/index.html": {
-            "contentHash": "c007c79133cda2d3673ee20c73357abf2dac3815e26b6ddbdb7f6efb1af095bc",
+            "contentHash": "e27e593e6d1aa01b5df0c624a874818e8464c2343ba3c8f4fb66e3f63cd87656",
             "findings": [],
             "details": [
                 {
@@ -1636,7 +1726,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "337KB (budget: 1500KB)",
+                    "value": "385KB (budget: 1500KB)",
                     "url": "/blog/kosmische-irrtuemer/"
                 },
                 {
@@ -1664,14 +1754,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/kosmische-irrtuemer/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "49 / 0",
+                    "value": "57 / 0",
                     "url": "/blog/kosmische-irrtuemer/"
                 },
                 {
@@ -1705,14 +1795,14 @@
             ]
         },
         "blog/lying-with-statistics/index.html": {
-            "contentHash": "c39f0be6063cb898359e593e8c4f4fcce87c3a0d2817d9e5d842192a60bad710",
+            "contentHash": "42dbe745576b446abbd4679f8719a1e06496954f82dfa8e08382add40f5be682",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/lying-with-statistics/"
                 },
                 {
@@ -1726,7 +1816,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "272KB (budget: 1500KB)",
+                    "value": "318KB (budget: 1500KB)",
                     "url": "/blog/lying-with-statistics/"
                 },
                 {
@@ -1754,14 +1844,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/lying-with-statistics/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "42 / 0",
                     "url": "/blog/lying-with-statistics/"
                 },
                 {
@@ -1795,7 +1885,7 @@
             ]
         },
         "blog/not-petya/index.html": {
-            "contentHash": "82c63b4d9fb9080f5925f83aa48c7c4a4801bbb815c20dfe024566e9549bfbde",
+            "contentHash": "1018714ee7e884c2b71b3ba7d3bfd85b69b557611d37cd59efd12baa2a8afcf6",
             "findings": [],
             "details": [
                 {
@@ -1816,7 +1906,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "242KB (budget: 1500KB)",
+                    "value": "299KB (budget: 1500KB)",
                     "url": "/blog/not-petya/"
                 },
                 {
@@ -1844,14 +1934,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/not-petya/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "61 / 0",
+                    "value": "108 / 0",
                     "url": "/blog/not-petya/"
                 },
                 {
@@ -1885,14 +1975,14 @@
             ]
         },
         "blog/nowitschok/index.html": {
-            "contentHash": "fc88b7518844c34e962af830a31065d02e43164e8df164d19845eee14dd3f5ef",
+            "contentHash": "2f7085df890ad022cb7b61f18e4eb7b40e1ed1681d22d92d90f151994aded2e4",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/nowitschok/"
                 },
                 {
@@ -1906,7 +1996,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "207KB (budget: 1500KB)",
+                    "value": "253KB (budget: 1500KB)",
                     "url": "/blog/nowitschok/"
                 },
                 {
@@ -1934,14 +2024,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/nowitschok/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "37 / 0",
+                    "value": "42 / 0",
                     "url": "/blog/nowitschok/"
                 },
                 {
@@ -1975,7 +2065,7 @@
             ]
         },
         "blog/perfektionismus/index.html": {
-            "contentHash": "7f973c94005329b2d9b39a86c61cdd51e4888a19af043690c4a37017e4fcc85f",
+            "contentHash": "7adb5fb9d331138e5df66cb61f84fd7390bae4605dabd90bc296ef6e097b747b",
             "findings": [],
             "details": [
                 {
@@ -1996,7 +2086,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "206KB (budget: 1500KB)",
+                    "value": "254KB (budget: 1500KB)",
                     "url": "/blog/perfektionismus/"
                 },
                 {
@@ -2024,14 +2114,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/perfektionismus/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "30 / 0",
+                    "value": "37 / 0",
                     "url": "/blog/perfektionismus/"
                 },
                 {
@@ -2065,7 +2155,7 @@
             ]
         },
         "blog/philosophische-gespraeche/index.html": {
-            "contentHash": "c19924f4202e4ac510ec0cb39475de2b93b7e740ad766845be514094450d77e5",
+            "contentHash": "2f6642382e80962e126b41e79db9ea4bfc5dd9bae8242e39f1e018ec35ae5bb7",
             "findings": [],
             "details": [
                 {
@@ -2086,7 +2176,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "328KB (budget: 1500KB)",
+                    "value": "378KB (budget: 1500KB)",
                     "url": "/blog/philosophische-gespraeche/"
                 },
                 {
@@ -2114,14 +2204,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/philosophische-gespraeche/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "145 / 0",
+                    "value": "156 / 0",
                     "url": "/blog/philosophische-gespraeche/"
                 },
                 {
@@ -2155,14 +2245,14 @@
             ]
         },
         "blog/rhetorik/index.html": {
-            "contentHash": "38b32bfa547e4b107dee27c6935ed2b1e2c1e3fc79524da8a1a6b86eeaa8d9b5",
+            "contentHash": "5c1f676ee09117777b29150c14f54fbd99d6d4cfb3e0cd86e596b4f14ae62536",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "60ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/rhetorik/"
                 },
                 {
@@ -2176,7 +2266,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "210KB (budget: 1500KB)",
+                    "value": "260KB (budget: 1500KB)",
                     "url": "/blog/rhetorik/"
                 },
                 {
@@ -2204,14 +2294,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/rhetorik/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "63 / 0",
+                    "value": "73 / 0",
                     "url": "/blog/rhetorik/"
                 },
                 {
@@ -2245,14 +2335,14 @@
             ]
         },
         "blog/schach/index.html": {
-            "contentHash": "a99c6d6ec1385ee5702354ed9d6572d1d9b07b494dc0c248ad6053b8bc615624",
+            "contentHash": "d42ba6ae4cc03c51f86ed4ee20d63f22a19fa8719a3cb3335a1cdb8c60d6c579",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "64ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/schach/"
                 },
                 {
@@ -2266,7 +2356,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "212KB (budget: 1500KB)",
+                    "value": "258KB (budget: 1500KB)",
                     "url": "/blog/schach/"
                 },
                 {
@@ -2294,14 +2384,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/blog/schach/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "31 / 0",
+                    "value": "36 / 0",
                     "url": "/blog/schach/"
                 },
                 {
@@ -2335,14 +2425,14 @@
             ]
         },
         "blog/science-of-harmony/index.html": {
-            "contentHash": "5bd1d69e0768856dda86170dcc8e97972036af17f3bd9516d02e4a6f6195dfb1",
+            "contentHash": "b1c759ce92f12e9149301b57136dff43dd1ebe7c3ac2f4fbad61853074eb8991",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/science-of-harmony/"
                 },
                 {
@@ -2356,7 +2446,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "200KB (budget: 1500KB)",
+                    "value": "246KB (budget: 1500KB)",
                     "url": "/blog/science-of-harmony/"
                 },
                 {
@@ -2384,14 +2474,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/science-of-harmony/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "28 / 0",
+                    "value": "34 / 0",
                     "url": "/blog/science-of-harmony/"
                 },
                 {
@@ -2425,14 +2515,14 @@
             ]
         },
         "blog/science/index.html": {
-            "contentHash": "e8f39add3cc059e7e40e440918494e7060968e3a0c655d26abe2cb71bf3f0800",
+            "contentHash": "d34ecf9080cb0e1e9a8f6952381a35ea0cd0c43139fe7266acc655d2e6002c64",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/blog/science/"
                 },
                 {
@@ -2446,7 +2536,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "224KB (budget: 1500KB)",
+                    "value": "270KB (budget: 1500KB)",
                     "url": "/blog/science/"
                 },
                 {
@@ -2474,14 +2564,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/science/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "34 / 0",
+                    "value": "39 / 0",
                     "url": "/blog/science/"
                 },
                 {
@@ -2515,7 +2605,7 @@
             ]
         },
         "blog/second-brain/index.html": {
-            "contentHash": "c361d907a509cf222df04c0451abc39c8c7eb62b701a50752af8d75342841ecc",
+            "contentHash": "3bacb336f809b3c9f067ee4c20baf7257bad3e7cbed74189ed3ccc302fd25fb4",
             "findings": [],
             "details": [
                 {
@@ -2536,7 +2626,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "198KB (budget: 1500KB)",
+                    "value": "244KB (budget: 1500KB)",
                     "url": "/blog/second-brain/"
                 },
                 {
@@ -2564,14 +2654,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/second-brain/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "39 / 0",
+                    "value": "45 / 0",
                     "url": "/blog/second-brain/"
                 },
                 {
@@ -2605,7 +2695,7 @@
             ]
         },
         "blog/software-is-eating-the-world/index.html": {
-            "contentHash": "c78c57e5b28a7caf80d0bbcf3c6f885163a04de454cac7e35c1598c9b8dd9bd6",
+            "contentHash": "60287822864c8f02c55dda9f798d262d819777274472215adcd84a4e53d72ce7",
             "findings": [],
             "details": [
                 {
@@ -2626,7 +2716,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "213KB (budget: 1500KB)",
+                    "value": "259KB (budget: 1500KB)",
                     "url": "/blog/software-is-eating-the-world/"
                 },
                 {
@@ -2654,14 +2744,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/software-is-eating-the-world/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "28 / 0",
+                    "value": "36 / 0",
                     "url": "/blog/software-is-eating-the-world/"
                 },
                 {
@@ -2695,7 +2785,7 @@
             ]
         },
         "blog/sterbehilfe/index.html": {
-            "contentHash": "f1d7dfb2dd1733f9808fc49c2cd1ce8063de03d896a16516620431f2f35626ae",
+            "contentHash": "37579a15f154326c1d6a6b1fff0154f27d651a27695f6e39f200ed4991acce94",
             "findings": [],
             "details": [
                 {
@@ -2716,7 +2806,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "226KB (budget: 1500KB)",
+                    "value": "273KB (budget: 1500KB)",
                     "url": "/blog/sterbehilfe/"
                 },
                 {
@@ -2744,14 +2834,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/sterbehilfe/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "46 / 0",
+                    "value": "52 / 0",
                     "url": "/blog/sterbehilfe/"
                 },
                 {
@@ -2785,7 +2875,7 @@
             ]
         },
         "blog/storytelling/index.html": {
-            "contentHash": "e13097f8f5a5c044ab8b88adf19461628e0a3fc3be15bd8326a7b64b279b9918",
+            "contentHash": "dbbe15b49864a6b1869f52a3ef3df08b7b475a6f284cdcf4c6a8fecbcfa02c7e",
             "findings": [],
             "details": [
                 {
@@ -2806,7 +2896,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "231KB (budget: 1500KB)",
+                    "value": "278KB (budget: 1500KB)",
                     "url": "/blog/storytelling/"
                 },
                 {
@@ -2834,14 +2924,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/storytelling/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "33 / 0",
+                    "value": "40 / 0",
                     "url": "/blog/storytelling/"
                 },
                 {
@@ -2875,14 +2965,14 @@
             ]
         },
         "blog/systeme-statt-ziele/index.html": {
-            "contentHash": "12c26e6611b7523b25d528219d34c73a481bd546efa314de282c122cd54de463",
+            "contentHash": "e1652cde251f2b6f5eaaf8a09481f6dc8342f86e072cfc50744c11e2328fc64f",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/blog/systeme-statt-ziele/"
                 },
                 {
@@ -2896,7 +2986,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "218KB (budget: 1500KB)",
+                    "value": "266KB (budget: 1500KB)",
                     "url": "/blog/systeme-statt-ziele/"
                 },
                 {
@@ -2924,14 +3014,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/systeme-statt-ziele/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "45 / 0",
                     "url": "/blog/systeme-statt-ziele/"
                 },
                 {
@@ -2965,14 +3055,14 @@
             ]
         },
         "blog/tierhaltung-und-umwelt/index.html": {
-            "contentHash": "a31579c614c9ad0b52cd3d1a177add921fe24d16e798757cd9c627523e0aa0e7",
+            "contentHash": "c1574c8d1a2305536df1573e1227ce8cdb13f9d76059a67f90441e85a669050e",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "44ms (budget: 2500ms)",
+                    "value": "52ms (budget: 2500ms)",
                     "url": "/blog/tierhaltung-und-umwelt/"
                 },
                 {
@@ -2986,14 +3076,14 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "344KB (budget: 1500KB)",
+                    "value": "409KB (budget: 1500KB)",
                     "url": "/blog/tierhaltung-und-umwelt/"
                 },
                 {
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Largest image",
-                    "value": "103KB (budget: 300KB)",
+                    "value": "62KB (budget: 300KB)",
                     "url": "/blog/tierhaltung-und-umwelt/"
                 },
                 {
@@ -3014,14 +3104,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/tierhaltung-und-umwelt/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "110 / 0",
+                    "value": "169 / 0",
                     "url": "/blog/tierhaltung-und-umwelt/"
                 },
                 {
@@ -3055,14 +3145,14 @@
             ]
         },
         "blog/zero-knowledge-proof/index.html": {
-            "contentHash": "5fbab0e9a4284c9d8c71ff73c1cf2bea54f195d22c2783c1385d93c6277322e0",
+            "contentHash": "554f788442fd285d802b3a70fc360e1f1eb35d73842cf12a53dfdb557aeee563",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/blog/zero-knowledge-proof/"
                 },
                 {
@@ -3076,7 +3166,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "224KB (budget: 1500KB)",
+                    "value": "270KB (budget: 1500KB)",
                     "url": "/blog/zero-knowledge-proof/"
                 },
                 {
@@ -3104,14 +3194,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/blog/zero-knowledge-proof/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "29 / 0",
+                    "value": "34 / 0",
                     "url": "/blog/zero-knowledge-proof/"
                 },
                 {
@@ -3145,7 +3235,7 @@
             ]
         },
         "bookmarks/index.html": {
-            "contentHash": "808fcabaa9b11e5c051797e609f6a5af3db106786025dfdac2fc666c20aaa1a0",
+            "contentHash": "f60afff45b285a2819b8049bc70ab90e8bc5d2490b4b7f225ac3b7e07621374c",
             "findings": [],
             "details": [
                 {
@@ -3166,7 +3256,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "300KB (budget: 1500KB)",
+                    "value": "302KB (budget: 1500KB)",
                     "url": "/bookmarks/"
                 },
                 {
@@ -3228,14 +3318,14 @@
             ]
         },
         "datenschutz/index.html": {
-            "contentHash": "9b2e15761c5b7443ca4b61408010ca5bcf3ae45ce4f95066e11b0d1fc1fc59d4",
+            "contentHash": "98d25b5662363a20c4df20b10b5e233530270fae8ea73fbb6c870f9d443095fc",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/datenschutz/"
                 },
                 {
@@ -3249,7 +3339,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "186KB (budget: 1500KB)",
+                    "value": "231KB (budget: 1500KB)",
                     "url": "/datenschutz/"
                 },
                 {
@@ -3277,7 +3367,7 @@
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "80 / 0",
+                    "value": "88 / 0",
                     "url": "/datenschutz/"
                 },
                 {
@@ -3311,7 +3401,7 @@
             ]
         },
         "en/index.html": {
-            "contentHash": "433bbb361fd0df21e7f9f3ea02fdf92a8743eb0a31c0e1cb8181a82784caf1e8",
+            "contentHash": "5a3a459fbd782659aaf343d95129b609e33ecb777451d9172d0e309a0b389ea3",
             "findings": [],
             "details": [
                 {
@@ -3332,7 +3422,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "704KB (budget: 1500KB)",
+                    "value": "706KB (budget: 1500KB)",
                     "url": "/en/"
                 },
                 {
@@ -3401,14 +3491,14 @@
             ]
         },
         "en/blog/index.html": {
-            "contentHash": "bbc85231ec19def05b4c6bd452ae140360fe24e72641dd87552dbd8a21cc395c",
+            "contentHash": "e6b9d483060dc4a103182af9e11e0f43aa2520a6ae283c87970d7a885d677cef",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "28ms (budget: 2500ms)",
                     "url": "/en/blog/"
                 },
                 {
@@ -3422,7 +3512,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "1282KB (budget: 1500KB)",
+                    "value": "1249KB (budget: 1500KB)",
                     "url": "/en/blog/"
                 },
                 {
@@ -3436,7 +3526,7 @@
                     "checkId": "performance.lazy-loading",
                     "category": "performance",
                     "label": "Images checked / marked lazy",
-                    "value": "33 / 29",
+                    "value": "34 / 30",
                     "url": "/en/blog/"
                 },
                 {
@@ -3491,14 +3581,14 @@
             ]
         },
         "en/blog/algorithmen-im-alltag/index.html": {
-            "contentHash": "37804e1d3c78d04a51b7a7cd31bffc9650aa0dc09e1b76350199396f70152d9e",
+            "contentHash": "eee07ef67a984df52a2cf39851f2c624f6e1f7fafd9af277e60b0678d3d6da81",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -3512,7 +3602,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "211KB (budget: 1500KB)",
+                    "value": "258KB (budget: 1500KB)",
                     "url": "/en/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -3540,14 +3630,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/algorithmen-im-alltag/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "47 / 0",
+                    "value": "53 / 0",
                     "url": "/en/blog/algorithmen-im-alltag/"
                 },
                 {
@@ -3581,14 +3671,14 @@
             ]
         },
         "en/blog/antifragilitaet/index.html": {
-            "contentHash": "477f7641c03c50861813a1fd681917b5455ad601ccf6b09e1deef50b0a918633",
+            "contentHash": "25d7ddebf9c077554393730eeb4e97c0e364d134a6ae135f24765f42962b8781",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/antifragilitaet/"
                 },
                 {
@@ -3602,7 +3692,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "220KB (budget: 1500KB)",
+                    "value": "266KB (budget: 1500KB)",
                     "url": "/en/blog/antifragilitaet/"
                 },
                 {
@@ -3630,14 +3720,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/antifragilitaet/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "41 / 0",
                     "url": "/en/blog/antifragilitaet/"
                 },
                 {
@@ -3671,14 +3761,14 @@
             ]
         },
         "en/blog/art-of-design/index.html": {
-            "contentHash": "a82ed0146b20c07546f57cdd3fea42feab31e78508d936115441c8ebe3e73f95",
+            "contentHash": "5b62d558b2e3e321af330195c79e581aa27418228054434f2ef52ceeb036e481",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/art-of-design/"
                 },
                 {
@@ -3692,7 +3782,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "331KB (budget: 1500KB)",
+                    "value": "380KB (budget: 1500KB)",
                     "url": "/en/blog/art-of-design/"
                 },
                 {
@@ -3720,14 +3810,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/art-of-design/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "87 / 0",
+                    "value": "98 / 0",
                     "url": "/en/blog/art-of-design/"
                 },
                 {
@@ -3761,14 +3851,14 @@
             ]
         },
         "en/blog/blackrock/index.html": {
-            "contentHash": "f041a7c2ffd054681307a0240d677a833dd657eaf71ca28c850f21fe817f6dc4",
+            "contentHash": "8eef8c096a690d03f9134b9bec85fbe95f9583a2bdcdaebd27a602ff07681466",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "44ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/blackrock/"
                 },
                 {
@@ -3782,7 +3872,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "299KB (budget: 1500KB)",
+                    "value": "345KB (budget: 1500KB)",
                     "url": "/en/blog/blackrock/"
                 },
                 {
@@ -3810,14 +3900,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/blackrock/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "34 / 0",
+                    "value": "39 / 0",
                     "url": "/en/blog/blackrock/"
                 },
                 {
@@ -3851,7 +3941,7 @@
             ]
         },
         "en/blog/chatbots/index.html": {
-            "contentHash": "b92529a656aaf5497018cbd7032ebe9f354572890e0d46e2a674b260868248ae",
+            "contentHash": "6c860ea75408ef56397c42702ed57ca9a3a5e19556e4c99ce8e757d64a537d0f",
             "findings": [],
             "details": [
                 {
@@ -3872,7 +3962,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "243KB (budget: 1500KB)",
+                    "value": "252KB (budget: 1500KB)",
                     "url": "/en/blog/chatbots/"
                 },
                 {
@@ -3900,14 +3990,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/chatbots/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "46 / 0",
+                    "value": "55 / 0",
                     "url": "/en/blog/chatbots/"
                 },
                 {
@@ -3941,7 +4031,7 @@
             ]
         },
         "en/blog/cleo/index.html": {
-            "contentHash": "c381f0ce1ea115f4e8a4d7f8c00c8dc109a3cbf68f25f88dbca9740196da43d9",
+            "contentHash": "29fcd11b5454ddc3bea434a872e81e088a5dd647abe54370d0832a66e2001c81",
             "findings": [],
             "details": [
                 {
@@ -3962,7 +4052,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "201KB (budget: 1500KB)",
+                    "value": "250KB (budget: 1500KB)",
                     "url": "/en/blog/cleo/"
                 },
                 {
@@ -3990,14 +4080,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/en/blog/cleo/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "40 / 0",
+                    "value": "50 / 0",
                     "url": "/en/blog/cleo/"
                 },
                 {
@@ -4031,14 +4121,14 @@
             ]
         },
         "en/blog/collatz-vermutung/index.html": {
-            "contentHash": "09a56320cece09f17f5bf41dfd5b5f0acea7474464c816c62bc5a20d1d84a11f",
+            "contentHash": "0e28fd7fd2862fdff9be2ffb3db1415cf4a284045089cace956e4d7d5a5d4c13",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "40ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/collatz-vermutung/"
                 },
                 {
@@ -4052,7 +4142,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "289KB (budget: 1500KB)",
+                    "value": "337KB (budget: 1500KB)",
                     "url": "/en/blog/collatz-vermutung/"
                 },
                 {
@@ -4080,14 +4170,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/en/blog/collatz-vermutung/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "45 / 0",
                     "url": "/en/blog/collatz-vermutung/"
                 },
                 {
@@ -4121,7 +4211,7 @@
             ]
         },
         "en/blog/computerkurse/index.html": {
-            "contentHash": "ca5829e7949b050a67ab77de8296afdfdc2f0349f1e02ba9d92f98e8b129d039",
+            "contentHash": "d76859e4a1096fb868e85beaee9c066eacf61586724eff042cc702b01096a03d",
             "findings": [],
             "details": [
                 {
@@ -4142,7 +4232,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "199KB (budget: 1500KB)",
+                    "value": "244KB (budget: 1500KB)",
                     "url": "/en/blog/computerkurse/"
                 },
                 {
@@ -4170,14 +4260,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/computerkurse/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "22 / 0",
+                    "value": "30 / 0",
                     "url": "/en/blog/computerkurse/"
                 },
                 {
@@ -4211,7 +4301,7 @@
             ]
         },
         "en/blog/denken-in-modellen/index.html": {
-            "contentHash": "4b8771357d370b5d32d2cc00cdcebee6ca39215425eff34454fc1accb4e97b4f",
+            "contentHash": "1033eb784db5f159a7f18841a1cdebcd1ac18181f751fb8c7c960867f124ceef",
             "findings": [],
             "details": [
                 {
@@ -4232,7 +4322,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "199KB (budget: 1500KB)",
+                    "value": "246KB (budget: 1500KB)",
                     "url": "/en/blog/denken-in-modellen/"
                 },
                 {
@@ -4260,14 +4350,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/denken-in-modellen/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "35 / 0",
+                    "value": "41 / 0",
                     "url": "/en/blog/denken-in-modellen/"
                 },
                 {
@@ -4301,7 +4391,7 @@
             ]
         },
         "en/blog/eine-leber-drucken/index.html": {
-            "contentHash": "87c54a6c7b8d79d2e0da747ff15447008f7a9811ec152f55d267a923e26240f6",
+            "contentHash": "d365a1707814e29bcb85e2bb3b9ccaf5888af73568185c4fbf0e770312eb6241",
             "findings": [],
             "details": [
                 {
@@ -4322,7 +4412,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "223KB (budget: 1500KB)",
+                    "value": "269KB (budget: 1500KB)",
                     "url": "/en/blog/eine-leber-drucken/"
                 },
                 {
@@ -4350,14 +4440,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/eine-leber-drucken/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "24 / 0",
+                    "value": "32 / 0",
                     "url": "/en/blog/eine-leber-drucken/"
                 },
                 {
@@ -4391,14 +4481,14 @@
             ]
         },
         "en/blog/feedback-loops/index.html": {
-            "contentHash": "864084742c7774b86b5403b236ee60b8f0f56db1b92a1a2db2aca849538e1cdc",
+            "contentHash": "876ef5609aa9ebb31ac8742fcb22f859fb98fd9136d26b417be964b2003ef08d",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/en/blog/feedback-loops/"
                 },
                 {
@@ -4412,7 +4502,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "193KB (budget: 1500KB)",
+                    "value": "239KB (budget: 1500KB)",
                     "url": "/en/blog/feedback-loops/"
                 },
                 {
@@ -4440,14 +4530,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/feedback-loops/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "29 / 0",
+                    "value": "33 / 0",
                     "url": "/en/blog/feedback-loops/"
                 },
                 {
@@ -4481,14 +4571,14 @@
             ]
         },
         "en/blog/frontend-development/index.html": {
-            "contentHash": "73d4bd821abfa69d93d477d8ae785e41e4910af0e29011546802ceda9c37ce2c",
+            "contentHash": "7b31f50867b38aab2748f9d58f4d951018c5aaf441488119e4155d28e05f216c",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "48ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/frontend-development/"
                 },
                 {
@@ -4502,7 +4592,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "246KB (budget: 1500KB)",
+                    "value": "254KB (budget: 1500KB)",
                     "url": "/en/blog/frontend-development/"
                 },
                 {
@@ -4530,14 +4620,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/frontend-development/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "146 / 0",
+                    "value": "153 / 0",
                     "url": "/en/blog/frontend-development/"
                 },
                 {
@@ -4571,14 +4661,14 @@
             ]
         },
         "en/blog/generalist-vs-spezialist/index.html": {
-            "contentHash": "4b19368d8a26db7850cdd97bd8f75c71088a1cf0352f65dd03b78e56fb4a6b13",
+            "contentHash": "70fca0e2ba1b790285ae76cf8a2925ca4acb2adb769f34146535d42feed662c5",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "60ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/en/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -4592,7 +4682,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "209KB (budget: 1500KB)",
+                    "value": "255KB (budget: 1500KB)",
                     "url": "/en/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -4620,14 +4710,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/generalist-vs-spezialist/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "29 / 0",
+                    "value": "34 / 0",
                     "url": "/en/blog/generalist-vs-spezialist/"
                 },
                 {
@@ -4661,14 +4751,14 @@
             ]
         },
         "en/blog/generation-chat-gpt/index.html": {
-            "contentHash": "13db8ffa17f536cf02c40c75abc263ae08eeabd2960123c5655b3fcf3308d4f5",
+            "contentHash": "2415823a420a0aa8ddbc85e959ca5aaf2e6130045807ba8bed5d84dbea121d5b",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/en/blog/generation-chat-gpt/"
                 },
                 {
@@ -4682,7 +4772,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "202KB (budget: 1500KB)",
+                    "value": "249KB (budget: 1500KB)",
                     "url": "/en/blog/generation-chat-gpt/"
                 },
                 {
@@ -4710,14 +4800,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/generation-chat-gpt/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "30 / 0",
+                    "value": "37 / 0",
                     "url": "/en/blog/generation-chat-gpt/"
                 },
                 {
@@ -4751,14 +4841,14 @@
             ]
         },
         "en/blog/glueck-verstehen/index.html": {
-            "contentHash": "9bbda2585dbba67cefe481e574af6fff77cc9cea860a70d4f9f2bdd63d6d7e7b",
+            "contentHash": "479f56144bd69599f3a8356efbd1c4285431de32b310c8b440ac742e8f47da16",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/glueck-verstehen/"
                 },
                 {
@@ -4772,7 +4862,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "409KB (budget: 1500KB)",
+                    "value": "456KB (budget: 1500KB)",
                     "url": "/en/blog/glueck-verstehen/"
                 },
                 {
@@ -4800,14 +4890,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/en/blog/glueck-verstehen/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "46 / 0",
+                    "value": "53 / 0",
                     "url": "/en/blog/glueck-verstehen/"
                 },
                 {
@@ -4840,15 +4930,105 @@
                 }
             ]
         },
-        "en/blog/kosmische-irrtuemer/index.html": {
-            "contentHash": "9563e9eb2941c694244c95d5cd7c1f9a872e0d6eeb768e7fe2489b14b74a5088",
+        "en/blog/ki-blase-oder-boom/index.html": {
+            "contentHash": "f6d658bcb30b4557dc062c2ad9f993ac328c3064eef16bd3127d99db16189cf0",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "44ms (budget: 2500ms)",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "CLS",
+                    "value": "0.000 (budget: 0.1)",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Page weight",
+                    "value": "352KB (budget: 1500KB)",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.asset-weight",
+                    "category": "performance",
+                    "label": "Largest image",
+                    "value": "28KB (budget: 300KB)",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.lazy-loading",
+                    "category": "performance",
+                    "label": "Images checked / marked lazy",
+                    "value": "2 / 0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "performance.third-party-impact",
+                    "category": "performance",
+                    "label": "Third-party requests / render-blocking",
+                    "value": "0 / 0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "accessibility.axe",
+                    "category": "accessibility",
+                    "label": "Rules checked / passed / violated",
+                    "value": "28 / 28 / 0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "accessibility.color-contrast",
+                    "category": "accessibility",
+                    "label": "Elements checked / failing contrast",
+                    "value": "118 / 0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "bugs.console-errors",
+                    "category": "bugs",
+                    "label": "Console messages captured",
+                    "value": "0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "privacy.tracker-requests",
+                    "category": "privacy",
+                    "label": "Tracker requests detected",
+                    "value": "0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "privacy.external-fonts",
+                    "category": "privacy",
+                    "label": "Externally loaded fonts/APIs",
+                    "value": "0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                },
+                {
+                    "checkId": "privacy.fingerprinting",
+                    "category": "privacy",
+                    "label": "Fingerprinting APIs checked / found",
+                    "value": "8 / 0",
+                    "url": "/en/blog/ki-blase-oder-boom/"
+                }
+            ]
+        },
+        "en/blog/kosmische-irrtuemer/index.html": {
+            "contentHash": "042ab7f381c57faa68296a3d1c783b0c9358f3f25223692270fcf3f141f2b0d6",
+            "findings": [],
+            "details": [
+                {
+                    "checkId": "performance.core-web-vitals",
+                    "category": "performance",
+                    "label": "LCP",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/kosmische-irrtuemer/"
                 },
                 {
@@ -4862,7 +5042,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "337KB (budget: 1500KB)",
+                    "value": "385KB (budget: 1500KB)",
                     "url": "/en/blog/kosmische-irrtuemer/"
                 },
                 {
@@ -4890,14 +5070,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/kosmische-irrtuemer/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "49 / 0",
+                    "value": "57 / 0",
                     "url": "/en/blog/kosmische-irrtuemer/"
                 },
                 {
@@ -4931,7 +5111,7 @@
             ]
         },
         "en/blog/lying-with-statistics/index.html": {
-            "contentHash": "e86fbb14a16ae3cdfc05d36504dfe30c54e40fb28af82d1a87ee4d285f02c8e1",
+            "contentHash": "44de370fa00b6b85846af4b39780524a62a698dd82a466650b34d58934dcb6c3",
             "findings": [],
             "details": [
                 {
@@ -4952,7 +5132,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "272KB (budget: 1500KB)",
+                    "value": "318KB (budget: 1500KB)",
                     "url": "/en/blog/lying-with-statistics/"
                 },
                 {
@@ -4980,14 +5160,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/lying-with-statistics/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "42 / 0",
                     "url": "/en/blog/lying-with-statistics/"
                 },
                 {
@@ -5021,14 +5201,14 @@
             ]
         },
         "en/blog/not-petya/index.html": {
-            "contentHash": "ed12b665bc0048a68cc5f680761e6de95c8836e508f87bea41eb0e458bafb959",
+            "contentHash": "38a4dd1f59d13fe2f581c811bb0d06050399bbc407f4f00628dfa2f130040c12",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/not-petya/"
                 },
                 {
@@ -5042,7 +5222,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "242KB (budget: 1500KB)",
+                    "value": "299KB (budget: 1500KB)",
                     "url": "/en/blog/not-petya/"
                 },
                 {
@@ -5070,14 +5250,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/not-petya/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "61 / 0",
+                    "value": "108 / 0",
                     "url": "/en/blog/not-petya/"
                 },
                 {
@@ -5111,7 +5291,7 @@
             ]
         },
         "en/blog/nowitschok/index.html": {
-            "contentHash": "84f43273b7d28bc93d083748644b1ebb14e0281fa0f52fcc5aee419a65751c9a",
+            "contentHash": "f19d5da109ac08f452c0eb49eb37ac3ebe0dbd119da0b7af83ddce2d876a48a2",
             "findings": [],
             "details": [
                 {
@@ -5132,7 +5312,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "207KB (budget: 1500KB)",
+                    "value": "253KB (budget: 1500KB)",
                     "url": "/en/blog/nowitschok/"
                 },
                 {
@@ -5160,14 +5340,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/nowitschok/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "37 / 0",
+                    "value": "42 / 0",
                     "url": "/en/blog/nowitschok/"
                 },
                 {
@@ -5201,14 +5381,14 @@
             ]
         },
         "en/blog/perfektionismus/index.html": {
-            "contentHash": "54b40c7ad1ea04e041be01b1433985edaa58405eb4a1f762a9d4e28fb868c0d4",
+            "contentHash": "7580ef10f2c66ff18b98d8e54b0d6be67a9bf777661ad5402de52a71e071b852",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/en/blog/perfektionismus/"
                 },
                 {
@@ -5222,7 +5402,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "206KB (budget: 1500KB)",
+                    "value": "254KB (budget: 1500KB)",
                     "url": "/en/blog/perfektionismus/"
                 },
                 {
@@ -5250,14 +5430,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/perfektionismus/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "30 / 0",
+                    "value": "37 / 0",
                     "url": "/en/blog/perfektionismus/"
                 },
                 {
@@ -5291,7 +5471,7 @@
             ]
         },
         "en/blog/philosophische-gespraeche/index.html": {
-            "contentHash": "6cf0aa9fe4d099eb97c874e03251f9d6a7318bbfb79aa263d49a892b576979d1",
+            "contentHash": "264bb284bb617ba402252bd1a769386472717837845873ca5fcfee8f240b7a4e",
             "findings": [],
             "details": [
                 {
@@ -5312,7 +5492,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "328KB (budget: 1500KB)",
+                    "value": "378KB (budget: 1500KB)",
                     "url": "/en/blog/philosophische-gespraeche/"
                 },
                 {
@@ -5340,14 +5520,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/philosophische-gespraeche/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "145 / 0",
+                    "value": "156 / 0",
                     "url": "/en/blog/philosophische-gespraeche/"
                 },
                 {
@@ -5381,7 +5561,7 @@
             ]
         },
         "en/blog/rhetorik/index.html": {
-            "contentHash": "0aea9bea318dc8a764ddda4b7ece74df20147e2d4d4cf98dd0f001dad994c6a9",
+            "contentHash": "d6eec3539ee4d89e529ff09cec0ce0aa99187f94c05cad37c1c9b15553456350",
             "findings": [],
             "details": [
                 {
@@ -5402,7 +5582,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "210KB (budget: 1500KB)",
+                    "value": "260KB (budget: 1500KB)",
                     "url": "/en/blog/rhetorik/"
                 },
                 {
@@ -5430,14 +5610,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/rhetorik/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "63 / 0",
+                    "value": "73 / 0",
                     "url": "/en/blog/rhetorik/"
                 },
                 {
@@ -5471,7 +5651,7 @@
             ]
         },
         "en/blog/schach/index.html": {
-            "contentHash": "2be30dbd3d96971e9a8231d592fa2a03e6e9859227022aad2802e15670e1d856",
+            "contentHash": "8b34c8f7af6d397b558f8dae3d852d96e42008a19e1529a367b92d43c2ee1f85",
             "findings": [],
             "details": [
                 {
@@ -5492,7 +5672,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "212KB (budget: 1500KB)",
+                    "value": "258KB (budget: 1500KB)",
                     "url": "/en/blog/schach/"
                 },
                 {
@@ -5520,14 +5700,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "26 / 26 / 0",
+                    "value": "30 / 30 / 0",
                     "url": "/en/blog/schach/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "31 / 0",
+                    "value": "36 / 0",
                     "url": "/en/blog/schach/"
                 },
                 {
@@ -5561,7 +5741,7 @@
             ]
         },
         "en/blog/science-of-harmony/index.html": {
-            "contentHash": "d205621fc22eaa998eb7d4915005ac04cce481ff9394bc80d99a19aaf7925857",
+            "contentHash": "3b9b4317d46389bd9b0e7a751966f5bc3b97be2145b7f122448cde16262daa51",
             "findings": [],
             "details": [
                 {
@@ -5582,7 +5762,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "200KB (budget: 1500KB)",
+                    "value": "246KB (budget: 1500KB)",
                     "url": "/en/blog/science-of-harmony/"
                 },
                 {
@@ -5610,14 +5790,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/science-of-harmony/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "28 / 0",
+                    "value": "34 / 0",
                     "url": "/en/blog/science-of-harmony/"
                 },
                 {
@@ -5651,7 +5831,7 @@
             ]
         },
         "en/blog/science/index.html": {
-            "contentHash": "dde617fba7f4be6d872d7fd6fbe159e2d31a34cc892a57524fffbdd08391ef2b",
+            "contentHash": "5f02c377df89b8d20cfcde9e7d429415228104db77dea6ff49df21684fdd1c24",
             "findings": [],
             "details": [
                 {
@@ -5672,7 +5852,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "224KB (budget: 1500KB)",
+                    "value": "270KB (budget: 1500KB)",
                     "url": "/en/blog/science/"
                 },
                 {
@@ -5700,14 +5880,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/science/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "34 / 0",
+                    "value": "39 / 0",
                     "url": "/en/blog/science/"
                 },
                 {
@@ -5741,14 +5921,14 @@
             ]
         },
         "en/blog/second-brain/index.html": {
-            "contentHash": "482bf76b8519f2dffcb188d647187ae7667ed5bab9f27839d976ff1d4edefe10",
+            "contentHash": "bdd751215bc976fde604f409574d397a24400e1499fcc702f744595392cd5bd0",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/en/blog/second-brain/"
                 },
                 {
@@ -5762,7 +5942,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "198KB (budget: 1500KB)",
+                    "value": "244KB (budget: 1500KB)",
                     "url": "/en/blog/second-brain/"
                 },
                 {
@@ -5790,14 +5970,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/second-brain/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "39 / 0",
+                    "value": "45 / 0",
                     "url": "/en/blog/second-brain/"
                 },
                 {
@@ -5831,7 +6011,7 @@
             ]
         },
         "en/blog/software-is-eating-the-world/index.html": {
-            "contentHash": "ac5eda3c265622583e2b1c73c08aec7d243b7085899d00075e0b094aa0c469c3",
+            "contentHash": "4a53ab1fcfb1055ff8bdb65a09d3c98b3c56e9dce7984fec90404994bf374d5d",
             "findings": [],
             "details": [
                 {
@@ -5852,7 +6032,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "213KB (budget: 1500KB)",
+                    "value": "259KB (budget: 1500KB)",
                     "url": "/en/blog/software-is-eating-the-world/"
                 },
                 {
@@ -5880,14 +6060,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/software-is-eating-the-world/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "28 / 0",
+                    "value": "36 / 0",
                     "url": "/en/blog/software-is-eating-the-world/"
                 },
                 {
@@ -5921,14 +6101,14 @@
             ]
         },
         "en/blog/sterbehilfe/index.html": {
-            "contentHash": "fc6a7d33009fa31259bba4dc5844d4ad60571fe4de9fea03eea788d211353725",
+            "contentHash": "68a9be24c5340102f783be73879df26ef3c63572d4f9b21472e9bde1c21718f8",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/en/blog/sterbehilfe/"
                 },
                 {
@@ -5942,7 +6122,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "226KB (budget: 1500KB)",
+                    "value": "273KB (budget: 1500KB)",
                     "url": "/en/blog/sterbehilfe/"
                 },
                 {
@@ -5970,14 +6150,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/sterbehilfe/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "46 / 0",
+                    "value": "52 / 0",
                     "url": "/en/blog/sterbehilfe/"
                 },
                 {
@@ -6011,14 +6191,14 @@
             ]
         },
         "en/blog/storytelling/index.html": {
-            "contentHash": "a2bb0c3ebcaaa15b4eff9f086f17a18ef7cc9c058dd389bfe7a17ef2c00f3a04",
+            "contentHash": "00d2311fbac7fe2f4e927a397cf129395e9de15f35b037c4be7743d13295fcf5",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "36ms (budget: 2500ms)",
                     "url": "/en/blog/storytelling/"
                 },
                 {
@@ -6032,7 +6212,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "231KB (budget: 1500KB)",
+                    "value": "278KB (budget: 1500KB)",
                     "url": "/en/blog/storytelling/"
                 },
                 {
@@ -6060,14 +6240,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/storytelling/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "33 / 0",
+                    "value": "40 / 0",
                     "url": "/en/blog/storytelling/"
                 },
                 {
@@ -6101,7 +6281,7 @@
             ]
         },
         "en/blog/systeme-statt-ziele/index.html": {
-            "contentHash": "e7aa4de938bf4a87ef2bf538b3f1d174d734c937e994c3f4e2e490902656aead",
+            "contentHash": "bc754523aba24b781100dcbd7c769090c584302d1030ea83e6289efe56cc405e",
             "findings": [],
             "details": [
                 {
@@ -6122,7 +6302,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "218KB (budget: 1500KB)",
+                    "value": "266KB (budget: 1500KB)",
                     "url": "/en/blog/systeme-statt-ziele/"
                 },
                 {
@@ -6150,14 +6330,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/systeme-statt-ziele/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "36 / 0",
+                    "value": "45 / 0",
                     "url": "/en/blog/systeme-statt-ziele/"
                 },
                 {
@@ -6191,7 +6371,7 @@
             ]
         },
         "en/blog/tierhaltung-und-umwelt/index.html": {
-            "contentHash": "43c364d1b406adc213f673a9c8df77c7d13354e9f86d81b9e2e7a44738eb9211",
+            "contentHash": "df445ea7ef0ed8d8f2ced58d3b83aa739e65c3f6e7c30694e4303ee67cc360d2",
             "findings": [],
             "details": [
                 {
@@ -6212,14 +6392,14 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "344KB (budget: 1500KB)",
+                    "value": "409KB (budget: 1500KB)",
                     "url": "/en/blog/tierhaltung-und-umwelt/"
                 },
                 {
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Largest image",
-                    "value": "103KB (budget: 300KB)",
+                    "value": "62KB (budget: 300KB)",
                     "url": "/en/blog/tierhaltung-und-umwelt/"
                 },
                 {
@@ -6240,14 +6420,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/tierhaltung-und-umwelt/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "110 / 0",
+                    "value": "169 / 0",
                     "url": "/en/blog/tierhaltung-und-umwelt/"
                 },
                 {
@@ -6281,7 +6461,7 @@
             ]
         },
         "en/blog/zero-knowledge-proof/index.html": {
-            "contentHash": "18c38c2bbea5bae8548931eda5b47ac594ba5d6fce6a88bd8edbd5285f830fb8",
+            "contentHash": "697d5346f6d4849f37d7d21afebbc19399a4b67a2a72296dc8b0672127ffd1a7",
             "findings": [],
             "details": [
                 {
@@ -6302,7 +6482,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "224KB (budget: 1500KB)",
+                    "value": "270KB (budget: 1500KB)",
                     "url": "/en/blog/zero-knowledge-proof/"
                 },
                 {
@@ -6330,14 +6510,14 @@
                     "checkId": "accessibility.axe",
                     "category": "accessibility",
                     "label": "Rules checked / passed / violated",
-                    "value": "24 / 24 / 0",
+                    "value": "28 / 28 / 0",
                     "url": "/en/blog/zero-knowledge-proof/"
                 },
                 {
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "29 / 0",
+                    "value": "34 / 0",
                     "url": "/en/blog/zero-knowledge-proof/"
                 },
                 {
@@ -6371,14 +6551,14 @@
             ]
         },
         "en/bookmarks/index.html": {
-            "contentHash": "c320bee6f9a59e2a5a98802cdcf49a67a12c80bdb881ad1162bcc1a6eaf45392",
+            "contentHash": "7089ceb9642042f68fe13d2069ba108d24c004aa5b8b422bf85743a8fe728efc",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "40ms (budget: 2500ms)",
+                    "value": "32ms (budget: 2500ms)",
                     "url": "/en/bookmarks/"
                 },
                 {
@@ -6392,7 +6572,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "300KB (budget: 1500KB)",
+                    "value": "302KB (budget: 1500KB)",
                     "url": "/en/bookmarks/"
                 },
                 {
@@ -6454,7 +6634,7 @@
             ]
         },
         "en/datenschutz/index.html": {
-            "contentHash": "c2775a293fd2b6e668b0a2b9f160edc0f74c79cc9fc99cf4c28d8fd1bfc176bc",
+            "contentHash": "c17d48b49e198f0894d5e1b66dbb9737e70b4d4063c6fa2c3390b76390904868",
             "findings": [],
             "details": [
                 {
@@ -6475,7 +6655,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "185KB (budget: 1500KB)",
+                    "value": "229KB (budget: 1500KB)",
                     "url": "/en/datenschutz/"
                 },
                 {
@@ -6503,7 +6683,7 @@
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "80 / 0",
+                    "value": "88 / 0",
                     "url": "/en/datenschutz/"
                 },
                 {
@@ -6537,14 +6717,14 @@
             ]
         },
         "en/impressum/index.html": {
-            "contentHash": "e00c25f2d15942e99717a5fca22c61b268b93108b3611ab7d013890d1d052de7",
+            "contentHash": "21069b061789099a1dcf4a7e96d1a3f6f0984765d18bd2b1bc764263ff06ce6b",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "28ms (budget: 2500ms)",
                     "url": "/en/impressum/"
                 },
                 {
@@ -6558,7 +6738,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "174KB (budget: 1500KB)",
+                    "value": "176KB (budget: 1500KB)",
                     "url": "/en/impressum/"
                 },
                 {
@@ -6620,7 +6800,7 @@
             ]
         },
         "en/portfolio/index.html": {
-            "contentHash": "bbd6c845249b1bcd85705c00a49bd844ae4d54514be93660746f3fb4a503586b",
+            "contentHash": "2645ac1dfd4a460b8cda49a475e35bccb86a1724a1fe958c50aeab95bbf6a1c3",
             "findings": [],
             "details": [
                 {
@@ -6641,7 +6821,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "795KB (budget: 1500KB)",
+                    "value": "797KB (budget: 1500KB)",
                     "url": "/en/portfolio/"
                 },
                 {
@@ -6710,14 +6890,14 @@
             ]
         },
         "impressum/index.html": {
-            "contentHash": "7b178c7c69fd8d3612089223301f73ae498ce3689393de6223c62ad08d9f2662",
+            "contentHash": "d0752e5d0d48a9434f96ab0c3f260844510ed72672a12c874ac5ab2701de9402",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "28ms (budget: 2500ms)",
                     "url": "/impressum/"
                 },
                 {
@@ -6731,7 +6911,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "174KB (budget: 1500KB)",
+                    "value": "176KB (budget: 1500KB)",
                     "url": "/impressum/"
                 },
                 {
@@ -6793,14 +6973,14 @@
             ]
         },
         "portfolio/index.html": {
-            "contentHash": "d4cba1038e57aa83852c4e0b10f05fe3beefe735d390966fc8340210d65e4478",
+            "contentHash": "161867d74e127809fc2d8cfaa8debee7df87512835a348845d88581527fa45e1",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "28ms (budget: 2500ms)",
                     "url": "/portfolio/"
                 },
                 {
@@ -6814,7 +6994,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "795KB (budget: 1500KB)",
+                    "value": "797KB (budget: 1500KB)",
                     "url": "/portfolio/"
                 },
                 {

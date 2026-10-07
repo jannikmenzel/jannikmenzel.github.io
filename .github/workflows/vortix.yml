@@ -11,11 +11,10 @@ jobs:
             - uses: actions/checkout@v4
             - uses: actions/setup-node@v4
               with:
-                  node-version: 22.12.0
+                  node-version: 22
                   cache: npm
             - run: npm ci
-            - uses: actions/cache@v4
-              # Persists the dynamic-check cache (.vortix/cache.json) across runs, so `vortix ci`
+            - uses: actions/cache/restore@v4
               # only re-checks pages that changed since the last run instead of the whole site.
               with:
                   path: .vortix/cache.json
@@ -23,3 +22,8 @@ jobs:
                   restore-keys: |
                       vortix-cache-
             - run: npx vortix ci https://www.jannikmenzel.me/
+            - uses: actions/cache/save@v4
+              if: always()
+              with:
+                  path: .vortix/cache.json
+                  key: vortix-cache-${{ github.sha }}
