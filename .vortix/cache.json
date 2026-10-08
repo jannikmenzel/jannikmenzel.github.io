@@ -3318,14 +3318,14 @@
             ]
         },
         "datenschutz/index.html": {
-            "contentHash": "98d25b5662363a20c4df20b10b5e233530270fae8ea73fbb6c870f9d443095fc",
+            "contentHash": "b2c80b622febf29f841110c88a9cf3fd1fedceb934114bbcd90a3bfcdd5acd08",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "36ms (budget: 2500ms)",
+                    "value": "88ms (budget: 2500ms)",
                     "url": "/datenschutz/"
                 },
                 {
@@ -3339,7 +3339,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "231KB (budget: 1500KB)",
+                    "value": "234KB (budget: 1500KB)",
                     "url": "/datenschutz/"
                 },
                 {
@@ -3353,7 +3353,7 @@
                     "checkId": "performance.third-party-impact",
                     "category": "performance",
                     "label": "Third-party requests / render-blocking",
-                    "value": "0 / 0",
+                    "value": "1 / 0",
                     "url": "/datenschutz/"
                 },
                 {
@@ -3367,14 +3367,14 @@
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "88 / 0",
+                    "value": "90 / 0",
                     "url": "/datenschutz/"
                 },
                 {
                     "checkId": "bugs.console-errors",
                     "category": "bugs",
                     "label": "Console messages captured",
-                    "value": "0",
+                    "value": "1",
                     "url": "/datenschutz/"
                 },
                 {
@@ -6634,14 +6634,14 @@
             ]
         },
         "en/datenschutz/index.html": {
-            "contentHash": "c17d48b49e198f0894d5e1b66dbb9737e70b4d4063c6fa2c3390b76390904868",
+            "contentHash": "b0874c099026f89ff5134237c427b588acbec53be036fe20875062087723a627",
             "findings": [],
             "details": [
                 {
                     "checkId": "performance.core-web-vitals",
                     "category": "performance",
                     "label": "LCP",
-                    "value": "32ms (budget: 2500ms)",
+                    "value": "40ms (budget: 2500ms)",
                     "url": "/en/datenschutz/"
                 },
                 {
@@ -6655,7 +6655,7 @@
                     "checkId": "performance.asset-weight",
                     "category": "performance",
                     "label": "Page weight",
-                    "value": "229KB (budget: 1500KB)",
+                    "value": "233KB (budget: 1500KB)",
                     "url": "/en/datenschutz/"
                 },
                 {
@@ -6669,7 +6669,7 @@
                     "checkId": "performance.third-party-impact",
                     "category": "performance",
                     "label": "Third-party requests / render-blocking",
-                    "value": "0 / 0",
+                    "value": "1 / 0",
                     "url": "/en/datenschutz/"
                 },
                 {
@@ -6683,14 +6683,14 @@
                     "checkId": "accessibility.color-contrast",
                     "category": "accessibility",
                     "label": "Elements checked / failing contrast",
-                    "value": "88 / 0",
+                    "value": "90 / 0",
                     "url": "/en/datenschutz/"
                 },
                 {
                     "checkId": "bugs.console-errors",
                     "category": "bugs",
                     "label": "Console messages captured",
-                    "value": "0",
+                    "value": "1",
                     "url": "/en/datenschutz/"
                 },
                 {
