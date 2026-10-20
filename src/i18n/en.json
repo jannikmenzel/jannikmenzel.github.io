@@ -2,6 +2,7 @@
     "nav": {
         "home": "Home",
         "portfolio": "Portfolio",
+        "projects": "Projects",
         "about": "Bookmarks",
         "blog": "Blog",
         "contact": "Contact",
@@ -40,8 +41,8 @@
             "cta": "Send an Email"
         }
     },
-    "projects": {
-        "title": "My Projects"
+    "portfolioPreview": {
+        "title": "My Portfolio"
     },
     "services": {
         "title": "My Services",
@@ -108,6 +109,46 @@
             },
             "ploucquet": {
                 "description": "Development of an individual WordPress website for a medium-sized company. Focus on easy content management, clear page structure and a professional, brand-compliant appearance. The implementation was fully responsive and performance-oriented."
+            }
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "A selection of academic work and open source projects",
+        "papersHeading": "Research",
+        "openSourceHeading": "Open Source",
+        "license": "License",
+        "paper": {
+            "abstract": "Abstract",
+            "read": "Read paper",
+            "code": "Code on GitHub",
+            "reproduction": "Reproduction",
+            "reference": "Paper:"
+        },
+        "links": {
+            "npm": "npm",
+            "releases": "Download"
+        },
+        "papers": {
+            "clear": {
+                "type": "Seminar paper",
+                "venue": "Pro- and main seminar on databases, TU Dresden",
+                "abstract": "Electronic health records (EHRs) are multimodal and heterogeneous, which makes models prone to representation contamination: spurious or weakly informative features become entangled with genuinely discriminative ones. This paper introduces CLEAR (Su et al., KDD 2025), a counterfactual disparity learning model that measures contamination through factual and counterfactual representations (CPL), recalibrates them adaptively (ADI) and fuses the modalities via multi-head self-attention (MRF).",
+                "reproduction": "My own reproduction of the CLEAR experiment on the ODIR-5K dataset with 5,000 patients and 8 diagnoses. Mean over 3 seeds."
+            }
+        },
+        "openSource": {
+            "midnight": {
+                "type": "Desktop app",
+                "description": "Local bookkeeping for freelancers and the self-employed in Germany: invoices including e-invoicing (ZUGFeRD/XRechnung) and LaTeX PDFs, receipts, time tracking, cash-basis accounting and tax estimates. All data stays local in SQLite, and a built-in MCP server lets AI assistants operate the app."
+            },
+            "vortix": {
+                "type": "CLI tool",
+                "description": "A local CLI that audits static sites for performance, security, accessibility, SEO and privacy. It auto-detects common generators and also runs in CI pipelines."
+            },
+            "sveltiaRbac": {
+                "type": "CMS extension",
+                "description": "Server-enforced, role-based editing for Sveltia CMS on GitLab. A pre-receive hook rejects every push that violates a file's edit_roles, not just in the CMS interface but for a plain git push as well."
             }
         }
     },

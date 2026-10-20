@@ -1,0 +1,53 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ProjectsCollection from "../../components/projects/ProjectsCollection.astro";
+import { openSourceProjects } from "../../data/projects";
+import { t } from "../../i18n/ui";
+
+const lang = "en";
+const description =
+    "Projects by Jannik Menzel: academic work from my studies at TU Dresden and open source tools of my own, from desktop apps to CLI utilities.";
+---
+
+<Layout
+    title={t(lang, "projects.title")}
+    lang="en"
+    description={description}
+    keywords="Projects, Research, Open Source, Jannik Menzel, CLEAR, Midnight, Vortix CLI, Sveltia CMS, TU Dresden"
+    og={{
+        title: `${t(lang, "projects.title")} – Jannik Menzel`,
+        description,
+        url: "https://www.jannikmenzel.me/en/projects/",
+        image: "https://www.jannikmenzel.me/social-preview.png",
+    }}
+    twitter={{
+        title: `${t(lang, "projects.title")} – Jannik Menzel`,
+        description,
+        image: "https://www.jannikmenzel.me/social-preview.png",
+    }}
+    canonical="https://www.jannikmenzel.me/en/projects/"
+    structuredData={{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: t(lang, "projects.title"),
+        description,
+        url: "https://www.jannikmenzel.me/en/projects/",
+        hasPart: [
+            {
+                "@type": "ScholarlyArticle",
+                headline: "An Introduction to CLEAR for Multimodal Healthcare Analytics",
+                author: [{ "@type": "Person", name: "Jannik Menzel" }],
+                datePublished: "2026",
+                keywords: "Healthcare Analytics, EHR, Multimodal Learning, Representation Learning",
+            },
+            ...openSourceProjects.map((project) => ({
+                "@type": "SoftwareSourceCode",
+                name: project.title,
+                codeRepository: project.repo,
+                license: project.license,
+            })),
+        ],
+    }}
+>
+    <ProjectsCollection />
+</Layout>

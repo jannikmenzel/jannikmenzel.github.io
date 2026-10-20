@@ -1,0 +1,262 @@
+---
+import {
+    AppWindow,
+    ArrowUpRight,
+    Download,
+    FileText,
+    GraduationCap,
+    Package,
+    Scale,
+    ShieldCheck,
+    Terminal,
+} from "@lucide/astro";
+import { Icon } from "astro-icon/components";
+import { getLangFromUrl, t } from "../../i18n/ui";
+import { openSourceProjects, type ProjectLinkKind } from "../../data/projects";
+
+const lang = getLangFromUrl(Astro.url);
+
+const projectIcon: Record<string, typeof AppWindow> = {
+    midnight: AppWindow,
+    vortix: Terminal,
+    sveltiaRbac: ShieldCheck,
+};
+
+const linkIcon: Record<ProjectLinkKind, typeof AppWindow> = {
+    npm: Package,
+    releases: Download,
+};
+---
+
+<section class="w-full container" aria-labelledby="projects-heading">
+    <header class="px-6 pt-16 sm:pt-20 text-center">
+        <h1
+            id="projects-heading"
+            class="text-4xl font-black uppercase leading-[1.1] tracking-[-0.02em] text-background-foreground sm:text-5xl"
+        >
+            {t(lang, "projects.title")}
+        </h1>
+        <div class="mx-auto mt-4 h-1 w-24 bg-accent"></div>
+        <p class="mx-auto mt-6 max-w-2xl text-base sm:text-lg text-muted-foreground">
+            {t(lang, "projects.subtitle")}
+        </p>
+    </header>
+
+    <!-- Papers -->
+    <section class="px-6 pt-16 sm:pt-24" aria-labelledby="papers-heading">
+        <div class="flex items-center gap-4 mb-8 sm:mb-10">
+            <span class="font-mono text-xs text-muted-foreground">01</span>
+            <h2
+                id="papers-heading"
+                class="text-2xl sm:text-3xl font-black uppercase tracking-[-0.02em] text-foreground"
+            >
+                {t(lang, "projects.papersHeading")}
+            </h2>
+            <div class="h-px flex-1 bg-border"></div>
+        </div>
+
+        <article
+            class="scrolling-section grid grid-cols-1 lg:grid-cols-12 border border-border bg-backgroundAlt"
+        >
+            <div class="lg:col-span-8 p-6 sm:p-10">
+                <span
+                    class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground"
+                >
+                    <GraduationCap class="h-4 w-4 text-accent" aria-hidden="true" />
+                    {t(lang, "projects.papers.clear.type")} / 2026
+                </span>
+                <h3
+                    class="mt-4 font-display text-2xl sm:text-3xl font-bold leading-tight text-foreground"
+                >
+                    An Introduction to CLEAR for Multimodal Healthcare Analytics
+                </h3>
+                <p class="mt-3 text-sm text-muted-foreground">
+                    {t(lang, "projects.papers.clear.venue")}
+                </p>
+
+                <h4 class="mt-8 text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground">
+                    {t(lang, "projects.paper.abstract")}
+                </h4>
+                <p class="mt-3 max-w-3xl text-sm sm:text-base leading-7 text-muted-foreground">
+                    {t(lang, "projects.papers.clear.abstract")}
+                </p>
+
+                <div class="mt-10 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:gap-3">
+                    <a
+                        href="/papers/menzel-2026-introduction-to-clear.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary gap-2 whitespace-nowrap px-3! py-2.5! text-xs! no-underline sm:px-6! sm:py-3! sm:text-sm!"
+                    >
+                        <FileText class="hidden h-4 w-4 sm:block" aria-hidden="true" />
+                        {t(lang, "projects.paper.read")}
+                    </a>
+                    <a
+                        href="https://github.com/jannikmenzel/CLEAR"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-secondary gap-2 whitespace-nowrap px-3! py-2.5! text-xs! no-underline sm:px-6! sm:py-3! sm:text-sm!"
+                    >
+                        <Icon
+                            name="lucide:github"
+                            class="hidden h-4 w-4 sm:block"
+                            aria-hidden="true"
+                        />
+                        {t(lang, "projects.paper.code")}
+                    </a>
+                </div>
+            </div>
+
+            <aside
+                class="lg:col-span-4 border-t lg:border-t-0 lg:border-l border-border bg-background p-6 sm:p-10"
+                aria-labelledby="clear-reproduction-heading"
+            >
+                <h4
+                    id="clear-reproduction-heading"
+                    class="text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground"
+                >
+                    {t(lang, "projects.paper.reproduction")}
+                </h4>
+                <p class="mt-3 text-sm leading-6 text-muted-foreground">
+                    {t(lang, "projects.papers.clear.reproduction")}
+                </p>
+                <dl class="mt-8 divide-y divide-border border-y border-border">
+                    <div class="flex items-baseline justify-between gap-4 py-4">
+                        <dt class="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                            Macro-AUC
+                        </dt>
+                        <dd class="text-right">
+                            <span class="block font-mono text-2xl font-bold text-foreground"
+                                >0.9963</span
+                            >
+                            <span class="block font-mono text-xs text-muted-foreground/70">
+                                {t(lang, "projects.paper.reference")} 0.9969
+                            </span>
+                        </dd>
+                    </div>
+                    <div class="flex items-baseline justify-between gap-4 py-4">
+                        <dt class="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                            Micro-AUC
+                        </dt>
+                        <dd class="text-right">
+                            <span class="block font-mono text-2xl font-bold text-foreground"
+                                >0.9981</span
+                            >
+                            <span class="block font-mono text-xs text-muted-foreground/70">
+                                {t(lang, "projects.paper.reference")} 0.9986
+                            </span>
+                        </dd>
+                    </div>
+                    <div class="flex items-baseline justify-between gap-4 py-4">
+                        <dt class="text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                            Micro-F1
+                        </dt>
+                        <dd class="text-right">
+                            <span class="block font-mono text-2xl font-bold text-foreground"
+                                >0.9556</span
+                            >
+                        </dd>
+                    </div>
+                </dl>
+            </aside>
+        </article>
+    </section>
+
+    <!-- Open Source -->
+    <section class="px-6 py-16 sm:py-24" aria-labelledby="open-source-heading">
+        <div class="flex items-center gap-4 mb-8 sm:mb-10">
+            <span class="font-mono text-xs text-muted-foreground">02</span>
+            <h2
+                id="open-source-heading"
+                class="text-2xl sm:text-3xl font-black uppercase tracking-[-0.02em] text-foreground"
+            >
+                {t(lang, "projects.openSourceHeading")}
+            </h2>
+            <div class="h-px flex-1 bg-border"></div>
+        </div>
+
+        <div class="scrolling-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {
+                openSourceProjects.map((project) => {
+                    const TypeIcon = projectIcon[project.id] ?? Package;
+                    return (
+                        <article class="card group relative flex flex-col border border-border bg-backgroundAlt p-6 sm:p-8 transition-colors duration-200 hover:border-accent">
+                            <div class="flex items-center justify-between gap-4">
+                                <span class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.2em] text-muted-foreground">
+                                    <TypeIcon class="h-4 w-4 text-accent" aria-hidden="true" />
+                                    {t(lang, `projects.openSource.${project.id}.type`)}
+                                </span>
+                                <span class="font-mono text-xs text-muted-foreground/70">
+                                    {project.year}
+                                </span>
+                            </div>
+
+                            <h3 class="mt-5 text-2xl font-bold text-foreground">
+                                <a
+                                    href={project.repo}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="inline-flex items-center gap-2 transition-colors duration-200 group-hover:text-accent after:absolute after:inset-0"
+                                >
+                                    {project.title}
+                                    <ArrowUpRight
+                                        class="h-5 w-5 text-muted-foreground transition-colors duration-200 group-hover:text-accent"
+                                        aria-hidden="true"
+                                    />
+                                </a>
+                            </h3>
+
+                            <p class="mt-4 text-sm leading-7 text-muted-foreground">
+                                {t(lang, `projects.openSource.${project.id}.description`)}
+                            </p>
+
+                            {project.install && (
+                                <code
+                                    tabindex="0"
+                                    class="relative z-10 mt-6 block overflow-x-auto whitespace-nowrap border border-border bg-background px-4 py-3 font-mono text-xs text-foreground"
+                                >
+                                    <span class="select-none text-muted-foreground/70">$ </span>
+                                    {project.install}
+                                </code>
+                            )}
+
+                            <div class="mt-auto pt-8">
+                                <div class="flex flex-wrap items-center justify-between gap-4 border-t border-border pt-5">
+                                    <span class="inline-flex items-center gap-2 font-mono text-xs text-muted-foreground">
+                                        <Scale class="h-4 w-4" aria-hidden="true" />
+                                        <span class="sr-only">{t(lang, "projects.license")}:</span>
+                                        {project.license}
+                                    </span>
+                                    {project.links.length > 0 && (
+                                        <ul class="relative z-10 flex flex-wrap gap-4 list-none">
+                                            {project.links.map((link) => {
+                                                const LinkIcon = linkIcon[link.kind];
+                                                return (
+                                                    <li>
+                                                        <a
+                                                            href={link.href}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            class="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.15em] text-foreground underline-offset-4 transition-colors duration-200 hover:text-accent hover:underline"
+                                                            aria-label={`${project.title}: ${t(lang, `projects.links.${link.kind}`)}`}
+                                                        >
+                                                            <LinkIcon
+                                                                class="h-4 w-4"
+                                                                aria-hidden="true"
+                                                            />
+                                                            {t(lang, `projects.links.${link.kind}`)}
+                                                        </a>
+                                                    </li>
+                                                );
+                                            })}
+                                        </ul>
+                                    )}
+                                </div>
+                            </div>
+                        </article>
+                    );
+                })
+            }
+        </div>
+    </section>
+</section>

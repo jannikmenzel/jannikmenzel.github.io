@@ -52,5 +52,8 @@ export function t(lang: Lang, key: string): string {
     for (const k of keys) {
         value = value?.[k];
     }
-    return value || key;
+    if (typeof value !== "string") {
+        throw new Error(`Missing translation "${key}" for language "${lang}"`);
+    }
+    return value;
 }

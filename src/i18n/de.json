@@ -2,6 +2,7 @@
     "nav": {
         "home": "Home",
         "portfolio": "Portfolio",
+        "projects": "Projekte",
         "about": "Bookmarks",
         "blog": "Blog",
         "contact": "Kontakt",
@@ -40,8 +41,8 @@
             "cta": "E-Mail schreiben"
         }
     },
-    "projects": {
-        "title": "Meine Projekte"
+    "portfolioPreview": {
+        "title": "Mein Portfolio"
     },
     "services": {
         "title": "Meine Leistungen",
@@ -108,6 +109,46 @@
             },
             "ploucquet": {
                 "description": "Entwicklung einer individuellen WordPress-Website für ein mittelständisches Unternehmen. Schwerpunkt auf einfacher Inhaltspflege, klarer Seitenstruktur und einem seriösen, markenkonformen Erscheinungsbild. Die Umsetzung erfolgte vollständig responsive und performance-orientiert."
+            }
+        }
+    },
+    "projects": {
+        "title": "Projekte",
+        "subtitle": "Eine Auswahl an wissenschaftlichen Arbeiten und Open-Source-Projekten",
+        "papersHeading": "Forschung",
+        "openSourceHeading": "Open Source",
+        "license": "Lizenz",
+        "paper": {
+            "abstract": "Abstract",
+            "read": "Paper lesen",
+            "code": "Code auf GitHub",
+            "reproduction": "Reproduktion",
+            "reference": "Paper:"
+        },
+        "links": {
+            "npm": "npm",
+            "releases": "Download"
+        },
+        "papers": {
+            "clear": {
+                "type": "Seminararbeit",
+                "venue": "Pro- und Hauptseminar Datenbanken, TU Dresden",
+                "abstract": "Elektronische Patientenakten (EHRs) sind multimodal und heterogen und damit anfällig für Representation Contamination: Schwach informative oder irreführende Merkmale vermischen sich mit tatsächlich diskriminativen. Die Arbeit stellt CLEAR (Su et al., KDD 2025) vor, ein Counterfactual-Disparity-Learning-Modell, das Kontamination über faktische und kontrafaktische Repräsentationen misst (CPL), Repräsentationen adaptiv kalibriert (ADI) und die Modalitäten per Multi-Head Self-Attention fusioniert (MRF).",
+                "reproduction": "Eigene Reproduktion des CLEAR-Experiments auf dem ODIR-5K-Datensatz mit 5.000 Patient:innen und 8 Diagnosen. Mittelwert über 3 Seeds."
+            }
+        },
+        "openSource": {
+            "midnight": {
+                "type": "Desktop-App",
+                "description": "Lokale Buchhaltung für Freelancer und Selbstständige in Deutschland: Rechnungen inklusive E-Rechnung (ZUGFeRD/XRechnung) und LaTeX-PDFs, Belege, Zeiterfassung, EÜR und Steuerschätzung. Alle Daten bleiben lokal in SQLite, ein integrierter MCP-Server macht die App für KI-Assistenten steuerbar."
+            },
+            "vortix": {
+                "type": "CLI-Tool",
+                "description": "Lokales CLI, das statische Websites auf Performance, Sicherheit, Barrierefreiheit, SEO und Datenschutz prüft. Es erkennt gängige Generatoren automatisch und läuft auch in CI-Pipelines."
+            },
+            "sveltiaRbac": {
+                "type": "CMS-Erweiterung",
+                "description": "Serverseitig erzwungene, rollenbasierte Bearbeitungsrechte für Sveltia CMS auf GitLab. Ein Pre-Receive-Hook lehnt jeden Push ab, der die edit_roles einer Datei verletzt, und zwar nicht nur in der CMS-Oberfläche, sondern auch bei einem direkten git push."
             }
         }
     },

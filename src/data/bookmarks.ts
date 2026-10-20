@@ -323,4 +323,44 @@ export const bookmarks: Bookmark[] = [
         url: "https://github.com/slidevjs/slidev",
         category: "repository",
     },
+    {
+        title: "DevToys",
+        url: "https://github.com/DevToys-app/DevToys",
+        category: "repository",
+    },
+    {
+        title: "Filee",
+        url: "https://github.com/KnifeLemon/Filee",
+        category: "repository",
+    },
+    {
+        title: "Hidden Bar",
+        url: "https://github.com/dwarvesf/hidden",
+        category: "repository",
+    },
+    {
+        title: "NearDrop",
+        url: "https://github.com/grishka/NearDrop",
+        category: "repository",
+    },
+    {
+        title: "Purge",
+        url: "https://github.com/jithin-sabu/purge-app",
+        category: "repository",
+    },
+    {
+        title: "QLMarkdown",
+        url: "https://github.com/sbarex/QLMarkdown",
+        category: "repository",
+    },
+    {
+        title: "Vorssaint",
+        url: "https://github.com/vorssaint/vorssaint-utils",
+        category: "repository",
+    },
+    {
+        title: "En Croissant",
+        url: "https://github.com/franciscoBSalgueiro/en-croissant",
+        category: "repository",
+    },
 ];
