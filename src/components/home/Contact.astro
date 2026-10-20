@@ -21,7 +21,7 @@ const lang = getLangFromUrl(Astro.url);
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_360px]">
             <form
                 id="contact-form"
-                class="order-2 border border-border bg-background px-6 py-8 sm:px-8 space-y-6 scrolling-section lg:order-1"
+                class="order-2 flex flex-col gap-6 border border-border bg-background px-6 py-8 sm:px-8 scrolling-section lg:order-1"
                 action="https://n8n.jannikmenzel.me/webhook/kontakt"
                 method="POST"
                 data-sending={t(lang, "contact.sending")}
@@ -85,7 +85,7 @@ const lang = getLangFromUrl(Astro.url);
                     />
                 </div>
 
-                <div class="group">
+                <div class="group flex flex-1 flex-col">
                     <label
                         for="message"
                         class="font-label text-[0.9rem] uppercase tracking-widest mb-2 block"
@@ -99,7 +99,7 @@ const lang = getLangFromUrl(Astro.url);
                         aria-label={t(lang, "contact.message")}
                         placeholder={t(lang, "contact.placeholder.message")}
                         rows="5"
-                        class="w-full bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary resize-none"
+                        class="w-full flex-1 bg-backgroundAlt border-[0.5px] border-zinc-700/10 rounded-none px-4 py-3 font-body text-sm placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary resize-none"
                     ></textarea>
                 </div>
 
@@ -121,37 +121,40 @@ const lang = getLangFromUrl(Astro.url);
                     />
                 </div>
 
-                <div class="flex items-start gap-3">
-                    <input
-                        id="consent"
-                        name="consent"
-                        type="checkbox"
-                        required
-                        aria-required="true"
-                        class="mt-1 shrink-0 cursor-pointer accent-primary"
-                    />
-                    <label
-                        for="consent"
-                        class="text-xs sm:text-sm font-thin cursor-pointer select-none"
-                    >
-                        {t(lang, "contact.consentBefore")}
-                        <a
-                            href={lang === "en" ? "/en/datenschutz/" : "/datenschutz/"}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="text-primary underline">{t(lang, "nav.datenschutz")}</a
+                <div
+                    class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between lg:gap-8"
+                >
+                    <div class="flex items-start gap-3">
+                        <input
+                            id="consent"
+                            name="consent"
+                            type="checkbox"
+                            required
+                            aria-required="true"
+                            class="mt-1 shrink-0 cursor-pointer accent-primary"
+                        />
+                        <label
+                            for="consent"
+                            class="text-xs sm:text-sm font-thin cursor-pointer select-none"
                         >
-                        {t(lang, "contact.consentAfter")}
-                    </label>
-                </div>
+                            {t(lang, "contact.consentBefore")}
+                            <a
+                                href={lang === "en" ? "/en/datenschutz/" : "/datenschutz/"}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-primary underline">{t(lang, "nav.datenschutz")}</a
+                            >
+                            {t(lang, "contact.consentAfter")}
+                        </label>
+                    </div>
 
-                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                    <button class="btn btn-primary w-full sm:w-auto" type="submit">
+                    <button class="btn btn-primary w-full sm:w-auto shrink-0" type="submit">
                         {t(lang, "contact.submit")}
                     </button>
-                    <div id="form-success" class="text-sm font-thin hidden">
-                        {t(lang, "contact.success")}
-                    </div>
+                </div>
+
+                <div id="form-success" class="text-sm font-thin hidden">
+                    {t(lang, "contact.success")}
                 </div>
             </form>
 

@@ -17,7 +17,7 @@ type: "default"
 
 ## Einleitung
 
-In kaum einem Jahr wurde so hitzig über eine mögliche Finanzblase diskutiert wie 2026. Auslöser sind die enormen Investitionen in Künstliche Intelligenz. Der Internationale Währungsfonds (IWF) und die Bank für Internationalen Zahlungsausgleich (BIZ), eine Art Dachorganisation der Zentralbanken, warnen offiziell vor Risiken für die weltweite Finanzstabilität [[1]](#1) [[2]](#2). US-Notenbankchef Jerome Powell widerspricht: Laut Anders als die Internetfirmen der Jahrtausendwende können die großen KI-Unternehmen bereits echte, wachsende Umsätze vorweisen [[3]](#3).
+In kaum einem Jahr wurde so hitzig über eine mögliche Finanzblase diskutiert wie 2026. Auslöser sind die enormen Investitionen in Künstliche Intelligenz. Der Internationale Währungsfonds (IWF) und die Bank für Internationalen Zahlungsausgleich (BIZ), eine Art Dachorganisation der Zentralbanken, warnen offiziell vor Risiken für die weltweite Finanzstabilität [[1]](#1) [[2]](#2). US-Notenbankchef Jerome Powell widerspricht: Anders als die Internetfirmen der Jahrtausendwende können die großen KI-Unternehmen bereits echte, wachsende Umsätze vorweisen [[3]](#3).
 
 Beide Positionen können aus ihrer jeweiligen Perspektive gut begründet werden, ein einfaches Ja oder Nein greift also zu kurz. Deshalb prüft dieser Artikel, ob und wo in der KI-Branche eine Blase besteht, was das Risiko antreibt, welche Erwartungen der Markt schon eingepreist hat und was ein Platzen für die Realwirtschaft bedeuten würde.
 

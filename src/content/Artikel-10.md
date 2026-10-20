@@ -54,7 +54,7 @@ Moderne Computer haben bereits Billionen von Zahlen überprüft – und bisher l
 
 ## Ein Problem für die Ewigkeit?
 
-Viele große Mathematiker haben sich an Collatz versucht – und sind daran gescheitert. Paul Erdős, einer der größten Zahlentheoretiker des 20. Jahrhunderts, sagte über das Problem: "Mathematics is not yet ready for such problems" [[2]](#referenzen) Und vielleicht hatte er recht. Die (3x+1)-Vermutung ist eines dieser Probleme, die einfach genug erscheinen, um jeden zu faszinieren, aber tief genug reichen, um selbst die klügsten Köpfe zu frustrieren.
+Viele große Mathematiker haben sich an Collatz versucht – und sind daran gescheitert. Paul Erdős, einer der größten Zahlentheoretiker des 20. Jahrhunderts, sagte über das Problem: "Mathematics is not yet ready for such problems" [[2]](#referenzen) Und vielleicht hatte er recht.
 
 ---
 

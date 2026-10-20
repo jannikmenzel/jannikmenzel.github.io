@@ -20,7 +20,7 @@ Design ist überall. Es verbirgt sich in der Oberfläche deines Smartphones, in 
 
 Doch hinter dieser scheinbaren Leichtigkeit steckt kein Zufall. Design folgt Prinzipien, Regeln und einem tiefen Verständnis dafür, wie Menschen sehen, denken und entscheiden. Die Kunst des Designs liegt genau in diesem Spannungsfeld: zwischen Kreativität und Struktur, Intuition und System.
 
-Dieser Artikel zeigt, welche grundlegenden Prinzipien gutes Design ausmachen und entführt dich in die faszinierende Welt des visuellen Gestaltens.
+Dieser Artikel zeigt, welche grundlegenden Prinzipien gutes Design ausmachen.
 
 ---
 
@@ -78,7 +78,7 @@ Farben haben eine tiefgreifende Wirkung auf unsere Emotionen, Wahrnehmung und En
 
 ![Psychologie der Farben](/images/article-images/Psychologie-der-Farben.svg "inverted")
 
-Neben der symbolischen Bedeutung spielen auch die grundlegenden Eigenschaften von Farben eine zentrale Rolle im Design. Dazu gehören insbesondere **Farbton (Hue)**, **Sättigung (Saturation)** und **Helligkeit bzw. Kontrastwert (Value)**:
+Neben der symbolischen Bedeutung sind auch die grundlegenden Eigenschaften von Farben wichtig. Dazu gehören insbesondere **Farbton (Hue)**, **Sättigung (Saturation)** und **Helligkeit bzw. Kontrastwert (Value)**:
 
 - **Farbton (Hue)** beschreibt den eigentlichen Farbton selbst, also ob wir Rot, Blau, Grün oder eine andere Farbe wahrnehmen. Dieser bildet die Grundlage jeder Farbauswahl und bestimmt die grundsätzliche visuelle Richtung eines Designs.
 
@@ -114,7 +114,7 @@ Der Minimalismus setzt auf das Prinzip "Weniger ist mehr". Er zeichnet sich durc
 
 ### Brutalismus und Neo-Brutalismus
 
-Der Brutalismus ist eine bewusste Abkehr von traditionellen Designprinzipien. Er setzt auf rohe, ungeschliffene Ästhetik, oft mit starken Kontrasten, unregelmäßigen Formen und einer bewusst "unperfekten" Anmutung. Er soll provozieren und die Aufmerksamkeit auf sich ziehen. Der Neo-Brutalismus ist eine moderne Interpretation dieses Stils, die Elemente des Brutalismus mit zeitgenössischen Designtrends kombiniert. Er behält die rohe Ästhetik bei, integriert jedoch oft lebendigere Farben, experimentelle Typografie und interaktive Elemente, um eine frische und dynamische visuelle Sprache zu schaffen.
+Der Brutalismus ist eine bewusste Abkehr von traditionellen Designprinzipien. Er setzt auf rohe, ungeschliffene Ästhetik, oft mit starken Kontrasten, unregelmäßigen Formen und einer bewusst "unperfekten" Anmutung. Er soll provozieren und die Aufmerksamkeit auf sich ziehen. Der Neo-Brutalismus ist eine moderne Interpretation dieses Stils, die Elemente des Brutalismus mit zeitgenössischen Designtrends kombiniert. Er behält die rohe Ästhetik bei, integriert jedoch oft lebendigere Farben, experimentelle Typografie und interaktive Elemente.
 
 ### Neumorphismus
 
@@ -126,7 +126,7 @@ Das Flat Design verzichtet auf jegliche Art von Dreidimensionalität, Schatten o
 
 ### Material Design
 
-Material Design wurde von Google entwickelt und basiert auf der Idee, digitale Interfaces wie physische Materialien zu gestalten. Es verwendet klare Hierarchien, lebendige Farben und realistische Schatten, um eine intuitive und ansprechende Benutzererfahrung zu schaffen. Es legt großen Wert auf Konsistenz und Benutzerfreundlichkeit, indem es physikalische Prinzipien wie Licht, Bewegung und Materialität in die Gestaltung von digitalen Produkten integriert.
+Material Design wurde von Google entwickelt und basiert auf der Idee, digitale Interfaces wie physische Materialien zu gestalten. Es verwendet klare Hierarchien, lebendige Farben und realistische Schatten. Es legt großen Wert auf Konsistenz und Benutzerfreundlichkeit, indem es physikalische Prinzipien wie Licht, Bewegung und Materialität in die Gestaltung von digitalen Produkten integriert.
 
 ### Skeuomorphismus
 
@@ -138,7 +138,7 @@ Das Retro-Design greift bewusst auf Stile, Farben und Typografien vergangener Ja
 
 ### Glasmorphismus
 
-Der Glasmorphismus ist eine moderne Designrichtung, die sich durch transparente, glasähnliche Elemente auszeichnet. Er verwendet Unschärfeeffekte, weiche Schatten und lebendige Farben, um eine elegante und futuristische Ästhetik zu schaffen. Diese Designphilosophie vermittelt ein Gefühl von Leichtigkeit und Tiefe, indem sie Elemente so gestaltet, dass sie wie durchscheinendes Glas wirken. Zuletzt wurde dieser Stil vor allem durch Apple geprägt, die ihn in ihren Betriebssystemen und Benutzeroberflächen integriert haben, um eine moderne und ansprechende visuelle Sprache zu etablieren.
+Der Glasmorphismus ist eine moderne Designrichtung, die sich durch transparente, glasähnliche Elemente auszeichnet. Er verwendet Unschärfeeffekte, weiche Schatten und lebendige Farben. Diese Designphilosophie vermittelt ein Gefühl von Leichtigkeit und Tiefe, indem sie Elemente so gestaltet, dass sie wie durchscheinendes Glas wirken. Zuletzt wurde dieser Stil vor allem durch Apple geprägt, die ihn in ihren Betriebssystemen und Benutzeroberflächen integriert haben.
 
 ---
 

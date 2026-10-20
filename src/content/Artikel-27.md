@@ -16,9 +16,9 @@ type: "default"
 
 ## Der Körper der Wissenschaft
 
-Wenn wir umgangssprachlich von "Wissenschaft" sprechen, entsteht oft das Bild eines objektiven, einheitlichen und unumstrittenen Erkenntnissystems. Doch der Schein trügt: Wissenschaft ist kein monolithischer Begriff. Er ist hingegen geprägt von den unterschiedlichsten Formen des Forschens, Denkens und Verstehens. Während ein Mathematiker mit Sätzen und Lemmata arbeitet, um logische Beweise zu führen, beobachtet ein Biologe Pflanzen unter dem Mikroskop. Die Historikerin wertet alte Schriften und historische Quellen aus und der Soziologe führt empirische Studien. Sie alle "forschen", aber auf ganz unterschiedliche und gleichermaßen faszinierende Weise.
+Wenn wir umgangssprachlich von "Wissenschaft" sprechen, entsteht oft das Bild eines objektiven, einheitlichen und unumstrittenen Erkenntnissystems. Doch Wissenschaft ist kein monolithischer Begriff. Er ist hingegen geprägt von den unterschiedlichsten Formen des Forschens, Denkens und Verstehens. Während ein Mathematiker mit Sätzen und Lemmata arbeitet, um logische Beweise zu führen, beobachtet ein Biologe Pflanzen unter dem Mikroskop. Die Historikerin wertet alte Schriften und historische Quellen aus und der Soziologe führt empirische Studien. Sie alle "forschen", aber auf ganz unterschiedliche und gleichermaßen faszinierende Weise.
 
-Ziel dieses Artikels ist es, diese Unterschiede sichtbar zu machen, indem wir die Hauptkategorien wissenschaftlicher Disziplinen näher untersuchen. – von formalen über empirische bis hin zu interpretativen Wissenschaften. Ein besonderer Fokus wird dabei auf dem Fachgebiet der Informatik liegen, das sich nicht klar in eine Schublade einordnen lässt, sondern als vergleichsweise junge Wissenschaft eine Sonderrolle einnimmt: Sie verbindet Logik, Empirie und Anwendung auf einzigartige Weise.
+Ziel dieses Artikels ist es, diese Unterschiede sichtbar zu machen, indem wir die Hauptkategorien wissenschaftlicher Disziplinen näher untersuchen – von formalen über empirische bis hin zu interpretativen Wissenschaften. Ein besonderer Fokus wird dabei auf dem Fachgebiet der Informatik liegen, das sich nicht klar in eine Schublade einordnen lässt, sondern als vergleichsweise junge Wissenschaft eine Sonderrolle einnimmt: Sie verbindet Logik, Empirie und Anwendung auf einzigartige Weise.
 
 ---
 
@@ -32,13 +32,13 @@ Exakte Wissenschaften zeichnen sich insgesamt durch eine hohe Präzision in der 
 
 ## Erfahrungswissenschaften – das Herz
 
-Die Erfahrungswissenschaften stellen eine ebenso facettenreiche Gruppe innerhalb der Wissenschaften dar. Zu ihnen zählen klassische Naturwissenschaften wie Physik, Chemie und Biologie, ebenso wie Gesellschaftswissenschaften etwa Psychologie und Soziologie. Im Zentrum steht die empirische Auseinandersetzung mit der Wirklichkeit: Hypothesen werden auf der Grundlage systematischer Beobachtungen, kontrollierter Experimente, Messungen oder historischer Rekonstruktionen formuliert und überprüft.
+Die Erfahrungswissenschaften sind eine ebenso vielfältige Gruppe innerhalb der Wissenschaften. Zu ihnen zählen klassische Naturwissenschaften wie Physik, Chemie und Biologie, ebenso wie Gesellschaftswissenschaften etwa Psychologie und Soziologie. Im Zentrum steht die empirische Auseinandersetzung mit der Wirklichkeit: Hypothesen werden auf der Grundlage systematischer Beobachtungen, kontrollierter Experimente, Messungen oder historischer Rekonstruktionen formuliert und überprüft.
 
 Auch innerhalb der Erfahrungswissenschaften unterscheidet man zwischen empirischen und historischen Disziplinen. Empirische Wissenschaften arbeiten mit Studien, Umfragen und Experimenten, deren Ergebnisse unter kontrollierten Bedingungen überprüfbar und idealerweise wiederholbar sind. Die Falsifizierbarkeit gilt dabei als zentrales Kriterium wissenschaftlicher Aussagekraft.
 
 Historische Wissenschaften hingegen untersuchen einmalige, nicht reproduzierbare Ereignisse anhand von Quellen und Artefakten. Ihre Erkenntnisse entstehen durch Interpretation und Kontextualisierung.
 
-Trotz dieser Unterschiede verbindet beide Ansätze das Streben nach objektiver Erkenntnis über reale Phänomene. Dabei spielen methodische Sorgfalt, Transparenz im Vorgehen sowie die Nachprüfbarkeit von Ergebnissen eine zentrale Rolle. Die Erfahrungswissenschaften tragen maßgeblich dazu bei, unsere Umwelt, unser Verhalten und unsere Geschichte zu verstehen – und bilden so eine unverzichtbare Grundlage für gesellschaftliche und technologische Entwicklung.
+Trotz dieser Unterschiede verbindet beide Ansätze das Streben nach objektiver Erkenntnis über reale Phänomene. Dabei sind methodische Sorgfalt, Transparenz im Vorgehen sowie die Nachprüfbarkeit von Ergebnissen zentral. Die Erfahrungswissenschaften tragen maßgeblich dazu bei, unsere Umwelt, unser Verhalten und unsere Geschichte zu verstehen.
 
 ---
 
@@ -52,7 +52,7 @@ Weitaus bemerkenswerter ist jedoch, dass sich die Informatik nur schwer eindeuti
 
 ## Ein lebendiger Organismus
 
-Die Vielfalt wissenschaftlicher Herangehensweisen ist kein Mangel, sondern ihre größte Stärke. Sie ermöglicht es uns, die Welt aus unterschiedlichen Perspektiven zu begreifen – rational, beobachtend, historisch, kreativ – und dabei stets neue Fragen zu stellen. Denn genau darin liegt die Kraft der Wissenschaft: nicht in endgültigen Antworten und objektiven Wahrheiten, sondern im systematischen Streben nach immer tieferem Verstehen.
+Die Vielfalt wissenschaftlicher Herangehensweisen ist ihre größte Stärke. Sie ermöglicht es uns, die Welt aus unterschiedlichen Perspektiven zu begreifen – rational, beobachtend, historisch, kreativ – und dabei stets neue Fragen zu stellen.
 
 ---
 

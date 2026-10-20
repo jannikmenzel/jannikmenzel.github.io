@@ -21,7 +21,7 @@ Und doch fällt es uns schwer, darüber zu sprechen und noch viel schwerer, Ents
 
 **Aktive Sterbehilfe** bezeichnet die gezielte Tötung eines Menschen auf dessen ausdrückliches Verlangen durch eine andere Person. Das geschieht oft durch die Verabreichung eines Lebens beendenden Mittels. **Passive Sterbehilfe** hingegen ist das Unterlassen oder Abbrechen lebenserhaltender Maßnahmen, wie etwa das Abschalten eines Beatmungsgeräts oder das Nichtdurchführen von Wiederbelebungsmaßnahmen. Zwei vermutlich allgemein weniger bekannte Terminologien sind der **assistierte Suizid**, bei dem Lebens beendende Mittel zur Einnahme durch die betroffene Person bereitgestellt werden, und die **palliative Sedierung**, bei der das Bewusstsein reduziert wird, um schwerste Symptome in der letzten Lebensphase zu lindern.
 
-Im Folgenden wird sich zeigen: Hinter diesen Begriffen verbirgt sich mehr als nur eine rechtliche oder medizinische Entscheidung: Es ist die Frage nach der Selbstbestimmung und dem Wert des Lebens, die uns dazu zwingt, uns mit den Grenzen des Menschseins und der Verantwortung im Angesicht des Todes auseinanderzusetzen.
+Hinter diesen Begriffen verbirgt sich mehr als nur eine rechtliche oder medizinische Entscheidung: Es ist die Frage nach der Selbstbestimmung und dem Wert des Lebens, die uns dazu zwingt, uns mit den Grenzen des Menschseins und der Verantwortung im Angesicht des Todes auseinanderzusetzen.
 
 ---
 
@@ -47,9 +47,9 @@ Hinzu kommt eine ökonomische Frage, die ich an dieser Stelle thematisieren möc
 
 ## Eine Vision der Palliativmedizin
 
-Wenn Heilung keine Option mehr ist, beginnt eine andere Form der Medizin – eine, die nicht länger gegen den Tod kämpft, sondern sich dem Leben im Sterben zuwendet. Die Palliativmedizin ist keine Kapitulation, sondern eine bewusste Entscheidung für das, was wirklich zählt: Empathie, Würde und menschliche Nähe – gerade dann, wenn die Zeit begrenzt ist.
+Wenn Heilung keine Option mehr ist, beginnt eine andere Form der Medizin – eine, die nicht länger gegen den Tod kämpft, sondern sich dem Leben im Sterben zuwendet. Die Palliativmedizin ist eine bewusste Entscheidung für Empathie, Würde und menschliche Nähe – gerade dann, wenn die Zeit begrenzt ist.
 
-Genau dort, wo der medizinische Fortschritt an seine Grenzen kommt und die Hoffnung auf Heilung langsam verblasst, wird die Rolle der Palliativmedizin umso bedeutsamer. Sie setzt genau da an, wo die klassische Schulmedizin oft an ihre emotionalen und ethischen Grenzen stößt. Palliativmedizin bedeutet Perspektivwechsel. Sie fragt nicht: **Wie lange kann ein Leben noch verlängert werden?**, sondern: Wie kann es – trotz Krankheit – mit Sinn und Menschlichkeit gefüllt werden? Sie stellt den Menschen in den Mittelpunkt, nicht mehr nur die Diagnose. Es geht darum, Schmerzen zu lindern, Ängste ernst zu nehmen und Wünsche zu respektieren – auch dann, wenn keine Therapie der Welt das Fortschreiten der Krankheit mehr aufhalten kann.
+Genau dort, wo der medizinische Fortschritt an seine Grenzen kommt und die Hoffnung auf Heilung langsam verblasst, wird die Rolle der Palliativmedizin umso bedeutsamer. Sie setzt genau da an, wo die klassische Schulmedizin oft an ihre emotionalen und ethischen Grenzen stößt. Sie fragt nicht: Wie lange kann ein Leben noch verlängert werden?, sondern: Wie kann es – trotz Krankheit – mit Sinn und Menschlichkeit gefüllt werden? Sie stellt den Menschen in den Mittelpunkt, nicht mehr nur die Diagnose. Es geht darum, Schmerzen zu lindern, Ängste ernst zu nehmen und Wünsche zu respektieren – auch dann, wenn keine Therapie der Welt das Fortschreiten der Krankheit mehr aufhalten kann.
 
 ---
 
@@ -57,7 +57,7 @@ Genau dort, wo der medizinische Fortschritt an seine Grenzen kommt und die Hoffn
 
 Das Geschäft mit dem Lebensende ist ein vielschichtiges Spannungsfeld aus medizinischen Möglichkeiten, wirtschaftlichen Interessen und ethischen Fragen. Wer hier klare Antworten erwartet, wird enttäuscht. Die medizinischen Fortschritte der letzten Jahrzehnte haben es uns ermöglicht, Leben zu retten und zu verlängern, wie es früher undenkbar war. Doch mit diesem Fortschritt kommt auch die Verantwortung, die Grenzen dessen, was medizinisch möglich ist, kritisch zu hinterfragen.
 
-Der Tod darf längst kein Tabuthema mehr sein. Indem wir ihn nicht länger ausblenden, sondern ihn als Teil unseres Lebens begreifen, schaffen wir Raum für Mitgefühl und Selbstbestimmung, denn wie wir sterben, sagt viel darüber aus, wie wir leben. Und vielleicht beginnt ein würdevoller Tod mit dem Mut, ihn nicht länger zu verdrängen.
+Der Tod darf längst kein Tabuthema mehr sein. Indem wir ihn nicht länger ausblenden, sondern ihn als Teil unseres Lebens begreifen, schaffen wir Raum für Mitgefühl und Selbstbestimmung, denn wie wir sterben, sagt viel darüber aus, wie wir leben.
 
 ---
 

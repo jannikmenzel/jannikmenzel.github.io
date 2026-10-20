@@ -19,7 +19,7 @@ type: "default"
 
 > "Alle Modelle sind falsch, aber einige sind nützlich." – George E. P. Box
 
-Die Welt ist zu komplex, um sie in ihrer ganzen Tiefe vollständig zu erfassen. Jede Sekunde fassen wir unzählige Eindrücke, Daten und Zusammenhänge auf – weit mehr, als ein Mensch je verarbeiten könnte. Und doch sind wir in der Lage Entscheidungen zu treffen, Muster zu erkennen und ein Verständnis für unsere Umgebung zu entwickeln. Der Schlüssel hierzu liegt im Denken in Modellen.
+Die Welt ist zu komplex, um sie in ihrer ganzen Tiefe vollständig zu erfassen. Jede Sekunde fassen wir unzählige Eindrücke, Daten und Zusammenhänge auf – weit mehr, als ein Mensch je verarbeiten könnte. Und doch sind wir in der Lage, Entscheidungen zu treffen, Muster zu erkennen und ein Verständnis für unsere Umgebung zu entwickeln. Das gelingt uns, weil wir in Modellen denken.
 
 Modelle sind vereinfachte Abbilder der Realität. Sie reduzieren Komplexität, ohne das Wesentliche aus den Augen zu verlieren. Ob bewusst oder unbewusst, wir greifen ständig auf sie zurück: wenn wir Risiken abschätzen, Probleme strukturieren oder die Zukunft planen. Wer lernt, gezielt mit Modellen zu arbeiten, schafft sich einen klaren Vorteil: Orientierung in einer unübersichtlichen und informationsüberfluteten Welt.
 
@@ -37,15 +37,15 @@ Ein Modell bildet niemals die Realität selbst ab. Es ist nur eine vereinfachte 
 
 ## Der Mann, der glaubte, den Markt verstanden zu haben
 
-Im Oktober 1929 blickten Millionen Amerikaner optimistisch auf die scheinbar unaufhaltsam steigenden Aktienkurse. Die Wirtschaft boomte, eine moderne Technologie löste die nächste ab, und Aktienkurse stiegen scheinbar unaufhaltsam. Einer der lautesten Stimmen dieses Optimismus war der renommierte Ökonom **Irving Fisher**.
+Im Oktober 1929 blickten Millionen Amerikaner optimistisch auf die scheinbar unaufhaltsam steigenden Aktienkurse. Die Wirtschaft boomte, und eine moderne Technologie löste die nächste ab. Eine der lautesten Stimmen dieses Optimismus war der renommierte Ökonom **Irving Fisher**.
 
 Fisher galt als wirtschaftliches Genie seiner Zeit. Er arbeitete mit statistischen Modellen, analysierte Märkte mathematisch und war überzeugt, die Dynamik der modernen Wirtschaft vollends verstanden zu haben. So kam es, dass er kurz vor dem Börsencrash öffentlich erklärte:
 
 > "Die Aktienkurse haben ein dauerhaft hohes Plateau erreicht."
 
-Wie sich herausstellte, war dies einer der berühmtesten Irrtümer der Wirtschaftsgeschichte. Nur wenige Tage später begann der Markt zu kollabieren. Panik breitete sich aus, Banken brachen zusammen, Millionen Menschen verloren ihr Vermögen und die Welt rutschte in die Great Depression. Fisher war nicht dumm. Im Gegenteil — genau das macht dieses Beispiel so interessant. Sein Fehler lag nicht in mangelnder Intelligenz, sondern im Vertrauen darauf, dass sein Modell die Realität ausreichend beschreiben könne.
+Wie sich herausstellte, war dies einer der berühmtesten Irrtümer der Wirtschaftsgeschichte. Nur wenige Tage später begann der Markt zu kollabieren. Panik breitete sich aus, Banken brachen zusammen, Millionen Menschen verloren ihr Vermögen und die Welt rutschte in die Great Depression. Fisher war nicht dumm. Sein Fehler lag im Vertrauen darauf, dass sein Modell die Realität ausreichend beschreiben könne.
 
-Seine Berechnungen basierten auf historischen Daten, rationalem Verhalten und stabilen Märkten. Doch in der Realität handeln Menschen nicht immer rational. Angst verbreitet sich schneller als es die Mathematik vorhersagen kann. Systeme, die stabil scheinen, brechen urplötzlich zusammen. Das Modell funktionierte, bis die Realität sich nicht mehr an die Annahmen hielt. Genau darin liegt die Gefahr jedes Modells: Je erfolgreicher es erscheint, desto leichter vergessen wir, dass es nur eine vereinfachte Beschreibung der Wirklichkeit ist.
+Seine Berechnungen basierten auf historischen Daten, rationalem Verhalten und stabilen Märkten. Doch in der Realität handeln Menschen nicht immer rational. Angst verbreitet sich schneller als es die Mathematik vorhersagen kann. Systeme, die stabil scheinen, brechen urplötzlich zusammen. Das Modell funktionierte, bis die Realität sich nicht mehr an die Annahmen hielt. Je erfolgreicher ein Modell erscheint, desto leichter vergessen wir, dass es nur eine vereinfachte Beschreibung der Wirklichkeit ist.
 
 ---
 

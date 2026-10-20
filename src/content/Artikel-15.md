@@ -16,7 +16,7 @@ type: "default"
 
 ## Large Language Models
 
-Large Language Models (LLMs) wie GPT-4, DeepSeek oder Google Gemini sind beeindruckende Beispiele für moderne Künstliche Intelligenz (KI). Sie simulieren menschenähnliche Kommunikation, sprechen mehr Sprachen als ein Mensch je könnte und verfassen kreative Texte, Gedichte und Lieder. Für viele ist die Existenz von LLMs ein beunruhigender Beweis für den rasanten Fortschritt und die wachsende Präsenz künstlicher Intelligenz. In diesem Artikel entschlüsseln wir die Funktionsweise dieser künstlichen Intelligenzen und lichten die Ungewissheit, die seit jeher über solche Technologien vorherrscht.
+Large Language Models (LLMs) wie GPT-4, DeepSeek oder Google Gemini sind beeindruckende Beispiele für moderne Künstliche Intelligenz (KI). Sie simulieren menschenähnliche Kommunikation, sprechen mehr Sprachen als ein Mensch je könnte und verfassen kreative Texte, Gedichte und Lieder. Für viele ist die Existenz von LLMs ein beunruhigender Beweis für den rasanten Fortschritt und die wachsende Präsenz künstlicher Intelligenz. In diesem Artikel schauen wir uns an, wie diese Modelle funktionieren.
 
 ---
 
@@ -50,7 +50,7 @@ Damit ein LLM die Fähigkeit zur "Sprache" entwickeln kann, wird es mit Milliard
 
 Durch Milliarden solcher Vorhersagen entwickelt das Modell ein tiefes Verständnis der Sprache. Jede Vorhersage und jedes erzeugte Wort basiert auf Wahrscheinlichkeiten, die aus den gelernten Daten abgeleitet werden und im Lernprozess gewichtet werden.
 
-Es ist wichtig zu betonen, dass LLMs keine Vorkenntnisse, Logik oder gesunden Menschenverstand besitzen. Sie treffen Entscheidungen auf Basis der Daten, mit denen sie trainiert wurden. Wenn zum Beispiel wichtige Informationen über eine bekannte Person wie Albert Einstein fehlen, kann das Modell falsche oder ungenaue Verbindungen herstellen. In einem solchen Fall könnte eine Vorhersage wie folgt aussehen:
+LLMs besitzen keine Vorkenntnisse, keine Logik und keinen gesunden Menschenverstand. Sie treffen Entscheidungen auf Basis der Daten, mit denen sie trainiert wurden. Wenn zum Beispiel wichtige Informationen über eine bekannte Person wie Albert Einstein fehlen, kann das Modell falsche oder ungenaue Verbindungen herstellen. In einem solchen Fall könnte eine Vorhersage wie folgt aussehen:
 
     Eingabe: "Albert Einstein war ein …"
 
@@ -66,9 +66,9 @@ Nachdem ein LLM das Pretraining abgeschlossen hat, folgt oft eine Feinabstimmung
 
 ---
 
-## Fazit: Chancen und Herausforderungen der LLMs
+## Fazit
 
-Die Entwicklung von Large Language Models zeigt, wie weit die KI-Technologie bereits fortgeschritten ist. LLMs sind in der Lage, komplexe sprachliche Zusammenhänge zu verstehen, Text zu generieren und in unterschiedlichen Bereichen beeindruckende Leistungen zu erbringen. Gleichzeitig bringen sie aber auch Herausforderungen mit sich. Die Qualität der Trainingsdaten und die Gefahr von Fehlinformationen sind nur zwei der vielen Fragestellungen, die im Umgang mit LLMs bedacht werden müssen. Es ist wichtig zu verinnerlichen, dass LLMs im Grunde nichts weiter als Vorhersagemaschinen sind. Sie analysieren Muster in großen Datenmengen und treffen Entscheidungen basierend auf Wahrscheinlichkeiten, ohne echtes Verständnis oder Kontext.
+Die Entwicklung von Large Language Models zeigt, wie weit die KI-Technologie bereits fortgeschritten ist. LLMs sind in der Lage, komplexe sprachliche Zusammenhänge zu verstehen, Text zu generieren und in unterschiedlichen Bereichen beeindruckende Leistungen zu erbringen. Gleichzeitig bringen sie aber auch Herausforderungen mit sich. Die Qualität der Trainingsdaten und die Gefahr von Fehlinformationen sind nur zwei der vielen Fragestellungen, die im Umgang mit LLMs bedacht werden müssen. Im Grunde sind LLMs nichts weiter als Vorhersagemaschinen. Sie analysieren Muster in großen Datenmengen und treffen Entscheidungen basierend auf Wahrscheinlichkeiten, ohne echtes Verständnis oder Kontext.
 
 ---
 

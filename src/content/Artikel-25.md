@@ -16,7 +16,7 @@ type: "default"
 
 ## Der Kapitalgigant
 
-Lass mich diesen Artikel mit einer Frage beginnen: Wenn du an die größten Unternehmen der Welt denkst, kommen dir wahrscheinlich sofort die Tech-Giganten Google, Meta und Microsoft in den Sinn – vielleicht denkst du aber auch an Apple, Amazon oder an einen ganz anderen Konzern. Doch welches Unternehmen steht tatsächlich ganz oben an der Spitze der globalen Wirtschaft?
+Wenn du an die größten Unternehmen der Welt denkst, kommen dir wahrscheinlich sofort die Tech-Giganten Google, Meta und Microsoft in den Sinn – vielleicht denkst du aber auch an Apple, Amazon oder an einen ganz anderen Konzern. Doch welches Unternehmen steht tatsächlich ganz oben an der Spitze der globalen Wirtschaft?
 
 Zugegebenermaßen erwarte ich nicht, dass du die Antwort auf diese Frage kennst, denn der wahre Spitzenreiter taucht auf keiner Werbetafel auf und besitzt auch keine imposanten Firmengebäude. Dennoch kontrolliert er mehr Vermögen, als jedes andere Unternehmen der Welt. Die Rede ist von **BlackRock** – einem Finanzgiganten, der die Weltwirtschaft kontrolliert wie ein unsichtbarer Puppenspieler hinter den Kulissen der globalen Märkte.
 
@@ -46,9 +46,9 @@ Ein wesentliches Puzzleteil von BlackRocks Einfluss ist ein Algorithmus namens A
 
 ## Macht ohne Gesicht
 
-BlackRock ist längst kein gewöhnliches Unternehmen mehr. Es verkauft keine Produkte, betreibt keine Läden und schaltet keine Werbung – und doch formt es die Welt, in der wir leben, auf fundamentale Weise. Mit gigantischen Beteiligungen, diskreter Einflussnahme und einer strategischen Nähe zu Regierungen agiert es im toten Winkel der öffentlichen Wahrnehmung. Und genau das macht es so gefährlich. Denn Macht, die sich jeder demokratischen Kontrolle entzieht, ist immer eine Bedrohung.
+BlackRock ist längst kein gewöhnliches Unternehmen mehr. Es verkauft keine Produkte, betreibt keine Läden und schaltet keine Werbung – und doch formt es die Welt, in der wir leben, auf fundamentale Weise. Mit gigantischen Beteiligungen, diskreter Einflussnahme und einer strategischen Nähe zu Regierungen agiert es im toten Winkel der öffentlichen Wahrnehmung. Das macht es gefährlich, denn Macht, die sich jeder demokratischen Kontrolle entzieht, ist immer eine Bedrohung.
 
-BlackRock steht exemplarisch für eine Weltordnung, in der Kapitalströme mehr zählen als politische Entscheidungen – und in der die wirklich Mächtigen keine Präsidenten oder CEOs sind, sondern stille Verwalter im Schatten des Systems.
+BlackRock steht exemplarisch für eine Weltordnung, in der Kapitalströme mehr zählen als politische Entscheidungen.
 
 ---
 
