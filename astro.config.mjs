@@ -74,7 +74,7 @@ export default defineConfig({
                 "default-src 'self'",
                 "img-src 'self' data: https:",
                 "font-src 'self' data:",
-                "connect-src 'self' https://api.web3forms.com https://stats.jannikmenzel.me",
+                "connect-src 'self' https://n8n.jannikmenzel.me https://stats.jannikmenzel.me",
             ],
             styleDirective: {
                 resources: [{ resource: "'unsafe-inline'", kind: "attribute" }],

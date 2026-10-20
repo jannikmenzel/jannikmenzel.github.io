@@ -32,9 +32,9 @@
         "sending": "Sending...",
         "errorPrefix": "Error: ",
         "errorGeneric": "Something went wrong. Please try again.",
-        "consentError": "Please agree to the privacy policy.",
+        "consentError": "Please confirm that you have read the privacy policy.",
         "consentBefore": "I have read the ",
-        "consentAfter": " and agree to the processing of my data for handling my inquiry.",
+        "consentAfter": ".",
         "profile": {
             "description": "Computer science student at TU Dresden and freelance web developer. I help turn your idea into a modern, high-performance website.",
             "cta": "Send an Email"

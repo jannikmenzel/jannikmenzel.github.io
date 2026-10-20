@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import addressSvg from "../assets/contact/address-de.svg?raw";
+import emailSvg from "../assets/contact/email.svg?raw";
 
 const title = "Datenschutzerklärung";
 ---
@@ -44,15 +46,16 @@ const title = "Datenschutzerklärung";
         <section class="mb-6 sm:mb-6 pt-22">
             <h2 class="text-xl sm:text-2xl font-medium mb-2 flex justify-between items-baseline">
                 <span>Einleitung</span>
-                <span class="text-base font-thin">Stand: 08.10.2026</span>
+                <span class="text-base font-thin">Stand: 20.10.2026</span>
             </h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 Diese Datenschutzerklärung informiert Sie über die Art, den Umfang und Zweck der
                 Verarbeitung personenbezogener Daten (nachfolgend "Daten") innerhalb meines
                 Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie
-                externen Onlinepräsenzen, wie z. B. mein Social-Media-Profil. Sie gilt gleichermaßen
-                für die Datenverarbeitung im Rahmen meiner freiberuflichen Tätigkeit als
-                Webentwickler.
+                externen Onlinepräsenzen, wie z. B. mein Social-Media-Profil. Für die
+                Datenverarbeitung im Rahmen meiner freiberuflichen Tätigkeit (z. B. Angebote,
+                Aufträge und Abrechnung) gilt eine gesonderte Datenschutzerklärung, die ich
+                Auftraggebern zur Verfügung stelle.
             </p>
         </section>
 
@@ -60,23 +63,22 @@ const title = "Datenschutzerklärung";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Datenschutz auf einen Blick</h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 Hier erfahren Sie kurz, was mit Ihren personenbezogenen Daten passiert, wenn Sie
-                diese Website besuchen oder mich als Freiberufler beauftragen. Personenbezogene
-                Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.
+                diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
+                persönlich identifiziert werden können.
             </p>
         </section>
 
         <section class="mb-6 sm:mb-6">
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Wer ist verantwortlich?</h2>
             <p class="font-thin text-justify [hyphens:auto]">
-                Die Datenverarbeitung auf dieser Website sowie im Rahmen meiner freiberuflichen
-                Tätigkeit erfolgt durch mich als Betreiber. Verantwortliche Stelle im Sinne der
-                Datenschutzgesetze:
+                Die Datenverarbeitung auf dieser Website erfolgt durch mich als Betreiber.
+                Verantwortliche Stelle im Sinne der Datenschutzgesetze:
             </p>
 
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
                 Jannik Menzel<br />
-                <span id="ds-address-obfuscated"></span><br />
-                E-Mail: <span id="ds-email-obfuscated"></span>
+                <span class="block [&>svg]:block" set:html={addressSvg} />
+                E-Mail: <span class="inline-block align-top [&>svg]:block" set:html={emailSvg} />
             </p>
         </section>
 
@@ -84,10 +86,9 @@ const title = "Datenschutzerklärung";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Wie werden Daten erfasst?</h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 Ihre Daten werden zum einen dadurch erhoben, dass Sie sie mir mitteilen (z. B. im
-                Kontaktformular oder per E-Mail). Andere Daten werden automatisch beim Besuch der
-                Website durch den Hosting-Anbieter erfasst (z. B. technische Daten wie Browser,
-                Betriebssystem, Uhrzeit des Seitenaufrufs). Im Rahmen freiberuflicher Aufträge
-                verarbeite ich weitere Daten (z. B. Vertrags- und Abrechnungsdaten).
+                Kontaktformular oder per E-Mail). Andere Daten erfassen GitHub (Hosting), Cloudflare
+                und meine eigene Reichweitenmessung automatisch, wenn Sie die Website aufrufen, z.
+                B. Browser, Betriebssystem und Uhrzeit des Seitenaufrufs.
             </p>
         </section>
 
@@ -95,19 +96,16 @@ const title = "Datenschutzerklärung";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Wofür werden die Daten genutzt?</h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 Ein Teil der Daten wird erhoben, um die Website fehlerfrei bereitzustellen. Andere
-                Daten dienen der Bearbeitung von Kontaktanfragen, der Durchführung und Abwicklung
-                von Aufträgen sowie der Erfüllung gesetzlicher Pflichten.
+                Daten dienen der Bearbeitung von Kontaktanfragen.
             </p>
         </section>
 
         <section class="mb-6 sm:mb-6">
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Zweck der Verarbeitung</h2>
             <p class="font-thin text-justify [hyphens:auto]">
-                Die Verarbeitung erfolgt zur Beantwortung von Kontaktanfragen, zur Durchführung
-                vorvertraglicher Maßnahmen, zur Vertragsabwicklung und -erfüllung im Rahmen von
-                Aufträgen, zur Bereitstellung meiner Inhalte sowie zur Wahrung berechtigter
-                Interessen (z. B. Sicherheit und Betrieb der Website, Rechnungslegung, Erfüllung
-                steuerrechtlicher Aufbewahrungspflichten).
+                Die Verarbeitung erfolgt zur Bereitstellung dieser Website und meiner Inhalte, zur
+                Beantwortung von Kontaktanfragen sowie zur Wahrung berechtigter Interessen (z. B.
+                Sicherheit und Betrieb der Website).
             </p>
         </section>
 
@@ -119,7 +117,24 @@ const title = "Datenschutzerklärung";
                 Bearbeitung Ihrer Anfrage gespeichert und verarbeitet. Rechtsgrundlage hierfür ist
                 Art. 6 Abs. 1 lit. b DSGVO, sofern die Anfrage der Vertragsanbahnung oder -erfüllung
                 dient, sowie Art. 6 Abs. 1 lit. f DSGVO aufgrund des berechtigten Interesses an der
-                Beantwortung Ihrer Anfrage.
+                Beantwortung Ihrer Anfrage. Die Daten werden gelöscht, sobald Ihre Anfrage
+                abschließend bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten
+                entgegenstehen.
+            </p>
+            <p class="font-thin text-justify mt-4 [hyphens:auto]">
+                Für den Empfang und die Speicherung von E-Mails nutze ich den Dienst Private Email
+                der <strong>Namecheap, Inc.</strong> (4600 East Washington Street, Suite 300, Phoenix,
+                AZ 85034, USA). E-Mails an mich sowie über das Kontaktformular weitergeleitete Anfragen
+                werden daher auf Servern von Namecheap in den USA gespeichert. Rechtsgrundlage ist Art.
+                6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse liegt in einer zuverlässigen E-Mail-Kommunikation.
+                Die Übermittlung in die USA erfolgt auf Grundlage von Standardvertragsklauseln der EU-Kommission
+                (Art. 46 Abs. 2 lit. c DSGVO). Weitere Informationen finden Sie in der
+                <a
+                    href="https://www.namecheap.com/legal/general/privacy-policy/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="underline">Datenschutzerklärung von Namecheap</a
+                >.
             </p>
         </section>
 
@@ -128,106 +143,29 @@ const title = "Datenschutzerklärung";
             <p class="font-thin text-justify [hyphens:auto]">
                 Wenn Sie mich über das Kontaktformular kontaktieren, werden die von Ihnen
                 eingegebenen Daten (z. B. Name, E‑Mail-Adresse, Betreff, Nachricht) zum Zwecke der
-                Bearbeitung der Anfrage und für mögliche Anschlussfragen verarbeitet. Die
-                Verarbeitung erfolgt bei allgemeinen Anfragen auf Grundlage Ihrer Einwilligung (Art.
-                6 Abs. 1 lit. a DSGVO) und bei Anfragen im Zusammenhang mit einer Auftragserteilung
-                oder einem Vertragsverhältnis auf Grundlage der Vertragsanbahnung oder -erfüllung
-                (Art. 6 Abs. 1 lit. b DSGVO).
+                Bearbeitung der Anfrage und für mögliche Anschlussfragen verarbeitet.
+                Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit einer
+                Auftragserteilung oder einem Vertragsverhältnis zusammenhängt, und im Übrigen Art. 6
+                Abs. 1 lit. f DSGVO aufgrund meines berechtigten Interesses an der Beantwortung
+                Ihrer Anfrage. Die Daten werden gelöscht, sobald Ihre Anfrage abschließend
+                bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
             </p>
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
-                Das Formular wird über den Dienst <strong>Web3Forms</strong>
-                (<a
-                    href="https://web3forms.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="underline">web3forms.com</a
-                >) verarbeitet. Ihre Daten werden per HTTPS an Web3Forms übermittelt und von dort
-                per E‑Mail an mich weitergeleitet. Es erfolgt keine Speicherung der Formulardaten
-                auf meinem Webserver. Weitere Informationen zum Umgang mit Daten bei Web3Forms
-                finden Sie in deren
-                <a
-                    href="https://web3forms.com/privacy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="underline">Datenschutzerklärung</a
-                >.
+                Das Formular verarbeite ich mit der Automatisierungssoftware <strong>n8n</strong>,
+                die ich selbst betreibe. Ihre Eingaben gehen per HTTPS an einen von mir gemieteten
+                Server der Hetzner Online GmbH (Industriestr. 25, 91710 Gunzenhausen, Deutschland)
+                und von dort verschlüsselt an meinen eigenen Server in Deutschland. Dort prüft n8n
+                sie auf Vollständigkeit und Spam und leitet sie per E‑Mail an mein Postfach weiter
+                (siehe „E-Mail-Kontakt“). Mit Hetzner besteht ein Vertrag zur Auftragsverarbeitung
+                nach Art. 28 DSGVO. Andere Dritte erhalten keine Daten. Auf meinem Server bleibt
+                eine Anfrage nur gespeichert, wenn die Weiterleitung fehlschlägt, und dann höchstens
+                14 Tage.
             </p>
-        </section>
-
-        <section class="mb-6 sm:mb-6">
-            <h2 class="text-xl sm:text-2xl font-medium mb-2">
-                Kundendaten und freiberufliche Tätigkeit
-            </h2>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">
-                Art und Umfang der verarbeiteten Daten
-            </h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                Im Rahmen meiner freiberuflichen Tätigkeit als Webentwickler verarbeite ich
-                personenbezogene Daten von Auftraggebern, Interessenten und Geschäftskontakten.
-                Hierzu gehören insbesondere:
-            </p>
-            <ul class="font-thin text-justify list-disc pl-6 mt-2 space-y-1 [hyphens:auto]">
-                <li>
-                    <strong>Kontaktdaten:</strong> Name, Vorname, Firmenname, Anschrift, E-Mail-Adresse,
-                    Telefonnummer
-                </li>
-                <li>
-                    <strong>Vertragsdaten:</strong> Angebote, Auftragsbestätigungen, Projektbeschreibungen,
-                    Leistungsumfang
-                </li>
-                <li>
-                    <strong>Zahlungs- und Abrechnungsdaten:</strong> Bankverbindung, Rechnungsanschrift,
-                    Zahlungshistorie
-                </li>
-                <li>
-                    <strong>Kommunikationsdaten:</strong> E-Mail-Verläufe, Projektkorrespondenz, Feedback
-                    und Freigaben
-                </li>
-                <li>
-                    <strong>Technische Zugangsdaten:</strong> Zugangsdaten für Systeme, die zur Projektdurchführung
-                    notwendig sind (z. B. Hosting, CMS), soweit vom Auftraggeber bereitgestellt
-                </li>
-            </ul>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">Zweck und Rechtsgrundlage</h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                Die Verarbeitung dieser Daten erfolgt ausschließlich zu folgenden Zwecken:
-            </p>
-            <ul class="font-thin text-justify list-disc pl-6 mt-2 space-y-1 [hyphens:auto]">
-                <li>
-                    Durchführung vorvertraglicher Maßnahmen (Angebotserstellung, Projektplanung)
-                    gemäß Art. 6 Abs. 1 lit. b DSGVO
-                </li>
-                <li>
-                    Erfüllung und Abwicklung von Aufträgen (Vertragserfüllung) gemäß Art. 6 Abs. 1
-                    lit. b DSGVO
-                </li>
-                <li>Rechnungsstellung und Buchhaltung gemäß Art. 6 Abs. 1 lit. b und c DSGVO</li>
-                <li>
-                    Erfüllung gesetzlicher Aufbewahrungspflichten gemäß Art. 6 Abs. 1 lit. c DSGVO
-                </li>
-                <li>
-                    Wahrung berechtigter Interessen (z. B. Geltendmachung oder Abwehr von
-                    Ansprüchen) gemäß Art. 6 Abs. 1 lit. f DSGVO
-                </li>
-            </ul>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">Speicherdauer</h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                Kundendaten werden für die Dauer der Geschäftsbeziehung und darüber hinaus so lange
-                gespeichert, wie gesetzliche Aufbewahrungsfristen bestehen. Rechnungs- und
-                Buchhaltungsunterlagen werden in der Regel 10 Jahre aufbewahrt. Reine
-                Kommunikationsdaten ohne vertraglichen Bezug werden gelöscht, sobald sie für den
-                jeweiligen Zweck nicht mehr benötigt werden, spätestens jedoch nach 3 Jahren.
-            </p>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">Weitergabe von Kundendaten</h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                Eine Weitergabe personenbezogener Daten von Auftraggebern an Dritte erfolgt nur,
-                soweit dies zur Vertragserfüllung notwendig ist (z. B. Weitergabe von Zugangsdaten
-                an Hosting-Anbieter im Auftrag), ich gesetzlich dazu verpflichtet bin oder Sie
-                ausdrücklich eingewilligt haben.
+            <p class="font-thin text-justify mt-4 [hyphens:auto]">
+                Beim Absenden protokollieren die beteiligten Server Verbindungsdaten (IP-Adresse,
+                Zeitpunkt, aufgerufene Adresse, Browserkennung). Ich nutze sie nur für Sicherheit,
+                Fehlersuche und Missbrauchsabwehr (Art. 6 Abs. 1 lit. f DSGVO) und lösche sie nach
+                spätestens 14 Tagen automatisch.
             </p>
         </section>
 
@@ -240,11 +178,14 @@ const title = "Datenschutzerklärung";
                 Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA). Bei jedem Aufruf der Website
                 werden automatisch Daten in Server-Logfiles erhoben, z. B. IP-Adresse, Uhrzeit der Serveranfrage,
                 Referrer-URL, verwendeter Browser und ggf. aufgerufene Seiten. Diese Daten sind technisch
-                erforderlich, um die Stabilität und Sicherheit der Seite zu gewährleisten. Der Einsatz
-                von GitHub Pages führt zu einer Übermittlung von Daten in die USA. GitHub Inc. ist nach
-                dem EU-US Data Privacy Framework (DPF) zertifiziert, sodass für die Datenübermittlung
-                ein Angemessenheitsbeschluss gemäß Art. 45 DSGVO vorliegt. Weitere Informationen finden
-                Sie in der
+                erforderlich, um die Stabilität und Sicherheit der Seite zu gewährleisten. Rechtsgrundlage
+                ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse liegt in einer zuverlässigen
+                und sicheren Bereitstellung dieser Website. Ich selbst habe keinen Zugriff auf diese Logdaten.
+                GitHub speichert sie nur so lange, wie es für die genannten Zwecke erforderlich ist, und
+                löscht sie anschließend. Der Einsatz von GitHub Pages führt zu einer Übermittlung von
+                Daten in die USA. GitHub Inc. ist nach dem EU-US Data Privacy Framework (DPF) zertifiziert,
+                sodass für die Datenübermittlung ein Angemessenheitsbeschluss gemäß Art. 45 DSGVO vorliegt.
+                Weitere Informationen finden Sie in der
                 <a
                     href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
                     target="_blank"
@@ -265,7 +206,9 @@ const title = "Datenschutzerklärung";
                 und dem Hosting bei GitHub Pages geschaltet. Sämtliche Anfragen an diese Website werden
                 daher über Server von Cloudflare geleitet. Dabei verarbeitet Cloudflare insbesondere Ihre
                 IP-Adresse, Datum und Uhrzeit des Zugriffs, die aufgerufene URL, den Referrer sowie Browser-
-                und Systeminformationen.
+                und Systeminformationen. Cloudflare speichert diese Daten nur so lange, wie es für die
+                genannten Zwecke erforderlich ist, und löscht sie nach den in seiner Datenschutzerklärung
+                genannten Fristen.
             </p>
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
                 Der Einsatz erfolgt, um die Website schnell und zuverlässig auszuliefern, sie
@@ -275,7 +218,7 @@ const title = "Datenschutzerklärung";
                 Fehlerberichte (z. B. bei fehlgeschlagenen Verbindungen) an Cloudflare senden. Zur
                 Abwehr automatisierter Zugriffe kann Cloudflare technisch notwendige Cookies setzen
                 (z. B. <code>__cf_bm</code> oder
-                <code>cf_clearance</code>); diese sind gemäß § 25 Abs. 2 Nr. 2 TDDDG
+                <code>cf_clearance</code>). Diese sind gemäß § 25 Abs. 2 Nr. 2 TDDDG
                 einwilligungsfrei.
             </p>
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
@@ -300,15 +243,20 @@ const title = "Datenschutzerklärung";
                 Reichweitenmessung (Plausible Analytics)
             </h2>
             <p class="font-thin text-justify [hyphens:auto]">
-                Zur anonymen Reichweitenmessung nutze ich das selbst gehostete
-                <strong>Plausible Analytics</strong>; es werden keine Daten an Dritte übermittelt.
-                Plausible setzt keine Cookies und speichert keine IP-Adressen. Erfasst werden
-                lediglich aggregierte Angaben wie aufgerufene Seite, Referrer, Browser,
-                Betriebssystem, Gerätetyp und Land, ohne dass eine Wiedererkennung über mehrere Tage
-                möglich ist.
+                Für die Reichweitenmessung nutze ich <strong>Plausible Analytics</strong> (Community Edition)
+                auf meinem eigenen Server in Deutschland. Skript und Messdaten laufen per HTTPS über einen
+                von mir gemieteten Server der Hetzner Online GmbH (Industriestr. 25, 91710 Gunzenhausen,
+                Deutschland), mit der ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO besteht.
+                Andere Dritte erhalten keine Daten. Auch das Land ermittelt Plausible lokal. Plausible
+                setzt keine Cookies und speichert keine IP-Adressen. Um Besucher zu zählen, bildet es
+                aus IP-Adresse und Browserkennung einen Hashwert mit einem täglich wechselnden Schlüssel,
+                sodass Sie am nächsten Tag nicht wiedererkannt werden. Gespeichert werden nur zusammengefasste
+                Angaben wie aufgerufene Seite, Referrer, Browser, Betriebssystem, Gerätetyp und Land.
+                Die beteiligten Server protokollieren Verbindungsdaten (IP-Adresse, Zeitpunkt, aufgerufene
+                Adresse, Browserkennung) und löschen sie nach spätestens 14 Tagen.
             </p>
             <p class="font-thin text-justify [hyphens:auto] mt-2">
-                Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; mein berechtigtes Interesse liegt in
+                Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse liegt in
                 der datensparsamen Auswertung und Verbesserung meiner Website. Sie können die
                 Erfassung verhindern, indem Sie JavaScript deaktivieren oder einen Inhaltsblocker
                 verwenden.
@@ -375,29 +323,5 @@ const title = "Datenschutzerklärung";
                 oder schreiben Sie eine E‑Mail an die im Impressum genannte Adresse.
             </p>
         </section>
-
-        <script is:inline>
-            // E-Mail Obfuscation
-            const dsEmailUser = "kontakt";
-            const dsEmailDomain = "jannikmenzel.me";
-            const dsEmail = dsEmailUser + "@" + dsEmailDomain;
-            const dsEmailSpan = document.getElementById("ds-email-obfuscated");
-            if (dsEmailSpan) {
-                dsEmailSpan.innerHTML = `<a href="mailto:${dsEmail}" class="text-primary underline">${dsEmailUser}&#64;${dsEmailDomain}</a>`;
-            }
-
-            // Address Obfuscation
-            const dsAddressParts = [
-                "Zellescher Weg ",
-                "41d",
-                "<br />01217 ",
-                "Dresden",
-                "<br />Deutschland",
-            ];
-            const dsAddressSpan = document.getElementById("ds-address-obfuscated");
-            if (dsAddressSpan) {
-                dsAddressSpan.innerHTML = dsAddressParts.join("");
-            }
-        </script>
     </main>
 </Layout>

@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# vortix dynamic-check cache
+.vortix/cache.json

@@ -1,6 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { t } from "../../i18n/ui";
+import addressSvg from "../../assets/contact/address-en.svg?raw";
+import emailSvg from "../../assets/contact/email.svg?raw";
 
 const lang = "en";
 ---
@@ -45,14 +47,15 @@ const lang = "en";
         <section class="mb-6 sm:mb-6 pt-22">
             <h2 class="text-xl sm:text-2xl font-medium mb-2 flex justify-between items-baseline">
                 <span>Introduction</span>
-                <span class="text-base font-thin">Status: October 8, 2026</span>
+                <span class="text-base font-thin">Status: October 20, 2026</span>
             </h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 This privacy policy informs you about the type, scope and purpose of the processing
                 of personal data (hereinafter "data") within my online offer and the associated
                 websites, functions and content as well as external online presences, such as my
-                social media profile. It equally applies to data processing in the context of my
-                freelance work as a web developer.
+                social media profile. Data processing in the context of my freelance work (e.g.,
+                quotes, projects and invoicing) is governed by a separate privacy policy that I
+                provide to clients.
             </p>
         </section>
 
@@ -60,23 +63,22 @@ const lang = "en";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Privacy at a Glance</h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 Here you will find a brief overview of what happens to your personal data when you
-                visit this website or commission me as a freelancer. Personal data is any data that
-                can be used to personally identify you.
+                visit this website. Personal data is any data that can be used to personally
+                identify you.
             </p>
         </section>
 
         <section class="mb-6 sm:mb-6">
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Who is responsible?</h2>
             <p class="font-thin text-justify [hyphens:auto]">
-                The data processing on this website as well as in the context of my freelance work
-                is carried out by me as the operator. Controller within the meaning of data
-                protection laws:
+                The data processing on this website is carried out by me as the operator. Controller
+                within the meaning of data protection laws:
             </p>
 
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
                 Jannik Menzel<br />
-                <span id="en-address-obfuscated"></span><br />
-                Email: <span id="en-email-obfuscated"></span>
+                <span class="block [&>svg]:block" set:html={addressSvg} />
+                Email: <span class="inline-block align-top [&>svg]:block" set:html={emailSvg} />
             </p>
         </section>
 
@@ -84,10 +86,9 @@ const lang = "en";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">How is data collected?</h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 On the one hand, your data is collected by you providing it to me (e.g., via the
-                contact form or by email). Other data is collected automatically by the hosting
-                provider when you visit the website (e.g., technical data such as browser, operating
-                system, time of page request). In the context of freelance projects, I process
-                additional data (e.g., contract and billing data).
+                contact form or by email). GitHub (hosting), Cloudflare and my own web analytics
+                collect other data automatically when you visit the website, e.g., browser,
+                operating system and time of the page request.
             </p>
         </section>
 
@@ -95,18 +96,16 @@ const lang = "en";
             <h2 class="text-xl sm:text-2xl font-medium mb-2">What is the data used for?</h2>
             <p class="font-thin text-justify [hyphens:auto]">
                 Part of the data is collected to ensure the website functions without errors. Other
-                data is used to process contact inquiries, to carry out and fulfill contracts, and
-                to comply with legal obligations.
+                data is used to process contact inquiries.
             </p>
         </section>
 
         <section class="mb-6 sm:mb-6">
             <h2 class="text-xl sm:text-2xl font-medium mb-2">Purpose of Processing</h2>
             <p class="font-thin text-justify [hyphens:auto]">
-                Processing is carried out to answer contact inquiries, to conduct pre-contractual
-                measures, to fulfill and execute contracts, to provide my content, and to safeguard
-                legitimate interests (e.g., security and operation of the website, invoicing,
-                compliance with tax retention obligations).
+                Processing is carried out to provide this website and my content, to answer contact
+                inquiries, and to safeguard legitimate interests (e.g., security and operation of
+                the website).
             </p>
         </section>
 
@@ -118,6 +117,23 @@ const lang = "en";
                 handling your inquiry. The legal basis for this is Art. 6 Para. 1 lit. b GDPR
                 insofar as the inquiry serves contract initiation or performance, as well as Art. 6
                 Para. 1 lit. f GDPR based on the legitimate interest in responding to your inquiry.
+                The data is deleted once your inquiry has been fully processed and no statutory
+                retention obligations apply.
+            </p>
+            <p class="font-thin text-justify mt-4 [hyphens:auto]">
+                To receive and store emails, I use the Private Email service of
+                <strong>Namecheap, Inc.</strong> (4600 East Washington Street, Suite 300, Phoenix, AZ
+                85034, USA). Emails sent to me and inquiries forwarded from the contact form are therefore
+                stored on Namecheap's servers in the USA. The legal basis is Art. 6 Para. 1 lit. f GDPR.
+                My legitimate interest lies in reliable email communication. The transfer to the USA is
+                based on the European Commission's Standard Contractual Clauses (Art. 46 Para. 2 lit.
+                c GDPR). For more information, please refer to
+                <a
+                    href="https://www.namecheap.com/legal/general/privacy-policy/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="underline">Namecheap's Privacy Policy</a
+                >.
             </p>
         </section>
 
@@ -126,102 +142,26 @@ const lang = "en";
             <p class="font-thin text-justify [hyphens:auto]">
                 If you contact me via the contact form, the data you enter (e.g., name, email
                 address, subject, message) will be processed for the purpose of handling your
-                request and for possible follow-up questions. Processing is based on your consent
-                for general inquiries (Art. 6 Para. 1 lit. a GDPR) and on contract negotiation or
-                performance for inquiries related to placing an order or an existing contractual
-                relationship (Art. 6 Para. 1 lit. b GDPR).
+                request and for possible follow-up questions. The legal basis is Art. 6 Para. 1 lit.
+                b GDPR insofar as your inquiry relates to placing an order or an existing
+                contractual relationship, and otherwise Art. 6 Para. 1 lit. f GDPR based on my
+                legitimate interest in responding to your inquiry. The data is deleted once your
+                inquiry has been fully processed and no statutory retention obligations apply.
             </p>
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
-                The form is processed through the service <strong>Web3Forms</strong>
-                (<a
-                    href="https://web3forms.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="underline">web3forms.com</a
-                >). Your data is transmitted via HTTPS to Web3Forms and then forwarded to me via
-                email. No form data is stored on my web server. For more information on how
-                Web3Forms handles data, please refer to their
-                <a
-                    href="https://web3forms.com/privacy"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="underline">Privacy Policy</a
-                >.
+                I process the form with <strong>n8n</strong>, automation software that I run myself.
+                Your input is sent via HTTPS to a server I rent from Hetzner Online GmbH
+                (Industriestr. 25, 91710 Gunzenhausen, Germany) and from there, encrypted, to my own
+                server in Germany. There n8n checks it for completeness and spam and forwards it to
+                my mailbox by email (see "Email Contact"). A data processing agreement pursuant to
+                Art. 28 GDPR is in place with Hetzner. No other third parties receive any data. My
+                server only keeps a request if forwarding fails, and then for no more than 14 days.
             </p>
-        </section>
-
-        <section class="mb-6 sm:mb-6">
-            <h2 class="text-xl sm:text-2xl font-medium mb-2">Customer Data and Freelance Work</h2>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">
-                Type and Scope of Data Processed
-            </h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                In the context of my freelance work as a web developer, I process personal data of
-                clients, prospects and business contacts. This includes in particular:
-            </p>
-            <ul class="font-thin text-justify list-disc pl-6 mt-2 space-y-1 [hyphens:auto]">
-                <li>
-                    <strong>Contact data:</strong> Name, first name, company name, address, email address,
-                    phone number
-                </li>
-                <li>
-                    <strong>Contract data:</strong> Quotes, order confirmations, project descriptions,
-                    scope of services
-                </li>
-                <li>
-                    <strong>Payment and billing data:</strong> Bank details, billing address, payment
-                    history
-                </li>
-                <li>
-                    <strong>Communication data:</strong> Email threads, project correspondence, feedback
-                    and approvals
-                </li>
-                <li>
-                    <strong>Technical access data:</strong> Access credentials for systems required for
-                    project execution (e.g., hosting, CMS), insofar as provided by the client
-                </li>
-            </ul>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">Purpose and Legal Basis</h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                This data is processed exclusively for the following purposes:
-            </p>
-            <ul class="font-thin text-justify list-disc pl-6 mt-2 space-y-1 [hyphens:auto]">
-                <li>
-                    Performance of pre-contractual measures (quote preparation, project planning)
-                    pursuant to Art. 6 Para. 1 lit. b GDPR
-                </li>
-                <li>
-                    Fulfillment and execution of contracts (contract performance) pursuant to Art. 6
-                    Para. 1 lit. b GDPR
-                </li>
-                <li>Invoicing and accounting pursuant to Art. 6 Para. 1 lit. b and c GDPR</li>
-                <li>
-                    Compliance with statutory retention obligations pursuant to Art. 6 Para. 1 lit.
-                    c GDPR
-                </li>
-                <li>
-                    Safeguarding legitimate interests (e.g., asserting or defending legal claims)
-                    pursuant to Art. 6 Para. 1 lit. f GDPR
-                </li>
-            </ul>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">Storage Period</h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                Customer data is stored for the duration of the business relationship and thereafter
-                for as long as statutory retention periods apply. Invoice and accounting records are
-                generally retained for 10 years. Purely communication data without contractual
-                reference is deleted as soon as it is no longer required for the respective purpose,
-                at the latest after 3 years.
-            </p>
-
-            <h3 class="text-lg sm:text-xl font-medium mb-2 mt-6">Sharing of Customer Data</h3>
-            <p class="font-thin text-justify [hyphens:auto]">
-                Personal data of clients is only shared with third parties insofar as this is
-                necessary for contract performance (e.g., passing on access data to hosting
-                providers on behalf of the client), I am legally obligated to do so, or you have
-                expressly consented.
+            <p class="font-thin text-justify mt-4 [hyphens:auto]">
+                When you submit the form, the servers involved log connection data (IP address,
+                time, requested address, browser identifier). I use it only for security,
+                troubleshooting and abuse prevention (Art. 6 Para. 1 lit. f GDPR) and delete it
+                automatically after 14 days at the latest.
             </p>
         </section>
 
@@ -234,10 +174,13 @@ const lang = "en";
                 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA). Each time the website is accessed,
                 data is automatically collected in server log files, e.g., IP address, time of server
                 request, referrer URL, browser used, and possibly accessed pages. This data is technically
-                required to ensure stability and security of the page. The use of GitHub Pages results
-                in a transfer of data to the USA. GitHub Inc. is certified under the EU-US Data Privacy
-                Framework (DPF), so an adequacy decision pursuant to Art. 45 GDPR applies to the data
-                transfer. For more information, please refer to
+                required to ensure stability and security of the page. The legal basis is Art. 6 Para.
+                1 lit. f GDPR. My legitimate interest lies in the reliable and secure provision of this
+                website. I have no access to these log data myself. GitHub stores them only as long as
+                necessary for the purposes mentioned and deletes them afterwards. The use of GitHub Pages
+                results in a transfer of data to the USA. GitHub Inc. is certified under the EU-US Data
+                Privacy Framework (DPF), so an adequacy decision pursuant to Art. 45 GDPR applies to the
+                data transfer. For more information, please refer to
                 <a
                     href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
                     target="_blank"
@@ -257,7 +200,9 @@ const lang = "en";
                 as a reverse proxy and content delivery network (CDN) between your browser and the hosting
                 at GitHub Pages. All requests to this website are therefore routed through Cloudflare's
                 servers. In doing so, Cloudflare processes in particular your IP address, date and time
-                of access, the requested URL, the referrer, and browser and system information.
+                of access, the requested URL, the referrer, and browser and system information. Cloudflare
+                stores this data only as long as necessary for the purposes mentioned and deletes it in
+                accordance with the periods stated in its privacy policy.
             </p>
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
                 Cloudflare is used to deliver the website quickly and reliably, to serve it
@@ -266,7 +211,7 @@ const lang = "en";
                 reports (e.g., on failed connections) to Cloudflare via the "Network Error Logging"
                 feature. To fend off automated access, Cloudflare may set technically necessary
                 cookies (e.g., <code>__cf_bm</code> or
-                <code>cf_clearance</code>); these do not require consent pursuant to Section 25 (2)
+                <code>cf_clearance</code>). These do not require consent pursuant to Section 25 (2)
                 No. 2 TDDDG.
             </p>
             <p class="font-thin text-justify mt-4 [hyphens:auto]">
@@ -290,16 +235,22 @@ const lang = "en";
                 Web Analytics (Plausible Analytics)
             </h2>
             <p class="font-thin text-justify [hyphens:auto]">
-                For anonymous audience measurement, I use a self-hosted instance of
-                <strong>Plausible Analytics</strong>; no data is transferred to third parties.
-                Plausible does not set cookies and does not store IP addresses. Only aggregated data
-                such as the page visited, referrer, browser, operating system, device type, and
-                country is collected, and you cannot be recognized across days.
+                For audience measurement, I use <strong>Plausible Analytics</strong> (Community Edition)
+                on my own server in Germany. The script and measurement data travel via HTTPS through
+                a server I rent from Hetzner Online GmbH (Industriestr. 25, 91710 Gunzenhausen, Germany),
+                with which a data processing agreement pursuant to Art. 28 GDPR is in place. No other
+                third parties receive any data. Plausible also determines the country locally. Plausible
+                sets no cookies and stores no IP addresses. To count visitors, it creates a hash from
+                the IP address and browser identifier using a key that changes daily, so you are not recognized
+                the next day. Only aggregated data such as page visited, referrer, browser, operating
+                system, device type and country is stored. The servers involved log connection data (IP
+                address, time, requested address, browser identifier) and delete it after 14 days at the
+                latest.
             </p>
             <p class="font-thin text-justify [hyphens:auto] mt-2">
-                The legal basis is Art. 6(1)(f) GDPR; my legitimate interest is to evaluate and
-                improve my website in a data-minimizing way. You can prevent collection by disabling
-                JavaScript or using a content blocker.
+                The legal basis is Art. 6 Para. 1 lit. f GDPR. My legitimate interest is to evaluate
+                and improve my website in a data-minimizing way. You can prevent collection by
+                disabling JavaScript or using a content blocker.
             </p>
         </section>
 
@@ -358,29 +309,5 @@ const lang = "en";
                 an email to the address provided in the imprint.
             </p>
         </section>
-
-        <script is:inline>
-            // E-Mail Obfuscation
-            const enEmailUser = "kontakt";
-            const enEmailDomain = "jannikmenzel.me";
-            const enEmail = enEmailUser + "@" + enEmailDomain;
-            const enEmailSpan = document.getElementById("en-email-obfuscated");
-            if (enEmailSpan) {
-                enEmailSpan.innerHTML = `<a href="mailto:${enEmail}" class="text-primary underline">${enEmailUser}&#64;${enEmailDomain}</a>`;
-            }
-
-            // Address Obfuscation
-            const enAddressParts = [
-                "Zellescher Weg ",
-                "41d",
-                "<br />01217 ",
-                "Dresden",
-                "<br />Germany",
-            ];
-            const enAddressSpan = document.getElementById("en-address-obfuscated");
-            if (enAddressSpan) {
-                enAddressSpan.innerHTML = enAddressParts.join("");
-            }
-        </script>
     </main>
 </Layout>

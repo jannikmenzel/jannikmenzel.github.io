@@ -32,9 +32,9 @@
         "sending": "Senden...",
         "errorPrefix": "Fehler: ",
         "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
-        "consentError": "Bitte stimmen Sie der Datenschutzerklärung zu.",
+        "consentError": "Bitte bestätigen Sie, dass Sie die Datenschutzerklärung zur Kenntnis genommen haben.",
         "consentBefore": "Ich habe die ",
-        "consentAfter": " zur Kenntnis genommen und stimme der Verarbeitung meiner Daten zu.",
+        "consentAfter": " zur Kenntnis genommen.",
         "profile": {
             "description": "Informatikstudent an der TU Dresden und freiberuflicher Webentwickler. Ich helfe dir, deine Idee in eine moderne, performante Website zu verwandeln.",
             "cta": "E-Mail schreiben"
