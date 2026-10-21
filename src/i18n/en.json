@@ -123,9 +123,7 @@
             "read": "Read paper",
             "code": "Code on GitHub",
             "reproduction": "Reproduction",
-            "reference": "Paper:",
-            "more": "Read more",
-            "less": "Show less"
+            "preview": "Title page of the paper"
         },
         "links": {
             "npm": "npm",
@@ -135,8 +133,7 @@
             "clear": {
                 "type": "Seminar paper",
                 "venue": "Pro- and main seminar on databases, TU Dresden",
-                "abstract": "Electronic health records (EHRs) are multimodal and heterogeneous, which makes models prone to representation contamination: spurious or weakly informative features become entangled with genuinely discriminative ones. This paper introduces CLEAR (Su et al., KDD 2025), a counterfactual disparity learning model that measures contamination through factual and counterfactual representations (CPL), recalibrates them adaptively (ADI) and fuses the modalities via multi-head self-attention (MRF).",
-                "reproduction": "My own reproduction of the CLEAR experiment on the ODIR-5K dataset with 5,000 patients and 8 diagnoses. Mean over 3 seeds."
+                "abstract": "Electronic health records are multimodal and heterogeneous, so weakly informative features get entangled with discriminative ones. This paper introduces CLEAR (Su et al., KDD 2025), which detects and corrects this contamination through counterfactual representations."
             }
         },
         "openSource": {

@@ -123,9 +123,7 @@
             "read": "Paper lesen",
             "code": "Code auf GitHub",
             "reproduction": "Reproduktion",
-            "reference": "Paper:",
-            "more": "Weiterlesen",
-            "less": "Weniger anzeigen"
+            "preview": "Titelseite des Papers"
         },
         "links": {
             "npm": "npm",
@@ -135,8 +133,7 @@
             "clear": {
                 "type": "Seminararbeit",
                 "venue": "Pro- und Hauptseminar Datenbanken, TU Dresden",
-                "abstract": "Elektronische Patientenakten (EHRs) sind multimodal und heterogen und damit anfällig für Representation Contamination: Schwach informative oder irreführende Merkmale vermischen sich mit tatsächlich diskriminativen. Die Arbeit stellt CLEAR (Su et al., KDD 2025) vor, ein Counterfactual-Disparity-Learning-Modell, das Kontamination über faktische und kontrafaktische Repräsentationen misst (CPL), Repräsentationen adaptiv kalibriert (ADI) und die Modalitäten per Multi-Head Self-Attention fusioniert (MRF).",
-                "reproduction": "Eigene Reproduktion des CLEAR-Experiments auf dem ODIR-5K-Datensatz mit 5.000 Patient:innen und 8 Diagnosen. Mittelwert über 3 Seeds."
+                "abstract": "Elektronische Patientenakten sind multimodal und heterogen, schwach informative Merkmale überlagern dort die diskriminativen. Die Arbeit stellt CLEAR (Su et al., KDD 2025) vor, das diese Kontamination über kontrafaktische Repräsentationen erkennt und ausgleicht."
             }
         },
         "openSource": {
