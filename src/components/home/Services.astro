@@ -1,15 +1,15 @@
 ---
-import { Code, PanelsTopLeft, Database, PenTool, Target, Zap } from "@lucide/astro";
+import { Code, PanelsTopLeft, Database, PenTool, DraftingCompass, Zap } from "@lucide/astro";
 import { getLangFromUrl, t } from "../../i18n/ui";
 
 const lang = getLangFromUrl(Astro.url);
 
 const services = [
     { icon: Code, key: "frontend" },
+    { icon: DraftingCompass, key: "architecture" },
     { icon: PenTool, key: "uiux" },
     { icon: PanelsTopLeft, key: "wordpress" },
     { icon: Database, key: "ssg" },
-    { icon: Target, key: "brand" },
     { icon: Zap, key: "performance" },
 ];
 ---

@@ -51,25 +51,25 @@
                 "title": "Frontend Development",
                 "description": "Moderne und individuelle HTML/CSS/JS Anwendungen mit perfekter Performance"
             },
+            "architecture": {
+                "title": "Konzeption & Architektur",
+                "description": "Anforderungsanalyse, Systementwurf und Wahl passender Technologien"
+            },
             "uiux": {
                 "title": "UI/UX Design",
                 "description": "Intuitive Benutzeroberflächen mit Fokus auf optimale User Experience"
             },
             "wordpress": {
-                "title": "WordPress Websites",
-                "description": "Umfangreiche und maßgeschneiderte Web-Lösungen in WordPress"
+                "title": "WordPress-Entwicklung",
+                "description": "Individuelle Themes und Plugins für maßgeschneiderte WordPress-Websites"
             },
             "ssg": {
                 "title": "SSGs für Blogs & Docs",
                 "description": "Optimiert für klare Workflows, kurze Build-Zeiten und strukturierte Inhalte"
             },
-            "brand": {
-                "title": "Brand Identity",
-                "description": "Ganzheitliche Markenentwicklung mit konsistentem visuellen Auftritt"
-            },
             "performance": {
                 "title": "Performance Optimierung",
-                "description": "Geschwindigkeitsoptimierung und SEO für bestehende Websites"
+                "description": "Ladezeit, Sicherheit und Barrierefreiheit für bestehende Websites"
             }
         }
     },
