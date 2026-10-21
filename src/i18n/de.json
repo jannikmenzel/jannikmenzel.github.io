@@ -139,6 +139,7 @@
         "openSource": {
             "midnight": {
                 "type": "Desktop-App",
+                "preview": "Übersicht in Midnight",
                 "description": "Lokale Buchhaltung für Freelancer und Selbstständige in Deutschland: Rechnungen inklusive E-Rechnung (ZUGFeRD/XRechnung) und LaTeX-PDFs, Belege, Zeiterfassung, EÜR und Steuerschätzung. Alle Daten bleiben lokal in SQLite, ein integrierter MCP-Server macht die App für KI-Assistenten steuerbar."
             },
             "vortix": {
@@ -147,6 +148,7 @@
             },
             "sveltiaRbac": {
                 "type": "CMS-Erweiterung",
+                "preview": "Seite „Pricing“ im Editor von Sveltia CMS",
                 "description": "Serverseitig erzwungene, rollenbasierte Bearbeitungsrechte für Sveltia CMS auf GitLab. Ein Pre-Receive-Hook lehnt jeden Push ab, der die edit_roles einer Datei verletzt, und zwar nicht nur in der CMS-Oberfläche, sondern auch bei einem direkten git push."
             }
         }

@@ -14,6 +14,7 @@ import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
 import { getLangFromUrl, t } from "../../i18n/ui";
 import { openSourceProjects, type ProjectLinkKind } from "../../data/projects";
+import ProjectPreview from "./ProjectPreview.astro";
 import clearPage1 from "../../images/papers/clear-page-1.png";
 import clearPage2 from "../../images/papers/clear-page-2.png";
 import clearPage3 from "../../images/papers/clear-page-3.png";
@@ -220,77 +221,85 @@ const paperPages = [
                 openSourceProjects.map((project) => {
                     const TypeIcon = projectIcon[project.id] ?? Package;
                     return (
-                        <article class="card group relative flex flex-col border border-border bg-backgroundAlt p-5 sm:p-8 transition-colors duration-200 hover:border-accent">
-                            <div class="flex items-center justify-between gap-4">
-                                <span class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.2em] text-muted-foreground">
-                                    <TypeIcon class="h-4 w-4 text-accent" aria-hidden="true" />
-                                    {t(lang, `projects.openSource.${project.id}.type`)}
-                                </span>
-                                <span class="font-mono text-xs text-muted-foreground/70">
-                                    {project.year}
-                                </span>
-                            </div>
-
-                            <h3 class="mt-5 text-2xl font-bold text-foreground">
-                                <a
-                                    href={project.repo}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    class="inline-flex items-center gap-2 transition-colors duration-200 group-hover:text-accent after:absolute after:inset-0"
-                                >
-                                    {project.title}
-                                    <ArrowUpRight
-                                        class="h-5 w-5 text-muted-foreground transition-colors duration-200 group-hover:text-accent"
-                                        aria-hidden="true"
-                                    />
-                                </a>
-                            </h3>
-
-                            <p class="mt-4 text-sm leading-6 text-muted-foreground sm:leading-7">
-                                {t(lang, `projects.openSource.${project.id}.description`)}
-                            </p>
-
-                            {project.install && (
-                                <code
-                                    tabindex="0"
-                                    class="relative z-10 mt-6 block overflow-x-auto whitespace-nowrap border border-border bg-background px-4 py-3 font-mono text-xs text-foreground"
-                                >
-                                    <span class="select-none text-muted-foreground/70">$ </span>
-                                    {project.install}
-                                </code>
-                            )}
-
-                            <div class="mt-auto pt-8">
-                                <div class="flex flex-wrap items-center justify-between gap-4 border-t border-border pt-5">
-                                    <span class="inline-flex items-center gap-2 font-mono text-xs text-muted-foreground">
-                                        <Scale class="h-4 w-4" aria-hidden="true" />
-                                        <span class="sr-only">{t(lang, "projects.license")}:</span>
-                                        {project.license}
+                        <article class="card group relative flex flex-col">
+                            <ProjectPreview id={project.id} />
+                            <div class="flex flex-1 flex-col border border-border bg-backgroundAlt p-5 sm:p-8 transition-colors duration-200 group-hover:border-accent group-focus-within:border-accent">
+                                <div class="flex items-center justify-between gap-4">
+                                    <span class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.2em] text-muted-foreground">
+                                        <TypeIcon class="h-4 w-4 text-accent" aria-hidden="true" />
+                                        {t(lang, `projects.openSource.${project.id}.type`)}
                                     </span>
-                                    {project.links.length > 0 && (
-                                        <ul class="relative z-10 flex flex-wrap gap-4 list-none">
-                                            {project.links.map((link) => {
-                                                const LinkIcon = linkIcon[link.kind];
-                                                return (
-                                                    <li>
-                                                        <a
-                                                            href={link.href}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            class="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.15em] text-foreground underline-offset-4 transition-colors duration-200 hover:text-accent hover:underline"
-                                                            aria-label={`${project.title}: ${t(lang, `projects.links.${link.kind}`)}`}
-                                                        >
-                                                            <LinkIcon
-                                                                class="h-4 w-4"
-                                                                aria-hidden="true"
-                                                            />
-                                                            {t(lang, `projects.links.${link.kind}`)}
-                                                        </a>
-                                                    </li>
-                                                );
-                                            })}
-                                        </ul>
-                                    )}
+                                    <span class="font-mono text-xs text-muted-foreground/70">
+                                        {project.year}
+                                    </span>
+                                </div>
+
+                                <h3 class="mt-5 text-2xl font-bold text-foreground">
+                                    <a
+                                        href={project.repo}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="inline-flex items-center gap-2 transition-colors duration-200 group-hover:text-accent after:absolute after:inset-0"
+                                    >
+                                        {project.title}
+                                        <ArrowUpRight
+                                            class="h-5 w-5 text-muted-foreground transition-colors duration-200 group-hover:text-accent"
+                                            aria-hidden="true"
+                                        />
+                                    </a>
+                                </h3>
+
+                                <p class="mt-4 text-sm leading-6 text-muted-foreground sm:leading-7">
+                                    {t(lang, `projects.openSource.${project.id}.description`)}
+                                </p>
+
+                                {project.install && (
+                                    <code
+                                        tabindex="0"
+                                        class="relative z-10 mt-6 block overflow-x-auto whitespace-nowrap border border-border bg-background px-4 py-3 font-mono text-xs text-foreground"
+                                    >
+                                        <span class="select-none text-muted-foreground/70">$ </span>
+                                        {project.install}
+                                    </code>
+                                )}
+
+                                <div class="mt-auto pt-8">
+                                    <div class="flex flex-wrap items-center justify-between gap-4 border-t border-border pt-5">
+                                        <span class="inline-flex items-center gap-2 font-mono text-xs text-muted-foreground">
+                                            <Scale class="h-4 w-4" aria-hidden="true" />
+                                            <span class="sr-only">
+                                                {t(lang, "projects.license")}:
+                                            </span>
+                                            {project.license}
+                                        </span>
+                                        {project.links.length > 0 && (
+                                            <ul class="relative z-10 flex flex-wrap gap-4 list-none">
+                                                {project.links.map((link) => {
+                                                    const LinkIcon = linkIcon[link.kind];
+                                                    return (
+                                                        <li>
+                                                            <a
+                                                                href={link.href}
+                                                                target="_blank"
+                                                                rel="noopener noreferrer"
+                                                                class="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.15em] text-foreground underline-offset-4 transition-colors duration-200 hover:text-accent hover:underline"
+                                                                aria-label={`${project.title}: ${t(lang, `projects.links.${link.kind}`)}`}
+                                                            >
+                                                                <LinkIcon
+                                                                    class="h-4 w-4"
+                                                                    aria-hidden="true"
+                                                                />
+                                                                {t(
+                                                                    lang,
+                                                                    `projects.links.${link.kind}`
+                                                                )}
+                                                            </a>
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </article>

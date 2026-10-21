@@ -1,0 +1,94 @@
+---
+import { Image } from "astro:assets";
+import { getLangFromUrl, t } from "../../i18n/ui";
+import midnightOverview from "../../images/projects/midnight-overview.png";
+import sveltiaEditor from "../../images/projects/sveltia-editor.png";
+
+interface Props {
+    id: string;
+}
+
+const { id } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+
+const liftClass =
+    "shadow-md ring-1 ring-border transition-transform duration-500 ease-out group-hover:-translate-y-1 motion-reduce:transition-none";
+const screenshotSizes = "(min-width: 1024px) 22rem, (min-width: 768px) 45vw, 90vw";
+
+const windowClass = `dark flex aspect-[16/10] w-full flex-col bg-backgroundAlt ${liftClass}`;
+const terminalClass =
+    "flex-1 overflow-hidden px-3 py-2.5 font-mono text-[0.625rem] leading-[1.5] text-background-foreground sm:text-[0.6875rem] lg:text-[0.625rem] xl:text-[0.6875rem]";
+
+const ok = "text-emerald-400";
+
+const vortixCategories = [
+    { name: "performance", ok: true },
+    { name: "security", ok: false },
+    { name: "accessibility", ok: true },
+    { name: "bugs", ok: true },
+    { name: "seo", ok: true },
+    { name: "maintainability", ok: true },
+    { name: "privacy", ok: true },
+];
+---
+
+<div class="border border-b-0 border-border bg-background p-4 sm:p-5">
+    {
+        id === "midnight" && (
+            <Image
+                src={midnightOverview}
+                alt={t(lang, "projects.openSource.midnight.preview")}
+                width={640}
+                widths={[320, 640, 960]}
+                sizes={screenshotSizes}
+                class:list={["h-auto w-full", liftClass]}
+                loading="lazy"
+            />
+        )
+    }
+
+    {
+        id === "vortix" && (
+            <div class={windowClass} aria-hidden="true">
+                <div class="border-b border-border px-3 py-1.5 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-muted-foreground">
+                    vortix check
+                </div>
+                <div class={terminalClass}>
+                    <p>
+                        <span class="text-muted-foreground">$</span> npx vortix check
+                    </p>
+                    <div class="mt-1.5 flex items-center gap-3">
+                        <span class:list={["font-display text-3xl font-black leading-none", ok]}>
+                            A
+                        </span>
+                        <div>
+                            <p class="font-bold">100/100</p>
+                            <p class="text-muted-foreground">0 errors, 0 warnings, 1 notice</p>
+                        </div>
+                    </div>
+                    <ul class="mt-1.5 grid grid-cols-2 list-none gap-x-3">
+                        {vortixCategories.map((category) => (
+                            <li class:list={[category.ok ? ok : "text-muted-foreground"]}>
+                                {category.ok ? "✔" : "ℹ"} {category.name}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+        )
+    }
+
+    {
+        id === "sveltiaRbac" && (
+            <Image
+                src={sveltiaEditor}
+                alt={t(lang, "projects.openSource.sveltiaRbac.preview")}
+                width={640}
+                widths={[320, 640, 960]}
+                sizes={screenshotSizes}
+                class:list={["h-auto w-full", liftClass]}
+                loading="lazy"
+            />
+        )
+    }
+</div>

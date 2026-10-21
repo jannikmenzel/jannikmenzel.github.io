@@ -139,6 +139,7 @@
         "openSource": {
             "midnight": {
                 "type": "Desktop app",
+                "preview": "Overview in Midnight",
                 "description": "Local bookkeeping for freelancers and the self-employed in Germany: invoices including e-invoicing (ZUGFeRD/XRechnung) and LaTeX PDFs, receipts, time tracking, cash-basis accounting and tax estimates. All data stays local in SQLite, and a built-in MCP server lets AI assistants operate the app."
             },
             "vortix": {
@@ -147,6 +148,7 @@
             },
             "sveltiaRbac": {
                 "type": "CMS extension",
+                "preview": "The “Pricing” page in the Sveltia CMS editor",
                 "description": "Server-enforced, role-based editing for Sveltia CMS on GitLab. A pre-receive hook rejects every push that violates a file's edit_roles, not just in the CMS interface but for a plain git push as well."
             }
         }
