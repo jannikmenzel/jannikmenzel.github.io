@@ -58,7 +58,7 @@ const linkIcon: Record<ProjectLinkKind, typeof AppWindow> = {
         <article
             class="scrolling-section grid grid-cols-1 lg:grid-cols-12 border border-border bg-backgroundAlt"
         >
-            <div class="lg:col-span-8 p-6 sm:p-10">
+            <div class="lg:col-span-8 p-5 sm:p-10">
                 <span
                     class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground"
                 >
@@ -77,11 +77,32 @@ const linkIcon: Record<ProjectLinkKind, typeof AppWindow> = {
                 <h4 class="mt-8 text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground">
                     {t(lang, "projects.paper.abstract")}
                 </h4>
-                <p class="mt-3 max-w-3xl text-sm sm:text-base leading-7 text-muted-foreground">
-                    {t(lang, "projects.papers.clear.abstract")}
-                </p>
+                <div class="mt-3 max-w-3xl">
+                    <input
+                        id="clear-abstract-toggle"
+                        type="checkbox"
+                        class="peer sr-only lg:hidden"
+                    />
+                    <p
+                        class="line-clamp-5 text-sm leading-6 text-muted-foreground peer-checked:line-clamp-none sm:text-base sm:leading-7 lg:line-clamp-none"
+                    >
+                        {t(lang, "projects.papers.clear.abstract")}
+                    </p>
+                    <label
+                        for="clear-abstract-toggle"
+                        class="mt-3 inline-block cursor-pointer text-xs font-medium uppercase tracking-[0.15em] text-foreground underline-offset-4 transition-colors duration-200 hover:text-accent hover:underline peer-checked:hidden peer-focus-visible:outline-2 peer-focus-visible:outline-accent lg:hidden"
+                    >
+                        {t(lang, "projects.paper.more")}
+                    </label>
+                    <label
+                        for="clear-abstract-toggle"
+                        class="mt-3 hidden cursor-pointer text-xs font-medium uppercase tracking-[0.15em] text-foreground underline-offset-4 transition-colors duration-200 hover:text-accent hover:underline peer-checked:inline-block peer-focus-visible:outline-2 peer-focus-visible:outline-accent lg:hidden!"
+                    >
+                        {t(lang, "projects.paper.less")}
+                    </label>
+                </div>
 
-                <div class="mt-10 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:gap-3">
+                <div class="mt-8 sm:mt-10 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:gap-3">
                     <a
                         href="/papers/menzel-2026-introduction-to-clear.pdf"
                         target="_blank"
@@ -108,7 +129,7 @@ const linkIcon: Record<ProjectLinkKind, typeof AppWindow> = {
             </div>
 
             <aside
-                class="lg:col-span-4 border-t lg:border-t-0 lg:border-l border-border bg-background p-6 sm:p-10"
+                class="lg:col-span-4 border-t lg:border-t-0 lg:border-l border-border bg-background p-5 sm:p-10"
                 aria-labelledby="clear-reproduction-heading"
             >
                 <h4
@@ -180,7 +201,7 @@ const linkIcon: Record<ProjectLinkKind, typeof AppWindow> = {
                 openSourceProjects.map((project) => {
                     const TypeIcon = projectIcon[project.id] ?? Package;
                     return (
-                        <article class="card group relative flex flex-col border border-border bg-backgroundAlt p-6 sm:p-8 transition-colors duration-200 hover:border-accent">
+                        <article class="card group relative flex flex-col border border-border bg-backgroundAlt p-5 sm:p-8 transition-colors duration-200 hover:border-accent">
                             <div class="flex items-center justify-between gap-4">
                                 <span class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.2em] text-muted-foreground">
                                     <TypeIcon class="h-4 w-4 text-accent" aria-hidden="true" />
@@ -206,7 +227,7 @@ const linkIcon: Record<ProjectLinkKind, typeof AppWindow> = {
                                 </a>
                             </h3>
 
-                            <p class="mt-4 text-sm leading-7 text-muted-foreground">
+                            <p class="mt-4 text-sm leading-6 text-muted-foreground sm:leading-7">
                                 {t(lang, `projects.openSource.${project.id}.description`)}
                             </p>
 

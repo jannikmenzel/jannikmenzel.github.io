@@ -123,7 +123,9 @@
             "read": "Paper lesen",
             "code": "Code auf GitHub",
             "reproduction": "Reproduktion",
-            "reference": "Paper:"
+            "reference": "Paper:",
+            "more": "Weiterlesen",
+            "less": "Weniger anzeigen"
         },
         "links": {
             "npm": "npm",
