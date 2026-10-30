@@ -103,14 +103,9 @@ const lang = getLangFromUrl(Astro.url);
                                     : "space-y-2"
                             }
                         >
-                            <div>
-                                <span class="text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground">
-                                    {project.year}
-                                </span>
-                                <h2 class="mt-2 text-2xl sm:text-3xl font-bold text-foreground">
-                                    {project.title}
-                                </h2>
-                            </div>
+                            <h2 class="text-2xl sm:text-3xl font-bold text-foreground">
+                                {project.title}
+                            </h2>
 
                             {project.featured ? (
                                 <ArrowUpRight class="hidden sm:block h-10 w-10 text-accent" />

@@ -4,7 +4,6 @@ import {
     ArrowUpRight,
     Download,
     FileText,
-    GraduationCap,
     Package,
     Scale,
     ShieldCheck,
@@ -125,14 +124,8 @@ const paperPages = [
             </a>
 
             <div class="p-5 sm:p-10 lg:col-span-7">
-                <span
-                    class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.25em] text-muted-foreground"
-                >
-                    <GraduationCap class="h-4 w-4 text-accent" aria-hidden="true" />
-                    {t(lang, "projects.papers.clear.type")} / 2026
-                </span>
                 <h3
-                    class="mt-4 font-display text-2xl sm:text-3xl font-bold leading-tight text-foreground"
+                    class="font-display text-2xl sm:text-3xl font-bold leading-tight text-foreground"
                 >
                     An Introduction to CLEAR for Multimodal Healthcare Analytics
                 </h3>
@@ -265,7 +258,7 @@ const paperPages = [
 
                                 <div class="mt-auto pt-8">
                                     <div class="flex flex-wrap items-center justify-between gap-4 border-t border-border pt-5">
-                                        <span class="inline-flex items-center gap-2 font-mono text-xs text-muted-foreground">
+                                        <span class="inline-flex min-h-6 items-center gap-2 font-mono text-xs text-muted-foreground">
                                             <Scale class="h-4 w-4" aria-hidden="true" />
                                             <span class="sr-only">
                                                 {t(lang, "projects.license")}:

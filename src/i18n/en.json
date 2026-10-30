@@ -131,7 +131,6 @@
         },
         "papers": {
             "clear": {
-                "type": "Seminar paper",
                 "venue": "Pro- and main seminar on databases, TU Dresden",
                 "abstract": "Electronic health records are multimodal and heterogeneous, so weakly informative features get entangled with discriminative ones. This paper introduces CLEAR (Su et al., KDD 2025), which detects and corrects this contamination through counterfactual representations."
             }

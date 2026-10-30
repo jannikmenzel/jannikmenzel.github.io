@@ -131,7 +131,6 @@
         },
         "papers": {
             "clear": {
-                "type": "Seminararbeit",
                 "venue": "Pro- und Hauptseminar Datenbanken, TU Dresden",
                 "abstract": "Elektronische Patientenakten sind multimodal und heterogen, schwach informative Merkmale überlagern dort die diskriminativen. Die Arbeit stellt CLEAR (Su et al., KDD 2025) vor, das diese Kontamination über kontrafaktische Repräsentationen erkennt und ausgleicht."
             }
