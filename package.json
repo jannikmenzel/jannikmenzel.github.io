@@ -17,7 +17,7 @@
     },
     "dependencies": {
         "@astrojs/compiler": "^3.0.1",
-        "@astrojs/markdown-remark": "^7.3.3",
+        "@astrojs/markdown-remark": "^7.3.6",
         "@astrojs/sitemap": "^3.7.4",
         "@fontsource-variable/jetbrains-mono": "^5.3.0",
         "@fontsource/epilogue": "^5.2.8",
@@ -25,7 +25,7 @@
         "@iconify-json/lucide": "^1.2.98",
         "@lucide/astro": "^1.7.0",
         "@tailwindcss/vite": "^4.2.2",
-        "astro": "^7.4.0",
+        "astro": "^7.4.1",
         "astro-eslint-parser": "^3.2.0",
         "astro-icon": "^1.1.5",
         "echarts": "6.1.0",
@@ -42,7 +42,8 @@
     },
     "overrides": {
         "@xmldom/xmldom": "0.9.12",
-        "katex": "0.18.11"
+        "katex": "0.18.11",
+        "minimatch": "11.0.5"
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",

@@ -216,7 +216,7 @@ const paperPages = [
                     return (
                         <article class="card group relative flex flex-col">
                             <ProjectPreview id={project.id} />
-                            <div class="flex flex-1 flex-col border border-border bg-backgroundAlt p-5 sm:p-8 transition-colors duration-200 group-hover:border-accent group-focus-within:border-accent">
+                            <div class="flex flex-1 flex-col border border-border bg-backgroundAlt p-5 sm:p-8 group-focus-within:border-accent">
                                 <div class="flex items-center justify-between gap-4">
                                     <span class="inline-flex items-center gap-2 text-[0.6875rem] uppercase tracking-[0.2em] text-muted-foreground">
                                         <TypeIcon class="h-4 w-4 text-accent" aria-hidden="true" />
@@ -232,7 +232,7 @@ const paperPages = [
                                         href={project.repo}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        class="inline-flex items-center gap-2 transition-colors duration-200 group-hover:text-accent after:absolute after:inset-0"
+                                        class="inline-flex items-center gap-2 after:absolute after:inset-0"
                                     >
                                         {project.title}
                                         <ArrowUpRight

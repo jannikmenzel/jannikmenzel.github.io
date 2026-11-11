@@ -11,8 +11,7 @@ interface Props {
 const { id } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 
-const liftClass =
-    "shadow-md ring-1 ring-border transition-transform duration-500 ease-out group-hover:-translate-y-1 motion-reduce:transition-none";
+const liftClass = "shadow-md ring-1 ring-border";
 const screenshotSizes = "(min-width: 1024px) 22rem, (min-width: 768px) 45vw, 90vw";
 
 const windowClass = `dark flex aspect-[16/10] w-full flex-col bg-backgroundAlt ${liftClass}`;
