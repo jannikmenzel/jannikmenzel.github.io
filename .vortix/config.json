@@ -1,6 +1,7 @@
 {
     "target": {
-        "adapter": "astro"
+        "adapter": "astro",
+        "buildCommand": "npx astro build && rm -rf dist/blog dist/en/blog"
     },
     "categories": {
         "performance": true,
