@@ -13,7 +13,7 @@ Personal portfolio and freelance website of **Jannik Menzel**, Computer Science 
 [![Node](https://img.shields.io/badge/Node-%3E%3D22.12.0-339933?logo=node.js&logoColor=white)](https://nodejs.org)
 [![License: All Rights Reserved](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)](./LICENSE)
 
-[Website](https://www.jannikmenzel.me) · [Blog](https://www.jannikmenzel.me/blog) · [Projects](https://www.jannikmenzel.me/portfolio) · [Bookmarks](https://www.jannikmenzel.me/bookmarks)
+[Website](https://www.jannikmenzel.me) · [Blog](https://blog.jannikmenzel.me) · [Projects](https://www.jannikmenzel.me/portfolio) · [Bookmarks](https://www.jannikmenzel.me/bookmarks)
 
 </div>
 
@@ -21,32 +21,30 @@ Personal portfolio and freelance website of **Jannik Menzel**, Computer Science 
 
 ## About
 
-This repository powers [www.jannikmenzel.me](https://www.jannikmenzel.me), a bilingual (DE/EN) portfolio and blog site. It showcases projects, publishes long-form study/blog articles, and links out to social and professional profiles. The site is statically generated with Astro and deployed to GitHub Pages.
+This repository powers [www.jannikmenzel.me](https://www.jannikmenzel.me), a bilingual (DE/EN) portfolio site. It showcases projects, links to the [Studienblog](https://blog.jannikmenzel.me), and links out to social and professional profiles. The site is statically generated with Astro and deployed to GitHub Pages.
 
 ## Features
 
 - **Bilingual** — German and English routes via a lightweight i18n setup (`src/i18n`)
-- **Blog** — Markdown-driven articles with math rendering (KaTeX/MathJax via `rehype`/`remark`), slugged headings, and auto-linked anchors
+- **Blog** — Runs separately on Ghost at [blog.jannikmenzel.me](https://blog.jannikmenzel.me). Old `/blog/` URLs redirect there
 - **Portfolio** — Project and bookmark listings driven by typed content collections
 - **SEO-ready** — Automatic sitemap generation with route filtering
-- **Hardened by default** — Content-Security-Policy hashing integration, external links safely opened in new tabs
-- **Accessible math** — Automated accessibility titles/reporting for rendered math content
+- **Hardened by default** — Content-Security-Policy hashing integration
 - **Fully static** — Zero server runtime; built once and served from GitHub Pages behind a custom domain
 - **Styled with Tailwind CSS v4** and animated with [Motion](https://motion.dev)
 - **Continuous quality checks** — Automated [Vortix](https://github.com/jannikmenzel/vortix-cli) checks (performance, accessibility, SEO, security, privacy) on every push/PR
 
 ## Tech Stack
 
-| Category           | Technology                                                  |
-| ------------------ | ----------------------------------------------------------- |
-| Framework          | [Astro](https://astro.build)                                |
-| Styling            | [Tailwind CSS v4](https://tailwindcss.com)                  |
-| Animation          | [Motion](https://motion.dev)                                |
-| Icons              | [Lucide](https://lucide.dev) via `astro-icon`               |
-| Markdown pipeline  | `remark` / `rehype`, MathJax, syntax highlighting via Prism |
-| Linting/Formatting | ESLint, Prettier, Husky + lint-staged                       |
-| CI/CD              | GitHub Actions / GitHub Pages                               |
-| Quality gate       | [Vortix CLI](https://github.com/jannikmenzel/vortix-cli)    |
+| Category           | Technology                                               |
+| ------------------ | -------------------------------------------------------- |
+| Framework          | [Astro](https://astro.build)                             |
+| Styling            | [Tailwind CSS v4](https://tailwindcss.com)               |
+| Animation          | [Motion](https://motion.dev)                             |
+| Icons              | [Lucide](https://lucide.dev) via `astro-icon`            |
+| Linting/Formatting | ESLint, Prettier, Husky + lint-staged                    |
+| CI/CD              | GitHub Actions / GitHub Pages                            |
+| Quality gate       | [Vortix CLI](https://github.com/jannikmenzel/vortix-cli) |
 
 ## Getting Started
 
@@ -88,7 +86,7 @@ The site is automatically built and deployed to **GitHub Pages** on every push t
 ## Connect With Me
 
 - **Website:** [www.jannikmenzel.me](https://www.jannikmenzel.me)
-- **Blog:** [Studienblog](https://jannikmenzel.me/blog)
+- **Blog:** [Studienblog](https://blog.jannikmenzel.me)
 - **GitHub:** [@jannikmenzel](https://github.com/jannikmenzel?tab=repositories)
 - **Instagram:** [@jnk.mnz](https://www.instagram.com/jnk.mnz/)
 - **DEV Community:** [@jnk_mnz](https://dev.to/jnk_mnz)

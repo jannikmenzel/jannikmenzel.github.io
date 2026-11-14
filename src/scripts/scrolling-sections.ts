@@ -1,7 +1,6 @@
 import { animate, stagger, inView } from "motion";
 
 const TARGET_SELECTOR = ".scrolling-section";
-const CHART_SELECTOR = ".chart-diagram";
 
 const initScrollingSections = () => {
     if (globalThis.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -42,14 +41,6 @@ const initScrollingSections = () => {
                     }
                 );
             }
-        },
-        { amount: 0.25 }
-    );
-
-    inView(
-        CHART_SELECTOR,
-        (element) => {
-            element.classList.add("is-revealed");
         },
         { amount: 0.25 }
     );

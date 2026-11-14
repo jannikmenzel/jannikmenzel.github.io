@@ -73,11 +73,6 @@
             }
         }
     },
-    "blog": {
-        "title": "Studienblog",
-        "subtitle": "Artikel und Gedanken rund um Informatik, Studium und mehr, die ich hier für dich festhalte.",
-        "readMore": "Lesen"
-    },
     "portfolio": {
         "title": "Portfolio",
         "subtitle": "Eine Auswahl an Projekten aus Webentwicklung und Design, die ich in den letzten Jahren umgesetzt habe.",

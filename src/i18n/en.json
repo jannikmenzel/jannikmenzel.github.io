@@ -73,11 +73,6 @@
             }
         }
     },
-    "blog": {
-        "title": "Blog",
-        "subtitle": "Articles and thoughts on computer science, my studies and more that I keep track of here for you.",
-        "readMore": "Read More"
-    },
     "portfolio": {
         "title": "Portfolio",
         "subtitle": "A selection of web development and design projects I've worked on over the past few years.",

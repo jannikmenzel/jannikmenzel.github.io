@@ -12,12 +12,12 @@ const navItems = [
     { href: "/portfolio/", labelKey: "nav.portfolio" },
     { href: "/projects/", labelKey: "nav.projects" },
     { href: "/bookmarks/", labelKey: "nav.about" },
-    { href: "/blog/", labelKey: "nav.blog" },
+    { href: "https://blog.jannikmenzel.me/", labelKey: "nav.blog" },
     { href: "/#contact", labelKey: "nav.contact" },
 ];
 
 function localizedHref(href: string): string {
-    return getLocalizedPath(lang, href);
+    return href.startsWith("https://") ? href : getLocalizedPath(lang, href);
 }
 ---
 

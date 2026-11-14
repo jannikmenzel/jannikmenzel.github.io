@@ -1,23 +1,9 @@
 import sitemap from "@astrojs/sitemap";
-import { unified } from "@astrojs/markdown-remark";
 import { defineConfig } from "astro/config";
 import icon from "astro-icon";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import rehypeMathjax from "rehype-mathjax";
-import rehypeSlug from "rehype-slug";
-import remarkMath from "remark-math";
 import tailwindcss from "@tailwindcss/vite";
+import { blogRedirects } from "./lib/blog-redirects.js";
 import { cspHashIntegration } from "./lib/csp-integration.js";
-import { rehypeOpenLinksInNewTab } from "./lib/rehype-external-links.js";
-import { rehypeImageSize } from "./lib/rehype-image-size.js";
-import {
-    mathJaxA11yReportIntegration,
-    rehypeMathApplyAccessibleTitles,
-    rehypeMathCaptureSource,
-} from "./lib/rehype-mathjax-a11y.js";
-import { rehypeEcharts } from "./lib/rehype-echarts.js";
-import { rehypeReferences } from "./lib/rehype-references.js";
-import { remarkChartRow } from "./lib/remark-chart-row.js";
 import { createSitemap } from "./lib/sitemap-cleanup.js";
 
 export default defineConfig({
@@ -25,6 +11,7 @@ export default defineConfig({
     base: "/",
     output: "static",
     trailingSlash: "always",
+    redirects: blogRedirects,
     integrations: [
         icon(),
         sitemap({
@@ -44,24 +31,9 @@ export default defineConfig({
         }),
         createSitemap(),
         cspHashIntegration(),
-        mathJaxA11yReportIntegration(),
     ],
     markdown: {
-        syntaxHighlight: { type: "prism", excludeLangs: ["echarts", "references"] },
-        processor: unified({
-            remarkPlugins: [remarkMath, remarkChartRow],
-            rehypePlugins: [
-                [rehypeImageSize, { dir: "public" }],
-                rehypeSlug,
-                [rehypeAutolinkHeadings, { behavior: "wrap" }],
-                rehypeMathCaptureSource,
-                rehypeMathjax,
-                rehypeMathApplyAccessibleTitles,
-                rehypeEcharts,
-                rehypeReferences,
-                rehypeOpenLinksInNewTab,
-            ],
-        }),
+        syntaxHighlight: false,
     },
     compressHTML: true,
     build: {
