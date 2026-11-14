@@ -45,19 +45,16 @@ const paperPages = [
         src: clearPage3,
         alt: "",
         class: "shadow-md translate-x-[14%] -translate-y-[4%] rotate-[7deg] group-hover:translate-x-[18%] group-hover:-translate-y-[6%] group-hover:rotate-[10deg] group-focus-visible:translate-x-[18%] group-focus-visible:rotate-[10deg]",
-        loading: "lazy",
     },
     {
         src: clearPage2,
         alt: "",
         class: "shadow-md -translate-x-[12%] translate-y-[2%] -rotate-[5deg] group-hover:-translate-x-[18%] group-hover:translate-y-[3%] group-hover:-rotate-[8deg] group-focus-visible:-translate-x-[18%] group-focus-visible:-rotate-[8deg]",
-        loading: "lazy",
     },
     {
         src: clearPage1,
         alt: t(lang, "projects.paper.preview"),
         class: "shadow-xl group-hover:-translate-y-[3%] group-focus-visible:-translate-y-[3%]",
-        loading: "eager",
     },
 ] as const;
 ---
@@ -109,7 +106,7 @@ const paperPages = [
                                 widths={[256, 512]}
                                 sizes="(min-width: 1024px) 16rem, (min-width: 640px) 14rem, 11rem"
                                 class:list={[paperPageClass, page.class]}
-                                loading={page.loading}
+                                loading="eager"
                             />
                         ))
                     }
