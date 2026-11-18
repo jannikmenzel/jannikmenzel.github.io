@@ -1,0 +1,4 @@
+status=0
+npx vortix ci https://www.jannikmenzel.me/ > /dev/null || status=$?
+rm -rf dist
+exit $status
