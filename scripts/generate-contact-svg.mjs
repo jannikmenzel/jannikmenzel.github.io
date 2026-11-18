@@ -8,10 +8,12 @@ const require = createRequire(import.meta.url);
 const FONT_SIZE = 16;
 const LINE_HEIGHT = 24;
 
-const [name, ...lines] = process.argv.slice(2);
+const args = process.argv.slice(2);
+const center = args.includes("--center");
+const [name, ...lines] = args.filter((arg) => arg !== "--center");
 if (!name || lines.length === 0) {
     console.error(
-        'Usage: node scripts/generate-contact-svg.mjs <name> "<line 1>" ["<line 2>" ...]'
+        'Usage: node scripts/generate-contact-svg.mjs [--center] <name> "<line 1>" ["<line 2>" ...]'
     );
     process.exit(1);
 }
@@ -24,16 +26,15 @@ const ascent = (ascender / unitsPerEm) * FONT_SIZE;
 const descent = (-descender / unitsPerEm) * FONT_SIZE;
 const baseline = (LINE_HEIGHT - (ascent + descent)) / 2 + ascent;
 
+const lineWidths = lines.map((line) => textToSVG.getMetrics(line, { fontSize: FONT_SIZE }).width);
+const width = Math.ceil(Math.max(...lineWidths));
 const paths = lines.map((line, i) =>
     textToSVG.getD(line, {
-        x: 0,
+        x: center ? (width - lineWidths[i]) / 2 : 0,
         y: i * LINE_HEIGHT + baseline,
         fontSize: FONT_SIZE,
         anchor: "left baseline",
     })
-);
-const width = Math.ceil(
-    Math.max(...lines.map((line) => textToSVG.getMetrics(line, { fontSize: FONT_SIZE }).width))
 );
 const height = lines.length * LINE_HEIGHT;
 
