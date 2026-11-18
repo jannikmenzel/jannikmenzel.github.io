@@ -59,13 +59,13 @@
                 "title": "UI/UX Design",
                 "description": "Intuitive user interfaces with focus on optimal user experience"
             },
-            "wordpress": {
-                "title": "WordPress Development",
-                "description": "Custom themes and plugins for tailored WordPress websites"
+            "astroHugo": {
+                "title": "Astro & Hugo",
+                "description": "Fast static websites with custom themes and components"
             },
-            "ssg": {
-                "title": "SSGs for Blogs & Docs",
-                "description": "Optimized for clear workflows, short build times and structured content"
+            "seo": {
+                "title": "Technical SEO",
+                "description": "Semantic HTML, structured data and clean metadata built into the code"
             },
             "performance": {
                 "title": "Performance Optimization",
