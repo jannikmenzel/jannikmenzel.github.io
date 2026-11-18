@@ -34,7 +34,7 @@ const lang = "en";
         url: "https://www.jannikmenzel.me/en/impressum/",
     }}
 >
-    <main class="w-full container px-4 sm:px-16 mb-22 max-w-[1100px]">
+    <main class="w-full container px-4 sm:px-16 mb-22 max-w-[1100px] text-center">
         <!-- Header -->
         <header class="pt-20">
             <h1 class="text-center text-4xl sm:text-5xl font-bold font-display mb-4">
@@ -52,7 +52,7 @@ const lang = "en";
         <section class="mb-6 sm:mb-6">
             <h2 class="text-xl sm:text-2xl font-medium mb-2">{t(lang, "impressum.address")}</h2>
             <address class="font-thin not-italic">
-                <span class="block [&>svg]:block" set:html={addressSvg} />
+                <span class="block [&>svg]:block [&>svg]:mx-auto" set:html={addressSvg} />
             </address>
         </section>
 
