@@ -12,5 +12,12 @@
         "maintainability": true,
         "privacy": true
     },
-    "failOn": "error"
+    "failOn": "error",
+    "ignore": [
+        {
+            "id": "GHSA-fc5q-39xc-vjpf",
+            "reason": "kein Fix für picomatch verfügbar",
+            "until": "2027-01-31"
+        }
+    ]
 }
